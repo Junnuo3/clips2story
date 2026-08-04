@@ -1,0 +1,19 @@
+{
+  "name": "clips2story-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive demo website for Clips2Story (anonymous double-blind review build). Static site + build-time embedding export script; no server-side rendering.",
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/generate-data.mjs",
+    "build:embeddings": "node scripts/export-embeddings.mjs",
+    "build": "npm run build:data && npm run build:embeddings",
+    "serve": "node scripts/dev-server.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

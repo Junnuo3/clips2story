@@ -1,0 +1,49 @@
+# Cloudflare Worker config for the Clips2Story live storyboard planner.
+# See ../DEPLOYMENT.md for the full step-by-step deploy guide.
+#
+# This is the ONLY server-side piece of the demo: a small, stateless
+# function that holds the LLM API key and forwards one request. It does not
+# need GPU, does not need to stay "warm", and costs $0 at review-period
+# traffic levels on Cloudflare's free tier.
+
+name = "clips2story-planner"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# Non-secret configuration. Override per-environment below, or with
+# `wrangler secret put` / dashboard env vars for anything sensitive.
+[vars]
+# The actual pipeline (src/pipeline/stage1_5_llm.py in the main research
+# repo) calls gpt-5.2 via the OpenAI Responses API -- see callLlm() in
+# src/index.js, which matches that API shape exactly. The demo itself uses
+# gpt-5.4-mini instead: ~2.3-3x cheaper than gpt-5.2, and for this task
+# (reading a bounded pool of structured clip descriptors and producing a
+# constrained JSON storyboard, not deep multi-step reasoning) a newer-gen
+# mini model tests comparably. See docs/design-plan.md for the tradeoff
+# notes -- in particular that validateAndRemap() now drops individual
+# invalid segments rather than failing the whole plan (see below), which
+# matters more for a cheaper model's occasional constraint slip than raw
+# $/token does.
+LLM_MODEL = "gpt-5.4-mini"
+# Set this to your deployed GitHub Pages origin once you know it, e.g.
+# "https://<your-username>.github.io" -- keeping it as "*" during local
+# development is fine, but lock it down before sharing the demo link.
+ALLOWED_ORIGIN = "*"
+RATE_LIMIT_PER_HOUR = "8"
+CACHE_TTL_SECONDS = "86400"
+
+# Create these with `wrangler kv namespace create RATE_LIMIT` (and again for
+# PLAN_CACHE), then paste the printed IDs in here. Both are optional in the
+# sense that the Worker degrades gracefully (no rate limiting / no caching)
+# if left unbound -- see src/index.js -- but you should bind both before
+# sharing the demo link publicly.
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "aa136c38818c4dec872b78fcc2ba4849"
+
+[[kv_namespaces]]
+binding = "PLAN_CACHE"
+id = "4251e490c59b48339c3885061fb2655e"
+
+# LLM_API_KEY is a SECRET, not a var -- never put it in this file.
+# Set it with: wrangler secret put LLM_API_KEY

@@ -1,0 +1,614 @@
+[
+  {
+    "narration": "What if the next time you asked your dog a question… your dog answered back—with words?",
+    "narration_duration": 5.6,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0431",
+        "start_time": 1910.07,
+        "end_time": 1913.07,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0680",
+        "start_time": 3146.49,
+        "end_time": 3149.49,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0270",
+        "start_time": 1211.62,
+        "end_time": 1214.62,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_650f99",
+        "start_time": 1.59,
+        "end_time": 14.33,
+        "duration": 12.74,
+        "transcript": "[1.59s-3.00s] [SPEAKER_14] So what's really going | [3.00s-3.85s] [SPEAKER_14] going on here? | [4.96s-5.35s] [SPEAKER_14] Are they just | [5.35s-6.49s] [SPEAKER_14] just pushing our buttons? | [8.47s-8.61s] [SPEAKER_14] Or | [8.61s-10.40s] [SPEAKER_14] Or can dogs talk? | [12.25s-14.33s] [SPEAKER_14] Right now on NOVA."
+      }
+    ]
+  },
+  {
+    "narration": "Millions of people have seen “talking dogs” online. But animal cognition isn’t about viral moments—it’s about one hard question: is this communication… or something closer to language?",
+    "narration_duration": 12.064,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0045",
+        "start_time": 99.78,
+        "end_time": 102.78,
+        "duration": 3.0,
+        "caption": "a dog is looking at a toy on the floor",
+        "entities": "dog",
+        "background": "kitchen"
+      },
+      {
+        "shot_id": "v1_s0589",
+        "start_time": 2670.84,
+        "end_time": 2674.84,
+        "duration": 4.0,
+        "caption": "a white dog laying on top of a bed",
+        "entities": "dog",
+        "background": "unknown"
+      },
+      {
+        "shot_id": "v1_s0593",
+        "start_time": 2694.32,
+        "end_time": 2698.32,
+        "duration": 4.0,
+        "caption": "a white dog laying on top of a bed",
+        "entities": "dog",
+        "background": "unknown"
+      },
+      {
+        "shot_id": "v1_s0560",
+        "start_time": 2580.85,
+        "end_time": 2583.85,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_1ba59e",
+        "start_time": 0.95,
+        "end_time": 30.92,
+        "duration": 29.97,
+        "transcript": "[0.95s-3.80s] [SPEAKER_14] As news of Stella and her word buttons has spread, | [3.80s-3.87s] [SPEAKER_14] spread, | [5.27s-11.94s] [SPEAKER_14] Other so-called talking dogs have flooded social media with their seemingly amazing feats of communication. | [15.35s-17.28s] [SPEAKER_14] These dogs seem to be using our | [17.28s-17.87s] [SPEAKER_14] our words. | [20.46s-21.45s] [SPEAKER_14] So is that | [21.45s-22.94s] [SPEAKER_14] enough to say they're talking? | [24.51s-26.26s] [SPEAKER_14] Do they really understand what they're | [26.26s-26.99s] [SPEAKER_14] they're saying? | [29.33s-30.92s] [SPEAKER_14] Or is their button pushing"
+      }
+    ]
+  },
+  {
+    "narration": "To see the difference, we need a quick map: humans use language to express an unlimited number of ideas. Most animals communicate—but that doesn’t automatically mean language.",
+    "narration_duration": 11.616,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0683",
+        "start_time": 3169.86,
+        "end_time": 3172.86,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0550",
+        "start_time": 2500.99,
+        "end_time": 2504.99,
+        "duration": 4.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0550",
+        "start_time": 2506.99,
+        "end_time": 2510.99,
+        "duration": 4.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0583",
+        "start_time": 2645.51,
+        "end_time": 2649.51,
+        "duration": 4.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_413d5d",
+        "start_time": 3.22,
+        "end_time": 36.86,
+        "duration": 33.64,
+        "transcript": "[3.22s-4.98s] [SPEAKER_13] Humans communicate using language. | [5.00s-6.01s] [SPEAKER_13] Obviously, this is | [6.01s-8.29s] [SPEAKER_13] is our big difference from all other animals. | [9.93s-15.42s] [SPEAKER_13] My definition of language, just a simple rule of thumb that seems to work really well, is language | [15.42s-17.73s] [SPEAKER_13] is the ability or at least the potential | [18.12s-20.22s] [SPEAKER_13] to convey an unlimited number of concepts. | [21.44s-29.17s] [SPEAKER_13] Doesn't matter how you do it, but what makes humans special is that we can communicate to each other anything, any concept. | [29.49s-29.54s] [SPEAKER_13] There's | [29.54s-33.92s] [SPEAKER_13] There's no end to the books that will ever be written or the ideas that we can convey. | [34.80s-36.86s] [SPEAKER_13] And no animals that we know of can do that."
+      },
+      {
+        "clip_id": "c_big_g_5964df",
+        "start_time": 28.11,
+        "end_time": 35.32,
+        "duration": 7.21,
+        "transcript": "[28.11s-29.21s] [SPEAKER_13] All animals communicate. | [29.86s-35.32s] [SPEAKER_13] All animals communicate and can understand communication, but not all communication is language."
+      }
+    ]
+  },
+  {
+    "narration": "And dogs sit right on that edge—because they’re already experts at reading us: our gestures, our gaze, even tiny shifts in tone.",
+    "narration_duration": 8.624,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0680",
+        "start_time": 3145.49,
+        "end_time": 3149.49,
+        "duration": 4.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0149",
+        "start_time": 561.97,
+        "end_time": 564.97,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0488",
+        "start_time": 2152.55,
+        "end_time": 2155.55,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_aa9978",
+        "start_time": 14.76,
+        "end_time": 35.48,
+        "duration": 20.72,
+        "transcript": "[14.76s-16.36s] [SPEAKER_02] In addition to word forms, dogs | [16.36s-19.72s] [SPEAKER_02] dogs are also paying attention to the way our body moves. | [20.01s-21.83s] [SPEAKER_02] They're paying attention to where we're looking. | [22.09s-25.82s] [SPEAKER_02] They're paying attention if we're pointing at things or if we're gesturing at things. | [26.64s-29.34s] [SPEAKER_02] They're paying attention to the tone of our voice. | [29.38s-30.11s] [SPEAKER_02] So | [30.11s-35.48s] [SPEAKER_02] So they're reading things off of us all the time, you know, even as subtle as an arm gesture. | [35.48s-35.52s] [SPEAKER_02] gesture."
+      }
+    ]
+  },
+  {
+    "narration": "But here’s the trap: an animal can learn a behavior and still not understand the word behind it. That’s the difference between training… and meaning.",
+    "narration_duration": 8.96,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0589",
+        "start_time": 2673.84,
+        "end_time": 2677.84,
+        "duration": 4.0,
+        "caption": "a white dog laying on top of a bed",
+        "entities": "dog",
+        "background": "unknown"
+      },
+      {
+        "shot_id": "v1_s0593",
+        "start_time": 2696.32,
+        "end_time": 2699.32,
+        "duration": 3.0,
+        "caption": "a white dog laying on top of a bed",
+        "entities": "dog",
+        "background": "unknown"
+      },
+      {
+        "shot_id": "v1_s0468",
+        "start_time": 2069.19,
+        "end_time": 2072.19,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_376574",
+        "start_time": 0.0,
+        "end_time": 16.42,
+        "duration": 16.42,
+        "transcript": "[0.00s-5.71s] [SPEAKER_13] sit and to know that if they sit they will get a reward is a very, very powerful mechanism. | [7.47s-13.61s] [SPEAKER_13] But just because an animal responds correctly to a particular command that is given in language, | [13.61s-16.42s] [SPEAKER_13] doesn't mean that they understand the language of it."
+      },
+      {
+        "clip_id": "c_big_g_cf880a",
+        "start_time": 0.0,
+        "end_time": 28.54,
+        "duration": 28.54,
+        "transcript": "[0.00s-2.07s] [SPEAKER_03] Everything in life starts through associative learning, and | [2.07s-3.63s] [SPEAKER_03] and actually humans learn through associative learning. | [4.21s-4.85s] [SPEAKER_03] Good boy. | [4.87s-4.88s] [SPEAKER_03] Associative | [4.88s-8.12s] [SPEAKER_03] Associative learning is common to pretty much all animals. | [8.58s-8.84s] Freak! | [9.46s-9.84s] [SPEAKER_03] And it doesn't | [9.84s-13.67s] [SPEAKER_03] doesn't require any sort of complex cognition that we should be impressed by. | [13.69s-13.79s] [SPEAKER_03] Kite! | [14.73s-15.09s] [SPEAKER_03] You could | [15.09s-18.02s] [SPEAKER_03] could easily teach a mouse to press buttons. | [18.02s-18.13s] [SPEAKER_03] buttons. | [18.15s-18.81s] [SPEAKER_03] Okay, you got that one. | [19.35s-20.91s] [SPEAKER_14] And that's the big problem. | [21.27s-24.50s] [SPEAKER_14] Just because they can press buttons that say words doesn't | [24.50s-27.90s] [SPEAKER_14] doesn't necessarily mean the dogs have any real understanding of what those words | [27.90s-28.54s] [SPEAKER_14] words mean."
+      }
+    ]
+  },
+  {
+    "narration": "So scientists try to strip away the hints we accidentally give—no pointing, no tone, no “good dog” face. Just the word… and the dog’s choice.",
+    "narration_duration": 8.384,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0679",
+        "start_time": 3138.23,
+        "end_time": 3143.23,
+        "duration": 5.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0249",
+        "start_time": 1108.86,
+        "end_time": 1111.86,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0543",
+        "start_time": 2448.15,
+        "end_time": 2452.15,
+        "duration": 4.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_72953e",
+        "start_time": 2.51,
+        "end_time": 24.56,
+        "duration": 22.05,
+        "transcript": "[2.51s-4.39s] [SPEAKER_14] It's the simplest possible test. | [6.43s-8.48s] [SPEAKER_14] 58 other dogs were also tested. | [8.54s-15.61s] [SPEAKER_14] And the results showed that the dogs responded appropriately | [15.61s-22.06s] [SPEAKER_14] appropriately to the play and outside buttons, with no other cues, just as they'd respond to | [22.06s-24.56s] [SPEAKER_14] to those words spoken directly by a human."
+      },
+      {
+        "clip_id": "c_big_g_080716",
+        "start_time": 23.28,
+        "end_time": 34.75,
+        "duration": 11.47,
+        "transcript": "[23.28s-24.56s] [SPEAKER_13] We know that dogs can respond | [24.56s-29.53s] [SPEAKER_13] appropriately to words, but that could just be conditioning, that could just be training. | [29.79s-34.75s] [SPEAKER_13] So whether or not they understand what the word itself means is much harder to test."
+      }
+    ]
+  },
+  {
+    "narration": "Some researchers go even deeper: if a dog truly expects an object when it hears a word, then swapping the object should trigger surprise—inside the brain.",
+    "narration_duration": 9.952,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0610",
+        "start_time": 2744.35,
+        "end_time": 2749.35,
+        "duration": 5.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0195",
+        "start_time": 795.95,
+        "end_time": 798.95,
+        "duration": 3.0,
+        "caption": "a white dog standing on top of a wooden floor",
+        "entities": "dog, person, bottle, chair, chair",
+        "background": "living_room"
+      },
+      {
+        "shot_id": "v1_s0535",
+        "start_time": 2384.11,
+        "end_time": 2387.11,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_9a4bb0",
+        "start_time": 0.0,
+        "end_time": 21.38,
+        "duration": 21.38,
+        "transcript": "[0.00s-6.00s] [SPEAKER_11] they hear the name of an object, they activate something, the so-called memory of this object. | [6.02s-8.51s] [SPEAKER_11] So we think that the dog is actually | [8.51s-15.75s] [SPEAKER_11] actually surprised when it sees a different thing, but it is surprised because it has an expectation and because it understands | [15.75s-17.19s] [SPEAKER_11] understands the meaning of that word. | [18.80s-21.38s] [SPEAKER_11] That's a qualitatively different way"
+      },
+      {
+        "clip_id": "c_big_g_e103c3",
+        "start_time": 12.74,
+        "end_time": 21.91,
+        "duration": 9.17,
+        "transcript": "[12.74s-14.73s] [SPEAKER_14] There are limitations in interpreting | [14.73s-16.75s] [SPEAKER_14] EEG signals like these and | [16.75s-19.56s] [SPEAKER_14] and figuring out exactly what they tell us about | [19.56s-21.91s] [SPEAKER_14] how much an animal really understands."
+      }
+    ]
+  },
+  {
+    "narration": "And then there are the outliers—the rare dogs who seem to learn object names at lightning speed, like they’re building a mental dictionary.",
+    "narration_duration": 7.152,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0680",
+        "start_time": 3146.49,
+        "end_time": 3149.49,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0589",
+        "start_time": 2673.84,
+        "end_time": 2676.84,
+        "duration": 3.0,
+        "caption": "a white dog laying on top of a bed",
+        "entities": "dog",
+        "background": "unknown"
+      },
+      {
+        "shot_id": "v1_s0001",
+        "start_time": 4.55,
+        "end_time": 7.55,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_27fa4b",
+        "start_time": 0.58,
+        "end_time": 28.38,
+        "duration": 27.8,
+        "transcript": "[0.58s-1.97s] [SPEAKER_14] It's run by Claudia | [1.97s-5.59s] [SPEAKER_14] Claudia Fugatza, who studies canine cognition. | [5.61s-8.93s] [SPEAKER_14] She's traveled here all the way from Hungary, where she works with one of the | [8.93s-10.98s] [SPEAKER_14] the world's leading canine research groups. | [11.98s-12.00s] [SPEAKER_07] Gaia | [12.00s-15.76s] [SPEAKER_07] Gaia is one of the, what we call, the gifted world learner dogs. | [16.36s-20.51s] [SPEAKER_07] And these are dogs that have a very special talent for learning | [20.51s-21.89s] [SPEAKER_07] learning the name of toys. | [22.41s-24.26s] [SPEAKER_07] And they learn very fast. | [24.26s-24.43s] [SPEAKER_07] fast. | [25.15s-26.83s] [SPEAKER_07] Only a few dogs around the world | [26.83s-28.38s] [SPEAKER_07] seem to have this capacity."
+      },
+      {
+        "clip_id": "c_big_g_37489a",
+        "start_time": 0.57,
+        "end_time": 7.22,
+        "duration": 6.65,
+        "transcript": "[0.57s-7.22s] [SPEAKER_14] Because there are some dogs that seem to have an incredible ability to recognize large numbers of words."
+      }
+    ]
+  },
+  {
+    "narration": "But language isn’t just knowing words. The real magic is combining them to create new meaning—what linguists call productivity.",
+    "narration_duration": 9.456,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0290",
+        "start_time": 1321.58,
+        "end_time": 1324.58,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0550",
+        "start_time": 2500.99,
+        "end_time": 2505.99,
+        "duration": 5.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0583",
+        "start_time": 2645.51,
+        "end_time": 2648.51,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_45c0aa",
+        "start_time": 0.0,
+        "end_time": 20.36,
+        "duration": 20.36,
+        "transcript": "[0.00s-0.03s] [SPEAKER_13] express. | [0.01s-13.08s] [SPEAKER_13] The only way that we can get that unlimited ability from a limited vocabulary is by combining those different terms, those different words, that vocabulary, in different ways to create new concepts. | [13.08s-13.87s] [SPEAKER_13] concepts. | [13.93s-18.66s] [SPEAKER_14] This ability to say anything with limited words is known as productivity."
+      }
+    ]
+  },
+  {
+    "narration": "So here’s the payoff: a moment that looks less like a trick… and more like a dog choosing words for a brand-new situation.",
+    "narration_duration": 8.88,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0610",
+        "start_time": 2745.35,
+        "end_time": 2749.35,
+        "duration": 4.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0249",
+        "start_time": 1107.86,
+        "end_time": 1110.86,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0593",
+        "start_time": 2695.32,
+        "end_time": 2699.32,
+        "duration": 4.0,
+        "caption": "a white dog laying on top of a bed",
+        "entities": "dog",
+        "background": "unknown"
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_f2eef4",
+        "start_time": 4.31,
+        "end_time": 34.2,
+        "duration": 29.89,
+        "transcript": "[4.31s-5.47s] [SPEAKER_03] She presses help, look, | [5.47s-7.05s] [SPEAKER_03] look, and then she looks to Sasha. | [8.15s-15.24s] [SPEAKER_14] Parker had never before been presented with this scenario, and so had never used the words look or help in this context. | [18.40s-20.48s] [SPEAKER_03] So because it's the very first time that they've seen this, it | [20.48s-21.38s] [SPEAKER_03] it tells us two things. | [21.42s-23.29s] [SPEAKER_03] It tells us that behavior wasn't trained, | [23.29s-27.83s] [SPEAKER_03] and it tells us that the dog is having to think about what this | [27.83s-30.93s] [SPEAKER_03] requires from them in terms of communication to their owner, and | [30.93s-34.20s] [SPEAKER_03] and that they need to generalize a button that they've not used in this context before."
+      },
+      {
+        "clip_id": "c_big_g_f2eef4",
+        "start_time": 35.66,
+        "end_time": 46.27,
+        "duration": 10.61,
+        "transcript": "[35.66s-43.01s] [SPEAKER_14] It seems from this experiment that Parker understands that the word help can be used in a broad range of scenarios. | [44.91s-45.63s] [SPEAKER_18] Oh, hi. | [45.65s-45.99s] [SPEAKER_18] Do you need help? | [46.01s-46.27s] [SPEAKER_18] Here you go."
+      }
+    ]
+  },
+  {
+    "narration": "That doesn’t prove dogs have human language. But it does suggest something big: some dogs may be doing more than chasing rewards—they may be exchanging information on purpose.",
+    "narration_duration": 11.008,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0045",
+        "start_time": 100.78,
+        "end_time": 103.78,
+        "duration": 3.0,
+        "caption": "a dog is looking at a toy on the floor",
+        "entities": "dog",
+        "background": "kitchen"
+      },
+      {
+        "shot_id": "v1_s0589",
+        "start_time": 2672.84,
+        "end_time": 2676.84,
+        "duration": 4.0,
+        "caption": "a white dog laying on top of a bed",
+        "entities": "dog",
+        "background": "unknown"
+      },
+      {
+        "shot_id": "v1_s0488",
+        "start_time": 2152.55,
+        "end_time": 2155.55,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0535",
+        "start_time": 2384.11,
+        "end_time": 2387.11,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_413d5d",
+        "start_time": 50.13,
+        "end_time": 71.54,
+        "duration": 21.41,
+        "transcript": "[50.13s-50.22s] [SPEAKER_13] I think | [50.22s-71.54s] [SPEAKER_13] think really communication becomes language when you cross that boundary from a signal that manipulates other individuals to a system by which information is exchanged between individuals who understand that their conversation partner is also participating in that conversation."
+      },
+      {
+        "clip_id": "c_big_g_7b0d6a",
+        "start_time": 22.75,
+        "end_time": 32.59,
+        "duration": 9.84,
+        "transcript": "[22.75s-32.59s] [SPEAKER_14] It's clear that dogs will never be capable of using our language to generate the rich, grammatically correct, infinite range of sentences that humans can create."
+      }
+    ]
+  },
+  {
+    "narration": "And the story isn’t ending—it’s scaling up. Thousands of dogs, across the world, turning everyday homes into cognition labs. The question now is simple: how much is real… and how far can it go?",
+    "narration_duration": 12.352,
+    "under_narration": [
+      {
+        "shot_id": "v1_s0195",
+        "start_time": 797.95,
+        "end_time": 800.95,
+        "duration": 3.0,
+        "caption": "a white dog standing on top of a wooden floor",
+        "entities": "dog, person, bottle, chair, chair",
+        "background": "living_room"
+      },
+      {
+        "shot_id": "v1_s0001",
+        "start_time": 4.55,
+        "end_time": 7.55,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0559",
+        "start_time": 2576.6,
+        "end_time": 2579.6,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0560",
+        "start_time": 2582.85,
+        "end_time": 2585.85,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      },
+      {
+        "shot_id": "v1_s0543",
+        "start_time": 2448.15,
+        "end_time": 2451.15,
+        "duration": 3.0,
+        "caption": "",
+        "entities": "",
+        "background": ""
+      }
+    ],
+    "segments": [
+      {
+        "clip_id": "c_big_g_b78078",
+        "start_time": 0.59,
+        "end_time": 11.45,
+        "duration": 10.86,
+        "transcript": "[0.59s-1.89s] [SPEAKER_14] We need to look into this. | [3.41s-3.90s] [SPEAKER_14] They've set | [3.90s-4.66s] [SPEAKER_14] up the largest | [4.66s-5.58s] [SPEAKER_14] largest animal communication | [5.58s-6.43s] [SPEAKER_14] communication study | [6.43s-6.97s] [SPEAKER_14] in history, | [6.97s-8.87s] [SPEAKER_14] history, with | [8.87s-9.74s] [SPEAKER_14] with thousands of | [9.74s-10.57s] [SPEAKER_14] of dogs from around | [10.57s-11.45s] [SPEAKER_14] around the world."
+      },
+      {
+        "clip_id": "c_big_g_6362a0",
+        "start_time": 2.57,
+        "end_time": 20.47,
+        "duration": 17.9,
+        "transcript": "[2.57s-7.16s] [SPEAKER_14] We know that some dogs seem to make sense some of the time with their button presses. | [8.44s-9.24s] [SPEAKER_14] But the data that | [9.24s-13.27s] [SPEAKER_14] Federico is collecting will help his team understand the bigger picture. | [14.05s-14.52s] [SPEAKER_14] Do the thousands | [14.52s-17.75s] [SPEAKER_14] thousands of dogs taking part know what they're doing with buttons? | [18.51s-20.47s] [SPEAKER_14] Or is most of it just random?"
+      },
+      {
+        "clip_id": "c_big_g_496fe9",
+        "start_time": 0.0,
+        "end_time": 6.72,
+        "duration": 6.72,
+        "transcript": "[0.00s-0.84s] [SPEAKER_15] data. | [2.15s-6.72s] [SPEAKER_13] We're really at the start of this journey of understanding animal cognition, animal"
+      }
+    ]
+  }
+]

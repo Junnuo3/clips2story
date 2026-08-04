@@ -1,0 +1,3338 @@
+{
+  "approach": "rag",
+  "stage": "stage1",
+  "group": "mid",
+  "plan_id": "02_language_study",
+  "keyword": "language study",
+  "randomization": {
+    "enabled": true,
+    "granularity": "mid",
+    "seed": 0,
+    "mask_ids": true
+  },
+  "clips": [
+    {
+      "clip_id": "c_4501c50a",
+      "shot_id": "v1_s0196",
+      "video_id": "v1",
+      "shot_start": 801.15,
+      "shot_end": 804.86,
+      "duration": 3.7100000000000364,
+      "transcript": "First, Federico needs to check that",
+      "caption": "a man with glasses sitting at a desk",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "table"
+      ],
+      "rag_score": 0.2054714858531952
+    },
+    {
+      "clip_id": "c_826bd79e",
+      "shot_id": "v1_s0197",
+      "video_id": "v1",
+      "shot_start": 804.86,
+      "shot_end": 806.89,
+      "duration": 2.0299999999999727,
+      "transcript": "that the dogs actually understand the words",
+      "caption": "a person typing on a laptop keyboard",
+      "background": "home_office",
+      "entities": [
+        "laptop",
+        "person"
+      ],
+      "rag_score": 0.2628730535507202
+    },
+    {
+      "clip_id": "c_eccc51a1",
+      "shot_id": "v1_s0198",
+      "video_id": "v1",
+      "shot_start": 806.89,
+      "shot_end": 809.19,
+      "duration": 2.300000000000068,
+      "transcript": "words on the buttons when they hear them.",
+      "caption": "a person holding a laptop with a video on the screen",
+      "background": "living_room",
+      "entities": [
+        "laptop",
+        "person",
+        "person",
+        "chair",
+        "chair"
+      ],
+      "rag_score": 0.12188583612442017
+    },
+    {
+      "clip_id": "c_2ae844f2",
+      "shot_id": "v1_s0199",
+      "video_id": "v1",
+      "shot_start": 809.19,
+      "shot_end": 817.9,
+      "duration": 8.709999999999923,
+      "transcript": "His colleague Amalia has visited several dogs with a team of researchers to conduct an experiment.",
+      "caption": "a cat playing with a toy on the floor",
+      "background": "kitchen",
+      "entities": [
+        "dog",
+        "chair",
+        "bowl",
+        "chair",
+        "bowl"
+      ],
+      "rag_score": 0.24601048231124878
+    },
+    {
+      "clip_id": "c_9cc13fb1",
+      "shot_id": "v1_s0200",
+      "video_id": "v1",
+      "shot_start": 817.9,
+      "shot_end": 820.67,
+      "duration": 2.769999999999982,
+      "transcript": "This is a clip from our first",
+      "caption": "a person is playing on a laptop computer",
+      "background": "home_office",
+      "entities": [
+        "laptop",
+        "chair",
+        "chair",
+        "person",
+        "bowl"
+      ],
+      "rag_score": 0.035474371165037155
+    },
+    {
+      "clip_id": "c_8a4d4508",
+      "shot_id": "v1_s0201",
+      "video_id": "v1",
+      "shot_start": 820.67,
+      "shot_end": 821.94,
+      "duration": 1.2700000000000955,
+      "transcript": "first experimental study.",
+      "caption": "a man with glasses sitting at a desk",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.22275350987911224
+    },
+    {
+      "clip_id": "c_6de4bf3a",
+      "shot_id": "v1_s0371",
+      "video_id": "v1",
+      "shot_start": 1674.26,
+      "shot_end": 1677.53,
+      "duration": 3.269999999999982,
+      "transcript": "communication. The",
+      "caption": "a person jumping on top of a pile of garbage",
+      "background": "rooftop",
+      "entities": [
+        "person",
+        "dog"
+      ],
+      "rag_score": 0.24476014077663422
+    },
+    {
+      "clip_id": "c_dd487b06",
+      "shot_id": "v1_s0372",
+      "video_id": "v1",
+      "shot_start": 1677.53,
+      "shot_end": 1683.28,
+      "duration": 5.75,
+      "transcript": "The communication between dogs and humans is how",
+      "caption": "a dog is standing in front of a fence",
+      "background": "farmland",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.2351575493812561
+    },
+    {
+      "clip_id": "c_58369570",
+      "shot_id": "v1_s0373",
+      "video_id": "v1",
+      "shot_start": 1683.28,
+      "shot_end": 1685.41,
+      "duration": 2.130000000000109,
+      "transcript": "how we save lives.",
+      "caption": "a woman in a helmet talking to another on a construction site",
+      "background": "rooftop",
+      "entities": [
+        "person",
+        "person",
+        "bus"
+      ],
+      "rag_score": 0.1293080896139145
+    },
+    {
+      "clip_id": "c_2f267293",
+      "shot_id": "v1_s0374",
+      "video_id": "v1",
+      "shot_start": 1685.41,
+      "shot_end": 1687.62,
+      "duration": 2.209999999999809,
+      "transcript": "lives.",
+      "caption": "a dog is standing in front of a pile of rubble",
+      "background": "farmland",
+      "entities": [
+        "person",
+        "person",
+        "person",
+        "person",
+        "dog bear"
+      ],
+      "rag_score": 0.06557726114988327
+    },
+    {
+      "clip_id": "c_2a0c093d",
+      "shot_id": "v1_s0375",
+      "video_id": "v1",
+      "shot_start": 1687.62,
+      "shot_end": 1690.62,
+      "duration": 3.0,
+      "transcript": "In addition to word forms, dogs",
+      "caption": "a man in a blue jacket and white helmet is standing next to a pile of garbage",
+      "background": "rooftop",
+      "entities": [
+        "dog",
+        "person",
+        "person"
+      ],
+      "rag_score": 0.14961418509483337
+    },
+    {
+      "clip_id": "c_689e96c7",
+      "shot_id": "v1_s0376",
+      "video_id": "v1",
+      "shot_start": 1690.62,
+      "shot_end": 1694.18,
+      "duration": 3.560000000000173,
+      "transcript": "dogs are also paying attention to the way our body moves.",
+      "caption": "a dog standing next to a person behind a fence",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.11754679679870605
+    },
+    {
+      "clip_id": "c_2499fc72",
+      "shot_id": "v1_s0377",
+      "video_id": "v1",
+      "shot_start": 1694.18,
+      "shot_end": 1696.19,
+      "duration": 2.009999999999991,
+      "transcript": "They're paying attention to where we're looking.",
+      "caption": "a woman with purple hair wearing headphones",
+      "background": "gym",
+      "entities": [
+        "person",
+        "table",
+        "table"
+      ],
+      "rag_score": 0.048129498958587646
+    },
+    {
+      "clip_id": "c_6ef24d62",
+      "shot_id": "v1_s0378",
+      "video_id": "v1",
+      "shot_start": 1696.19,
+      "shot_end": 1704.37,
+      "duration": 8.179999999999836,
+      "transcript": "They're paying attention if we're pointing at things or if we're gesturing at things. They're paying...",
+      "caption": "a man in a black jacket and red ball",
+      "background": "rooftop",
+      "entities": [
+        "person",
+        "dog"
+      ],
+      "rag_score": 0.1566425859928131
+    },
+    {
+      "clip_id": "c_d6993569",
+      "shot_id": "v1_s0379",
+      "video_id": "v1",
+      "shot_start": 1704.37,
+      "shot_end": 1709.74,
+      "duration": 5.370000000000118,
+      "transcript": "So they're reading things off of us all the time, you know, even as subtle as an arm gesture.",
+      "caption": "a woman with purple hair standing in a room",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "table",
+        "table"
+      ],
+      "rag_score": 0.1682409644126892
+    },
+    {
+      "clip_id": "c_7e948097",
+      "shot_id": "v1_s0380",
+      "video_id": "v1",
+      "shot_start": 1709.74,
+      "shot_end": 1716.91,
+      "duration": 7.170000000000073,
+      "transcript": "gesture. But with this extraordinary ability and desire of dogs to communicate with us,",
+      "caption": "a person holding a dog in their hand",
+      "background": "rooftop",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": 0.26111268997192383
+    },
+    {
+      "clip_id": "c_013089b0",
+      "shot_id": "v1_s0381",
+      "video_id": "v1",
+      "shot_start": 1716.91,
+      "shot_end": 1725.59,
+      "duration": 8.679999999999836,
+      "transcript": "could they be better suited to learning our language than the animals that we've tried to teach in t...",
+      "caption": "a black dog is looking at the camera",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.3006370961666107
+    },
+    {
+      "clip_id": "c_a6fbf5da",
+      "shot_id": "v1_s0304",
+      "video_id": "v1",
+      "shot_start": 1394.45,
+      "shot_end": 1397.26,
+      "duration": 2.8099999999999454,
+      "caption": "a person holding a book in their hand",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "laptop cell phone book"
+      ],
+      "rag_score": 0.16039296984672546
+    },
+    {
+      "clip_id": "c_06120c7e",
+      "shot_id": "v1_s0305",
+      "video_id": "v1",
+      "shot_start": 1397.26,
+      "shot_end": 1400.46,
+      "duration": 3.2000000000000455,
+      "transcript": "Humans communicate using language. Obviously, this is",
+      "caption": "a man in a red sweater is reading a book",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "book"
+      ],
+      "rag_score": 0.30277854204177856
+    },
+    {
+      "clip_id": "c_88155fa3",
+      "shot_id": "v1_s0306",
+      "video_id": "v1",
+      "shot_start": 1400.46,
+      "shot_end": 1409.87,
+      "duration": 9.409999999999854,
+      "transcript": "is our big difference from all other animals. My definition of language, just a simple rule of thumb...",
+      "caption": "a man in glasses looking at his phone",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.3977290987968445
+    },
+    {
+      "clip_id": "c_9a71b288",
+      "shot_id": "v1_s0307",
+      "video_id": "v1",
+      "shot_start": 1409.87,
+      "shot_end": 1415.57,
+      "duration": 5.7000000000000455,
+      "transcript": "is the ability or at least the potential to convey an unlimited number of concepts.",
+      "caption": "a man in a red sweater sitting on the floor",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "table",
+        "chair"
+      ],
+      "rag_score": 0.23432756960391998
+    },
+    {
+      "clip_id": "c_228930a0",
+      "shot_id": "v1_s0308",
+      "video_id": "v1",
+      "shot_start": 1415.57,
+      "shot_end": 1423.99,
+      "duration": 8.420000000000073,
+      "transcript": "Doesn't matter how you do it, but what makes humans special is that we can communicate to each other...",
+      "caption": "a man in a red sweater is looking at the camera",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.13858112692832947
+    },
+    {
+      "clip_id": "c_9cc7a542",
+      "shot_id": "v1_s0309",
+      "video_id": "v1",
+      "shot_start": 1423.99,
+      "shot_end": 1431.69,
+      "duration": 7.7000000000000455,
+      "transcript": "There's no end to the books that will ever be written or the ideas that we can convey. And no animal...",
+      "caption": "a man in a red sweater sitting on a chair",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "chair",
+        "table"
+      ],
+      "rag_score": 0.13260036706924438
+    },
+    {
+      "clip_id": "c_843f0985",
+      "shot_id": "v1_s0310",
+      "video_id": "v1",
+      "shot_start": 1431.69,
+      "shot_end": 1438.23,
+      "duration": 6.539999999999964,
+      "transcript": "No one believes dogs could communicate absolutely any concept to us using words.",
+      "caption": "a man wearing glasses looking at his cell",
+      "background": "dining_room",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.17814306914806366
+    },
+    {
+      "clip_id": "c_dfbf0f8d",
+      "shot_id": "v1_s0311",
+      "video_id": "v1",
+      "shot_start": 1438.23,
+      "shot_end": 1444.67,
+      "duration": 6.440000000000055,
+      "transcript": "But how far could they go on the spectrum between communication and language? I think",
+      "caption": "a man in a red sweater standing in front of a window",
+      "background": "dining_room",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.2780003249645233
+    },
+    {
+      "clip_id": "c_7e74b083",
+      "shot_id": "v1_s0312",
+      "video_id": "v1",
+      "shot_start": 1444.67,
+      "shot_end": 1465.99,
+      "duration": 21.319999999999936,
+      "transcript": "think really communication becomes language when you cross that boundary from a signal that manipula...",
+      "caption": "a man in a red sweater sitting on a chair",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "chair",
+        "table"
+      ],
+      "rag_score": 0.3143143653869629
+    },
+    {
+      "clip_id": "c_775421d0",
+      "shot_id": "v1_s0245",
+      "video_id": "v1",
+      "shot_start": 1089.98,
+      "shot_end": 1092.65,
+      "duration": 2.6700000000000728,
+      "transcript": "language words is completely arbitrary.",
+      "caption": "a woman in a gray jacket and yellow scarf sitting on the floor",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.2973220646381378
+    },
+    {
+      "clip_id": "c_a0ec48c7",
+      "shot_id": "v1_s0246",
+      "video_id": "v1",
+      "shot_start": 1092.65,
+      "shot_end": 1094.32,
+      "duration": 1.6699999999998454,
+      "transcript": "arbitrary. It's",
+      "caption": "a dog playing with a toy on the floor",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.1345144808292389
+    },
+    {
+      "clip_id": "c_c6914b25",
+      "shot_id": "v1_s0122",
+      "video_id": "v1",
+      "shot_start": 444.89,
+      "shot_end": 460.14,
+      "duration": 15.25,
+      "transcript": "just random? I love you too, Cobb. I love you too.",
+      "caption": "an image of a person walking down a hallway",
+      "background": "unknown",
+      "rag_score": 0.12692508101463318
+    },
+    {
+      "clip_id": "c_cd7c11b3",
+      "shot_id": "v1_s0123",
+      "video_id": "v1",
+      "shot_start": 460.14,
+      "shot_end": 462.35,
+      "duration": 2.2100000000000364,
+      "caption": "an aerial view of a city with many buildings",
+      "background": "rooftop",
+      "rag_score": 0.05924026668071747
+    },
+    {
+      "clip_id": "c_e30c8196",
+      "shot_id": "v1_s0124",
+      "video_id": "v1",
+      "shot_start": 462.35,
+      "shot_end": 468.02,
+      "duration": 5.669999999999959,
+      "transcript": "Federico Rossano is director of the Comparative Cognition Lab at the University",
+      "caption": "a man standing in the middle of an office building",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "table",
+        "chair",
+        "chair",
+        "chair"
+      ],
+      "rag_score": 0.271314412355423
+    },
+    {
+      "clip_id": "c_f2cd4f91",
+      "shot_id": "v1_s0125",
+      "video_id": "v1",
+      "shot_start": 468.02,
+      "shot_end": 472.02,
+      "duration": 4.0,
+      "transcript": "University of California, San Diego. As dogs using",
+      "caption": "a view of the campus from above",
+      "background": "lecture_hall",
+      "entities": [
+        "person",
+        "person",
+        "person",
+        "person",
+        "person"
+      ],
+      "rag_score": 0.16459384560585022
+    },
+    {
+      "clip_id": "c_f6709646",
+      "shot_id": "v1_s0126",
+      "video_id": "v1",
+      "shot_start": 472.02,
+      "shot_end": 475.23,
+      "duration": 3.2100000000000364,
+      "transcript": "using word buttons gained a following on social media,",
+      "caption": "a man standing in front of a desk",
+      "background": "home_office",
+      "entities": [
+        "person",
+        "chair",
+        "table",
+        "laptop",
+        "table"
+      ],
+      "rag_score": 0.05132434144616127
+    },
+    {
+      "clip_id": "c_180d35ee",
+      "shot_id": "v1_s0127",
+      "video_id": "v1",
+      "shot_start": 475.23,
+      "shot_end": 477.43,
+      "duration": 2.1999999999999886,
+      "transcript": "Federico was approached to study them.",
+      "caption": "a person sitting at a desk using a laptop",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "laptop",
+        "table"
+      ],
+      "rag_score": 0.384737104177475
+    },
+    {
+      "clip_id": "c_7f6766a0",
+      "shot_id": "v1_s0128",
+      "video_id": "v1",
+      "shot_start": 477.43,
+      "shot_end": 480.74,
+      "duration": 3.3100000000000023,
+      "transcript": "But he was skeptical.",
+      "caption": "a man sitting at a desk in an office",
+      "background": "lab",
+      "entities": [
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.15185827016830444
+    },
+    {
+      "clip_id": "c_8324ee67",
+      "shot_id": "v1_s0129",
+      "video_id": "v1",
+      "shot_start": 480.74,
+      "shot_end": 486.07,
+      "duration": 5.329999999999984,
+      "transcript": "I most certainly did not want to get involved in it. I have said no so many times.",
+      "caption": "a man with a beard sitting in front of a window",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.027841422706842422
+    },
+    {
+      "clip_id": "c_3b14dffb",
+      "shot_id": "v1_s0554",
+      "video_id": "v1",
+      "shot_start": 2544.35,
+      "shot_end": 2548.98,
+      "duration": 4.630000000000109,
+      "transcript": "brain when it hears words it knows. For most",
+      "caption": "a white dog with a green harness walking on a sidewalk",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.34260717034339905
+    },
+    {
+      "clip_id": "c_b470a57c",
+      "shot_id": "v1_s0656",
+      "video_id": "v1",
+      "shot_start": 3000.51,
+      "shot_end": 3002.7,
+      "duration": 2.1899999999996,
+      "transcript": "English language words.",
+      "caption": "a woman sitting on a couch in a living room",
+      "background": "dining_room",
+      "entities": [
+        "person",
+        "table",
+        "table",
+        "chair",
+        "dog"
+      ],
+      "rag_score": 0.294894814491272
+    },
+    {
+      "clip_id": "c_2c88bbfe",
+      "shot_id": "v1_s0618",
+      "video_id": "v1",
+      "shot_start": 2799.0,
+      "shot_end": 2808.41,
+      "duration": 9.409999999999854,
+      "transcript": "telling me that he wanted to be dressed as a green lion. And I was like, what are you talking about?...",
+      "caption": "a man in a blue shirt standing in front of a window",
+      "background": "interview_set",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.0368632972240448
+    },
+    {
+      "clip_id": "c_449cad7b",
+      "shot_id": "v1_s0619",
+      "video_id": "v1",
+      "shot_start": 2808.41,
+      "shot_end": 2814.85,
+      "duration": 6.440000000000055,
+      "transcript": "somebody dressed as a dinosaur, points to it, and says, green lion. And I'm like, there you go. You ...",
+      "caption": "a man with a beard sitting in front of a window",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.048504143953323364
+    },
+    {
+      "clip_id": "c_1a988b4d",
+      "shot_id": "v1_s0620",
+      "video_id": "v1",
+      "shot_start": 2814.85,
+      "shot_end": 2822.09,
+      "duration": 7.2400000000002365,
+      "transcript": "But by saying green lion, you're getting as close as you can with your vocabulary to telling me this...",
+      "caption": "a man in a blue shirt standing in front of a window",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.14210426807403564
+    },
+    {
+      "clip_id": "c_23b9ed8e",
+      "shot_id": "v1_s0621",
+      "video_id": "v1",
+      "shot_start": 2822.09,
+      "shot_end": 2826.93,
+      "duration": 4.839999999999691,
+      "transcript": "Linguistic productivity is absolutely central to the way that humans do language.",
+      "caption": "a man in a red sweater sitting on a chair",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "chair",
+        "table"
+      ],
+      "rag_score": 0.46019119024276733
+    },
+    {
+      "clip_id": "c_15e6f8f3",
+      "shot_id": "v1_s0290",
+      "video_id": "v1",
+      "shot_start": 1320.58,
+      "shot_end": 1327.55,
+      "duration": 6.970000000000027,
+      "transcript": "training, or mad, or friend, The fact",
+      "caption": "a blue background with the words made in different colors",
+      "background": "gym",
+      "rag_score": 0.24407300353050232
+    },
+    {
+      "clip_id": "c_7e62ee7e",
+      "shot_id": "v1_s0145",
+      "video_id": "v1",
+      "shot_start": 537.59,
+      "shot_end": 540.26,
+      "duration": 2.669999999999959,
+      "transcript": "But despite Federico's concerns",
+      "caption": "a man standing in front of a building",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "person",
+        "truck",
+        "person"
+      ],
+      "rag_score": 0.025084279477596283
+    },
+    {
+      "clip_id": "c_fb7120e7",
+      "shot_id": "v1_s0146",
+      "video_id": "v1",
+      "shot_start": 540.26,
+      "shot_end": 542.63,
+      "duration": 2.3700000000000045,
+      "transcript": "about social media, he saw some clips",
+      "caption": "a man in a blue shirt sitting on a bench",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.19528910517692566
+    },
+    {
+      "clip_id": "c_9c5e5561",
+      "shot_id": "v1_s0147",
+      "video_id": "v1",
+      "shot_start": 542.63,
+      "shot_end": 545.07,
+      "duration": 2.4400000000000546,
+      "transcript": "clips that stunned him.",
+      "caption": "a man holding a cell phone in his hand",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "cell phone"
+      ],
+      "rag_score": 0.0690542533993721
+    },
+    {
+      "clip_id": "c_892fa71e",
+      "shot_id": "v1_s0148",
+      "video_id": "v1",
+      "shot_start": 545.07,
+      "shot_end": 545.97,
+      "duration": 0.8999999999999773,
+      "caption": "a person holding an iphone in their hand",
+      "background": "unknown",
+      "entities": [
+        "cell phone",
+        "person",
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.052030205726623535
+    },
+    {
+      "clip_id": "c_2fd31b44",
+      "shot_id": "v1_s0149",
+      "video_id": "v1",
+      "shot_start": 545.97,
+      "shot_end": 566.82,
+      "duration": 20.850000000000023,
+      "transcript": "Why are you mad? Why mad? Ouch. Where is your ouch? Where ouch?",
+      "caption": "a black and white dog standing in a living room",
+      "background": "living_room",
+      "entities": [
+        "dog",
+        "table"
+      ],
+      "rag_score": 0.12605388462543488
+    },
+    {
+      "clip_id": "c_8eb0ed3b",
+      "shot_id": "v1_s0150",
+      "video_id": "v1",
+      "shot_start": 566.82,
+      "shot_end": 591.82,
+      "duration": 25.0,
+      "transcript": "Stranger. In your ear? Where stranger? Paw. In your paw? Let me see your paw. Okay, I'm gonna put th...",
+      "caption": "a dog standing in front of a pile of food",
+      "background": "living_room",
+      "entities": [
+        "dog",
+        "table",
+        "vase",
+        "book",
+        "book"
+      ],
+      "rag_score": 0.14509230852127075
+    },
+    {
+      "clip_id": "c_36f682f5",
+      "shot_id": "v1_s0151",
+      "video_id": "v1",
+      "shot_start": 591.82,
+      "shot_end": 597.68,
+      "duration": 5.8599999999999,
+      "transcript": "you. This was the stranger in her paw. She's got a mat between her, ow, toes.",
+      "caption": "a person holding a cell phone with a message on it",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.12787745893001556
+    },
+    {
+      "clip_id": "c_ac0f70dc",
+      "shot_id": "v1_s0152",
+      "video_id": "v1",
+      "shot_start": 597.68,
+      "shot_end": 602.25,
+      "duration": 4.57000000000005,
+      "transcript": "It looked as if they were having a conversation.",
+      "caption": "a man sitting on a bench looking at his phone",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "cell phone"
+      ],
+      "rag_score": 0.13260076940059662
+    },
+    {
+      "clip_id": "c_5c32f304",
+      "shot_id": "v1_s0153",
+      "video_id": "v1",
+      "shot_start": 602.25,
+      "shot_end": 608.63,
+      "duration": 6.3799999999999955,
+      "transcript": "And I was like, wow, if that is possible, where a human can talk and the animal can just respond wit...",
+      "caption": "a man standing in front of a window with his hands up",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.092111736536026
+    },
+    {
+      "clip_id": "c_477e624f",
+      "shot_id": "v1_s0154",
+      "video_id": "v1",
+      "shot_start": 608.63,
+      "shot_end": 619.08,
+      "duration": 10.450000000000045,
+      "transcript": "What we want is to look at those anecdotes and think, is this even possible? And if it has not been ...",
+      "caption": "a man sitting in front of a window with his hands up",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.1045582965016365
+    },
+    {
+      "clip_id": "c_87690c79",
+      "shot_id": "v1_s0155",
+      "video_id": "v1",
+      "shot_start": 619.08,
+      "shot_end": 622.88,
+      "duration": 3.7999999999999545,
+      "transcript": "then the next question is, can we elicit it in a more systematic way?",
+      "caption": "a man sitting in front of a window with his hands crossed",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.10887309908866882
+    },
+    {
+      "clip_id": "c_aa7477ec",
+      "shot_id": "v1_s0156",
+      "video_id": "v1",
+      "shot_start": 622.88,
+      "shot_end": 639.5,
+      "duration": 16.620000000000005,
+      "transcript": "OK, Port, Port's here. The trouble is, past efforts to teach animals to use our language have been i...",
+      "caption": "a black dog sitting on top of a couch",
+      "background": "tv_studio",
+      "entities": [
+        "cat dog"
+      ],
+      "rag_score": 0.336577832698822
+    },
+    {
+      "clip_id": "c_0d0270fe",
+      "shot_id": "v1_s0157",
+      "video_id": "v1",
+      "shot_start": 639.5,
+      "shot_end": 642.5,
+      "duration": 3.0,
+      "transcript": "basically a researcher would get one animal",
+      "caption": "a man with a beard sitting in front of a window",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.20950129628181458
+    },
+    {
+      "clip_id": "c_22831bf1",
+      "shot_id": "v1_s0174",
+      "video_id": "v1",
+      "shot_start": 709.93,
+      "shot_end": 714.57,
+      "duration": 4.6400000000001,
+      "transcript": "dogs. So he decided to study them. What happens if you",
+      "caption": "an aerial view of the university of california campus",
+      "background": "lecture_hall",
+      "entities": [
+        "car",
+        "car",
+        "car",
+        "person",
+        "car"
+      ],
+      "rag_score": 0.2705640196800232
+    },
+    {
+      "clip_id": "c_9ee052f0",
+      "shot_id": "v1_s0013",
+      "video_id": "v1",
+      "shot_start": 35.19,
+      "shot_end": 36.86,
+      "duration": 1.6700000000000017,
+      "transcript": "that scientists have decided to",
+      "caption": "a dog sitting on top of a blue and white blanket",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.18374481797218323
+    },
+    {
+      "clip_id": "c_ecc30a87",
+      "shot_id": "v1_s0014",
+      "video_id": "v1",
+      "shot_start": 36.86,
+      "shot_end": 40.45,
+      "duration": 3.5900000000000034,
+      "transcript": "to study them. Button. Treat. Yeah, so good. Go get",
+      "caption": "a woman playing with a dog in a room",
+      "background": "unknown",
+      "entities": [
+        "dog",
+        "person",
+        "bed"
+      ],
+      "rag_score": 0.2589629590511322
+    },
+    {
+      "clip_id": "c_75e58cef",
+      "shot_id": "v1_s0015",
+      "video_id": "v1",
+      "shot_start": 40.45,
+      "shot_end": 41.73,
+      "duration": 1.279999999999994,
+      "transcript": "get it.",
+      "caption": "a dog is sitting on the floor and playing with a toy",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "dog"
+      ],
+      "rag_score": 0.10992409288883209
+    },
+    {
+      "clip_id": "c_ae71cf9f",
+      "shot_id": "v1_s0072",
+      "video_id": "v1",
+      "shot_start": 223.94,
+      "shot_end": 227.01,
+      "duration": 3.069999999999993,
+      "transcript": "Christina worked as a speech therapist and used",
+      "caption": "a woman playing with her dog in the living room",
+      "background": "dining_room",
+      "entities": [
+        "dog",
+        "person",
+        "chair",
+        "table",
+        "vase"
+      ],
+      "rag_score": 0.23850135505199432
+    },
+    {
+      "clip_id": "c_f832455b",
+      "shot_id": "v1_s0073",
+      "video_id": "v1",
+      "shot_start": 227.01,
+      "shot_end": 229.51,
+      "duration": 2.5,
+      "transcript": "communication devices with children who struggled",
+      "caption": "a dog is playing with a cat on the floor",
+      "background": "living_room",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": 0.20589321851730347
+    },
+    {
+      "clip_id": "c_5d5b4596",
+      "shot_id": "v1_s0074",
+      "video_id": "v1",
+      "shot_start": 229.51,
+      "shot_end": 232.38,
+      "duration": 2.8700000000000045,
+      "transcript": "struggled to speak. It was my job",
+      "caption": "a person is playing a game with red and black buttons",
+      "background": "kitchen",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.21961580216884613
+    },
+    {
+      "clip_id": "c_e737f307",
+      "shot_id": "v1_s0075",
+      "video_id": "v1",
+      "shot_start": 232.38,
+      "shot_end": 235.99,
+      "duration": 3.6100000000000136,
+      "transcript": "job as a speech therapist to find other ways for kids to talk if they",
+      "caption": "a woman sitting on a chair in a living room",
+      "background": "bedroom",
+      "entities": [
+        "person",
+        "chair",
+        "chair couch",
+        "table"
+      ],
+      "rag_score": 0.26192525029182434
+    },
+    {
+      "clip_id": "c_f4e568c2",
+      "shot_id": "v1_s0076",
+      "video_id": "v1",
+      "shot_start": 235.99,
+      "shot_end": 237.69,
+      "duration": 1.6999999999999886,
+      "transcript": "they couldn't use their verbal speech.",
+      "caption": "a woman with long brown hair is looking at the camera",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.10080572217702866
+    },
+    {
+      "clip_id": "c_7e06d07f",
+      "shot_id": "v1_s0203",
+      "video_id": "v1",
+      "shot_start": 831.09,
+      "shot_end": 833.62,
+      "duration": 2.5299999999999727,
+      "transcript": "means the same thing to a dog as when that",
+      "caption": "a person typing on a laptop keyboard",
+      "background": "home_office",
+      "entities": [
+        "laptop",
+        "person"
+      ],
+      "rag_score": 0.17006468772888184
+    },
+    {
+      "clip_id": "c_b678bba5",
+      "shot_id": "v1_s0204",
+      "video_id": "v1",
+      "shot_start": 833.62,
+      "shot_end": 835.86,
+      "duration": 2.240000000000009,
+      "transcript": "that same word is spoken by a person.",
+      "caption": "a man with glasses looking at something on the screen",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.20257440209388733
+    },
+    {
+      "clip_id": "c_0c9c62ec",
+      "shot_id": "v1_s0205",
+      "video_id": "v1",
+      "shot_start": 835.86,
+      "shot_end": 847.34,
+      "duration": 11.480000000000018,
+      "transcript": "because when we say words, we add all sorts of extra details. Pitch, tone, body language. You are th...",
+      "caption": "two people sitting on the floor playing with a dog",
+      "background": "kitchen",
+      "entities": [
+        "dog",
+        "person",
+        "person",
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.25078749656677246
+    },
+    {
+      "clip_id": "c_2d1a457b",
+      "shot_id": "v1_s0206",
+      "video_id": "v1",
+      "shot_start": 847.34,
+      "shot_end": 852.88,
+      "duration": 5.539999999999964,
+      "transcript": "drinker. But a word from a button is the same every time. The first study had to be,",
+      "caption": "a laptop computer sitting on top of a wooden table",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "person",
+        "laptop",
+        "dog",
+        "chair"
+      ],
+      "rag_score": 0.30724701285362244
+    },
+    {
+      "clip_id": "c_d31a226c",
+      "shot_id": "v1_s0498",
+      "video_id": "v1",
+      "shot_start": 2199.49,
+      "shot_end": 2205.64,
+      "duration": 6.150000000000091,
+      "transcript": "Amalia, Federico's colleague, felt that use of the word help suggested greater",
+      "caption": "a woman is walking through an office cubic",
+      "background": "home_office",
+      "entities": [
+        "person",
+        "tv",
+        "tv",
+        "bottle",
+        "chair"
+      ],
+      "rag_score": 0.2470988929271698
+    },
+    {
+      "clip_id": "c_155585b9",
+      "shot_id": "v1_s0499",
+      "video_id": "v1",
+      "shot_start": 2205.64,
+      "shot_end": 2211.4,
+      "duration": 5.760000000000218,
+      "transcript": "cognitive abilities than most of the button words used by dogs. So with most of",
+      "caption": "a woman sitting in front of a computer",
+      "background": "home_office",
+      "entities": [
+        "mouse",
+        "person",
+        "keyboard",
+        "laptop",
+        "tv"
+      ],
+      "rag_score": 0.2805507779121399
+    },
+    {
+      "clip_id": "c_9c896e54",
+      "shot_id": "v1_s0500",
+      "video_id": "v1",
+      "shot_start": 2211.4,
+      "shot_end": 2217.98,
+      "duration": 6.579999999999927,
+      "transcript": "of the buttons that dogs have, like food or play or walk, these are simple associations that are rel...",
+      "caption": "a woman sitting at a desk in front of a window",
+      "background": "newsroom",
+      "entities": [
+        "person",
+        "book",
+        "chair"
+      ],
+      "rag_score": 0.10451538860797882
+    },
+    {
+      "clip_id": "c_2980e86f",
+      "shot_id": "v1_s0501",
+      "video_id": "v1",
+      "shot_start": 2217.98,
+      "shot_end": 2220.78,
+      "duration": 2.800000000000182,
+      "transcript": "context. Help is interesting because",
+      "caption": "an image of a living room with a table and chairs",
+      "background": "living_room",
+      "entities": [
+        "dog",
+        "chair",
+        "table",
+        "vase",
+        "chair couch"
+      ],
+      "rag_score": 0.23572464287281036
+    },
+    {
+      "clip_id": "c_e589a5f2",
+      "shot_id": "v1_s0502",
+      "video_id": "v1",
+      "shot_start": 2220.78,
+      "shot_end": 2224.95,
+      "duration": 4.169999999999618,
+      "transcript": "it's a little bit more general than a lot of the simpler buttons that these dogs might have.",
+      "caption": "a woman sitting at a desk in an office",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "book"
+      ],
+      "rag_score": 0.10045769810676575
+    },
+    {
+      "clip_id": "c_6e5f1cd8",
+      "shot_id": "v1_s0216",
+      "video_id": "v1",
+      "shot_start": 907.53,
+      "shot_end": 923.14,
+      "duration": 15.610000000000014,
+      "transcript": "It's the simplest possible test. 58 other dogs were also tested. And the results showed that the dog...",
+      "caption": "a woman standing in a living room next to a dog",
+      "background": "living_room",
+      "entities": [
+        "person",
+        "dog",
+        "tv",
+        "couch",
+        "chair"
+      ],
+      "rag_score": 0.17590026557445526
+    },
+    {
+      "clip_id": "c_4980ce84",
+      "shot_id": "v1_s0217",
+      "video_id": "v1",
+      "shot_start": 923.14,
+      "shot_end": 929.59,
+      "duration": 6.4500000000000455,
+      "transcript": "appropriately to the play and outside buttons, with no other cues, just as they'd respond to",
+      "caption": "two people in a room with a dog on the floor",
+      "background": "kitchen",
+      "entities": [
+        "dog",
+        "person",
+        "person"
+      ],
+      "rag_score": 0.10264410823583603
+    },
+    {
+      "clip_id": "c_7231ae2f",
+      "shot_id": "v1_s0218",
+      "video_id": "v1",
+      "shot_start": 929.59,
+      "shot_end": 936.02,
+      "duration": 6.42999999999995,
+      "transcript": "to those words spoken directly by a human. That was critical for us because",
+      "caption": "a dog playing with a toy on the floor",
+      "background": "dining_room",
+      "entities": [
+        "person",
+        "dog",
+        "boat",
+        "table",
+        "handbag"
+      ],
+      "rag_score": 0.35077208280563354
+    },
+    {
+      "clip_id": "c_47eb5598",
+      "shot_id": "v1_s0219",
+      "video_id": "v1",
+      "shot_start": 936.02,
+      "shot_end": 941.6,
+      "duration": 5.580000000000041,
+      "transcript": "if they did not understand the meaning of words, if they did not respond in a way that would suggest",
+      "caption": "a living room with various colored stools on the floor",
+      "background": "living_room",
+      "entities": [
+        "dog",
+        "person",
+        "tv",
+        "backpack handbag",
+        "couch"
+      ],
+      "rag_score": 0.2706317603588104
+    },
+    {
+      "clip_id": "c_baa0f96d",
+      "shot_id": "v1_s0220",
+      "video_id": "v1",
+      "shot_start": 941.6,
+      "shot_end": 945.7,
+      "duration": 4.100000000000023,
+      "transcript": "suggest they understand it, then there's no point in moving forward with any other research.",
+      "caption": "a man with a beard sitting in front of windows",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.30266129970550537
+    },
+    {
+      "clip_id": "c_556c22de",
+      "shot_id": "v1_s0666",
+      "video_id": "v1",
+      "shot_start": 3041.51,
+      "shot_end": 3044.28,
+      "duration": 2.769999999999982,
+      "transcript": "bonds, might feel their dogs are",
+      "caption": "a brown and white dog laying on a rug",
+      "background": "living_room",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.017066486179828644
+    },
+    {
+      "clip_id": "c_898a6235",
+      "shot_id": "v1_s0667",
+      "video_id": "v1",
+      "shot_start": 3044.28,
+      "shot_end": 3047.18,
+      "duration": 2.899999999999636,
+      "transcript": "are talking. Love",
+      "caption": "a woman is playing a game with her dog",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "dog",
+        "table",
+        "vase",
+        "chair couch"
+      ],
+      "rag_score": 0.15461215376853943
+    },
+    {
+      "clip_id": "c_1da39864",
+      "shot_id": "v1_s0668",
+      "video_id": "v1",
+      "shot_start": 3047.18,
+      "shot_end": 3050.26,
+      "duration": 3.080000000000382,
+      "transcript": "you. Stella. Love you, Stella. But scientific understanding",
+      "caption": "a brown and white dog laying on a rug",
+      "background": "tv_studio",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": 0.21923547983169556
+    },
+    {
+      "clip_id": "c_a777b844",
+      "shot_id": "v1_s0669",
+      "video_id": "v1",
+      "shot_start": 3050.26,
+      "shot_end": 3059.86,
+      "duration": 9.599999999999909,
+      "transcript": "understanding of their linguistic capabilities is still in its early days. We are very much at the b...",
+      "caption": "a black dog playing with a toy on the floor",
+      "background": "kitchen",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.4414559304714203
+    },
+    {
+      "clip_id": "c_28b26375",
+      "shot_id": "v1_s0670",
+      "video_id": "v1",
+      "shot_start": 3059.86,
+      "shot_end": 3065.73,
+      "duration": 5.869999999999891,
+      "transcript": "doing, and we need to be ready to collect data for years and years.",
+      "caption": "a cat playing with a toy on the floor",
+      "background": "kitchen",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.1818932592868805
+    },
+    {
+      "clip_id": "c_b247fd29",
+      "shot_id": "v1_s0589",
+      "video_id": "v1",
+      "shot_start": 2670.84,
+      "shot_end": 2679.35,
+      "duration": 8.509999999999764,
+      "transcript": "they hear the name of an object, they activate something, the so-called memory of this object. So we...",
+      "caption": "a white dog laying on top of a bed",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.23411640524864197
+    },
+    {
+      "clip_id": "c_0067c3fb",
+      "shot_id": "v1_s0590",
+      "video_id": "v1",
+      "shot_start": 2679.35,
+      "shot_end": 2686.59,
+      "duration": 7.2400000000002365,
+      "transcript": "actually surprised when it sees a different thing, but it is surprised because it has an expectation...",
+      "caption": "a young girl sitting at a desk in an office",
+      "background": "home_office",
+      "entities": [
+        "person",
+        "mouse",
+        "keyboard",
+        "chair",
+        "tv"
+      ],
+      "rag_score": 0.2130482792854309
+    },
+    {
+      "clip_id": "c_1872c2f3",
+      "shot_id": "v1_s0591",
+      "video_id": "v1",
+      "shot_start": 2686.59,
+      "shot_end": 2692.22,
+      "duration": 5.629999999999654,
+      "transcript": "understands the meaning of that word. That's a qualitatively different way",
+      "caption": "a white dog laying on top of a bed",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.19235461950302124
+    },
+    {
+      "clip_id": "c_86701154",
+      "shot_id": "v1_s0176",
+      "video_id": "v1",
+      "shot_start": 717.54,
+      "shot_end": 724.91,
+      "duration": 7.3700000000000045,
+      "transcript": "He asked Amalia Bastos, a researcher in animal cognition, to join him. Where can",
+      "caption": "a woman walking down a long hallway",
+      "background": "corridor",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.3171676993370056
+    },
+    {
+      "clip_id": "c_4c11b918",
+      "shot_id": "v1_s0177",
+      "video_id": "v1",
+      "shot_start": 724.91,
+      "shot_end": 726.91,
+      "duration": 2.0,
+      "transcript": "can we take this and how far can dogs go?",
+      "caption": "a woman in a yellow shirt is talking to someone",
+      "background": "bedroom",
+      "entities": [
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.10938384383916855
+    },
+    {
+      "clip_id": "c_8a42144c",
+      "shot_id": "v1_s0178",
+      "video_id": "v1",
+      "shot_start": 726.91,
+      "shot_end": 730.25,
+      "duration": 3.340000000000032,
+      "transcript": "We need to actually test things out empirically to find out what's going on.",
+      "caption": "a woman with long black hair wearing a yellow shirt",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.1178448423743248
+    },
+    {
+      "clip_id": "c_bae27ccf",
+      "shot_id": "v1_s0247",
+      "video_id": "v1",
+      "shot_start": 1094.32,
+      "shot_end": 1095.66,
+      "duration": 1.3400000000001455,
+      "transcript": "It's just associative learning.",
+      "caption": "a woman with long black hair wearing a grey jacket and yellow scarf",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.27709001302719116
+    },
+    {
+      "clip_id": "c_9eea328a",
+      "shot_id": "v1_s0661",
+      "video_id": "v1",
+      "shot_start": 3020.02,
+      "shot_end": 3023.76,
+      "duration": 3.7400000000002365,
+      "transcript": "The fact that it's not a trained",
+      "caption": "an image of a child playing with a ball on the floor",
+      "background": "unknown",
+      "entities": [
+        "dog",
+        "table",
+        "vase"
+      ],
+      "rag_score": 0.11689396947622299
+    },
+    {
+      "clip_id": "c_ddc0ca3e",
+      "shot_id": "v1_s0662",
+      "video_id": "v1",
+      "shot_start": 3023.76,
+      "shot_end": 3035.27,
+      "duration": 11.509999999999764,
+      "transcript": "behavior and that it's independent and that she can use words to mean a lot of different things indi...",
+      "caption": "a woman with long brown hair is looking at the camera",
+      "background": "home_office",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.25534355640411377
+    },
+    {
+      "clip_id": "c_a733a31f",
+      "shot_id": "v1_s0663",
+      "video_id": "v1",
+      "shot_start": 3035.27,
+      "shot_end": 3038.28,
+      "duration": 3.0100000000002183,
+      "transcript": "It's not surprising that owners,",
+      "caption": "a brown and white dog laying on a rug",
+      "background": "kitchen",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": 0.08076385408639908
+    },
+    {
+      "clip_id": "c_86b7a6cb",
+      "shot_id": "v1_s0664",
+      "video_id": "v1",
+      "shot_start": 3038.28,
+      "shot_end": 3039.81,
+      "duration": 1.5299999999997453,
+      "transcript": "owners, with their close relationships",
+      "caption": "a woman sitting on the floor next to a remote controller",
+      "background": "living_room",
+      "entities": [
+        "person",
+        "dog",
+        "chair",
+        "table",
+        "vase"
+      ],
+      "rag_score": -0.008721277117729187
+    },
+    {
+      "clip_id": "c_0983613b",
+      "shot_id": "v1_s0665",
+      "video_id": "v1",
+      "shot_start": 3039.81,
+      "shot_end": 3041.51,
+      "duration": 1.7000000000002728,
+      "transcript": "relationships and strong communicative",
+      "caption": "a woman sitting at a table writing",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.3058391809463501
+    },
+    {
+      "clip_id": "c_659d2786",
+      "shot_id": "v1_s0408",
+      "video_id": "v1",
+      "shot_start": 1827.52,
+      "shot_end": 1831.66,
+      "duration": 4.1400000000001,
+      "transcript": "So far, Claudia has found fewer than 50 dogs",
+      "caption": "a black car is parked on the side of the road",
+      "background": "car_interior",
+      "entities": [
+        "car"
+      ],
+      "rag_score": 0.11422095447778702
+    },
+    {
+      "clip_id": "c_bba06e1e",
+      "shot_id": "v1_s0409",
+      "video_id": "v1",
+      "shot_start": 1831.66,
+      "shot_end": 1838.16,
+      "duration": 6.5,
+      "transcript": "around the world who are good enough at learning object names to take part in her study.",
+      "caption": "a woman walking down the street in front of a van",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "truck",
+        "truck"
+      ],
+      "rag_score": 0.4370875358581543
+    },
+    {
+      "clip_id": "c_18586a2b",
+      "shot_id": "v1_s0410",
+      "video_id": "v1",
+      "shot_start": 1838.16,
+      "shot_end": 1847.31,
+      "duration": 9.149999999999864,
+      "transcript": "Hello. Hi, Gaia. Hello, girl. She's traveled here to put Gaia to the test. Thank you.",
+      "caption": "a woman standing in a hallway next to a door",
+      "background": "kitchen",
+      "entities": [
+        "person",
+        "person"
+      ],
+      "rag_score": 0.22332771122455597
+    },
+    {
+      "clip_id": "c_c0b1b2ac",
+      "shot_id": "v1_s0411",
+      "video_id": "v1",
+      "shot_start": 1847.31,
+      "shot_end": 1850.51,
+      "duration": 3.2000000000000455,
+      "transcript": "So I got something for Gaia. Gaia, look",
+      "caption": "a brown and white dog sitting on a couch",
+      "background": "car_interior",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": 0.08840887248516083
+    },
+    {
+      "clip_id": "c_93797d53",
+      "shot_id": "v1_s0412",
+      "video_id": "v1",
+      "shot_start": 1850.51,
+      "shot_end": 1853.18,
+      "duration": 2.6700000000000728,
+      "transcript": "look at here. Maybe there's something for you.",
+      "caption": "a woman sitting on a couch with a dog",
+      "background": "living_room",
+      "entities": [
+        "dog",
+        "person",
+        "couch",
+        "book"
+      ],
+      "rag_score": 0.07746526598930359
+    },
+    {
+      "clip_id": "c_846e5dc4",
+      "shot_id": "v1_s0413",
+      "video_id": "v1",
+      "shot_start": 1853.18,
+      "shot_end": 1855.78,
+      "duration": 2.599999999999909,
+      "transcript": "That's for you.",
+      "caption": "a woman sitting on a couch next to a dog",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "person",
+        "dog",
+        "couch",
+        "cup"
+      ],
+      "rag_score": 0.07930098474025726
+    },
+    {
+      "clip_id": "c_d7c41b67",
+      "shot_id": "v1_s0414",
+      "video_id": "v1",
+      "shot_start": 1855.78,
+      "shot_end": 1859.42,
+      "duration": 3.6400000000001,
+      "caption": "two women sitting on a couch playing with a dog",
+      "background": "bedroom",
+      "entities": [
+        "dog",
+        "person",
+        "couch bed",
+        "person",
+        "book"
+      ],
+      "rag_score": 0.012141192331910133
+    },
+    {
+      "clip_id": "c_9e310a72",
+      "shot_id": "v1_s0415",
+      "video_id": "v1",
+      "shot_start": 1859.42,
+      "shot_end": 1861.55,
+      "duration": 2.1299999999998818,
+      "transcript": "Coffee?",
+      "caption": "two women sitting on a couch talking to each other women",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "couch",
+        "person",
+        "chair couch",
+        "book"
+      ],
+      "rag_score": 0.24061399698257446
+    },
+    {
+      "clip_id": "c_d43f81a3",
+      "shot_id": "v1_s0416",
+      "video_id": "v1",
+      "shot_start": 1861.55,
+      "shot_end": 1865.3,
+      "duration": 3.75,
+      "transcript": "Coffee? A little test shows just how quickly Gaia",
+      "caption": "a woman sitting on a couch next to a dog",
+      "background": "interview_set",
+      "entities": [
+        "person",
+        "dog",
+        "person",
+        "couch",
+        "couch"
+      ],
+      "rag_score": 0.2808922529220581
+    },
+    {
+      "clip_id": "c_4e631098",
+      "shot_id": "v1_s0417",
+      "video_id": "v1",
+      "shot_start": 1865.3,
+      "shot_end": 1867.59,
+      "duration": 2.2899999999999636,
+      "transcript": "Gaia can learn the name of a new toy.",
+      "caption": "a man is playing with a ball on the floor",
+      "background": "kitchen",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.1643543839454651
+    },
+    {
+      "clip_id": "c_1cfc4e5c",
+      "shot_id": "v1_s0418",
+      "video_id": "v1",
+      "shot_start": 1867.59,
+      "shot_end": 1869.23,
+      "duration": 1.6400000000001,
+      "caption": "a person standing on the floor with toys in their hands",
+      "background": "bedroom",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.018575705587863922
+    },
+    {
+      "clip_id": "c_4a61fb9b",
+      "shot_id": "v1_s0593",
+      "video_id": "v1",
+      "shot_start": 2694.32,
+      "shot_end": 2700.77,
+      "duration": 6.449999999999818,
+      "transcript": "as opposed to associative learning. So yes, I would say there's",
+      "caption": "a white dog laying on top of a bed",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.29531461000442505
+    },
+    {
+      "clip_id": "c_e3bb105e",
+      "shot_id": "v1_s0594",
+      "video_id": "v1",
+      "shot_start": 2700.77,
+      "shot_end": 2704.87,
+      "duration": 4.099999999999909,
+      "transcript": "a possibility that they understand words similarly to us.",
+      "caption": "a woman with long hair and a black shirt",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.41203737258911133
+    },
+    {
+      "clip_id": "c_4107a1c0",
+      "shot_id": "v1_s0595",
+      "video_id": "v1",
+      "shot_start": 2704.87,
+      "shot_end": 2709.05,
+      "duration": 4.180000000000291,
+      "transcript": "There are limitations in interpreting",
+      "caption": "an image of a graph on a computer screen",
+      "background": "unknown",
+      "rag_score": 0.05862228199839592
+    },
+    {
+      "clip_id": "c_57455bf7",
+      "shot_id": "v1_s0596",
+      "video_id": "v1",
+      "shot_start": 2709.05,
+      "shot_end": 2711.07,
+      "duration": 2.019999999999982,
+      "transcript": "EEG signals like these and",
+      "caption": "a computer screen with the word match on it",
+      "background": "unknown",
+      "rag_score": 0.18410766124725342
+    },
+    {
+      "clip_id": "c_ff718c83",
+      "shot_id": "v1_s0597",
+      "video_id": "v1",
+      "shot_start": 2711.07,
+      "shot_end": 2713.88,
+      "duration": 2.8099999999999454,
+      "transcript": "and figuring out exactly what they tell us about",
+      "caption": "an image of a screen with a line graph on it",
+      "background": "lab",
+      "rag_score": 0.202357679605484
+    },
+    {
+      "clip_id": "c_35a9e1a0",
+      "shot_id": "v1_s0598",
+      "video_id": "v1",
+      "shot_start": 2713.88,
+      "shot_end": 2717.64,
+      "duration": 3.7599999999997635,
+      "transcript": "how much an animal really understands.",
+      "caption": "a dog sitting on top of a bed next to a person",
+      "background": "unknown",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": 0.2213241457939148
+    },
+    {
+      "clip_id": "c_9fe7a1ad",
+      "shot_id": "v1_s0599",
+      "video_id": "v1",
+      "shot_start": 2717.64,
+      "shot_end": 2719.06,
+      "duration": 1.4200000000000728,
+      "transcript": "But if dogs",
+      "caption": "a black and white dog sitting in front of a white background",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.05348125100135803
+    },
+    {
+      "clip_id": "c_67cd1f86",
+      "shot_id": "v1_s0600",
+      "video_id": "v1",
+      "shot_start": 2719.06,
+      "shot_end": 2720.48,
+      "duration": 1.4200000000000728,
+      "transcript": "dogs do understand words in",
+      "caption": "a black dog laying down on a blue background",
+      "background": "tv_studio",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.33084172010421753
+    },
+    {
+      "clip_id": "c_44933f93",
+      "shot_id": "v1_s0601",
+      "video_id": "v1",
+      "shot_start": 2720.48,
+      "shot_end": 2722.49,
+      "duration": 2.0099999999997635,
+      "transcript": "similar ways to us, could",
+      "caption": "a dog that is looking at the camera",
+      "background": "tv_studio",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.1381710171699524
+    },
+    {
+      "clip_id": "c_000983f3",
+      "shot_id": "v1_s0602",
+      "video_id": "v1",
+      "shot_start": 2722.49,
+      "shot_end": 2724.09,
+      "duration": 1.6000000000003638,
+      "transcript": "could they start putting them together",
+      "caption": "a black and white dog with its tongue sticking out",
+      "background": "tv_studio",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.04819274693727493
+    },
+    {
+      "clip_id": "c_97959890",
+      "shot_id": "v1_s0603",
+      "video_id": "v1",
+      "shot_start": 2724.09,
+      "shot_end": 2725.8,
+      "duration": 1.7100000000000364,
+      "transcript": "and using them in more complex",
+      "caption": "a dog looking at the camera with a blue background",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.11080104112625122
+    },
+    {
+      "clip_id": "c_9ebad54f",
+      "shot_id": "v1_s0604",
+      "video_id": "v1",
+      "shot_start": 2725.8,
+      "shot_end": 2728.48,
+      "duration": 2.6799999999998363,
+      "transcript": "complex ways? To",
+      "caption": "a black and white dog sitting on a yellow background",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.18191924691200256
+    },
+    {
+      "clip_id": "c_87530bdd",
+      "shot_id": "v1_s0226",
+      "video_id": "v1",
+      "shot_start": 990.18,
+      "shot_end": 1003.79,
+      "duration": 13.610000000000014,
+      "transcript": "sit and to know that if they sit they will get a reward is a very, very powerful mechanism. But just...",
+      "caption": "a man sitting on the floor with his dog",
+      "background": "unknown",
+      "entities": [
+        "dog",
+        "person",
+        "cup",
+        "chair",
+        "table"
+      ],
+      "rag_score": 0.09273864328861237
+    },
+    {
+      "clip_id": "c_f7fe6dd8",
+      "shot_id": "v1_s0227",
+      "video_id": "v1",
+      "shot_start": 1003.79,
+      "shot_end": 1007.23,
+      "duration": 3.4400000000000546,
+      "transcript": "doesn't mean that they understand the language of it.",
+      "caption": "a man in a red shirt sitting in a chair",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.3334900140762329
+    },
+    {
+      "clip_id": "c_bf3eb14e",
+      "shot_id": "v1_s0675",
+      "video_id": "v1",
+      "shot_start": 3084.86,
+      "shot_end": 3091.22,
+      "duration": 6.359999999999673,
+      "transcript": "animal communication, and where that lies on that spectrum between language and non-language.",
+      "caption": "a man in a red sweater sitting in a chair",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.31563836336135864
+    },
+    {
+      "clip_id": "c_3c19ff70",
+      "shot_id": "v1_s0676",
+      "video_id": "v1",
+      "shot_start": 3091.22,
+      "shot_end": 3119.56,
+      "duration": 28.340000000000146,
+      "transcript": "non-language. Where? Where? Whereby? Are you asking where you're going? You're going to go see Natal...",
+      "caption": "a dog playing with a toy on the floor",
+      "background": "living_room",
+      "entities": [
+        "dog",
+        "handbag",
+        "table"
+      ],
+      "rag_score": 0.5077366828918457
+    },
+    {
+      "clip_id": "c_3379c34c",
+      "shot_id": "v1_s0033",
+      "video_id": "v1",
+      "shot_start": 68.08,
+      "shot_end": 71.66,
+      "duration": 3.5799999999999983,
+      "transcript": "But could we really teach them to speak our language?",
+      "caption": "a dog that is walking on a leash",
+      "background": "sidewalk",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.28439629077911377
+    },
+    {
+      "clip_id": "c_f5285fa7",
+      "shot_id": "v1_s0034",
+      "video_id": "v1",
+      "shot_start": 71.66,
+      "shot_end": 73.99,
+      "duration": 2.3299999999999983,
+      "transcript": "language? Snuggle.",
+      "caption": "a woman sitting on the floor playing with her dog",
+      "background": "unknown",
+      "entities": [
+        "dog",
+        "person",
+        "chair",
+        "chair couch",
+        "table"
+      ],
+      "rag_score": 0.3319668173789978
+    },
+    {
+      "clip_id": "c_68b7a7c6",
+      "shot_id": "v1_s0035",
+      "video_id": "v1",
+      "shot_start": 73.99,
+      "shot_end": 75.59,
+      "duration": 1.6000000000000085,
+      "transcript": "You want to snuggle?",
+      "caption": "a woman sitting at a desk with a laptop",
+      "background": "dining_room",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.047626301646232605
+    },
+    {
+      "clip_id": "c_fe2ca78d",
+      "shot_id": "v1_s0036",
+      "video_id": "v1",
+      "shot_start": 75.59,
+      "shot_end": 77.66,
+      "duration": 2.069999999999993,
+      "transcript": "snuggle? Come here. She knows what she's saying. She's",
+      "caption": "a woman is petting her dog in the living room",
+      "background": "unknown",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": 0.08435777574777603
+    },
+    {
+      "clip_id": "c_3bed1182",
+      "shot_id": "v1_s0037",
+      "video_id": "v1",
+      "shot_start": 77.66,
+      "shot_end": 78.83,
+      "duration": 1.1700000000000017,
+      "transcript": "She's communicating with me.",
+      "caption": "a woman sitting at a table in a living room",
+      "background": "bedroom",
+      "entities": [
+        "person",
+        "table",
+        "chair",
+        "book",
+        "table"
+      ],
+      "rag_score": 0.1970634162425995
+    },
+    {
+      "clip_id": "c_063038ab",
+      "shot_id": "v1_s0224",
+      "video_id": "v1",
+      "shot_start": 980.67,
+      "shot_end": 984.98,
+      "duration": 4.310000000000059,
+      "transcript": "Eric Kirschenbaum studies animal communication at the",
+      "caption": "a person walking down a hallway in an old building",
+      "background": "corridor",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.30664846301078796
+    },
+    {
+      "clip_id": "c_d49b4ac9",
+      "shot_id": "v1_s0225",
+      "video_id": "v1",
+      "shot_start": 984.98,
+      "shot_end": 990.18,
+      "duration": 5.199999999999932,
+      "transcript": "the University of Cambridge in England. So this ability to hear the word",
+      "caption": "two large stained glass windows in a church",
+      "background": "unknown",
+      "rag_score": 0.339901328086853
+    },
+    {
+      "clip_id": "c_8fbce856",
+      "shot_id": "v1_s0580",
+      "video_id": "v1",
+      "shot_start": 2638.11,
+      "shot_end": 2639.94,
+      "duration": 1.8299999999999272,
+      "transcript": "What we",
+      "caption": "a man in a green room with headphones on",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.105667345225811
+    },
+    {
+      "clip_id": "c_651c97f1",
+      "shot_id": "v1_s0581",
+      "video_id": "v1",
+      "shot_start": 2639.94,
+      "shot_end": 2642.74,
+      "duration": 2.799999999999727,
+      "transcript": "we can see here is that if a dog saw",
+      "caption": "a woman pointing at a computer screen",
+      "background": "home_office",
+      "entities": [
+        "mouse",
+        "person",
+        "laptop",
+        "cell phone",
+        "table"
+      ],
+      "rag_score": 0.1015937477350235
+    },
+    {
+      "clip_id": "c_84384169",
+      "shot_id": "v1_s0582",
+      "video_id": "v1",
+      "shot_start": 2642.74,
+      "shot_end": 2645.51,
+      "duration": 2.7700000000004366,
+      "transcript": "saw an object that matched the word that he just heard,",
+      "caption": "a person pointing at a screen with graphs on it",
+      "background": "lab",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.23183034360408783
+    },
+    {
+      "clip_id": "c_8786524a",
+      "shot_id": "v1_s0583",
+      "video_id": "v1",
+      "shot_start": 2645.51,
+      "shot_end": 2649.52,
+      "duration": 4.0099999999997635,
+      "transcript": "heard, this is the response that we get. But when we violate their expectations,",
+      "caption": "a person pointing at a screen with graphs on it",
+      "background": "lab",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.11048135161399841
+    },
+    {
+      "clip_id": "c_91c3e7e5",
+      "shot_id": "v1_s0584",
+      "video_id": "v1",
+      "shot_start": 2649.52,
+      "shot_end": 2652.18,
+      "duration": 2.6599999999998545,
+      "transcript": "expectations, so we show a different object, then",
+      "caption": "a person pointing at a computer screen",
+      "background": "lab",
+      "entities": [
+        "person",
+        "tv"
+      ],
+      "rag_score": 0.1472398340702057
+    },
+    {
+      "clip_id": "c_09ec8c50",
+      "shot_id": "v1_s0585",
+      "video_id": "v1",
+      "shot_start": 2652.18,
+      "shot_end": 2659.03,
+      "duration": 6.850000000000364,
+      "transcript": "then we get a more positive response in the EEG signal. Mariana believes that the difference in",
+      "caption": "a person pointing at a screen with graphs on it",
+      "background": "lab",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.20482486486434937
+    },
+    {
+      "clip_id": "c_cde62212",
+      "shot_id": "v1_s0586",
+      "video_id": "v1",
+      "shot_start": 2659.03,
+      "shot_end": 2662.26,
+      "duration": 3.230000000000018,
+      "transcript": "electrical activity indicates that when dogs hear",
+      "caption": "a computer screen with the word match on it",
+      "background": "unknown",
+      "rag_score": 0.2104964554309845
+    },
+    {
+      "clip_id": "c_e507d573",
+      "shot_id": "v1_s0587",
+      "video_id": "v1",
+      "shot_start": 2662.26,
+      "shot_end": 2667.9,
+      "duration": 5.639999999999873,
+      "transcript": "hear a word, it can evoke a mental representation of an object. We can",
+      "caption": "an image of a graph on a computer screen",
+      "background": "unknown",
+      "rag_score": 0.27650243043899536
+    },
+    {
+      "clip_id": "c_0086c927",
+      "shot_id": "v1_s0588",
+      "video_id": "v1",
+      "shot_start": 2667.9,
+      "shot_end": 2670.84,
+      "duration": 2.9400000000000546,
+      "transcript": "can claim, based on this study, that when they",
+      "caption": "a girl with long hair standing in front of a computer",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "mouse",
+        "keyboard",
+        "chair",
+        "tv"
+      ],
+      "rag_score": 0.24000832438468933
+    },
+    {
+      "clip_id": "c_eeeead6d",
+      "shot_id": "v1_s0202",
+      "video_id": "v1",
+      "shot_start": 821.94,
+      "shot_end": 831.09,
+      "duration": 9.149999999999977,
+      "transcript": "study. This is Mokai. Federico and Amalia need to test whether a word generated by a button means",
+      "caption": "a black and white dog standing on the floor",
+      "background": "kitchen",
+      "entities": [
+        "person",
+        "person",
+        "dog",
+        "chair",
+        "bowl"
+      ],
+      "rag_score": 0.41154050827026367
+    },
+    {
+      "clip_id": "c_d669540b",
+      "shot_id": "v1_s0674",
+      "video_id": "v1",
+      "shot_start": 3078.14,
+      "shot_end": 3084.86,
+      "duration": 6.720000000000255,
+      "transcript": "data. We're really at the start of this journey of understanding animal cognition, animal",
+      "caption": "a black dog standing next to a box of dog food",
+      "background": "kitchen",
+      "entities": [
+        "dog",
+        "dog"
+      ],
+      "rag_score": 0.2561936676502228
+    },
+    {
+      "clip_id": "c_512f9d64",
+      "shot_id": "v1_s0613",
+      "video_id": "v1",
+      "shot_start": 2770.31,
+      "shot_end": 2771.77,
+      "duration": 1.4600000000000364,
+      "transcript": "a limited vocabulary,",
+      "caption": "a man in a red sweater sitting on a chair",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "chair",
+        "table"
+      ],
+      "rag_score": 0.28521600365638733
+    },
+    {
+      "clip_id": "c_a32b113a",
+      "shot_id": "v1_s0295",
+      "video_id": "v1",
+      "shot_start": 1342.63,
+      "shot_end": 1351.41,
+      "duration": 8.779999999999973,
+      "transcript": "So across the data set, dogs definitely show preference for certain words. Seemingly things they wan...",
+      "caption": "a woman sitting at a table with a dog",
+      "background": "dining_room",
+      "entities": [
+        "dog",
+        "person",
+        "remote",
+        "chair",
+        "chair"
+      ],
+      "rag_score": 0.3302917182445526
+    },
+    {
+      "clip_id": "c_8eafebdf",
+      "shot_id": "v1_s0296",
+      "video_id": "v1",
+      "shot_start": 1351.41,
+      "shot_end": 1352.91,
+      "duration": 1.5,
+      "transcript": "to go outside, to get",
+      "caption": "a man playing with his dog in the living room",
+      "background": "living_room",
+      "entities": [
+        "dog",
+        "person",
+        "table",
+        "chair",
+        "person"
+      ],
+      "rag_score": 0.16620242595672607
+    },
+    {
+      "clip_id": "c_4cbbb711",
+      "shot_id": "v1_s0297",
+      "video_id": "v1",
+      "shot_start": 1352.91,
+      "shot_end": 1359.01,
+      "duration": 6.099999999999909,
+      "transcript": "get food, to play. But should we be impressed or surprised by that? We know",
+      "caption": "a couple of people standing in a kitchen",
+      "background": "dining_room",
+      "entities": [
+        "person",
+        "person",
+        "remote",
+        "chair",
+        "chair"
+      ],
+      "rag_score": 0.1538527011871338
+    },
+    {
+      "clip_id": "c_7c892c8c",
+      "shot_id": "v1_s0615",
+      "video_id": "v1",
+      "shot_start": 2777.31,
+      "shot_end": 2790.39,
+      "duration": 13.079999999999927,
+      "transcript": "express. The only way that we can get that unlimited ability from a limited vocabulary is by combini...",
+      "caption": "a man in a red sweater sitting on a chair",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.35682204365730286
+    },
+    {
+      "clip_id": "c_8415713e",
+      "shot_id": "v1_s0616",
+      "video_id": "v1",
+      "shot_start": 2790.39,
+      "shot_end": 2796.27,
+      "duration": 5.880000000000109,
+      "transcript": "concepts. This ability to say anything with limited words is known as productivity.",
+      "caption": "a woman walking her dog down the sidewalk",
+      "background": "sidewalk",
+      "entities": [
+        "dog",
+        "person",
+        "car"
+      ],
+      "rag_score": 0.39588063955307007
+    },
+    {
+      "clip_id": "c_c3dbcee6",
+      "shot_id": "v1_s0617",
+      "video_id": "v1",
+      "shot_start": 2796.27,
+      "shot_end": 2799.0,
+      "duration": 2.730000000000018,
+      "transcript": "I can give you an example. My two-year-old kept",
+      "caption": "a street with a yellow wall and trees",
+      "background": "sidewalk",
+      "rag_score": 0.1517183631658554
+    },
+    {
+      "clip_id": "c_b6844413",
+      "shot_id": "v1_s0518",
+      "video_id": "v1",
+      "shot_start": 2287.72,
+      "shot_end": 2293.19,
+      "duration": 5.470000000000255,
+      "transcript": "word? She presses help, look,",
+      "caption": "a living room with wood floors and white walls",
+      "background": "living_room",
+      "entities": [
+        "tv",
+        "person",
+        "dog",
+        "couch",
+        "person"
+      ],
+      "rag_score": 0.2509259581565857
+    },
+    {
+      "clip_id": "c_5615052d",
+      "shot_id": "v1_s0519",
+      "video_id": "v1",
+      "shot_start": 2293.19,
+      "shot_end": 2295.12,
+      "duration": 1.9299999999998363,
+      "transcript": "look, and then she looks to Sasha.",
+      "caption": "a woman with long black hair sitting in front of a window",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "book"
+      ],
+      "rag_score": 0.11617724597454071
+    },
+    {
+      "clip_id": "c_3bb092cd",
+      "shot_id": "v1_s0520",
+      "video_id": "v1",
+      "shot_start": 2295.12,
+      "shot_end": 2308.2,
+      "duration": 13.079999999999927,
+      "transcript": "Parker had never before been presented with this scenario, and so had never used the words look or h...",
+      "caption": "a living room filled with furniture and a television",
+      "background": "living_room",
+      "entities": [
+        "dog",
+        "person",
+        "tv",
+        "couch"
+      ],
+      "rag_score": 0.2614290714263916
+    },
+    {
+      "clip_id": "c_523336e1",
+      "shot_id": "v1_s0521",
+      "video_id": "v1",
+      "shot_start": 2308.2,
+      "shot_end": 2311.01,
+      "duration": 2.8100000000004,
+      "transcript": "it tells us two things. It tells us that behavior wasn't trained,",
+      "caption": "a woman sitting at a desk in front of a computer",
+      "background": "home_office",
+      "entities": [
+        "person",
+        "keyboard",
+        "tv",
+        "mouse",
+        "chair"
+      ],
+      "rag_score": 0.22677263617515564
+    },
+    {
+      "clip_id": "c_60fdf48c",
+      "shot_id": "v1_s0522",
+      "video_id": "v1",
+      "shot_start": 2311.01,
+      "shot_end": 2315.55,
+      "duration": 4.539999999999964,
+      "transcript": "and it tells us that the dog is having to think about what this",
+      "caption": "a woman sitting at a desk talking to someone",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "book"
+      ],
+      "rag_score": 0.2304999679327011
+    },
+    {
+      "clip_id": "c_c40619fe",
+      "shot_id": "v1_s0523",
+      "video_id": "v1",
+      "shot_start": 2315.55,
+      "shot_end": 2318.65,
+      "duration": 3.099999999999909,
+      "transcript": "requires from them in terms of communication to their owner, and",
+      "caption": "a woman sitting in front of a computer",
+      "background": "home_office",
+      "entities": [
+        "person",
+        "keyboard",
+        "mouse",
+        "tv",
+        "chair"
+      ],
+      "rag_score": 0.14017131924629211
+    },
+    {
+      "clip_id": "c_0e1f01c0",
+      "shot_id": "v1_s0524",
+      "video_id": "v1",
+      "shot_start": 2318.65,
+      "shot_end": 2321.92,
+      "duration": 3.269999999999982,
+      "transcript": "and that they need to generalize a button that they've not used in this context before.",
+      "caption": "a woman sitting at a desk talking to someone",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "book"
+      ],
+      "rag_score": 0.1310681402683258
+    },
+    {
+      "clip_id": "c_57e686ff",
+      "shot_id": "v1_s0525",
+      "video_id": "v1",
+      "shot_start": 2321.92,
+      "shot_end": 2339.23,
+      "duration": 17.309999999999945,
+      "transcript": "It seems from this experiment that Parker understands that the word help can be used in a broad rang...",
+      "caption": "a woman is standing in the living room",
+      "background": "living_room",
+      "entities": [
+        "tv",
+        "person",
+        "dog",
+        "couch bed",
+        "person"
+      ],
+      "rag_score": 0.3220004439353943
+    },
+    {
+      "clip_id": "c_2f8c45b6",
+      "shot_id": "v1_s0526",
+      "video_id": "v1",
+      "shot_start": 2339.23,
+      "shot_end": 2344.51,
+      "duration": 5.2800000000002,
+      "transcript": "As well as using words in new, untrained ways,",
+      "caption": "an aerial view of a neighborhood with houses and trees",
+      "background": "intersection",
+      "entities": [
+        "car",
+        "car",
+        "car",
+        "car",
+        "car"
+      ],
+      "rag_score": 0.36865562200546265
+    },
+    {
+      "clip_id": "c_a56ae69d",
+      "shot_id": "v1_s0527",
+      "video_id": "v1",
+      "shot_start": 2344.51,
+      "shot_end": 2350.63,
+      "duration": 6.119999999999891,
+      "transcript": "a huge step would be if dogs were using words to do more than just ask for things.",
+      "caption": "a woman walking her dog in front of a house",
+      "background": "farmland",
+      "entities": [
+        "person",
+        "dog"
+      ],
+      "rag_score": 0.25961828231811523
+    },
+    {
+      "clip_id": "c_264c20ee",
+      "shot_id": "v1_s0528",
+      "video_id": "v1",
+      "shot_start": 2350.63,
+      "shot_end": 2354.52,
+      "duration": 3.8899999999998727,
+      "transcript": "What we're actually interested in is whether dogs might be able to use the",
+      "caption": "a woman walking her dog down the street",
+      "background": "sidewalk",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": 0.044498734176158905
+    },
+    {
+      "clip_id": "c_1b485ecc",
+      "shot_id": "v1_s0529",
+      "video_id": "v1",
+      "shot_start": 2354.52,
+      "shot_end": 2358.03,
+      "duration": 3.5100000000002183,
+      "transcript": "the soundboards not just as a vending machine where they're requesting things from humans,",
+      "caption": "a woman sitting in a chair talking to someone",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.05029410123825073
+    },
+    {
+      "clip_id": "c_e20ed987",
+      "shot_id": "v1_s0592",
+      "video_id": "v1",
+      "shot_start": 2692.22,
+      "shot_end": 2694.32,
+      "duration": 2.100000000000364,
+      "transcript": "way of using language",
+      "caption": "a woman with long hair and a black shirt",
+      "background": "unknown",
+      "entities": [
+        "person"
+      ],
+      "rag_score": 0.2766927480697632
+    },
+    {
+      "clip_id": "c_a0397b53",
+      "shot_id": "v1_s0551",
+      "video_id": "v1",
+      "shot_start": 2527.72,
+      "shot_end": 2533.5,
+      "duration": 5.7800000000002,
+      "transcript": "it uses words or thinks when it hears words is much harder.",
+      "caption": "a dog with its tongue sticking out",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.2895561456680298
+    },
+    {
+      "clip_id": "c_6a65df53",
+      "shot_id": "v1_s0252",
+      "video_id": "v1",
+      "shot_start": 1119.34,
+      "shot_end": 1121.41,
+      "duration": 2.0700000000001637,
+      "transcript": "Everything in life starts through associative learning, and",
+      "caption": "a woman in a yellow shirt and grey jacket sitting on a chair",
+      "background": "bedroom",
+      "entities": [
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.2911507487297058
+    },
+    {
+      "clip_id": "c_3bc90150",
+      "shot_id": "v1_s0253",
+      "video_id": "v1",
+      "shot_start": 1121.41,
+      "shot_end": 1124.22,
+      "duration": 2.8099999999999454,
+      "transcript": "and actually humans learn through associative learning. Good boy. Associative",
+      "caption": "a woman sitting on the floor next to a dog",
+      "background": "seminar_room",
+      "entities": [
+        "dog",
+        "person",
+        "bed"
+      ],
+      "rag_score": 0.265796035528183
+    },
+    {
+      "clip_id": "c_7c13620b",
+      "shot_id": "v1_s0254",
+      "video_id": "v1",
+      "shot_start": 1124.22,
+      "shot_end": 1127.51,
+      "duration": 3.2899999999999636,
+      "transcript": "Associative learning is common to pretty much all animals.",
+      "caption": "a woman sitting in a chair looking at the camera",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.19524043798446655
+    },
+    {
+      "clip_id": "c_53aaee57",
+      "shot_id": "v1_s0255",
+      "video_id": "v1",
+      "shot_start": 1127.51,
+      "shot_end": 1129.18,
+      "duration": 1.6700000000000728,
+      "transcript": "Freak! And it doesn't",
+      "caption": "a dog sitting on top of a dog bed",
+      "background": "unknown",
+      "entities": [
+        "dog",
+        "bed"
+      ],
+      "rag_score": 0.05816736817359924
+    },
+    {
+      "clip_id": "c_c3fa6262",
+      "shot_id": "v1_s0256",
+      "video_id": "v1",
+      "shot_start": 1129.18,
+      "shot_end": 1134.43,
+      "duration": 5.25,
+      "transcript": "doesn't require any sort of complex cognition that we should be impressed by. Kite! You could",
+      "caption": "a woman sitting on the floor playing with a dog",
+      "background": "unknown",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": 0.165516197681427
+    },
+    {
+      "clip_id": "c_6fb2ab1a",
+      "shot_id": "v1_s0257",
+      "video_id": "v1",
+      "shot_start": 1134.43,
+      "shot_end": 1137.36,
+      "duration": 2.9299999999998363,
+      "transcript": "could easily teach a mouse to press buttons.",
+      "caption": "a woman sitting on a chair in an office",
+      "background": "unknown",
+      "entities": [
+        "person",
+        "chair"
+      ],
+      "rag_score": 0.1421935260295868
+    },
+    {
+      "clip_id": "c_0d45425f",
+      "shot_id": "v1_s0258",
+      "video_id": "v1",
+      "shot_start": 1137.36,
+      "shot_end": 1143.84,
+      "duration": 6.480000000000018,
+      "transcript": "buttons. Okay, you got that one. And that's the big problem. Just because they can press buttons tha...",
+      "caption": "a woman sitting on the floor playing with her dog",
+      "background": "unknown",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": -0.013570694252848625
+    },
+    {
+      "clip_id": "c_029e249d",
+      "shot_id": "v1_s0259",
+      "video_id": "v1",
+      "shot_start": 1143.84,
+      "shot_end": 1147.24,
+      "duration": 3.400000000000091,
+      "transcript": "doesn't necessarily mean the dogs have any real understanding of what those words",
+      "caption": "a dog playing with puzzles on the floor",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.2660183310508728
+    },
+    {
+      "clip_id": "c_9196a9c3",
+      "shot_id": "v1_s0260",
+      "video_id": "v1",
+      "shot_start": 1147.24,
+      "shot_end": 1156.51,
+      "duration": 9.269999999999982,
+      "transcript": "words mean. Perhaps they just enjoy the reward they get, whether that's a treat or just some attenti...",
+      "caption": "a woman playing with a dog in a room",
+      "background": "interview_set",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": 0.18633699417114258
+    },
+    {
+      "clip_id": "c_f2bed483",
+      "shot_id": "v1_s0261",
+      "video_id": "v1",
+      "shot_start": 1156.51,
+      "shot_end": 1160.01,
+      "duration": 3.5,
+      "transcript": "So could dogs learn to use different buttons to get different",
+      "caption": "a black and white dog sitting on a yellow background",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.08677069842815399
+    },
+    {
+      "clip_id": "c_2db59d12",
+      "shot_id": "v1_s0262",
+      "video_id": "v1",
+      "shot_start": 1160.01,
+      "shot_end": 1162.62,
+      "duration": 2.6099999999999,
+      "transcript": "different things? Could they choose which",
+      "caption": "a white dog is standing in front of a gray wall",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.13342536985874176
+    },
+    {
+      "clip_id": "c_74ed662d",
+      "shot_id": "v1_s0263",
+      "video_id": "v1",
+      "shot_start": 1162.62,
+      "shot_end": 1168.03,
+      "duration": 5.410000000000082,
+      "transcript": "ones to press because of the specific words attached to them?",
+      "caption": "a small white and brown dog with its mouth open",
+      "background": "unknown",
+      "entities": [
+        "dog"
+      ],
+      "rag_score": 0.29663369059562683
+    },
+    {
+      "clip_id": "c_cf06c683",
+      "shot_id": "v1_s0399",
+      "video_id": "v1",
+      "shot_start": 1788.62,
+      "shot_end": 1790.59,
+      "duration": 1.9700000000000273,
+      "transcript": "It's run by Claudia",
+      "caption": "a black van driving down a street next to a tree",
+      "background": "street",
+      "entities": [
+        "car",
+        "car",
+        "car",
+        "car"
+      ],
+      "rag_score": 0.05293808504939079
+    },
+    {
+      "clip_id": "c_ea2cf4b0",
+      "shot_id": "v1_s0400",
+      "video_id": "v1",
+      "shot_start": 1790.59,
+      "shot_end": 1797.55,
+      "duration": 6.960000000000036,
+      "transcript": "Claudia Fugatza, who studies canine cognition. She's traveled here all the way from Hungary, where s...",
+      "caption": "a woman sitting in the back seat of a car",
+      "background": "car_interior",
+      "entities": [
+        "person",
+        "car"
+      ],
+      "rag_score": 0.30159515142440796
+    },
+    {
+      "clip_id": "c_a749b03b",
+      "shot_id": "v1_s0401",
+      "video_id": "v1",
+      "shot_start": 1797.55,
+      "shot_end": 1800.62,
+      "duration": 3.0699999999999363,
+      "transcript": "the world's leading canine research groups. Gaia",
+      "caption": "a man driving a car in the rain",
+      "background": "car_interior",
+      "entities": [
+        "person",
+        "car",
+        "car",
+        "car"
+      ],
+      "rag_score": 0.19821219146251678
+    },
+    {
+      "clip_id": "c_548f0a79",
+      "shot_id": "v1_s0402",
+      "video_id": "v1",
+      "shot_start": 1800.62,
+      "shot_end": 1809.13,
+      "duration": 8.510000000000218,
+      "transcript": "Gaia is one of the, what we call, the gifted world learner dogs. And these are dogs that have a very...",
+      "caption": "a woman sitting in the back seat of a car",
+      "background": "bus_interior",
+      "entities": [
+        "person",
+        "car",
+        "car"
+      ],
+      "rag_score": 0.1862574964761734
+    },
+    {
+      "clip_id": "c_42a7388c",
+      "shot_id": "v1_s0403",
+      "video_id": "v1",
+      "shot_start": 1809.13,
+      "shot_end": 1812.88,
+      "duration": 3.75,
+      "transcript": "learning the name of toys. And they learn very fast.",
+      "caption": "a blue car driving down a street next to houses",
+      "background": "intersection",
+      "entities": [
+        "car",
+        "car",
+        "car",
+        "car",
+        "car"
+      ],
+      "rag_score": 0.29771995544433594
+    },
+    {
+      "clip_id": "c_278a15db",
+      "shot_id": "v1_s0404",
+      "video_id": "v1",
+      "shot_start": 1812.88,
+      "shot_end": 1815.45,
+      "duration": 2.5699999999999363,
+      "transcript": "fast. Only a few dogs around the world",
+      "caption": "a car is parked on the side of the road",
+      "background": "intersection",
+      "entities": [
+        "car",
+        "person",
+        "car",
+        "person",
+        "car"
+      ],
+      "rag_score": 0.15593445301055908
+    },
+    {
+      "clip_id": "c_ba11cebb",
+      "shot_id": "v1_s0405",
+      "video_id": "v1",
+      "shot_start": 1815.45,
+      "shot_end": 1823.82,
+      "duration": 8.36999999999989,
+      "transcript": "seem to have this capacity. Go, go. One of the most capable dogs at learning object names was Chaser...",
+      "caption": "a man is playing golf in the yard",
+      "background": "park",
+      "entities": [
+        "dog",
+        "person"
+      ],
+      "rag_score": 0.2891719937324524
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "g_f701a3",
+      "clip_ids": [
+        "c_4501c50a",
+        "c_826bd79e",
+        "c_eccc51a1",
+        "c_2ae844f2",
+        "c_9cc13fb1",
+        "c_8a4d4508"
+      ]
+    },
+    {
+      "group_id": "g_aa9978",
+      "clip_ids": [
+        "c_6de4bf3a",
+        "c_dd487b06",
+        "c_58369570",
+        "c_2f267293",
+        "c_2a0c093d",
+        "c_689e96c7",
+        "c_2499fc72",
+        "c_6ef24d62",
+        "c_d6993569",
+        "c_7e948097",
+        "c_013089b0"
+      ]
+    },
+    {
+      "group_id": "g_413d5d",
+      "clip_ids": [
+        "c_a6fbf5da",
+        "c_06120c7e",
+        "c_88155fa3",
+        "c_9a71b288",
+        "c_228930a0",
+        "c_9cc7a542",
+        "c_843f0985",
+        "c_dfbf0f8d",
+        "c_7e74b083"
+      ]
+    },
+    {
+      "group_id": "g_9ec97d",
+      "clip_ids": [
+        "c_775421d0",
+        "c_a0ec48c7"
+      ]
+    },
+    {
+      "group_id": "g_43f823",
+      "clip_ids": [
+        "c_c6914b25",
+        "c_cd7c11b3",
+        "c_e30c8196",
+        "c_f2cd4f91",
+        "c_f6709646",
+        "c_180d35ee",
+        "c_7f6766a0",
+        "c_8324ee67"
+      ]
+    },
+    {
+      "group_id": "g_d00449",
+      "clip_ids": [
+        "c_3b14dffb"
+      ]
+    },
+    {
+      "group_id": "g_7186d6",
+      "clip_ids": [
+        "c_b470a57c"
+      ]
+    },
+    {
+      "group_id": "g_104380",
+      "clip_ids": [
+        "c_2c88bbfe",
+        "c_449cad7b",
+        "c_1a988b4d",
+        "c_23b9ed8e"
+      ]
+    },
+    {
+      "group_id": "g_b34232",
+      "clip_ids": [
+        "c_15e6f8f3"
+      ]
+    },
+    {
+      "group_id": "g_936012",
+      "clip_ids": [
+        "c_7e62ee7e",
+        "c_fb7120e7",
+        "c_9c5e5561",
+        "c_892fa71e",
+        "c_2fd31b44",
+        "c_8eb0ed3b",
+        "c_36f682f5",
+        "c_ac0f70dc",
+        "c_5c32f304",
+        "c_477e624f",
+        "c_87690c79",
+        "c_aa7477ec",
+        "c_0d0270fe"
+      ]
+    },
+    {
+      "group_id": "g_ad6c96",
+      "clip_ids": [
+        "c_22831bf1"
+      ]
+    },
+    {
+      "group_id": "g_62dbec",
+      "clip_ids": [
+        "c_9ee052f0",
+        "c_ecc30a87",
+        "c_75e58cef"
+      ]
+    },
+    {
+      "group_id": "g_423b82",
+      "clip_ids": [
+        "c_ae71cf9f",
+        "c_f832455b",
+        "c_5d5b4596",
+        "c_e737f307",
+        "c_f4e568c2"
+      ]
+    },
+    {
+      "group_id": "g_753824",
+      "clip_ids": [
+        "c_7e06d07f",
+        "c_b678bba5",
+        "c_0c9c62ec",
+        "c_2d1a457b"
+      ]
+    },
+    {
+      "group_id": "g_85e1db",
+      "clip_ids": [
+        "c_d31a226c",
+        "c_155585b9",
+        "c_9c896e54",
+        "c_2980e86f",
+        "c_e589a5f2"
+      ]
+    },
+    {
+      "group_id": "g_72953e",
+      "clip_ids": [
+        "c_6e5f1cd8",
+        "c_4980ce84",
+        "c_7231ae2f",
+        "c_47eb5598",
+        "c_baa0f96d"
+      ]
+    },
+    {
+      "group_id": "g_e037d1",
+      "clip_ids": [
+        "c_556c22de",
+        "c_898a6235",
+        "c_1da39864",
+        "c_a777b844",
+        "c_28b26375"
+      ]
+    },
+    {
+      "group_id": "g_9a4bb0",
+      "clip_ids": [
+        "c_b247fd29",
+        "c_0067c3fb",
+        "c_1872c2f3"
+      ]
+    },
+    {
+      "group_id": "g_27d0a2",
+      "clip_ids": [
+        "c_86701154",
+        "c_4c11b918",
+        "c_8a42144c"
+      ]
+    },
+    {
+      "group_id": "g_b7d7d5",
+      "clip_ids": [
+        "c_bae27ccf"
+      ]
+    },
+    {
+      "group_id": "g_a5c546",
+      "clip_ids": [
+        "c_9eea328a",
+        "c_ddc0ca3e",
+        "c_a733a31f",
+        "c_86b7a6cb",
+        "c_0983613b"
+      ]
+    },
+    {
+      "group_id": "g_6a27a6",
+      "clip_ids": [
+        "c_659d2786",
+        "c_bba06e1e",
+        "c_18586a2b",
+        "c_c0b1b2ac",
+        "c_93797d53",
+        "c_846e5dc4",
+        "c_d7c41b67",
+        "c_9e310a72",
+        "c_d43f81a3",
+        "c_4e631098",
+        "c_1cfc4e5c"
+      ]
+    },
+    {
+      "group_id": "g_e103c3",
+      "clip_ids": [
+        "c_4a61fb9b",
+        "c_e3bb105e",
+        "c_4107a1c0",
+        "c_57455bf7",
+        "c_ff718c83",
+        "c_35a9e1a0",
+        "c_9fe7a1ad",
+        "c_67cd1f86",
+        "c_44933f93",
+        "c_000983f3",
+        "c_97959890",
+        "c_9ebad54f"
+      ]
+    },
+    {
+      "group_id": "g_376574",
+      "clip_ids": [
+        "c_87530bdd",
+        "c_f7fe6dd8"
+      ]
+    },
+    {
+      "group_id": "g_7b0d6a",
+      "clip_ids": [
+        "c_bf3eb14e",
+        "c_3c19ff70"
+      ]
+    },
+    {
+      "group_id": "g_4b33dc",
+      "clip_ids": [
+        "c_3379c34c",
+        "c_f5285fa7",
+        "c_68b7a7c6",
+        "c_fe2ca78d",
+        "c_3bed1182"
+      ]
+    },
+    {
+      "group_id": "g_ff85e7",
+      "clip_ids": [
+        "c_063038ab",
+        "c_d49b4ac9"
+      ]
+    },
+    {
+      "group_id": "g_b57c61",
+      "clip_ids": [
+        "c_8fbce856",
+        "c_651c97f1",
+        "c_84384169",
+        "c_8786524a",
+        "c_91c3e7e5",
+        "c_09ec8c50",
+        "c_cde62212",
+        "c_e507d573",
+        "c_0086c927"
+      ]
+    },
+    {
+      "group_id": "g_39e716",
+      "clip_ids": [
+        "c_eeeead6d"
+      ]
+    },
+    {
+      "group_id": "g_496fe9",
+      "clip_ids": [
+        "c_d669540b"
+      ]
+    },
+    {
+      "group_id": "g_4dbd0a",
+      "clip_ids": [
+        "c_512f9d64"
+      ]
+    },
+    {
+      "group_id": "g_f938b0",
+      "clip_ids": [
+        "c_a32b113a",
+        "c_8eafebdf",
+        "c_4cbbb711"
+      ]
+    },
+    {
+      "group_id": "g_45c0aa",
+      "clip_ids": [
+        "c_7c892c8c",
+        "c_8415713e",
+        "c_c3dbcee6"
+      ]
+    },
+    {
+      "group_id": "g_f2eef4",
+      "clip_ids": [
+        "c_b6844413",
+        "c_5615052d",
+        "c_3bb092cd",
+        "c_523336e1",
+        "c_60fdf48c",
+        "c_c40619fe",
+        "c_0e1f01c0",
+        "c_57e686ff",
+        "c_2f8c45b6",
+        "c_a56ae69d",
+        "c_264c20ee",
+        "c_1b485ecc"
+      ]
+    },
+    {
+      "group_id": "g_e28146",
+      "clip_ids": [
+        "c_e20ed987"
+      ]
+    },
+    {
+      "group_id": "g_b472a5",
+      "clip_ids": [
+        "c_a0397b53"
+      ]
+    },
+    {
+      "group_id": "g_cf880a",
+      "clip_ids": [
+        "c_6a65df53",
+        "c_3bc90150",
+        "c_7c13620b",
+        "c_53aaee57",
+        "c_c3fa6262",
+        "c_6fb2ab1a",
+        "c_0d45425f",
+        "c_029e249d",
+        "c_9196a9c3",
+        "c_f2bed483",
+        "c_2db59d12",
+        "c_74ed662d"
+      ]
+    },
+    {
+      "group_id": "g_27fa4b",
+      "clip_ids": [
+        "c_cf06c683",
+        "c_ea2cf4b0",
+        "c_a749b03b",
+        "c_548f0a79",
+        "c_42a7388c",
+        "c_278a15db",
+        "c_ba11cebb"
+      ]
+    }
+  ]
+}

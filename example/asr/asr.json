@@ -1,0 +1,7338 @@
+{
+  "v1_s0000": [],
+  "v1_s0001": [],
+  "v1_s0002": [],
+  "v1_s0003": [
+    {
+      "start": 11.34,
+      "end": 13.09,
+      "text": "Have you ever wanted to know what your",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0004": [
+    {
+      "start": 13.09,
+      "end": 14.16,
+      "text": "dog is thinking?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0005": [
+    {
+      "start": 16.56,
+      "end": 16.94,
+      "text": "Water.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0006": [
+    {
+      "start": 17.6,
+      "end": 19.41,
+      "text": "Now, some dog owners say they do",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0007": [
+    {
+      "start": 19.41,
+      "end": 19.89,
+      "text": "do know...",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 20.25,
+      "end": 20.79,
+      "text": "Walk.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 20.81,
+      "end": 21.8,
+      "text": "...thanks to buttons that",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0008": [
+    {
+      "start": 21.8,
+      "end": 24.21,
+      "text": "that seem to give dogs the ability to talk.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0009": [
+    {
+      "start": 25.61,
+      "end": 26.25,
+      "text": "Snuffle mat.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0010": [
+    {
+      "start": 27.31,
+      "end": 29.73,
+      "text": "It's like, how is this even possible?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0011": [
+    {
+      "start": 31.36,
+      "end": 32.08,
+      "text": "Okay, outside.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0012": [
+    {
+      "start": 33.2,
+      "end": 35.19,
+      "text": "Some dogs are saying so much",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0013": [
+    {
+      "start": 35.19,
+      "end": 36.86,
+      "text": "that scientists have decided to",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0014": [
+    {
+      "start": 36.86,
+      "end": 37.52,
+      "text": "to study them.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 39.76,
+      "end": 39.9,
+      "text": "Button.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 39.92,
+      "end": 40.05,
+      "text": "Treat.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 40.06,
+      "end": 40.34,
+      "text": "Yeah, so good.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 40.37,
+      "end": 40.45,
+      "text": "Go get",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0015": [
+    {
+      "start": 40.45,
+      "end": 40.59,
+      "text": "get it.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0016": [
+    {
+      "start": 42.32,
+      "end": 43.62,
+      "text": "We need to look into this.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0017": [],
+  "v1_s0018": [],
+  "v1_s0019": [
+    {
+      "start": 45.14,
+      "end": 45.63,
+      "text": "They've set",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0020": [
+    {
+      "start": 45.63,
+      "end": 46.39,
+      "text": "up the largest",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0021": [
+    {
+      "start": 46.39,
+      "end": 47.31,
+      "text": "largest animal communication",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0022": [
+    {
+      "start": 47.31,
+      "end": 48.16,
+      "text": "communication study",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0023": [
+    {
+      "start": 48.16,
+      "end": 48.7,
+      "text": "in history,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0024": [
+    {
+      "start": 48.7,
+      "end": 50.6,
+      "text": "history, with",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0025": [
+    {
+      "start": 50.6,
+      "end": 51.47,
+      "text": "with thousands of",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0026": [
+    {
+      "start": 51.47,
+      "end": 52.3,
+      "text": "of dogs from around",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0027": [
+    {
+      "start": 52.3,
+      "end": 53.18,
+      "text": "around the world.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0028": [
+    {
+      "start": 57.06,
+      "end": 58.11,
+      "text": "What we want to see is",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0029": [
+    {
+      "start": 58.11,
+      "end": 60.48,
+      "text": "where can we take this and how far can dogs go?",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0030": [
+    {
+      "start": 60.48,
+      "end": 60.51,
+      "text": "go?",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 62.81,
+      "end": 63.48,
+      "text": "We know we can",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0031": [
+    {
+      "start": 63.48,
+      "end": 65.89,
+      "text": "train dogs to do incredible things.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0032": [
+    {
+      "start": 65.89,
+      "end": 65.9,
+      "text": "things.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0033": [
+    {
+      "start": 68.69,
+      "end": 71.66,
+      "text": "But could we really teach them to speak our language?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0034": [
+    {
+      "start": 71.66,
+      "end": 71.68,
+      "text": "language?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 72.7,
+      "end": 73.68,
+      "text": "Snuggle.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0035": [
+    {
+      "start": 74.12,
+      "end": 75.59,
+      "text": "You want to snuggle?",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0036": [
+    {
+      "start": 75.59,
+      "end": 76.0,
+      "text": "snuggle?",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 76.02,
+      "end": 76.22,
+      "text": "Come here.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 76.24,
+      "end": 77.38,
+      "text": "She knows what she's saying.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 77.64,
+      "end": 77.66,
+      "text": "She's",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0037": [
+    {
+      "start": 77.66,
+      "end": 78.81,
+      "text": "She's communicating with me.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0038": [
+    {
+      "start": 81.75,
+      "end": 83.73,
+      "text": "I know what dogs are capable of",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0039": [
+    {
+      "start": 83.73,
+      "end": 86.11,
+      "text": "in terms of their linguistic ability.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0040": [
+    {
+      "start": 87.59,
+      "end": 89.2,
+      "text": "But I think that people read",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0041": [
+    {
+      "start": 89.2,
+      "end": 90.94,
+      "text": "read a little bit too far into things.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0042": [
+    {
+      "start": 92.76,
+      "end": 94.17,
+      "text": "So what's really going",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0043": [
+    {
+      "start": 94.17,
+      "end": 95.02,
+      "text": "going on here?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 96.13,
+      "end": 96.52,
+      "text": "Are they just",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0044": [
+    {
+      "start": 96.52,
+      "end": 97.66,
+      "text": "just pushing our buttons?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 99.64,
+      "end": 99.78,
+      "text": "Or",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0045": [
+    {
+      "start": 99.78,
+      "end": 101.57,
+      "text": "Or can dogs talk?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 103.42,
+      "end": 105.5,
+      "text": "Right now on NOVA.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0046": [],
+  "v1_s0047": [],
+  "v1_s0048": [
+    {
+      "start": 120.5,
+      "end": 121.58,
+      "text": "As an American-based",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0049": [
+    {
+      "start": 121.58,
+      "end": 122.67,
+      "text": "American-based supplier to the construction",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0050": [
+    {
+      "start": 122.67,
+      "end": 124.14,
+      "text": "construction industry, Carlisle",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0051": [
+    {
+      "start": 124.14,
+      "end": 125.11,
+      "text": "Carlisle is committed to",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0052": [
+    {
+      "start": 125.11,
+      "end": 126.08,
+      "text": "to developing a diverse",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0053": [
+    {
+      "start": 126.08,
+      "end": 127.41,
+      "text": "diverse workplace that supports",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0054": [
+    {
+      "start": 127.41,
+      "end": 128.78,
+      "text": "supports our employees' advancement into",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0055": [
+    {
+      "start": 128.78,
+      "end": 130.78,
+      "text": "into the next generation of leaders, from",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0056": [
+    {
+      "start": 130.78,
+      "end": 131.92,
+      "text": "from the manufacturing floor to",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0057": [
+    {
+      "start": 131.92,
+      "end": 132.72,
+      "text": "to the front office.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 132.96,
+      "end": 133.01,
+      "text": "Learn",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0058": [
+    {
+      "start": 133.01,
+      "end": 134.7,
+      "text": "Learn more at carlisle.com.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0059": [],
+  "v1_s0060": [],
+  "v1_s0061": [
+    {
+      "start": 145.88,
+      "end": 150.44,
+      "text": "This is Stella, an Australian cattle-dog-catahoula mix.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0062": [
+    {
+      "start": 154.0,
+      "end": 156.62,
+      "text": "It's late, but Stella isn't ready for bed.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0063": [
+    {
+      "start": 168.39,
+      "end": 170.47,
+      "text": "Stella appears to be talking.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 170.84,
+      "end": 171.7,
+      "text": "You want to go to the park?",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 173.1,
+      "end": 175.72,
+      "text": "It's a little late to go to the park.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 175.74,
+      "end": 181.1,
+      "text": "This video has been sped up a little, but nothing has been edited in or out.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 182.17,
+      "end": 183.67,
+      "text": "Do you want to go for a walk instead?",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 196.07,
+      "end": 198.19,
+      "text": "Okay, we'll go for a walk.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 200.01,
+      "end": 200.87,
+      "text": "Let's get your leash on.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 204.38,
+      "end": 204.56,
+      "text": "Leash on.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 204.58,
+      "end": 206.79,
+      "text": "Stella has been taught to use word buttons.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0064": [
+    {
+      "start": 206.79,
+      "end": 206.9,
+      "text": "buttons.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 208.02,
+      "end": 208.24,
+      "text": "Walk.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 208.7,
+      "end": 209.6,
+      "text": "Her owner, Christina",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0065": [
+    {
+      "start": 209.6,
+      "end": 211.03,
+      "text": "Christina Hunger, can record",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0066": [
+    {
+      "start": 211.03,
+      "end": 212.5,
+      "text": "record different words on each",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0067": [
+    {
+      "start": 212.5,
+      "end": 213.15,
+      "text": "each of the buttons.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 213.17,
+      "end": 213.96,
+      "text": "Stella.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0068": [
+    {
+      "start": 213.96,
+      "end": 214.09,
+      "text": "Stella.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 214.11,
+      "end": 216.94,
+      "text": "Stella is the world's first talking dog.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0069": [
+    {
+      "start": 216.94,
+      "end": 217.45,
+      "text": "dog.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 217.47,
+      "end": 218.75,
+      "text": "It's a big claim.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0070": [
+    {
+      "start": 219.68,
+      "end": 221.74,
+      "text": "So what makes Christina think it's true?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0071": [],
+  "v1_s0072": [
+    {
+      "start": 224.2,
+      "end": 227.01,
+      "text": "Christina worked as a speech therapist and used",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0073": [
+    {
+      "start": 227.01,
+      "end": 229.51,
+      "text": "communication devices with children who struggled",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0074": [
+    {
+      "start": 229.51,
+      "end": 230.38,
+      "text": "struggled to speak.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 231.75,
+      "end": 232.38,
+      "text": "It was my job",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0075": [
+    {
+      "start": 232.38,
+      "end": 235.99,
+      "text": "job as a speech therapist to find other ways for kids to talk if they",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0076": [
+    {
+      "start": 235.99,
+      "end": 237.49,
+      "text": "they couldn't use their verbal speech.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0077": [
+    {
+      "start": 238.85,
+      "end": 242.32,
+      "text": "When I first brought Stella home, I had so many observations",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0078": [
+    {
+      "start": 242.32,
+      "end": 246.9,
+      "text": "observations about how well she was communicating with her gestures and her body language.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0079": [
+    {
+      "start": 246.9,
+      "end": 247.12,
+      "text": "language.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 249.78,
+      "end": 251.61,
+      "text": "She would whine to get our attention.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 255.32,
+      "end": 255.38,
+      "text": "She",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0080": [
+    {
+      "start": 255.38,
+      "end": 257.94,
+      "text": "She would paw at her water dish when it was empty.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0081": [
+    {
+      "start": 258.6,
+      "end": 262.14,
+      "text": "She would look at me, then look to an object that she wanted.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 262.2,
+      "end": 269.69,
+      "text": "This is all so similar to how kids start learning language.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0082": [
+    {
+      "start": 271.72,
+      "end": 278.66,
+      "text": "It got me thinking, if she's already communicating so similarly to kids right before they start talking, what",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0083": [
+    {
+      "start": 278.66,
+      "end": 281.09,
+      "text": "what would happen if she had another way to talk?",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0084": [
+    {
+      "start": 282.13,
+      "end": 285.43,
+      "text": "Christina got some buttons for Stella to see what would happen.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 286.17,
+      "end": 286.71,
+      "text": "I was",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0085": [
+    {
+      "start": 286.71,
+      "end": 288.86,
+      "text": "pushing the button as I was saying the word.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 288.9,
+      "end": 289.07,
+      "text": "Outside.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0086": [
+    {
+      "start": 289.07,
+      "end": 289.62,
+      "text": "Outside.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 290.94,
+      "end": 291.77,
+      "text": "And for the first couple",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0087": [
+    {
+      "start": 291.77,
+      "end": 294.64,
+      "text": "of weeks, she didn't pay attention to the buttons at all.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0088": [
+    {
+      "start": 296.41,
+      "end": 301.53,
+      "text": "Even when Stella became interested in the buttons, it took a while before she managed to press one.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 303.75,
+      "end": 307.04,
+      "text": "You're so close, Stella.",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0089": [
+    {
+      "start": 307.04,
+      "end": 307.28,
+      "text": "Stella.",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 307.3,
+      "end": 308.62,
+      "text": "But finally, she cracked it.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 309.14,
+      "end": 312.1,
+      "text": "And the next morning, Christina caught it on camera.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 313.03,
+      "end": 314.01,
+      "text": "Let's go outside.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0090": [
+    {
+      "start": 314.93,
+      "end": 316.39,
+      "text": "I was ecstatic.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0091": [],
+  "v1_s0092": [
+    {
+      "start": 318.36,
+      "end": 320.88,
+      "text": "And then when she went outside, she went to the bathroom right away.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 320.9,
+      "end": 323.21,
+      "text": "So, to",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0093": [
+    {
+      "start": 323.21,
+      "end": 327.77,
+      "text": "me, the most important part was seeing the communication intent behind it.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0094": [
+    {
+      "start": 330.27,
+      "end": 330.59,
+      "text": "She was",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0095": [
+    {
+      "start": 330.59,
+      "end": 332.75,
+      "text": "using a word appropriately and functionally.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0096": [
+    {
+      "start": 332.75,
+      "end": 333.52,
+      "text": "functionally.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 337.46,
+      "end": 339.4,
+      "text": "Stella is now six years old.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 340.14,
+      "end": 340.91,
+      "text": "What do you want, girl?",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 341.19,
+      "end": 341.89,
+      "text": "And uses far",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0097": [
+    {
+      "start": 341.89,
+      "end": 344.33,
+      "text": "far more buttons than the three she started with.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 345.25,
+      "end": 346.84,
+      "text": "On Stella's main board here, we have",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0098": [
+    {
+      "start": 346.84,
+      "end": 348.61,
+      "text": "have some places that she likes to go.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 348.63,
+      "end": 348.73,
+      "text": "Park.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0099": [],
+  "v1_s0100": [
+    {
+      "start": 350.61,
+      "end": 352.12,
+      "text": "And... Beach.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 352.14,
+      "end": 352.58,
+      "text": "The beach.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0101": [
+    {
+      "start": 353.92,
+      "end": 354.46,
+      "text": "There.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 354.48,
+      "end": 356.24,
+      "text": "If she wants to know where we're heading out.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0102": [],
+  "v1_s0103": [
+    {
+      "start": 359.12,
+      "end": 359.6,
+      "text": "Happy."
+    },
+    {
+      "start": 361.04,
+      "end": 364.05,
+      "text": "As Stella started to use her buttons more, Christina",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0104": [
+    {
+      "start": 364.05,
+      "end": 366.51,
+      "text": "Christina began sharing her videos online.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0105": [
+    {
+      "start": 367.96,
+      "end": 372.39,
+      "text": "We left our apartment one day and we set up a camera just",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0106": [
+    {
+      "start": 372.39,
+      "end": 374.63,
+      "text": "just to see, you know, what she would do while we were gone.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 374.65,
+      "end": 374.82,
+      "text": "I",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0107": [
+    {
+      "start": 374.82,
+      "end": 382.44,
+      "text": "had",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0108": [
+    {
+      "start": 382.44,
+      "end": 384.04,
+      "text": "never heard her made a sound like that.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 384.08,
+      "end": 384.11,
+      "text": "It",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0109": [
+    {
+      "start": 384.11,
+      "end": 388.0,
+      "text": "It was heartbreaking.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0110": [
+    {
+      "start": 388.0,
+      "end": 388.94,
+      "text": "heartbreaking.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0111": [
+    {
+      "start": 388.94,
+      "end": 389.31,
+      "text": "heartbreaking.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 393.25,
+      "end": 398.1,
+      "text": "Stella's videos went viral and have turned her into a social media phenomenon.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 399.7,
+      "end": 399.75,
+      "text": "We",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0112": [
+    {
+      "start": 399.75,
+      "end": 403.93,
+      "text": "We are joined now by Christina Hunger, a speech pathologist in San Diego,",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0113": [
+    {
+      "start": 403.93,
+      "end": 405.82,
+      "text": "owner of the very clever",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0114": [
+    {
+      "start": 405.82,
+      "end": 406.91,
+      "text": "clever Stella.",
+      "speaker": "SPEAKER_12"
+    },
+    {
+      "start": 407.69,
+      "end": 407.82,
+      "text": "So",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0115": [
+    {
+      "start": 407.82,
+      "end": 409.63,
+      "text": "So Christina, what does Stella say the most?",
+      "speaker": "SPEAKER_12"
+    },
+    {
+      "start": 409.77,
+      "end": 410.29,
+      "text": "She definitely",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0116": [
+    {
+      "start": 410.29,
+      "end": 411.67,
+      "text": "definitely says outside the most.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 411.86,
+      "end": 413.9,
+      "text": "She absolutely loves being outside.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0117": [
+    {
+      "start": 414.92,
+      "end": 417.77,
+      "text": "As news of Stella and her word buttons has spread,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0118": [
+    {
+      "start": 417.77,
+      "end": 417.84,
+      "text": "spread,",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 419.24,
+      "end": 425.91,
+      "text": "Other so-called talking dogs have flooded social media with their seemingly amazing feats of communication.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 429.32,
+      "end": 431.25,
+      "text": "These dogs seem to be using our",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0119": [
+    {
+      "start": 431.25,
+      "end": 431.84,
+      "text": "our words.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 434.43,
+      "end": 435.42,
+      "text": "So is that",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0120": [
+    {
+      "start": 435.42,
+      "end": 436.91,
+      "text": "enough to say they're talking?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 438.48,
+      "end": 440.23,
+      "text": "Do they really understand what they're",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0121": [
+    {
+      "start": 440.23,
+      "end": 440.96,
+      "text": "they're saying?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 443.3,
+      "end": 444.89,
+      "text": "Or is their button pushing",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0122": [
+    {
+      "start": 444.89,
+      "end": 447.77,
+      "text": "just random?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 447.79,
+      "end": 450.03,
+      "text": "I love you too, Cobb.",
+      "speaker": "SPEAKER_17"
+    },
+    {
+      "start": 450.05,
+      "end": 454.7,
+      "text": "I love you too.",
+      "speaker": "SPEAKER_17"
+    }
+  ],
+  "v1_s0123": [],
+  "v1_s0124": [
+    {
+      "start": 463.69,
+      "end": 468.02,
+      "text": "Federico Rossano is director of the Comparative Cognition Lab at the University",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0125": [
+    {
+      "start": 468.02,
+      "end": 470.15,
+      "text": "University of California, San Diego.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 471.08,
+      "end": 472.02,
+      "text": "As dogs using",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0126": [
+    {
+      "start": 472.02,
+      "end": 475.23,
+      "text": "using word buttons gained a following on social media,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0127": [
+    {
+      "start": 475.23,
+      "end": 477.23,
+      "text": "Federico was approached to study them.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0128": [
+    {
+      "start": 478.35,
+      "end": 479.25,
+      "text": "But he was skeptical.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0129": [
+    {
+      "start": 480.8,
+      "end": 483.54,
+      "text": "I most certainly did not want to get involved in it.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 483.56,
+      "end": 485.94,
+      "text": "I have said no so many times.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0130": [],
+  "v1_s0131": [
+    {
+      "start": 489.97,
+      "end": 492.72,
+      "text": "One of the things about social media is that we try to portray ourselves",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0132": [
+    {
+      "start": 492.72,
+      "end": 495.75,
+      "text": "ourselves always happy and excited and at",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0133": [
+    {
+      "start": 495.75,
+      "end": 497.85,
+      "text": "at the best of our life.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0134": [
+    {
+      "start": 497.85,
+      "end": 498.08,
+      "text": "life.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0135": [
+    {
+      "start": 500.98,
+      "end": 502.46,
+      "text": "And we usually don't post",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0136": [
+    {
+      "start": 502.46,
+      "end": 503.82,
+      "text": "all the things that go wrong",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0137": [
+    {
+      "start": 503.82,
+      "end": 505.89,
+      "text": "wrong and all the accidents.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0138": [
+    {
+      "start": 505.89,
+      "end": 507.06,
+      "text": "accidents.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 507.07,
+      "end": 509.79,
+      "text": "If dog owners only post clips of their dogs pressing",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0139": [
+    {
+      "start": 509.79,
+      "end": 512.1,
+      "text": "pressing word buttons that seem to make sense",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0140": [
+    {
+      "start": 512.1,
+      "end": 517.0,
+      "text": "sense and ignore all the random presses, it would be completely misleading.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 517.76,
+      "end": 518.0,
+      "text": "The risk",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0141": [
+    {
+      "start": 518.0,
+      "end": 520.76,
+      "text": "risk of social media, of course, is that",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 520.91,
+      "end": 523.38,
+      "text": "Because there is, you know, money coming",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0142": [
+    {
+      "start": 523.38,
+      "end": 529.35,
+      "text": "coming with it, there is attention coming with it, there might be a way of exploiting social media, so",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0143": [
+    {
+      "start": 529.35,
+      "end": 532.88,
+      "text": "creating clips that you think would attract more attention.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0144": [],
+  "v1_s0145": [
+    {
+      "start": 538.29,
+      "end": 540.26,
+      "text": "But despite Federico's concerns",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0146": [
+    {
+      "start": 540.26,
+      "end": 542.63,
+      "text": "about social media, he saw some clips",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0147": [
+    {
+      "start": 542.63,
+      "end": 543.57,
+      "text": "clips that stunned him.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0148": [],
+  "v1_s0149": [
+    {
+      "start": 548.36,
+      "end": 549.08,
+      "text": "Why are you mad?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 551.2,
+      "end": 551.9,
+      "text": "Why mad?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 562.74,
+      "end": 562.84,
+      "text": "Ouch.",
+      "speaker": "SPEAKER_17"
+    },
+    {
+      "start": 562.86,
+      "end": 563.86,
+      "text": "Where is your ouch?",
+      "speaker": "SPEAKER_17"
+    },
+    {
+      "start": 565.7,
+      "end": 566.4,
+      "text": "Where ouch?",
+      "speaker": "SPEAKER_17"
+    }
+  ],
+  "v1_s0150": [
+    {
+      "start": 569.87,
+      "end": 570.05,
+      "text": "Stranger.",
+      "speaker": "SPEAKER_17"
+    },
+    {
+      "start": 570.07,
+      "end": 570.55,
+      "text": "In your ear?",
+      "speaker": "SPEAKER_17"
+    },
+    {
+      "start": 570.61,
+      "end": 572.97,
+      "text": "Where stranger?",
+      "speaker": "SPEAKER_17"
+    },
+    {
+      "start": 573.01,
+      "end": 579.66,
+      "text": "Paw.",
+      "speaker": "SPEAKER_17"
+    },
+    {
+      "start": 579.68,
+      "end": 580.38,
+      "text": "In your paw?",
+      "speaker": "SPEAKER_17"
+    },
+    {
+      "start": 585.34,
+      "end": 586.04,
+      "text": "Let me see your paw.",
+      "speaker": "SPEAKER_17"
+    },
+    {
+      "start": 590.56,
+      "end": 591.82,
+      "text": "Okay, I'm gonna put this down on you.",
+      "speaker": "SPEAKER_17"
+    }
+  ],
+  "v1_s0151": [
+    {
+      "start": 591.82,
+      "end": 591.9,
+      "text": "you.",
+      "speaker": "SPEAKER_17"
+    },
+    {
+      "start": 591.92,
+      "end": 593.67,
+      "text": "This was the stranger in her paw.",
+      "speaker": "SPEAKER_17"
+    },
+    {
+      "start": 593.73,
+      "end": 596.4,
+      "text": "She's got a mat between her, ow, toes.",
+      "speaker": "SPEAKER_17"
+    }
+  ],
+  "v1_s0152": [
+    {
+      "start": 598.65,
+      "end": 601.62,
+      "text": "It looked as if they were having a conversation.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0153": [
+    {
+      "start": 602.26,
+      "end": 608.31,
+      "text": "And I was like, wow, if that is possible, where a human can talk and the animal can just respond with the buttons, that would be amazing.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0154": [
+    {
+      "start": 608.71,
+      "end": 613.84,
+      "text": "What we want is to look at those anecdotes and think, is this even possible?",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 614.32,
+      "end": 619.08,
+      "text": "And if it has not been trained extensively, if it seems to be spontaneous, then",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0155": [
+    {
+      "start": 619.08,
+      "end": 622.83,
+      "text": "then the next question is, can we elicit it in a more systematic way?",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0156": [
+    {
+      "start": 624.31,
+      "end": 625.69,
+      "text": "OK, Port, Port's here.",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 626.13,
+      "end": 632.32,
+      "text": "The trouble is, past efforts to teach animals to use our language have been incredibly controversial.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 633.66,
+      "end": 635.44,
+      "text": "Which color?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 635.46,
+      "end": 636.06,
+      "text": "That one?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 636.08,
+      "end": 636.62,
+      "text": "The blue one.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 637.38,
+      "end": 639.5,
+      "text": "The way it was done was basically",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0157": [
+    {
+      "start": 639.5,
+      "end": 642.5,
+      "text": "basically a researcher would get one animal",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0158": [
+    {
+      "start": 642.5,
+      "end": 648.12,
+      "text": "and then train this animal to learn, for example, sign language or to learn how to use other devices.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 652.11,
+      "end": 654.01,
+      "text": "Sometimes it looked like something extraordinary,",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 655.07,
+      "end": 658.38,
+      "text": "But if you only have one animal, it's very hard to tell how that came about or",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0159": [
+    {
+      "start": 658.38,
+      "end": 663.42,
+      "text": "or what that really means from the perspective of cognition and what that means about how they're thinking.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0160": [
+    {
+      "start": 665.24,
+      "end": 668.06,
+      "text": "After several studies focused on one or two",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0161": [
+    {
+      "start": 668.06,
+      "end": 672.62,
+      "text": "animals taken out of their natural habitats and with concern about researchers",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0162": [
+    {
+      "start": 672.62,
+      "end": 675.6,
+      "text": "researchers over-interpreting results, the entire",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0163": [
+    {
+      "start": 675.6,
+      "end": 678.02,
+      "text": "entire field of research was called into question.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0164": [
+    {
+      "start": 679.92,
+      "end": 680.34,
+      "text": "So when the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0165": [
+    {
+      "start": 680.34,
+      "end": 681.81,
+      "text": "the button dogs emerged on",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0166": [
+    {
+      "start": 681.81,
+      "end": 684.17,
+      "text": "social media, many of Federico's colleagues",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0167": [
+    {
+      "start": 684.17,
+      "end": 686.72,
+      "text": "colleagues thought he'd be unwise to get involved.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 687.5,
+      "end": 691.91,
+      "text": "I had scientists calling me at the beginning of this study saying,",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0168": [
+    {
+      "start": 691.91,
+      "end": 694.38,
+      "text": "do you know what you're getting yourself into?",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0169": [
+    {
+      "start": 694.7,
+      "end": 697.22,
+      "text": "You might actually lose your job because of what you're doing.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0170": [
+    {
+      "start": 697.22,
+      "end": 697.24,
+      "text": "doing.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 699.6,
+      "end": 700.78,
+      "text": "But this time,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0171": [
+    {
+      "start": 700.78,
+      "end": 706.19,
+      "text": "Federico realized that instead of all the research being based on one or two highly trained subjects,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0172": [
+    {
+      "start": 706.19,
+      "end": 707.69,
+      "text": "subjects, there was a",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0173": [
+    {
+      "start": 707.69,
+      "end": 709.93,
+      "text": "huge pool of button-pressing dogs.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0174": [
+    {
+      "start": 709.93,
+      "end": 709.96,
+      "text": "dogs.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 710.82,
+      "end": 712.22,
+      "text": "So he decided to study them.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 713.94,
+      "end": 714.57,
+      "text": "What happens if you",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0175": [
+    {
+      "start": 714.57,
+      "end": 717.53,
+      "text": "you start tracking thousands of animals at the same time?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0176": [
+    {
+      "start": 718.29,
+      "end": 723.2,
+      "text": "He asked Amalia Bastos, a researcher in animal cognition, to join him.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 724.29,
+      "end": 724.91,
+      "text": "Where can",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0177": [
+    {
+      "start": 724.91,
+      "end": 726.69,
+      "text": "can we take this and how far can dogs go?",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0178": [
+    {
+      "start": 726.97,
+      "end": 730.22,
+      "text": "We need to actually test things out empirically to find out what's going on.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0179": [],
+  "v1_s0180": [
+    {
+      "start": 731.68,
+      "end": 732.46,
+      "text": "Federico and",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0181": [
+    {
+      "start": 732.46,
+      "end": 733.36,
+      "text": "Amalia have been recruiting",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0182": [
+    {
+      "start": 733.36,
+      "end": 734.29,
+      "text": "recruiting participants",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0183": [
+    {
+      "start": 734.29,
+      "end": 735.09,
+      "text": "participants from around",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0184": [
+    {
+      "start": 735.09,
+      "end": 735.68,
+      "text": "around the world.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 738.84,
+      "end": 740.73,
+      "text": "While early contributors in the study used",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0185": [
+    {
+      "start": 740.73,
+      "end": 743.66,
+      "text": "used simple spreadsheets to log their dogs' button presses,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0186": [
+    {
+      "start": 743.66,
+      "end": 747.31,
+      "text": "presses, many owners are now using buttons that automatically",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0187": [
+    {
+      "start": 747.31,
+      "end": 750.46,
+      "text": "automatically record which words are pressed and when.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 751.98,
+      "end": 754.06,
+      "text": "Every time a button is pressed,",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 755.0,
+      "end": 755.11,
+      "text": "that",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0188": [
+    {
+      "start": 755.11,
+      "end": 758.75,
+      "text": "that goes straight into the app, and then we can download through the app the",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0189": [
+    {
+      "start": 758.75,
+      "end": 760.35,
+      "text": "the kind of data that has been collected.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 760.37,
+      "end": 760.55,
+      "text": "And",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0190": [
+    {
+      "start": 760.55,
+      "end": 772.0,
+      "text": "And what we ask you to do is to basically tell us, was it you",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0191": [
+    {
+      "start": 772.0,
+      "end": 773.21,
+      "text": "or was the dog?",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 775.2,
+      "end": 777.24,
+      "text": "As of now, I think we have approximately 6,500",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0192": [
+    {
+      "start": 777.24,
+      "end": 779.43,
+      "text": "6,500 people using the",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0193": [
+    {
+      "start": 779.43,
+      "end": 779.86,
+      "text": "the app.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 782.0,
+      "end": 786.59,
+      "text": "We know that some dogs seem to make sense some of the time with their button presses.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 787.87,
+      "end": 788.67,
+      "text": "But the data that",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0194": [
+    {
+      "start": 788.67,
+      "end": 792.7,
+      "text": "Federico is collecting will help his team understand the bigger picture.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 793.48,
+      "end": 793.95,
+      "text": "Do the thousands",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0195": [
+    {
+      "start": 793.95,
+      "end": 797.18,
+      "text": "thousands of dogs taking part know what they're doing with buttons?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 797.94,
+      "end": 799.9,
+      "text": "Or is most of it just random?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0196": [
+    {
+      "start": 802.69,
+      "end": 804.86,
+      "text": "First, Federico needs to check that",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0197": [
+    {
+      "start": 804.86,
+      "end": 806.89,
+      "text": "that the dogs actually understand the words",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0198": [
+    {
+      "start": 806.89,
+      "end": 808.94,
+      "text": "words on the buttons when they hear them.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0199": [
+    {
+      "start": 811.16,
+      "end": 817.05,
+      "text": "His colleague Amalia has visited several dogs with a team of researchers to conduct an experiment.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0200": [
+    {
+      "start": 818.89,
+      "end": 820.67,
+      "text": "This is a clip from our first",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0201": [
+    {
+      "start": 820.67,
+      "end": 821.94,
+      "text": "first experimental study.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0202": [
+    {
+      "start": 821.94,
+      "end": 822.04,
+      "text": "study.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 823.02,
+      "end": 823.84,
+      "text": "This is Mokai.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 826.73,
+      "end": 831.09,
+      "text": "Federico and Amalia need to test whether a word generated by a button means",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0203": [
+    {
+      "start": 831.09,
+      "end": 833.62,
+      "text": "means the same thing to a dog as when that",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0204": [
+    {
+      "start": 833.62,
+      "end": 835.6,
+      "text": "that same word is spoken by a person.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0205": [
+    {
+      "start": 837.82,
+      "end": 841.41,
+      "text": "because when we say words, we add all sorts of extra details.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 841.87,
+      "end": 844.53,
+      "text": "Pitch, tone, body language.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 844.55,
+      "end": 847.34,
+      "text": "You are the messiest drinker.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0206": [
+    {
+      "start": 847.34,
+      "end": 847.62,
+      "text": "drinker.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 847.63,
+      "end": 850.6,
+      "text": "But a word from a button is the same every time.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 851.16,
+      "end": 852.88,
+      "text": "The first study had to be,",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0207": [
+    {
+      "start": 852.88,
+      "end": 855.31,
+      "text": "do the dogs that are trained with these buttons",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0208": [
+    {
+      "start": 855.31,
+      "end": 858.51,
+      "text": "understand the meaning of the words that are associated with it?",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 859.45,
+      "end": 862.78,
+      "text": "And can we show that they would respond not just to their owners, but they would",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0209": [
+    {
+      "start": 862.78,
+      "end": 865.22,
+      "text": "would respond to others pushing those buttons?",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0210": [
+    {
+      "start": 865.22,
+      "end": 866.4,
+      "text": "buttons?",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 866.66,
+      "end": 868.75,
+      "text": "This is client trial number four.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 869.15,
+      "end": 875.73,
+      "text": "The experimenter is wearing headphones so that she could not hear the word that is produced once you push that button.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0211": [
+    {
+      "start": 876.55,
+      "end": 881.17,
+      "text": "And the instruction that she has in this case would be something like, push",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0212": [
+    {
+      "start": 881.17,
+      "end": 882.66,
+      "text": "push the red button.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 884.06,
+      "end": 887.67,
+      "text": "The research team wore headphones and owners were blindfolded",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0213": [
+    {
+      "start": 887.67,
+      "end": 892.41,
+      "text": "blindfolded to make sure neither could inadvertently give clues about which button had been pressed.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0214": [
+    {
+      "start": 892.41,
+      "end": 892.67,
+      "text": "pressed.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 893.3,
+      "end": 900.03,
+      "text": "And then you see the dog go straight for the toy basket, retrieves the ball, like, let's play.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 903.03,
+      "end": 905.29,
+      "text": "And so it's contextually appropriate with respect",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0215": [
+    {
+      "start": 905.29,
+      "end": 907.5,
+      "text": "respect to what button had just been pressed.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0216": [
+    {
+      "start": 910.04,
+      "end": 911.92,
+      "text": "It's the simplest possible test.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 913.96,
+      "end": 916.01,
+      "text": "58 other dogs were also tested.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 916.07,
+      "end": 923.14,
+      "text": "And the results showed that the dogs responded appropriately",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0217": [
+    {
+      "start": 923.14,
+      "end": 929.59,
+      "text": "appropriately to the play and outside buttons, with no other cues, just as they'd respond to",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0218": [
+    {
+      "start": 929.59,
+      "end": 932.09,
+      "text": "to those words spoken directly by a human.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 934.06,
+      "end": 936.02,
+      "text": "That was critical for us because",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0219": [
+    {
+      "start": 936.02,
+      "end": 941.6,
+      "text": "if they did not understand the meaning of words, if they did not respond in a way that would suggest",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0220": [
+    {
+      "start": 941.6,
+      "end": 945.65,
+      "text": "suggest they understand it, then there's no point in moving forward with any other research.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0221": [
+    {
+      "start": 947.84,
+      "end": 951.17,
+      "text": "The dogs didn't react appropriately to hearing a food button.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0222": [
+    {
+      "start": 951.17,
+      "end": 951.24,
+      "text": "button.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 952.52,
+      "end": 957.69,
+      "text": "But it's clear that they can respond to at least some of their buttons in a useful communicative way.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 959.13,
+      "end": 963.07,
+      "text": "But that doesn't tell us whether they could use them correctly themselves.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 968.98,
+      "end": 970.26,
+      "text": "We know that dogs can respond",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0223": [
+    {
+      "start": 970.26,
+      "end": 975.23,
+      "text": "appropriately to words, but that could just be conditioning, that could just be training.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 975.49,
+      "end": 980.45,
+      "text": "So whether or not they understand what the word itself means is much harder to test.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0224": [
+    {
+      "start": 982.1,
+      "end": 984.98,
+      "text": "Eric Kirschenbaum studies animal communication at the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0225": [
+    {
+      "start": 984.98,
+      "end": 986.94,
+      "text": "the University of Cambridge in England.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 988.08,
+      "end": 990.18,
+      "text": "So this ability to hear the word",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0226": [
+    {
+      "start": 990.18,
+      "end": 995.89,
+      "text": "sit and to know that if they sit they will get a reward is a very, very powerful mechanism.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 997.65,
+      "end": 1003.79,
+      "text": "But just because an animal responds correctly to a particular command that is given in language,",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0227": [
+    {
+      "start": 1003.79,
+      "end": 1006.6,
+      "text": "doesn't mean that they understand the language of it.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0228": [
+    {
+      "start": 1011.7,
+      "end": 1012.71,
+      "text": "Whether they're responding",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0229": [
+    {
+      "start": 1012.71,
+      "end": 1017.31,
+      "text": "to commands or pushing buttons themselves, the point is, it's incredibly",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0230": [
+    {
+      "start": 1017.31,
+      "end": 1021.27,
+      "text": "incredibly hard to know how much dogs actually understand the words they're",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0231": [
+    {
+      "start": 1021.27,
+      "end": 1022.79,
+      "text": "they're hearing or using.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0232": [
+    {
+      "start": 1024.04,
+      "end": 1026.34,
+      "text": "Oh boy, you're gonna try not to bark at stuff today, yeah?",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0233": [
+    {
+      "start": 1033.51,
+      "end": 1035.09,
+      "text": "This is Rohan,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0234": [
+    {
+      "start": 1035.09,
+      "end": 1038.38,
+      "text": "Amalia's 23-month-old Australian shepherd.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0235": [
+    {
+      "start": 1040.6,
+      "end": 1040.72,
+      "text": "Ready?",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0236": [
+    {
+      "start": 1040.84,
+      "end": 1041.16,
+      "text": "Break.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1042.24,
+      "end": 1042.62,
+      "text": "Button.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1043.71,
+      "end": 1047.43,
+      "text": "Treat.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0237": [
+    {
+      "start": 1047.43,
+      "end": 1047.94,
+      "text": "Treat.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1047.96,
+      "end": 1050.24,
+      "text": "Yeah, so good.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0238": [
+    {
+      "start": 1050.24,
+      "end": 1050.98,
+      "text": "good.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1051.0,
+      "end": 1051.2,
+      "text": "Go get it."
+    },
+    {
+      "start": 1051.22,
+      "end": 1051.34,
+      "text": "Treat."
+    },
+    {
+      "start": 1051.36,
+      "end": 1051.54,
+      "text": "Love you.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1051.56,
+      "end": 1052.1,
+      "text": "Good boy.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0239": [
+    {
+      "start": 1052.44,
+      "end": 1055.11,
+      "text": "Go to bed."
+    },
+    {
+      "start": 1055.63,
+      "end": 1057.74,
+      "text": "So what we saw looked like a conversation where",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0240": [
+    {
+      "start": 1057.74,
+      "end": 1060.5,
+      "text": "where the dog understood what it was saying and we had a back and forth.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1061.32,
+      "end": 1062.72,
+      "text": "In actual fact, these were trained",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0241": [
+    {
+      "start": 1062.72,
+      "end": 1066.39,
+      "text": "trained interactions where the dog was actually just trained to press the buttons as a trick.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0242": [
+    {
+      "start": 1067.49,
+      "end": 1071.85,
+      "text": "Button.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1073.02,
+      "end": 1073.58,
+      "text": "That's the one.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1074.02,
+      "end": 1075.52,
+      "text": "He doesn't actually know what that button means.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1078.02,
+      "end": 1080.57,
+      "text": "It could have had a bird chirp or it could have had, you know,",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0243": [
+    {
+      "start": 1080.57,
+      "end": 1081.97,
+      "text": "siren sound.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1081.99,
+      "end": 1085.33,
+      "text": "It could have been literally anything and he would have performed the behavior exactly the same way.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0244": [
+    {
+      "start": 1087.96,
+      "end": 1089.98,
+      "text": "You know, the fact that they're human",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0245": [
+    {
+      "start": 1089.98,
+      "end": 1092.65,
+      "text": "language words is completely arbitrary.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0246": [
+    {
+      "start": 1092.65,
+      "end": 1092.81,
+      "text": "arbitrary.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1094.31,
+      "end": 1094.32,
+      "text": "It's",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0247": [
+    {
+      "start": 1094.32,
+      "end": 1095.51,
+      "text": "It's just associative learning.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0248": [
+    {
+      "start": 1096.51,
+      "end": 1099.86,
+      "text": "Rohan has learned to associate an action, like pressing",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0249": [
+    {
+      "start": 1099.86,
+      "end": 1102.94,
+      "text": "pressing a button, with an outcome, like getting a treat.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1103.62,
+      "end": 1107.24,
+      "text": "He likes treats, so he keeps pressing the buttons.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1108.42,
+      "end": 1112.03,
+      "text": "It's known as associative learning, or conditioning.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0250": [
+    {
+      "start": 1113.14,
+      "end": 1115.78,
+      "text": "But it doesn't mean he knows what the words treat, or",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0251": [
+    {
+      "start": 1115.78,
+      "end": 1118.25,
+      "text": "thanks, or love you actually mean.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1119.05,
+      "end": 1119.34,
+      "text": "Everything",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0252": [
+    {
+      "start": 1119.34,
+      "end": 1121.41,
+      "text": "Everything in life starts through associative learning, and",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0253": [
+    {
+      "start": 1121.41,
+      "end": 1122.97,
+      "text": "and actually humans learn through associative learning.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1123.55,
+      "end": 1124.19,
+      "text": "Good boy.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1124.21,
+      "end": 1124.22,
+      "text": "Associative",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0254": [
+    {
+      "start": 1124.22,
+      "end": 1127.46,
+      "text": "Associative learning is common to pretty much all animals.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0255": [
+    {
+      "start": 1127.92,
+      "end": 1128.18,
+      "text": "Freak!"
+    },
+    {
+      "start": 1128.8,
+      "end": 1129.18,
+      "text": "And it doesn't",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0256": [
+    {
+      "start": 1129.18,
+      "end": 1133.01,
+      "text": "doesn't require any sort of complex cognition that we should be impressed by.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1133.03,
+      "end": 1133.13,
+      "text": "Kite!",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1134.07,
+      "end": 1134.43,
+      "text": "You could",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0257": [
+    {
+      "start": 1134.43,
+      "end": 1137.36,
+      "text": "could easily teach a mouse to press buttons.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0258": [
+    {
+      "start": 1137.36,
+      "end": 1137.47,
+      "text": "buttons.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1137.49,
+      "end": 1138.15,
+      "text": "Okay, you got that one.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1138.69,
+      "end": 1140.25,
+      "text": "And that's the big problem.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1140.61,
+      "end": 1143.84,
+      "text": "Just because they can press buttons that say words doesn't",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0259": [
+    {
+      "start": 1143.84,
+      "end": 1147.24,
+      "text": "doesn't necessarily mean the dogs have any real understanding of what those words",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0260": [
+    {
+      "start": 1147.24,
+      "end": 1147.88,
+      "text": "words mean.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1148.92,
+      "end": 1153.61,
+      "text": "Perhaps they just enjoy the reward they get, whether that's a treat or just some attention.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0261": [
+    {
+      "start": 1156.78,
+      "end": 1160.01,
+      "text": "So could dogs learn to use different buttons to get different",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0262": [
+    {
+      "start": 1160.01,
+      "end": 1160.52,
+      "text": "different things?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1161.62,
+      "end": 1162.62,
+      "text": "Could they choose which",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0263": [
+    {
+      "start": 1162.62,
+      "end": 1166.35,
+      "text": "ones to press because of the specific words attached to them?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0264": [
+    {
+      "start": 1170.43,
+      "end": 1170.96,
+      "text": "it's something",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0265": [
+    {
+      "start": 1170.96,
+      "end": 1173.23,
+      "text": "Federico is finally starting to answer.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1173.26,
+      "end": 1173.7,
+      "text": "He's",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0266": [
+    {
+      "start": 1173.7,
+      "end": 1175.47,
+      "text": "He's gathered data",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0267": [
+    {
+      "start": 1175.47,
+      "end": 1181.41,
+      "text": "data on the word buttons being used by an astonishing 10,000 dogs in almost 50 countries.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1182.75,
+      "end": 1186.46,
+      "text": "It's the largest animal communication study in history.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1188.42,
+      "end": 1189.32,
+      "text": "Just to give you an example,",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0268": [
+    {
+      "start": 1189.32,
+      "end": 1196.32,
+      "text": "example, in the last three months, we received more than one million button presses from dogs in our pool.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0269": [
+    {
+      "start": 1196.32,
+      "end": 1197.21,
+      "text": "pool.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 1200.05,
+      "end": 1201.62,
+      "text": "All that data can help to show",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0270": [
+    {
+      "start": 1201.62,
+      "end": 1204.97,
+      "text": "show whether dog button use is random or intentional.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1213.4,
+      "end": 1215.94,
+      "text": "In principle, the dog could just be spamming the",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0271": [
+    {
+      "start": 1215.94,
+      "end": 1218.53,
+      "text": "the soundboard, just coming there, touching buttons randomly.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0272": [
+    {
+      "start": 1222.65,
+      "end": 1223.68,
+      "text": "If it's random, we",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0273": [
+    {
+      "start": 1223.68,
+      "end": 1225.21,
+      "text": "should stop doing this research, right?",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 1225.23,
+      "end": 1228.16,
+      "text": "Why are you looking into something that's completely random?",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0274": [
+    {
+      "start": 1228.16,
+      "end": 1229.38,
+      "text": "random?",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 1230.27,
+      "end": 1232.19,
+      "text": "And what if the dogs are just pressing buttons",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0275": [
+    {
+      "start": 1232.19,
+      "end": 1233.88,
+      "text": "buttons that are easy to reach?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1236.8,
+      "end": 1241.07,
+      "text": "What can happen, of course, is that the dog might just end up pushing, for example,",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0276": [
+    {
+      "start": 1241.07,
+      "end": 1243.87,
+      "text": "example, these two buttons that are close to each other",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0277": [
+    {
+      "start": 1243.87,
+      "end": 1246.63,
+      "text": "just because they are adjacent to each other and it's just",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0278": [
+    {
+      "start": 1246.63,
+      "end": 1247.63,
+      "text": "just easy for them.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 1248.15,
+      "end": 1249.04,
+      "text": "And so it",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0279": [
+    {
+      "start": 1249.04,
+      "end": 1259.35,
+      "text": "it is very important for us to know not just which buttons they have, participants have, but also how they are laid out so that we can, for example, run analysis to see the",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0280": [
+    {
+      "start": 1259.35,
+      "end": 1263.11,
+      "text": "the dog seem to be actually doing something intentionally.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0281": [
+    {
+      "start": 1265.18,
+      "end": 1271.83,
+      "text": "Federico's analysis of over 10 million button presses by thousands of dogs over almost two years",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0282": [
+    {
+      "start": 1271.83,
+      "end": 1275.01,
+      "text": "shows that these are the most popular words.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1276.52,
+      "end": 1280.76,
+      "text": "Of course, all the words on sound boards are initially put there by humans.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1282.04,
+      "end": 1284.86,
+      "text": "But these are the ones that the dogs are pressing most.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1286.18,
+      "end": 1290.81,
+      "text": "And among these words, Federico has found that some are much more popular.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1291.59,
+      "end": 1294.95,
+      "text": "The dogs are choosing to press them more than others.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1295.73,
+      "end": 1302.04,
+      "text": "So here, the size of the word is representative of the number of presses across the population.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 1302.06,
+      "end": 1302.36,
+      "text": "And play,",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0283": [
+    {
+      "start": 1302.36,
+      "end": 1303.76,
+      "text": "play, outside, food",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0284": [
+    {
+      "start": 1303.76,
+      "end": 1306.99,
+      "text": "are the buttons that the dogs tend to press the most, which is",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0285": [
+    {
+      "start": 1306.99,
+      "end": 1308.74,
+      "text": "is very much in line with being a dog.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0286": [
+    {
+      "start": 1309.64,
+      "end": 1313.71,
+      "text": "You can also see water, potty, treat, all done.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 1313.75,
+      "end": 1314.14,
+      "text": "They",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0287": [
+    {
+      "start": 1314.14,
+      "end": 1315.64,
+      "text": "They don't",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0288": [
+    {
+      "start": 1315.64,
+      "end": 1317.78,
+      "text": "use a lot other words that might not",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0289": [
+    {
+      "start": 1317.78,
+      "end": 1320.58,
+      "text": "be quite in line with what we expect, like",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0290": [
+    {
+      "start": 1320.58,
+      "end": 1325.36,
+      "text": "training, or mad, or friend,",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 1327.2,
+      "end": 1327.55,
+      "text": "The fact",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0291": [
+    {
+      "start": 1327.55,
+      "end": 1329.05,
+      "text": "fact that some words are used",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0292": [
+    {
+      "start": 1329.05,
+      "end": 1333.69,
+      "text": "used more than others shows that across the population, the button",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0293": [
+    {
+      "start": 1333.69,
+      "end": 1335.09,
+      "text": "button use isn't random.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1336.35,
+      "end": 1340.47,
+      "text": "If it was random, you would just have all the buttons that you have on the soundboard",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0294": [
+    {
+      "start": 1340.47,
+      "end": 1342.41,
+      "text": "have an equal probability of being pressed.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0295": [
+    {
+      "start": 1343.56,
+      "end": 1347.92,
+      "text": "So across the data set, dogs definitely show preference for certain words.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1349.7,
+      "end": 1351.41,
+      "text": "Seemingly things they want,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0296": [
+    {
+      "start": 1351.41,
+      "end": 1352.91,
+      "text": "to go outside, to get",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0297": [
+    {
+      "start": 1352.91,
+      "end": 1354.51,
+      "text": "get food, to play.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1355.67,
+      "end": 1358.07,
+      "text": "But should we be impressed or surprised by that?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1358.77,
+      "end": 1359.01,
+      "text": "We know",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0298": [
+    {
+      "start": 1359.01,
+      "end": 1365.44,
+      "text": "know a lot of animal communication is asking others, can be humans or non-humans, to do things for them.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0299": [
+    {
+      "start": 1365.78,
+      "end": 1372.2,
+      "text": "In principle, there is no difference between pushing the buttons and saying, outside, and trying to tell you by scratching",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0300": [
+    {
+      "start": 1372.2,
+      "end": 1374.45,
+      "text": "scratching on the door that they want to go outside.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 1375.09,
+      "end": 1376.49,
+      "text": "It's another way of communicating.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0301": [
+    {
+      "start": 1377.09,
+      "end": 1379.51,
+      "text": "So could dogs actually use buttons in a way",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0302": [
+    {
+      "start": 1379.51,
+      "end": 1382.54,
+      "text": "way that goes beyond what they can already communicate?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1383.68,
+      "end": 1385.56,
+      "text": "Could they start to use language?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0303": [
+    {
+      "start": 1387.12,
+      "end": 1388.22,
+      "text": "All animals communicate.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 1388.87,
+      "end": 1394.33,
+      "text": "All animals communicate and can understand communication, but not all communication is language.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0304": [],
+  "v1_s0305": [
+    {
+      "start": 1397.67,
+      "end": 1399.43,
+      "text": "Humans communicate using language.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 1399.45,
+      "end": 1400.46,
+      "text": "Obviously, this is",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0306": [
+    {
+      "start": 1400.46,
+      "end": 1402.74,
+      "text": "is our big difference from all other animals.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 1404.38,
+      "end": 1409.87,
+      "text": "My definition of language, just a simple rule of thumb that seems to work really well, is language",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0307": [
+    {
+      "start": 1409.87,
+      "end": 1412.18,
+      "text": "is the ability or at least the potential",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 1412.57,
+      "end": 1414.67,
+      "text": "to convey an unlimited number of concepts.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0308": [
+    {
+      "start": 1415.89,
+      "end": 1423.62,
+      "text": "Doesn't matter how you do it, but what makes humans special is that we can communicate to each other anything, any concept.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 1423.94,
+      "end": 1423.99,
+      "text": "There's",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0309": [
+    {
+      "start": 1423.99,
+      "end": 1428.37,
+      "text": "There's no end to the books that will ever be written or the ideas that we can convey.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 1429.25,
+      "end": 1431.31,
+      "text": "And no animals that we know of can do that.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0310": [
+    {
+      "start": 1432.55,
+      "end": 1437.72,
+      "text": "No one believes dogs could communicate absolutely any concept to us using words.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0311": [
+    {
+      "start": 1439.03,
+      "end": 1443.33,
+      "text": "But how far could they go on the spectrum between communication and language?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1444.58,
+      "end": 1444.67,
+      "text": "I think",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0312": [
+    {
+      "start": 1444.67,
+      "end": 1465.99,
+      "text": "think really communication becomes language when you cross that boundary from a signal that manipulates other individuals to a system by which information is exchanged between individuals who understand that their conversation partner is also participating in that conversation.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0313": [
+    {
+      "start": 1465.99,
+      "end": 1466.12,
+      "text": "conversation.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 1467.28,
+      "end": 1471.87,
+      "text": "Could dogs use words to do more than what they already do with body language and",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0314": [
+    {
+      "start": 1471.87,
+      "end": 1472.72,
+      "text": "vocalizations?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1473.56,
+      "end": 1476.61,
+      "text": "Could they communicate about more than just what they want?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0315": [
+    {
+      "start": 1478.91,
+      "end": 1484.97,
+      "text": "The thing is, dogs could be uniquely positioned to learn our language because of how they evolved.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0316": [
+    {
+      "start": 1484.97,
+      "end": 1485.03,
+      "text": "evolved.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0317": [
+    {
+      "start": 1492.8,
+      "end": 1496.54,
+      "text": "All dogs evolved from wolves, their wild ancestors.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0318": [
+    {
+      "start": 1497.6,
+      "end": 1499.05,
+      "text": "More than 10,000 years ago,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0319": [
+    {
+      "start": 1499.05,
+      "end": 1502.26,
+      "text": "ago, some wolves were taken in by humans and domesticated.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0320": [
+    {
+      "start": 1502.26,
+      "end": 1502.51,
+      "text": "domesticated.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1502.55,
+      "end": 1503.23,
+      "text": "Over",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0321": [
+    {
+      "start": 1503.23,
+      "end": 1504.2,
+      "text": "Over",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0322": [
+    {
+      "start": 1504.2,
+      "end": 1505.13,
+      "text": "Over generations",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0323": [
+    {
+      "start": 1505.13,
+      "end": 1506.0,
+      "text": "generations spent",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0324": [
+    {
+      "start": 1506.0,
+      "end": 1506.93,
+      "text": "living with and",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0325": [
+    {
+      "start": 1506.93,
+      "end": 1508.0,
+      "text": "and around us,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0326": [
+    {
+      "start": 1508.0,
+      "end": 1508.87,
+      "text": "they evolved in",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0327": [
+    {
+      "start": 1508.87,
+      "end": 1509.7,
+      "text": "in different ways",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0328": [
+    {
+      "start": 1509.7,
+      "end": 1510.67,
+      "text": "ways according",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0329": [
+    {
+      "start": 1510.67,
+      "end": 1511.63,
+      "text": "according to how we bred them.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0330": [
+    {
+      "start": 1511.63,
+      "end": 1511.79,
+      "text": "them.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0331": [],
+  "v1_s0332": [],
+  "v1_s0333": [],
+  "v1_s0334": [
+    {
+      "start": 1515.03,
+      "end": 1516.07,
+      "text": "We selected traits that",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0335": [
+    {
+      "start": 1516.07,
+      "end": 1517.07,
+      "text": "that we valued,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0336": [
+    {
+      "start": 1517.07,
+      "end": 1518.57,
+      "text": "leading to breeds that were",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0337": [
+    {
+      "start": 1518.57,
+      "end": 1520.78,
+      "text": "were smaller and cuter,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0338": [
+    {
+      "start": 1520.78,
+      "end": 1523.62,
+      "text": "or faster and slimmer, or",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0339": [
+    {
+      "start": 1523.62,
+      "end": 1525.25,
+      "text": "or bigger and stronger.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1526.58,
+      "end": 1527.05,
+      "text": "And of course,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0340": [
+    {
+      "start": 1527.05,
+      "end": 1531.52,
+      "text": "course, over time, we favored dogs that could communicate well with us.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0341": [
+    {
+      "start": 1532.54,
+      "end": 1535.89,
+      "text": "Dogs that were good at understanding what we're trying to say.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1538.37,
+      "end": 1539.6,
+      "text": "There does seem to be something",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0342": [
+    {
+      "start": 1539.6,
+      "end": 1545.27,
+      "text": "something very special about what happened during that domestication process that led dogs",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0343": [
+    {
+      "start": 1545.27,
+      "end": 1550.96,
+      "text": "dogs to be excellent understanders of humans and humans to be excellent understanders of dogs as well.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0344": [
+    {
+      "start": 1557.63,
+      "end": 1560.42,
+      "text": "That communication between humans and dogs can be",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0345": [
+    {
+      "start": 1560.42,
+      "end": 1565.4,
+      "text": "be so clear that we can form incredibly constructive working relationships with them.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0346": [],
+  "v1_s0347": [
+    {
+      "start": 1573.38,
+      "end": 1577.89,
+      "text": "Amritha Malekarjan works at the University of Pennsylvania's Working Dog Center.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0348": [
+    {
+      "start": 1580.05,
+      "end": 1581.3,
+      "text": "I think the human-dog relationship",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0349": [
+    {
+      "start": 1581.3,
+      "end": 1584.06,
+      "text": "relationship is so special.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 1585.29,
+      "end": 1585.95,
+      "text": "The way that we",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0350": [
+    {
+      "start": 1585.95,
+      "end": 1592.72,
+      "text": "we work together as human-dog teams is just unlike any other relationship",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0351": [
+    {
+      "start": 1592.72,
+      "end": 1593.94,
+      "text": "relationship that you have.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 1595.22,
+      "end": 1596.26,
+      "text": "Amritha and her",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0352": [
+    {
+      "start": 1596.26,
+      "end": 1600.36,
+      "text": "her colleague Emma Gallas-Malaney help the dogs here to go on to",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0353": [
+    {
+      "start": 1600.36,
+      "end": 1601.95,
+      "text": "careers in search and rescue.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1602.93,
+      "end": 1605.09,
+      "text": "It's all about training,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0354": [
+    {
+      "start": 1605.09,
+      "end": 1607.88,
+      "text": "and training is all about communication.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0355": [
+    {
+      "start": 1613.23,
+      "end": 1615.3,
+      "text": "Today, they're working with Andy,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0356": [
+    {
+      "start": 1615.3,
+      "end": 1618.38,
+      "text": "Andy, an 11-month-old black Labrador, who has to find",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0357": [
+    {
+      "start": 1618.38,
+      "end": 1619.96,
+      "text": "find someone hidden in the rubble.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1620.75,
+      "end": 1622.45,
+      "text": "Andy, turn."
+    },
+    {
+      "start": 1623.05,
+      "end": 1623.23,
+      "text": "Good boy."
+    }
+  ],
+  "v1_s0358": [
+    {
+      "start": 1623.69,
+      "end": 1623.93,
+      "text": "Go find him."
+    }
+  ],
+  "v1_s0359": [
+    {
+      "start": 1625.54,
+      "end": 1628.59,
+      "text": "Because there are always people standing around on the rubble pile, he",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0360": [
+    {
+      "start": 1628.59,
+      "end": 1631.12,
+      "text": "he knows not to find the people that he can see, but to find hidden",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0361": [
+    {
+      "start": 1631.12,
+      "end": 1632.67,
+      "text": "hidden people specifically.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0362": [],
+  "v1_s0363": [],
+  "v1_s0364": [
+    {
+      "start": 1639.81,
+      "end": 1641.53,
+      "text": "When Andy finds his target,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0365": [
+    {
+      "start": 1641.53,
+      "end": 1645.57,
+      "text": "he starts barking, and he won't stop until his team knows",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0366": [
+    {
+      "start": 1645.57,
+      "end": 1646.32,
+      "text": "knows what he's done.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0367": [],
+  "v1_s0368": [],
+  "v1_s0369": [
+    {
+      "start": 1657.2,
+      "end": 1660.33,
+      "text": "There is a remarkable array of skills on display.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1662.13,
+      "end": 1666.98,
+      "text": "but they are only helpful to the team because Andy has learned what's expected of him.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1667.9,
+      "end": 1668.2,
+      "text": "These dogs",
+      "speaker": "SPEAKER_16"
+    }
+  ],
+  "v1_s0370": [
+    {
+      "start": 1668.2,
+      "end": 1674.26,
+      "text": "dogs could not do the work they do if we didn't have the strength of our",
+      "speaker": "SPEAKER_16"
+    }
+  ],
+  "v1_s0371": [
+    {
+      "start": 1674.26,
+      "end": 1674.99,
+      "text": "communication.",
+      "speaker": "SPEAKER_16"
+    },
+    {
+      "start": 1675.01,
+      "end": 1677.53,
+      "text": "The",
+      "speaker": "SPEAKER_16"
+    }
+  ],
+  "v1_s0372": [
+    {
+      "start": 1677.53,
+      "end": 1683.28,
+      "text": "The communication between dogs and humans is how",
+      "speaker": "SPEAKER_16"
+    }
+  ],
+  "v1_s0373": [
+    {
+      "start": 1683.28,
+      "end": 1685.41,
+      "text": "how we save lives.",
+      "speaker": "SPEAKER_16"
+    }
+  ],
+  "v1_s0374": [
+    {
+      "start": 1685.41,
+      "end": 1687.05,
+      "text": "lives.",
+      "speaker": "SPEAKER_16"
+    }
+  ],
+  "v1_s0375": [
+    {
+      "start": 1689.02,
+      "end": 1690.62,
+      "text": "In addition to word forms, dogs",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0376": [
+    {
+      "start": 1690.62,
+      "end": 1693.98,
+      "text": "dogs are also paying attention to the way our body moves.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0377": [
+    {
+      "start": 1694.27,
+      "end": 1696.09,
+      "text": "They're paying attention to where we're looking.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0378": [
+    {
+      "start": 1696.35,
+      "end": 1700.08,
+      "text": "They're paying attention if we're pointing at things or if we're gesturing at things.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 1700.9,
+      "end": 1703.6,
+      "text": "They're paying attention to the tone of our voice.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 1703.64,
+      "end": 1704.37,
+      "text": "So",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0379": [
+    {
+      "start": 1704.37,
+      "end": 1709.74,
+      "text": "So they're reading things off of us all the time, you know, even as subtle as an arm gesture.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0380": [
+    {
+      "start": 1709.74,
+      "end": 1709.78,
+      "text": "gesture.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 1711.48,
+      "end": 1716.91,
+      "text": "But with this extraordinary ability and desire of dogs to communicate with us,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0381": [
+    {
+      "start": 1716.91,
+      "end": 1722.82,
+      "text": "could they be better suited to learning our language than the animals that we've tried to teach in the past?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0382": [
+    {
+      "start": 1726.16,
+      "end": 1732.81,
+      "text": "Because there are some dogs that seem to have an incredible ability to recognize large numbers of words.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0383": [],
+  "v1_s0384": [
+    {
+      "start": 1740.5,
+      "end": 1743.42,
+      "text": "This is Gaia, a six-year-old border collie.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0385": [
+    {
+      "start": 1744.71,
+      "end": 1747.49,
+      "text": "And this is Isabela Ruiz, Gaia's owner.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0386": [
+    {
+      "start": 1751.36,
+      "end": 1752.01,
+      "text": "While most dogs",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0387": [
+    {
+      "start": 1752.01,
+      "end": 1754.72,
+      "text": "dogs are good at learning action words like sit",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0388": [
+    {
+      "start": 1754.72,
+      "end": 1756.12,
+      "text": "and stay, very",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0389": [
+    {
+      "start": 1756.12,
+      "end": 1759.04,
+      "text": "very few are able to easily learn the names of objects.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0390": [
+    {
+      "start": 1759.74,
+      "end": 1761.27,
+      "text": "But that's not the case with Gaia.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1762.35,
+      "end": 1762.99,
+      "text": "Gaia",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0391": [
+    {
+      "start": 1762.99,
+      "end": 1765.01,
+      "text": "has 215 toys now.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0392": [
+    {
+      "start": 1765.69,
+      "end": 1767.99,
+      "text": "She knows all of them by name.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0393": [
+    {
+      "start": 1768.36,
+      "end": 1770.77,
+      "text": "It's a lot of toys now for us to remember.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1771.01,
+      "end": 1771.5,
+      "text": "So",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0394": [
+    {
+      "start": 1771.5,
+      "end": 1774.4,
+      "text": "we did a catalog of the toys to",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0395": [
+    {
+      "start": 1774.4,
+      "end": 1775.81,
+      "text": "remember their names.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1776.35,
+      "end": 1777.2,
+      "text": "But Gaia always",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0396": [
+    {
+      "start": 1777.2,
+      "end": 1777.93,
+      "text": "always knows the toys.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1778.3,
+      "end": 1779.94,
+      "text": "So yeah, I think her memory",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0397": [
+    {
+      "start": 1779.94,
+      "end": 1780.92,
+      "text": "is better than ours.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0398": [
+    {
+      "start": 1783.18,
+      "end": 1787.25,
+      "text": "Isabella enrolled Gaia in a study called the Genius Dog Challenge.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0399": [
+    {
+      "start": 1789.2,
+      "end": 1790.59,
+      "text": "It's run by Claudia",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0400": [
+    {
+      "start": 1790.59,
+      "end": 1794.21,
+      "text": "Claudia Fugatza, who studies canine cognition.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1794.23,
+      "end": 1797.55,
+      "text": "She's traveled here all the way from Hungary, where she works with one of the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0401": [
+    {
+      "start": 1797.55,
+      "end": 1799.6,
+      "text": "the world's leading canine research groups.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1800.6,
+      "end": 1800.62,
+      "text": "Gaia",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0402": [
+    {
+      "start": 1800.62,
+      "end": 1804.38,
+      "text": "Gaia is one of the, what we call, the gifted world learner dogs.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1804.98,
+      "end": 1809.13,
+      "text": "And these are dogs that have a very special talent for learning",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0403": [
+    {
+      "start": 1809.13,
+      "end": 1810.51,
+      "text": "learning the name of toys.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1811.03,
+      "end": 1812.88,
+      "text": "And they learn very fast.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0404": [
+    {
+      "start": 1812.88,
+      "end": 1813.05,
+      "text": "fast.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1813.77,
+      "end": 1815.45,
+      "text": "Only a few dogs around the world",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0405": [
+    {
+      "start": 1815.45,
+      "end": 1817.0,
+      "text": "seem to have this capacity.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1818.16,
+      "end": 1818.3,
+      "text": "Go, go."
+    },
+    {
+      "start": 1818.87,
+      "end": 1823.82,
+      "text": "One of the most capable dogs at learning object names was Chaser, a border collie",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0406": [
+    {
+      "start": 1823.82,
+      "end": 1825.76,
+      "text": "who knew the names of over 1,000",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0407": [
+    {
+      "start": 1825.76,
+      "end": 1826.24,
+      "text": "toys.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0408": [
+    {
+      "start": 1828.44,
+      "end": 1831.66,
+      "text": "So far, Claudia has found fewer than 50 dogs",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0409": [
+    {
+      "start": 1831.66,
+      "end": 1836.82,
+      "text": "around the world who are good enough at learning object names to take part in her study.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0410": [
+    {
+      "start": 1841.3,
+      "end": 1841.84,
+      "text": "Hello.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1841.86,
+      "end": 1842.05,
+      "text": "Hi, Gaia.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1842.07,
+      "end": 1842.35,
+      "text": "Hello, girl.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1842.53,
+      "end": 1845.43,
+      "text": "She's traveled here to put Gaia to the test.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1846.09,
+      "end": 1846.71,
+      "text": "Thank you.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0411": [
+    {
+      "start": 1847.56,
+      "end": 1849.02,
+      "text": "So I got something for Gaia.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1849.2,
+      "end": 1850.51,
+      "text": "Gaia, look",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0412": [
+    {
+      "start": 1850.51,
+      "end": 1850.86,
+      "text": "look at here.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1851.42,
+      "end": 1852.64,
+      "text": "Maybe there's something for you.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0413": [
+    {
+      "start": 1854.52,
+      "end": 1855.4,
+      "text": "That's for you.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0414": [],
+  "v1_s0415": [
+    {
+      "start": 1859.51,
+      "end": 1859.93,
+      "text": "Coffee?",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0416": [
+    {
+      "start": 1861.89,
+      "end": 1862.41,
+      "text": "Coffee?",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 1862.77,
+      "end": 1865.3,
+      "text": "A little test shows just how quickly Gaia",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0417": [
+    {
+      "start": 1865.3,
+      "end": 1866.9,
+      "text": "Gaia can learn the name of a new toy.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0418": [],
+  "v1_s0419": [
+    {
+      "start": 1869.82,
+      "end": 1870.6,
+      "text": "Gaia,",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0420": [
+    {
+      "start": 1870.6,
+      "end": 1872.47,
+      "text": "Gaia, coffee.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0421": [],
+  "v1_s0422": [],
+  "v1_s0423": [
+    {
+      "start": 1883.86,
+      "end": 1887.0,
+      "text": "I'm going to get it.",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0424": [
+    {
+      "start": 1887.02,
+      "end": 1887.32,
+      "text": "Oh, she got it.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1887.34,
+      "end": 1888.44,
+      "text": "So she learns really quick.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1889.06,
+      "end": 1889.99,
+      "text": "That was a matter of",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0425": [
+    {
+      "start": 1889.99,
+      "end": 1894.76,
+      "text": "a couple of minutes playing, and she already got this new name.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0426": [
+    {
+      "start": 1894.76,
+      "end": 1894.89,
+      "text": "name.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1895.99,
+      "end": 1898.8,
+      "text": "But Claudia already knows that Gaia is exceptionally",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0427": [
+    {
+      "start": 1898.8,
+      "end": 1899.99,
+      "text": "exceptionally talented at learning",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0428": [
+    {
+      "start": 1899.99,
+      "end": 1901.12,
+      "text": "learning the names of toys.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1901.8,
+      "end": 1902.32,
+      "text": "Coffee!",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1903.02,
+      "end": 1904.97,
+      "text": "She wants to find out whether Gaia's cognitive",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0429": [
+    {
+      "start": 1904.97,
+      "end": 1907.05,
+      "text": "cognitive skills go a step further.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0430": [
+    {
+      "start": 1908.53,
+      "end": 1910.07,
+      "text": "Gaia knows that tug and",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0431": [
+    {
+      "start": 1910.07,
+      "end": 1912.17,
+      "text": "and fetch are games to play.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1912.88,
+      "end": 1913.14,
+      "text": "Last",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0432": [
+    {
+      "start": 1913.14,
+      "end": 1914.34,
+      "text": "Last week, she was given",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0433": [
+    {
+      "start": 1914.34,
+      "end": 1915.26,
+      "text": "given two new toys.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1916.06,
+      "end": 1917.58,
+      "text": "One to tug and",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0434": [
+    {
+      "start": 1917.58,
+      "end": 1918.41,
+      "text": "and one to fetch.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0435": [
+    {
+      "start": 1920.15,
+      "end": 1920.59,
+      "text": "New toys.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0436": [
+    {
+      "start": 1922.01,
+      "end": 1926.76,
+      "text": "Can she figure out which toy goes with which game based on how she plays with it?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1926.78,
+      "end": 1927.53,
+      "text": "So",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0437": [
+    {
+      "start": 1927.53,
+      "end": 1930.8,
+      "text": "this one, I will play like this.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0438": [
+    {
+      "start": 1930.82,
+      "end": 1937.57,
+      "text": "Isabella hasn't given the toys any names and hasn't said the words tug or fetch when playing with them.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1937.86,
+      "end": 1937.87,
+      "text": "We've",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0439": [
+    {
+      "start": 1937.87,
+      "end": 1942.53,
+      "text": "We've been playing like this, but I don't say the name of the categories, so, yeah.",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0440": [
+    {
+      "start": 1942.53,
+      "end": 1943.44,
+      "text": "yeah.",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 1943.46,
+      "end": 1944.88,
+      "text": "Is Gaia smart enough to figure",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0441": [
+    {
+      "start": 1944.88,
+      "end": 1948.11,
+      "text": "figure out which is a fetch toy and which is a tug toy,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0442": [
+    {
+      "start": 1948.11,
+      "end": 1950.55,
+      "text": "toy, even though these words haven't been",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0443": [
+    {
+      "start": 1950.55,
+      "end": 1952.09,
+      "text": "used with these toys?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1955.06,
+      "end": 1958.86,
+      "text": "So, are they able to sort those items into the tug or",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0444": [
+    {
+      "start": 1958.86,
+      "end": 1961.78,
+      "text": "or the fetch category, just based on the way you play?",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0445": [
+    {
+      "start": 1962.83,
+      "end": 1963.59,
+      "text": "Cut this.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0446": [
+    {
+      "start": 1963.59,
+      "end": 1963.63,
+      "text": "this.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0447": [],
+  "v1_s0448": [],
+  "v1_s0449": [],
+  "v1_s0450": [],
+  "v1_s0451": [],
+  "v1_s0452": [],
+  "v1_s0453": [
+    {
+      "start": 2001.69,
+      "end": 2002.2,
+      "text": "Good",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0454": [
+    {
+      "start": 2002.2,
+      "end": 2003.94,
+      "text": "Good girl.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 2004.69,
+      "end": 2005.89,
+      "text": "That's a good girl.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 2007.38,
+      "end": 2007.7,
+      "text": "Go, go, go.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0455": [
+    {
+      "start": 2007.7,
+      "end": 2007.85,
+      "text": "go.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 2008.39,
+      "end": 2009.37,
+      "text": "Yeah.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 2010.15,
+      "end": 2010.91,
+      "text": "Well, I have",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0456": [
+    {
+      "start": 2010.91,
+      "end": 2014.18,
+      "text": "have to say, I had no idea how this would go,",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0457": [
+    {
+      "start": 2014.18,
+      "end": 2016.15,
+      "text": "but that was really, really exciting.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0458": [
+    {
+      "start": 2016.52,
+      "end": 2020.08,
+      "text": "Totally, I believe this is a big step in our understanding of dogs' minds.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 2020.26,
+      "end": 2020.95,
+      "text": "So she was",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0459": [
+    {
+      "start": 2020.95,
+      "end": 2028.07,
+      "text": "was able to assign this toy to the named category without ever having heard that name paired with that toy.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0460": [
+    {
+      "start": 2028.93,
+      "end": 2030.53,
+      "text": "What Gaia has done seems different",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0461": [
+    {
+      "start": 2030.53,
+      "end": 2033.88,
+      "text": "different from just simple conditioning or associative learning.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2034.75,
+      "end": 2035.47,
+      "text": "For sure,",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0462": [
+    {
+      "start": 2035.47,
+      "end": 2039.67,
+      "text": "Gaia could not have associated the name,",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0463": [
+    {
+      "start": 2039.67,
+      "end": 2047.9,
+      "text": "fetch or tug, to the specific item because she has never heard that name while seeing that toy or while playing with that toy.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0464": [
+    {
+      "start": 2048.2,
+      "end": 2049.05,
+      "text": "This is not possible.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 2049.14,
+      "end": 2051.13,
+      "text": "She could not have learned that this way.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0465": [
+    {
+      "start": 2052.63,
+      "end": 2059.56,
+      "text": "It seems some dogs can understand that one word can refer to a whole category of objects, not just one",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0466": [
+    {
+      "start": 2059.56,
+      "end": 2060.65,
+      "text": "one individual thing.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0467": [
+    {
+      "start": 2060.65,
+      "end": 2060.72,
+      "text": "thing.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2060.8,
+      "end": 2064.32,
+      "text": "But that's just words that they are hearing.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0468": [
+    {
+      "start": 2065.4,
+      "end": 2070.71,
+      "text": "Could some dogs also understand that they could use a button word in different situations?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0469": [],
+  "v1_s0470": [
+    {
+      "start": 2078.8,
+      "end": 2079.46,
+      "text": "Meet Parker.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2080.57,
+      "end": 2084.11,
+      "text": "She's a beagle cross and a prolific user of word buttons.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0471": [
+    {
+      "start": 2086.03,
+      "end": 2087.82,
+      "text": "So Parker is a bit atypical.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0472": [
+    {
+      "start": 2088.44,
+      "end": 2090.32,
+      "text": "When we first got them, it took her",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0473": [
+    {
+      "start": 2090.32,
+      "end": 2093.86,
+      "text": "about 30 seconds, maybe not even, to press her first button.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2094.18,
+      "end": 2094.36,
+      "text": "And by",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0474": [
+    {
+      "start": 2094.36,
+      "end": 2100.23,
+      "text": "by the end of that kind of evening, she had pressed at least experimentally all six of them.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0475": [
+    {
+      "start": 2100.23,
+      "end": 2100.31,
+      "text": "them.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2101.11,
+      "end": 2101.99,
+      "text": "Snuggle.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2102.01,
+      "end": 2102.74,
+      "text": "You want to snuggle?",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2102.8,
+      "end": 2103.16,
+      "text": "Come here.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0476": [
+    {
+      "start": 2104.26,
+      "end": 2109.07,
+      "text": "Her owner, Sasha Krasnow, enrolled Parker in Federico's study as soon",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0477": [
+    {
+      "start": 2109.07,
+      "end": 2110.51,
+      "text": "soon as the buttons arrived.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0478": [
+    {
+      "start": 2111.68,
+      "end": 2114.64,
+      "text": "She definitely says things with the buttons that she would not be able",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0479": [
+    {
+      "start": 2114.64,
+      "end": 2116.33,
+      "text": "to communicate to me otherwise.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2116.39,
+      "end": 2117.74,
+      "text": "Snuffle",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0480": [
+    {
+      "start": 2117.74,
+      "end": 2120.82,
+      "text": "Snuffle mat.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2121.66,
+      "end": 2123.18,
+      "text": "So a snuffle mat has,",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0481": [
+    {
+      "start": 2123.18,
+      "end": 2125.93,
+      "text": "has, you know, sort of these layers or these little pockets,",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0482": [
+    {
+      "start": 2125.93,
+      "end": 2128.56,
+      "text": "pockets, little places you can kind of hide",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0483": [
+    {
+      "start": 2128.56,
+      "end": 2129.8,
+      "text": "hide food.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2130.52,
+      "end": 2130.76,
+      "text": "And then",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0484": [
+    {
+      "start": 2130.76,
+      "end": 2131.8,
+      "text": "then a puzzle.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2133.55,
+      "end": 2134.82,
+      "text": "It's sort of what it sounds like.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2134.9,
+      "end": 2136.86,
+      "text": "It's another way to kind of",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0485": [
+    {
+      "start": 2136.86,
+      "end": 2138.8,
+      "text": "do mental enrichment while they're eating.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2138.82,
+      "end": 2140.7,
+      "text": "But if I give her",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0486": [
+    {
+      "start": 2140.7,
+      "end": 2145.47,
+      "text": "her food in a snuffle mat and she wants a puzzle that day, she will refuse to eat that food.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2145.93,
+      "end": 2146.14,
+      "text": "And if",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0487": [
+    {
+      "start": 2146.14,
+      "end": 2150.55,
+      "text": "I take the exact same food and pour it into a puzzle, she will then eat that food.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0488": [
+    {
+      "start": 2150.55,
+      "end": 2150.58,
+      "text": "food.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2151.22,
+      "end": 2154.74,
+      "text": "And if I didn't have the buttons, I would think she was just off her food, right?",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2154.76,
+      "end": 2156.3,
+      "text": "That maybe there was something wrong with it.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2156.53,
+      "end": 2156.56,
+      "text": "But",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0489": [
+    {
+      "start": 2156.56,
+      "end": 2161.56,
+      "text": "But no, she's just very particular about the experience she wants while she's eating.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0490": [
+    {
+      "start": 2161.56,
+      "end": 2161.87,
+      "text": "eating.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2163.68,
+      "end": 2169.65,
+      "text": "Of course, there may always be a temptation for owners to over-interpret their pet's use of word buttons.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2173.19,
+      "end": 2173.29,
+      "text": "Dude."
+    },
+    {
+      "start": 2173.31,
+      "end": 2173.41,
+      "text": "Ball.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2173.43,
+      "end": 2174.2,
+      "text": "But Parker certainly",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0491": [
+    {
+      "start": 2174.2,
+      "end": 2176.12,
+      "text": "certainly seems more capable than most.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2177.92,
+      "end": 2178.74,
+      "text": "One time when I was",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0492": [
+    {
+      "start": 2178.74,
+      "end": 2181.44,
+      "text": "was kind of just out for maybe an hour or so,",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0493": [
+    {
+      "start": 2181.44,
+      "end": 2183.85,
+      "text": "she pressed potty.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2186.67,
+      "end": 2186.75,
+      "text": "Potty."
+    }
+  ],
+  "v1_s0494": [
+    {
+      "start": 2186.75,
+      "end": 2186.79,
+      "text": "Potty."
+    },
+    {
+      "start": 2186.81,
+      "end": 2186.93,
+      "text": "Potty.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2186.95,
+      "end": 2188.09,
+      "text": "And then on the video,",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0495": [
+    {
+      "start": 2188.09,
+      "end": 2189.82,
+      "text": "you can see that she throws up.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2192.82,
+      "end": 2193.76,
+      "text": "And then she",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0496": [
+    {
+      "start": 2193.76,
+      "end": 2194.95,
+      "text": "goes and presses",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0497": [
+    {
+      "start": 2194.95,
+      "end": 2195.18,
+      "text": "presses help.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2195.2,
+      "end": 2195.52,
+      "text": "Help.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0498": [
+    {
+      "start": 2200.45,
+      "end": 2205.64,
+      "text": "Amalia, Federico's colleague, felt that use of the word help suggested greater",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0499": [
+    {
+      "start": 2205.64,
+      "end": 2209.6,
+      "text": "cognitive abilities than most of the button words used by dogs.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2210.88,
+      "end": 2211.4,
+      "text": "So with most of",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0500": [
+    {
+      "start": 2211.4,
+      "end": 2217.98,
+      "text": "of the buttons that dogs have, like food or play or walk, these are simple associations that are related to one particular context.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0501": [
+    {
+      "start": 2217.98,
+      "end": 2218.18,
+      "text": "context.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2219.35,
+      "end": 2220.78,
+      "text": "Help is interesting because",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0502": [
+    {
+      "start": 2220.78,
+      "end": 2224.7,
+      "text": "it's a little bit more general than a lot of the simpler buttons that these dogs might have.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0503": [
+    {
+      "start": 2226.51,
+      "end": 2226.82,
+      "text": "She decided",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0504": [
+    {
+      "start": 2226.82,
+      "end": 2230.34,
+      "text": "decided to set up an experiment called the impossible task.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0505": [
+    {
+      "start": 2231.4,
+      "end": 2232.88,
+      "text": "Sasha and Parker took part.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2234.11,
+      "end": 2234.47,
+      "text": "Sit.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2234.49,
+      "end": 2234.91,
+      "text": "Wait.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0506": [
+    {
+      "start": 2236.29,
+      "end": 2239.7,
+      "text": "So the way that the study is set up is we have this mat",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0507": [
+    {
+      "start": 2239.7,
+      "end": 2241.14,
+      "text": "on the floor here, and it's got a",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0508": [
+    {
+      "start": 2241.14,
+      "end": 2241.93,
+      "text": "Tupperware in the middle.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2242.5,
+      "end": 2243.4,
+      "text": "First, the owners",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0509": [
+    {
+      "start": 2243.4,
+      "end": 2246.11,
+      "text": "owners give the dogs opportunities over four different trials to obtain a food",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0510": [
+    {
+      "start": 2246.11,
+      "end": 2247.4,
+      "text": "reward from inside the Tupperware.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2247.74,
+      "end": 2249.06,
+      "text": "And at that point, the lid is open.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2249.28,
+      "end": 2254.01,
+      "text": "And at all these stages, a dog can knock off the lid and eat the food inside the Tupperware without much difficulty.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0511": [
+    {
+      "start": 2255.59,
+      "end": 2256.98,
+      "text": "Until in the very final trial, the",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0512": [
+    {
+      "start": 2256.98,
+      "end": 2259.21,
+      "text": "fifth trial, the Tupperware is completely locked.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2259.23,
+      "end": 2262.94,
+      "text": "And that's the point at which the dog might need help to access the food.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2263.27,
+      "end": 2265.47,
+      "text": "The owners are not allowed to speak to their dog,",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0513": [
+    {
+      "start": 2265.47,
+      "end": 2267.19,
+      "text": "point or gesture at the dog, look",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0514": [
+    {
+      "start": 2267.19,
+      "end": 2268.54,
+      "text": "look at their dog, nothing at all.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2271.22,
+      "end": 2273.31,
+      "text": "I didn't know what Parker would do in",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0515": [
+    {
+      "start": 2273.31,
+      "end": 2275.64,
+      "text": "that circumstance, whether she would use the buttons or not.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0516": [
+    {
+      "start": 2275.64,
+      "end": 2275.67,
+      "text": "not.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2278.81,
+      "end": 2282.64,
+      "text": "We can see she's immediately gone to Sasha, and she's climbed onto Sasha's back trying to get her attention.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2283.18,
+      "end": 2284.55,
+      "text": "But what we're interested in is, can",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0517": [
+    {
+      "start": 2284.55,
+      "end": 2287.72,
+      "text": "these dogs then make that leap and use a word?",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0518": [
+    {
+      "start": 2287.72,
+      "end": 2288.4,
+      "text": "word?",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2292.03,
+      "end": 2293.19,
+      "text": "She presses help, look,",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0519": [
+    {
+      "start": 2293.19,
+      "end": 2294.77,
+      "text": "look, and then she looks to Sasha.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0520": [
+    {
+      "start": 2295.87,
+      "end": 2302.96,
+      "text": "Parker had never before been presented with this scenario, and so had never used the words look or help in this context.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2306.12,
+      "end": 2308.2,
+      "text": "So because it's the very first time that they've seen this, it",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0521": [
+    {
+      "start": 2308.2,
+      "end": 2309.1,
+      "text": "it tells us two things.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2309.14,
+      "end": 2311.01,
+      "text": "It tells us that behavior wasn't trained,",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0522": [
+    {
+      "start": 2311.01,
+      "end": 2315.55,
+      "text": "and it tells us that the dog is having to think about what this",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0523": [
+    {
+      "start": 2315.55,
+      "end": 2318.65,
+      "text": "requires from them in terms of communication to their owner, and",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0524": [
+    {
+      "start": 2318.65,
+      "end": 2321.92,
+      "text": "and that they need to generalize a button that they've not used in this context before.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0525": [
+    {
+      "start": 2323.38,
+      "end": 2330.73,
+      "text": "It seems from this experiment that Parker understands that the word help can be used in a broad range of scenarios.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2332.63,
+      "end": 2333.35,
+      "text": "Oh, hi.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2333.37,
+      "end": 2333.71,
+      "text": "Do you need help?",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2333.73,
+      "end": 2333.99,
+      "text": "Here you go.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0526": [
+    {
+      "start": 2341.22,
+      "end": 2344.51,
+      "text": "As well as using words in new, untrained ways,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0527": [
+    {
+      "start": 2344.51,
+      "end": 2350.15,
+      "text": "a huge step would be if dogs were using words to do more than just ask for things.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0528": [
+    {
+      "start": 2350.92,
+      "end": 2354.52,
+      "text": "What we're actually interested in is whether dogs might be able to use the",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0529": [
+    {
+      "start": 2354.52,
+      "end": 2358.03,
+      "text": "the soundboards not just as a vending machine where they're requesting things from humans,",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0530": [
+    {
+      "start": 2358.03,
+      "end": 2360.71,
+      "text": "humans, but actually understand it as a communicative device.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0531": [
+    {
+      "start": 2361.86,
+      "end": 2364.12,
+      "text": "So humans do not just request things.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0532": [
+    {
+      "start": 2364.12,
+      "end": 2364.36,
+      "text": "things.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2364.7,
+      "end": 2366.62,
+      "text": "Humans can inform.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2366.64,
+      "end": 2366.66,
+      "text": "It's",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0533": [
+    {
+      "start": 2366.66,
+      "end": 2368.18,
+      "text": "It's a thing that humans do all the time.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2368.76,
+      "end": 2370.03,
+      "text": "Toddlers start doing it.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2370.05,
+      "end": 2371.63,
+      "text": "They will point to the moon and say, moon.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2371.69,
+      "end": 2373.05,
+      "text": "And you know, they're not requesting the moon.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2373.07,
+      "end": 2374.33,
+      "text": "They're just letting you know the moon is there.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0534": [
+    {
+      "start": 2374.35,
+      "end": 2379.78,
+      "text": "Right or wrong, it's something that some dog owners believe their dogs are capable of.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0535": [
+    {
+      "start": 2381.58,
+      "end": 2385.95,
+      "text": "Though, of course, they may have a tendency to read too much into their dog's button presses.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0536": [
+    {
+      "start": 2388.57,
+      "end": 2391.24,
+      "text": "Parker uses the buttons to narrate a decent amount.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2391.36,
+      "end": 2395.28,
+      "text": "She has narrated me watering the plants quite a bit.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0537": [
+    {
+      "start": 2395.74,
+      "end": 2397.81,
+      "text": "She'll narrate also things she does sometimes.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0538": [
+    {
+      "start": 2401.61,
+      "end": 2406.88,
+      "text": "She's pressed settle before and then just gone into her bed and lie down.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2408.4,
+      "end": 2408.47,
+      "text": "She",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0539": [
+    {
+      "start": 2408.47,
+      "end": 2410.12,
+      "text": "She didn't get anything from me for it.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2410.56,
+      "end": 2411.71,
+      "text": "She just pressed settle,",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0540": [
+    {
+      "start": 2411.71,
+      "end": 2412.5,
+      "text": "and then she settled.",
+      "speaker": "SPEAKER_18"
+    },
+    {
+      "start": 2412.52,
+      "end": 2414.08,
+      "text": "It's",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0541": [
+    {
+      "start": 2414.08,
+      "end": 2420.71,
+      "text": "It's impossible to know for sure whether Parker really was commenting on what she was doing.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0542": [
+    {
+      "start": 2422.73,
+      "end": 2425.15,
+      "text": "But other dogs, like Copper, a three-and-a-half-year-old",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0543": [
+    {
+      "start": 2425.15,
+      "end": 2430.06,
+      "text": "three-and-a-half-year-old Labrador, also seem to be using buttons to do more than just make requests.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2430.96,
+      "end": 2431.86,
+      "text": "Outside pool.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2431.89,
+      "end": 2432.75,
+      "text": "Outside pool.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2433.29,
+      "end": 2435.89,
+      "text": "Outside pool, maybe tomorrow.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2441.1,
+      "end": 2442.26,
+      "text": "Outside pool later.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2444.11,
+      "end": 2444.53,
+      "text": "Later.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2448.62,
+      "end": 2450.14,
+      "text": "Oh my goodness, copper.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2451.41,
+      "end": 2454.15,
+      "text": "It looks like copper was using her buttons to express",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0544": [
+    {
+      "start": 2454.15,
+      "end": 2455.28,
+      "text": "express emotion.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2455.83,
+      "end": 2458.16,
+      "text": "But of course, we don't know for sure.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2458.86,
+      "end": 2459.36,
+      "text": "An animal could",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0545": [
+    {
+      "start": 2459.36,
+      "end": 2462.8,
+      "text": "could learn that pressing the sad button gets attention.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 2463.66,
+      "end": 2473.84,
+      "text": "And once they've learned that, they can manipulate these different concepts in quite complex ways without understanding there's a semantic meaning behind it.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0546": [
+    {
+      "start": 2477.18,
+      "end": 2478.92,
+      "text": "Outside pool later.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0547": [],
+  "v1_s0548": [
+    {
+      "start": 2482.82,
+      "end": 2491.33,
+      "text": "From the data being submitted by dog owners, Federico has found that many believe their dogs are using buttons to do more than just ask for things.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0549": [],
+  "v1_s0550": [
+    {
+      "start": 2494.37,
+      "end": 2503.78,
+      "text": "While 50% of button presses were categorized as requests, more than 5% of presses were believed by owners to be sharing thoughts and feelings.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2503.8,
+      "end": 2508.16,
+      "text": "6% were informing.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2509.53,
+      "end": 2513.43,
+      "text": "as well as 6.4% described by owners as narrating.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2515.42,
+      "end": 2518.78,
+      "text": "Crucially, these aren't scientifically validated reports.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2519.54,
+      "end": 2522.35,
+      "text": "They're just what owners believe their dogs are doing.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2525.51,
+      "end": 2527.72,
+      "text": "Knowing for certain what a dog means when it",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0551": [
+    {
+      "start": 2527.72,
+      "end": 2532.48,
+      "text": "it uses words or thinks when it hears words is much harder.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0552": [
+    {
+      "start": 2538.08,
+      "end": 2539.88,
+      "text": "But in Budapest, Hungary,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0553": [
+    {
+      "start": 2539.88,
+      "end": 2544.35,
+      "text": "Mariana Boros wants to find out what's happening inside a dog's",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0554": [
+    {
+      "start": 2544.35,
+      "end": 2546.87,
+      "text": "brain when it hears words it knows.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2548.55,
+      "end": 2548.98,
+      "text": "For most",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0555": [
+    {
+      "start": 2548.98,
+      "end": 2550.65,
+      "text": "most people, we have",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0556": [
+    {
+      "start": 2550.65,
+      "end": 2554.54,
+      "text": "have a mental representation of things from the external world.",
+      "speaker": "SPEAKER_11"
+    },
+    {
+      "start": 2554.62,
+      "end": 2556.79,
+      "text": "So we have a mental representation of an object,",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0557": [
+    {
+      "start": 2556.79,
+      "end": 2559.28,
+      "text": "object, some kind of a memory of that thing.",
+      "speaker": "SPEAKER_11"
+    },
+    {
+      "start": 2559.32,
+      "end": 2564.23,
+      "text": "We can imagine it in a way that we hear the word ball, we will",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0558": [
+    {
+      "start": 2564.23,
+      "end": 2566.6,
+      "text": "will see in our mental imagery a ball.",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0559": [
+    {
+      "start": 2566.6,
+      "end": 2566.89,
+      "text": "ball.",
+      "speaker": "SPEAKER_11"
+    },
+    {
+      "start": 2568.1,
+      "end": 2571.87,
+      "text": "Mariana wants to test whether dogs' brains might work similarly.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2572.97,
+      "end": 2577.37,
+      "text": "When a dog hears a word, does it conjure up an image of that thing in its head?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2579.64,
+      "end": 2580.85,
+      "text": "To find out, she's",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0560": [
+    {
+      "start": 2580.85,
+      "end": 2585.58,
+      "text": "she's going to study the brain activity of Demi, an 11-year-old Swiss shepherd dog.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0561": [
+    {
+      "start": 2587.81,
+      "end": 2589.82,
+      "text": "So right now I'm putting on the electrodes",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0562": [
+    {
+      "start": 2589.82,
+      "end": 2591.82,
+      "text": "electrodes on Demi's head",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0563": [
+    {
+      "start": 2591.82,
+      "end": 2593.65,
+      "text": "head that will measure the brain signal.",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0564": [],
+  "v1_s0565": [
+    {
+      "start": 2597.87,
+      "end": 2599.03,
+      "text": "Demi's owner, Timi,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0566": [
+    {
+      "start": 2599.03,
+      "end": 2601.11,
+      "text": "has brought in some of Demi's toys.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0567": [
+    {
+      "start": 2603.3,
+      "end": 2606.07,
+      "text": "Demi hears a message telling her what toy she's",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0568": [
+    {
+      "start": 2606.07,
+      "end": 2606.86,
+      "text": "she's about to see.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2606.9,
+      "end": 2610.85,
+      "text": "Sometimes,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0569": [
+    {
+      "start": 2610.85,
+      "end": 2612.35,
+      "text": "Sometimes,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0570": [
+    {
+      "start": 2612.35,
+      "end": 2614.35,
+      "text": "Sometimes, Timi shows her that toy.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0571": [],
+  "v1_s0572": [
+    {
+      "start": 2618.72,
+      "end": 2619.32,
+      "text": "But sometimes,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0573": [
+    {
+      "start": 2619.32,
+      "end": 2621.15,
+      "text": "sometimes, Timi shows a different",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0574": [
+    {
+      "start": 2621.15,
+      "end": 2623.19,
+      "text": "toy than what Demi is expecting.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0575": [
+    {
+      "start": 2623.19,
+      "end": 2623.52,
+      "text": "expecting.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2624.41,
+      "end": 2626.99,
+      "text": "The idea is that if the dog sees a different",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0576": [
+    {
+      "start": 2626.99,
+      "end": 2628.86,
+      "text": "object, it should be somehow surprised,",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0577": [
+    {
+      "start": 2628.86,
+      "end": 2631.23,
+      "text": "surprised, and this surprise effect",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0578": [
+    {
+      "start": 2631.23,
+      "end": 2635.43,
+      "text": "effect should be visible in the EEG signal.",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0579": [
+    {
+      "start": 2635.43,
+      "end": 2635.66,
+      "text": "signal.",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0580": [
+    {
+      "start": 2639.74,
+      "end": 2639.94,
+      "text": "What we",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0581": [
+    {
+      "start": 2639.94,
+      "end": 2642.74,
+      "text": "we can see here is that if a dog saw",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0582": [
+    {
+      "start": 2642.74,
+      "end": 2645.51,
+      "text": "saw an object that matched the word that he just heard,",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0583": [
+    {
+      "start": 2645.51,
+      "end": 2647.35,
+      "text": "heard, this is the response that we get.",
+      "speaker": "SPEAKER_11"
+    },
+    {
+      "start": 2647.73,
+      "end": 2649.52,
+      "text": "But when we violate their expectations,",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0584": [
+    {
+      "start": 2649.52,
+      "end": 2652.18,
+      "text": "expectations, so we show a different object, then",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0585": [
+    {
+      "start": 2652.18,
+      "end": 2655.6,
+      "text": "then we get a more positive response in the EEG signal.",
+      "speaker": "SPEAKER_11"
+    },
+    {
+      "start": 2657.14,
+      "end": 2659.03,
+      "text": "Mariana believes that the difference in",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0586": [
+    {
+      "start": 2659.03,
+      "end": 2662.26,
+      "text": "electrical activity indicates that when dogs hear",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0587": [
+    {
+      "start": 2662.26,
+      "end": 2666.15,
+      "text": "hear a word, it can evoke a mental representation of an object.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2667.43,
+      "end": 2667.9,
+      "text": "We can",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0588": [
+    {
+      "start": 2667.9,
+      "end": 2670.84,
+      "text": "can claim, based on this study, that when they",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0589": [
+    {
+      "start": 2670.84,
+      "end": 2676.84,
+      "text": "they hear the name of an object, they activate something, the so-called memory of this object.",
+      "speaker": "SPEAKER_11"
+    },
+    {
+      "start": 2676.86,
+      "end": 2679.35,
+      "text": "So we think that the dog is actually",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0590": [
+    {
+      "start": 2679.35,
+      "end": 2686.59,
+      "text": "actually surprised when it sees a different thing, but it is surprised because it has an expectation and because it understands",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0591": [
+    {
+      "start": 2686.59,
+      "end": 2688.03,
+      "text": "understands the meaning of that word.",
+      "speaker": "SPEAKER_11"
+    },
+    {
+      "start": 2689.64,
+      "end": 2692.22,
+      "text": "That's a qualitatively different way",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0592": [
+    {
+      "start": 2692.22,
+      "end": 2694.32,
+      "text": "way of using language",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0593": [
+    {
+      "start": 2694.32,
+      "end": 2697.39,
+      "text": "as opposed to associative learning.",
+      "speaker": "SPEAKER_11"
+    },
+    {
+      "start": 2698.51,
+      "end": 2700.77,
+      "text": "So yes, I would say there's",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0594": [
+    {
+      "start": 2700.77,
+      "end": 2704.38,
+      "text": "a possibility that they understand words similarly to us.",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0595": [
+    {
+      "start": 2707.06,
+      "end": 2709.05,
+      "text": "There are limitations in interpreting",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0596": [
+    {
+      "start": 2709.05,
+      "end": 2711.07,
+      "text": "EEG signals like these and",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0597": [
+    {
+      "start": 2711.07,
+      "end": 2713.88,
+      "text": "and figuring out exactly what they tell us about",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0598": [
+    {
+      "start": 2713.88,
+      "end": 2716.23,
+      "text": "how much an animal really understands.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0599": [
+    {
+      "start": 2718.51,
+      "end": 2719.06,
+      "text": "But if dogs",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0600": [
+    {
+      "start": 2719.06,
+      "end": 2720.48,
+      "text": "dogs do understand words in",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0601": [
+    {
+      "start": 2720.48,
+      "end": 2722.49,
+      "text": "similar ways to us, could",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0602": [
+    {
+      "start": 2722.49,
+      "end": 2724.09,
+      "text": "could they start putting them together",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0603": [
+    {
+      "start": 2724.09,
+      "end": 2725.8,
+      "text": "and using them in more complex",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0604": [
+    {
+      "start": 2725.8,
+      "end": 2727.0,
+      "text": "complex ways?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2728.36,
+      "end": 2728.48,
+      "text": "To",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0605": [
+    {
+      "start": 2728.48,
+      "end": 2731.23,
+      "text": "To understand that,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0606": [
+    {
+      "start": 2731.23,
+      "end": 2734.84,
+      "text": "that, we need to look at the dogs that use a lot of buttons.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0607": [
+    {
+      "start": 2734.84,
+      "end": 2735.01,
+      "text": "buttons.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2736.71,
+      "end": 2737.7,
+      "text": "Okay,",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0608": [
+    {
+      "start": 2737.7,
+      "end": 2740.08,
+      "text": "we can go outside.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 2740.1,
+      "end": 2741.2,
+      "text": "Come on, girl.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0609": [
+    {
+      "start": 2741.2,
+      "end": 2743.35,
+      "text": "girl.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0610": [
+    {
+      "start": 2743.35,
+      "end": 2744.12,
+      "text": "girl.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 2744.14,
+      "end": 2749.27,
+      "text": "Of all the dogs taking part in Federico's study, most use just a handful of buttons.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2752.31,
+      "end": 2757.46,
+      "text": "But there are at least 30 dogs who routinely use at least 50 different buttons.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2759.31,
+      "end": 2763.19,
+      "text": "The holy grail would be to find dogs that are capable of using a limited",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0611": [
+    {
+      "start": 2763.19,
+      "end": 2767.43,
+      "text": "limited number of words to express new ideas that they don't have specific",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0612": [
+    {
+      "start": 2767.43,
+      "end": 2768.59,
+      "text": "specific buttons for.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2769.07,
+      "end": 2770.31,
+      "text": "We humans have",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0613": [
+    {
+      "start": 2770.31,
+      "end": 2771.77,
+      "text": "a limited vocabulary,",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0614": [
+    {
+      "start": 2771.77,
+      "end": 2777.31,
+      "text": "but the reality is there's no constraint on how many different things we can express.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0615": [
+    {
+      "start": 2777.31,
+      "end": 2777.34,
+      "text": "express.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 2777.32,
+      "end": 2790.39,
+      "text": "The only way that we can get that unlimited ability from a limited vocabulary is by combining those different terms, those different words, that vocabulary, in different ways to create new concepts.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0616": [
+    {
+      "start": 2790.39,
+      "end": 2791.18,
+      "text": "concepts.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 2791.24,
+      "end": 2795.97,
+      "text": "This ability to say anything with limited words is known as productivity.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0617": [
+    {
+      "start": 2796.71,
+      "end": 2797.67,
+      "text": "I can give you an example.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2797.97,
+      "end": 2799.0,
+      "text": "My two-year-old kept",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0618": [
+    {
+      "start": 2799.0,
+      "end": 2802.7,
+      "text": "telling me that he wanted to be dressed as a green lion.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2802.74,
+      "end": 2805.18,
+      "text": "And I was like, what are you talking about?",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2805.24,
+      "end": 2806.28,
+      "text": "There is no green lion.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2806.86,
+      "end": 2808.41,
+      "text": "And at some point, he sees somebody",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0619": [
+    {
+      "start": 2808.41,
+      "end": 2811.35,
+      "text": "somebody dressed as a dinosaur, points to it, and says, green lion.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2811.85,
+      "end": 2813.13,
+      "text": "And I'm like, there you go.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2813.19,
+      "end": 2814.84,
+      "text": "You don't have a word for dinosaur.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0620": [
+    {
+      "start": 2814.86,
+      "end": 2819.86,
+      "text": "But by saying green lion, you're getting as close as you can with your vocabulary to telling me",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2819.84,
+      "end": 2821.31,
+      "text": "this is what I want.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2821.81,
+      "end": 2822.09,
+      "text": "Linguistic",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0621": [
+    {
+      "start": 2822.09,
+      "end": 2826.84,
+      "text": "Linguistic productivity is absolutely central to the way that humans do language.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0622": [
+    {
+      "start": 2827.3,
+      "end": 2832.07,
+      "text": "So that cognitive ability is very, very powerful and very, very rare in the",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0623": [
+    {
+      "start": 2832.07,
+      "end": 2832.63,
+      "text": "the animal world.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0624": [
+    {
+      "start": 2834.35,
+      "end": 2837.38,
+      "text": "It would be a huge step up in terms of cognitive ability.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2838.3,
+      "end": 2838.31,
+      "text": "So",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0625": [
+    {
+      "start": 2838.31,
+      "end": 2840.37,
+      "text": "So could some dogs be showing signs of it?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2843.13,
+      "end": 2843.47,
+      "text": "In order",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0626": [
+    {
+      "start": 2843.47,
+      "end": 2847.58,
+      "text": "order to look at productivity, you need to have dogs that can combine at least two buttons.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0627": [
+    {
+      "start": 2848.32,
+      "end": 2854.04,
+      "text": "As of yesterday, we have 790 dogs in our pool that do multi-button combinations.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0628": [
+    {
+      "start": 2854.72,
+      "end": 2861.39,
+      "text": "It is possible that out of this 700, almost 800 individuals, you can now",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0629": [
+    {
+      "start": 2861.39,
+      "end": 2866.66,
+      "text": "look at some, and maybe there's going to be one, two, three, five, 10, 20, that actually have",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0630": [
+    {
+      "start": 2866.66,
+      "end": 2869.81,
+      "text": "have the ability to kind of refer to things that you don't have a word for",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0631": [
+    {
+      "start": 2869.81,
+      "end": 2872.2,
+      "text": "for by combining other signals.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0632": [
+    {
+      "start": 2872.2,
+      "end": 2872.46,
+      "text": "signals.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2872.44,
+      "end": 2875.71,
+      "text": "We have anecdotal reports from some of them that they seem to be doing it.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2878.05,
+      "end": 2878.52,
+      "text": "One time when",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0633": [
+    {
+      "start": 2878.52,
+      "end": 2882.72,
+      "text": "when Stella's beach button broke, she went right over, looked",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0634": [
+    {
+      "start": 2882.72,
+      "end": 2884.59,
+      "text": "looked exactly where her beach button was.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 2884.64,
+      "end": 2889.03,
+      "text": "She kind of sniffed it, looked at the empty space, and",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0635": [
+    {
+      "start": 2889.03,
+      "end": 2892.32,
+      "text": "and then immediately after said, help, water outside.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0636": [
+    {
+      "start": 2892.32,
+      "end": 2892.68,
+      "text": "outside.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 2898.8,
+      "end": 2900.78,
+      "text": "That was something that had never been taught.",
+      "speaker": "SPEAKER_10"
+    },
+    {
+      "start": 2901.16,
+      "end": 2901.67,
+      "text": "I had never",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0637": [
+    {
+      "start": 2901.67,
+      "end": 2911.66,
+      "text": "referred to the beach as water outside, but she put those together in order to communicate that concept to me when her beach button wasn't available anymore.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0638": [
+    {
+      "start": 2912.78,
+      "end": 2922.85,
+      "text": "It's impossible to know whether Christina's interpretation is correct, but clips like these are helpful for Federico to highlight possible areas for future research.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2926.07,
+      "end": 2926.43,
+      "text": "This is the",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0639": [
+    {
+      "start": 2926.43,
+      "end": 2929.46,
+      "text": "the reason I'm doing it, even though people told me I might lose my job.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 2930.0,
+      "end": 2932.62,
+      "text": "It's because I've seen things like that.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0640": [
+    {
+      "start": 2932.94,
+      "end": 2938.75,
+      "text": "I've seen animals putting together two or three buttons in ways that look like they were producing sentences.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0641": [
+    {
+      "start": 2939.31,
+      "end": 2941.01,
+      "text": "But of course, you should not stop there, because",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0642": [
+    {
+      "start": 2941.01,
+      "end": 2942.26,
+      "text": "because that thing could have been trained.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0643": [
+    {
+      "start": 2943.64,
+      "end": 2944.1,
+      "text": "We'll go to the beach.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2945.24,
+      "end": 2945.82,
+      "text": "It might look like",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0644": [
+    {
+      "start": 2945.82,
+      "end": 2948.23,
+      "text": "like productivity, but we don't know for sure that it is.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0645": [
+    {
+      "start": 2948.85,
+      "end": 2951.12,
+      "text": "I do find interesting that you pressed buttons that are near",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0646": [
+    {
+      "start": 2951.12,
+      "end": 2951.99,
+      "text": "near beach.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2954.2,
+      "end": 2955.22,
+      "text": "So I would have loved to",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0647": [
+    {
+      "start": 2955.22,
+      "end": 2959.76,
+      "text": "to know if she would have done the same if, say, Beach was on the other side of the soundboard.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0648": [
+    {
+      "start": 2959.76,
+      "end": 2959.81,
+      "text": "soundboard.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2961.8,
+      "end": 2969.93,
+      "text": "Although Stella had never before used those buttons together, testing what she meant by them after the event is impossible.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2970.2,
+      "end": 2971.31,
+      "text": "after that set of buttons",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0649": [
+    {
+      "start": 2971.31,
+      "end": 2978.13,
+      "text": "buttons is hit, if Stella then goes to the beach, now that set of buttons definitely means beach.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 2979.01,
+      "end": 2982.68,
+      "text": "So then it's almost impossible for us to know at the first button press occurrence",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0650": [
+    {
+      "start": 2982.68,
+      "end": 2986.48,
+      "text": "occurrence what Stella had intended, because now",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0651": [
+    {
+      "start": 2986.48,
+      "end": 2987.82,
+      "text": "it always means beach.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0652": [],
+  "v1_s0653": [],
+  "v1_s0654": [
+    {
+      "start": 2994.65,
+      "end": 2996.27,
+      "text": "So, can dogs",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0655": [
+    {
+      "start": 2996.27,
+      "end": 2996.61,
+      "text": "dogs talk?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2997.39,
+      "end": 3000.51,
+      "text": "I think Parker can communicate using English",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0656": [
+    {
+      "start": 3000.51,
+      "end": 3002.07,
+      "text": "English language words.",
+      "speaker": "SPEAKER_18"
+    }
+  ],
+  "v1_s0657": [
+    {
+      "start": 3003.28,
+      "end": 3010.35,
+      "text": "If you want to",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0658": [
+    {
+      "start": 3010.35,
+      "end": 3014.05,
+      "text": "to call that talking, great.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0659": [
+    {
+      "start": 3014.05,
+      "end": 3015.56,
+      "text": "great.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3015.58,
+      "end": 3017.26,
+      "text": "I say that Stella talks",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0660": [
+    {
+      "start": 3017.26,
+      "end": 3019.98,
+      "text": "because she's using words to communicate.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0661": [
+    {
+      "start": 3022.16,
+      "end": 3023.76,
+      "text": "The fact that it's not a trained",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0662": [
+    {
+      "start": 3023.76,
+      "end": 3034.97,
+      "text": "behavior and that it's independent and that she can use words to mean a lot of different things indicates language, not just a conditioned trick.",
+      "speaker": "SPEAKER_10"
+    }
+  ],
+  "v1_s0663": [
+    {
+      "start": 3036.82,
+      "end": 3038.28,
+      "text": "It's not surprising that owners,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0664": [
+    {
+      "start": 3038.28,
+      "end": 3039.81,
+      "text": "owners, with their close relationships",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0665": [
+    {
+      "start": 3039.81,
+      "end": 3041.51,
+      "text": "relationships and strong communicative",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0666": [
+    {
+      "start": 3041.51,
+      "end": 3044.28,
+      "text": "bonds, might feel their dogs are",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0667": [
+    {
+      "start": 3044.28,
+      "end": 3044.83,
+      "text": "are talking.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 3045.83,
+      "end": 3047.18,
+      "text": "Love",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0668": [
+    {
+      "start": 3047.18,
+      "end": 3048.01,
+      "text": "you.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 3048.03,
+      "end": 3048.19,
+      "text": "Stella.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 3048.21,
+      "end": 3048.55,
+      "text": "Love you, Stella.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 3049.18,
+      "end": 3050.26,
+      "text": "But scientific understanding",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0669": [
+    {
+      "start": 3050.26,
+      "end": 3054.28,
+      "text": "understanding of their linguistic capabilities is still in its early days.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 3057.63,
+      "end": 3059.86,
+      "text": "We are very much at the beginning of what we're doing,",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0670": [
+    {
+      "start": 3059.86,
+      "end": 3063.42,
+      "text": "doing, and we need to be ready to collect data for years and years.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0671": [
+    {
+      "start": 3065.96,
+      "end": 3068.27,
+      "text": "And to me, the exciting part is that",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0672": [
+    {
+      "start": 3068.27,
+      "end": 3071.13,
+      "text": "we now get a better sense of what might be happening out there.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0673": [
+    {
+      "start": 3073.01,
+      "end": 3078.14,
+      "text": "Maybe you can see something that nobody else could see before because we just didn't have access to all this data.",
+      "speaker": "SPEAKER_15"
+    }
+  ],
+  "v1_s0674": [
+    {
+      "start": 3078.14,
+      "end": 3078.98,
+      "text": "data.",
+      "speaker": "SPEAKER_15"
+    },
+    {
+      "start": 3080.29,
+      "end": 3084.86,
+      "text": "We're really at the start of this journey of understanding animal cognition, animal",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0675": [
+    {
+      "start": 3084.86,
+      "end": 3091.22,
+      "text": "animal communication, and where that lies on that spectrum between language and non-language.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0676": [
+    {
+      "start": 3091.22,
+      "end": 3092.94,
+      "text": "non-language.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 3092.96,
+      "end": 3096.05,
+      "text": "Where?",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 3096.07,
+      "end": 3096.99,
+      "text": "Where?",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 3101.57,
+      "end": 3102.17,
+      "text": "Whereby?",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 3102.19,
+      "end": 3104.82,
+      "text": "Are you asking where you're going?",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 3104.84,
+      "end": 3106.64,
+      "text": "You're going to go see Natalie.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 3107.61,
+      "end": 3117.45,
+      "text": "It's clear that dogs will never be capable of using our language to generate the rich, grammatically correct, infinite range of sentences that humans can create.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 3118.45,
+      "end": 3119.56,
+      "text": "Does it matter if the",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0677": [
+    {
+      "start": 3119.56,
+      "end": 3122.36,
+      "text": "the sentence you're saying is grammatical or not, as long as you're getting your",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0678": [
+    {
+      "start": 3122.36,
+      "end": 3125.77,
+      "text": "your point across and you're actually benefiting from that two-way communication?",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 3126.41,
+      "end": 3126.99,
+      "text": "I don't think so.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0679": [
+    {
+      "start": 3128.55,
+      "end": 3131.38,
+      "text": "Whether dogs are using language or not,",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 3131.59,
+      "end": 3141.67,
+      "text": "With a new tool in their communication kit and access to our words, perhaps the close bond between humans and dogs could become even closer.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0680": [],
+  "v1_s0681": [],
+  "v1_s0682": [],
+  "v1_s0683": [],
+  "v1_s0684": [],
+  "v1_s0685": [],
+  "v1_s0686": [],
+  "v1_s0687": [],
+  "v1_s0688": [],
+  "v1_s0689": [
+    {
+      "start": 3203.14,
+      "end": 3204.12,
+      "text": "♪"
+    }
+  ],
+  "v1_s0690": [
+    {
+      "start": 3204.12,
+      "end": 3207.12,
+      "text": "♪"
+    }
+  ],
+  "v1_s0691": [
+    {
+      "start": 3207.12,
+      "end": 3209.01,
+      "text": "♪"
+    }
+  ],
+  "v1_s0692": [
+    {
+      "start": 3209.01,
+      "end": 3211.85,
+      "text": "♪"
+    }
+  ],
+  "v1_s0693": [
+    {
+      "start": 3211.85,
+      "end": 3214.98,
+      "text": "♪"
+    }
+  ],
+  "v1_s0694": [
+    {
+      "start": 3214.98,
+      "end": 3224.05,
+      "text": "♪ ♪"
+    }
+  ]
+}

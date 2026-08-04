@@ -1,0 +1,22 @@
+.DS_Store
+**/.DS_Store
+
+*.bak
+ffmpeg2pass-0.log
+ffmpeg2pass-0.log.mbtree
+**/ffmpeg2pass-0.log
+**/ffmpeg2pass-0.log.mbtree
+
+# Local resumable progress for scripts/downsample_media.py
+scripts/.downsample_media.state
+
+# Node tooling (build-time only: embedding export script, worker dev deps)
+node_modules/
+worker/node_modules/
+.wrangler/
+
+# NEVER commit secrets -- wrangler's local-dev secret file
+.dev.vars
+**/.dev.vars
+
+credentials.txt

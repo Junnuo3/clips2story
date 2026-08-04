@@ -1,0 +1,322 @@
+{
+  "projectTitle": "Clips2Story: Training-free Video Storyboarding and Editing using Multimodal Retrieval-Embedded Generation",
+  "abstractPlaceholder": "[Abstract text will appear here in the camera-ready version. This anonymous demo page is for double-blind review.]",
+  "pipeline": [
+    "Multimodal retrieval aligns candidate clips with story intent without task-specific training.",
+    "Embedded generation composes a coherent narrative structure from retrieved visual segments.",
+    "The pipeline outputs editable storyboard timelines for comparison across baselines."
+  ],
+  "genres": [
+    {
+      "id": "documentary",
+      "label": "Documentary",
+      "sets": [
+        {
+          "id": "1",
+          "youtubeEmbed": "https://www.youtube.com/embed/23BGbVBxXdQ",
+          "sourceLocal": "documentary/1/Mammal Origins \uff5c Full Documentary \uff5c NOVA \uff5c PBS-23BGbVBxXdQ.mp4",
+          "keywords": [
+            {
+              "keyword": "04_extinction",
+              "local": {
+                "nf": "documentary/1/04_extinction_no_narration.mp4",
+                "ours": "documentary/1/04_extinction_ours.mp4"
+              }
+            },
+            {
+              "keyword": "05_fossils",
+              "local": {
+                "nf": "documentary/1/05_fossils_no_narration.mp4",
+                "ours": "documentary/1/05_fossils_ours.mp4"
+              }
+            }
+          ],
+          "fixed": {
+            "a2summ": "documentary/1/doc_06_a2summ.mp4",
+            "teasergen": "documentary/1/doc_06_teasergen.mp4",
+            "regen": "documentary/1/doc_06_regen.mp4"
+          }
+        },
+        {
+          "id": "2",
+          "youtubeEmbed": null,
+          "sourceLocal": "documentary/2/Can Dogs Talk\uff1f \uff5c Full Documentary \uff5c NOVA \uff5c PBS-jfLAaGtNc7U.mp4",
+          "keywords": [
+            {
+              "keyword": "03_button_learning",
+              "local": {
+                "nf": "documentary/2/03_button_learning_no_narration.mp4",
+                "ours": "documentary/2/03_button_learning_ours.mp4"
+              }
+            },
+            {
+              "keyword": "05_human_dog_interaction",
+              "local": {
+                "nf": "documentary/2/05_human_dog_interaction_no_narration.mp4",
+                "ours": "documentary/2/05_human_dog_interaction_ours.mp4"
+              }
+            }
+          ],
+          "fixed": {
+            "a2summ": "documentary/2/doc_14_a2summ.mp4",
+            "teasergen": "documentary/2/doc_14_teasergen.mp4",
+            "regen": "documentary/2/doc_14_regen.mp4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "label": "Film",
+      "sets": [
+        {
+          "id": "1",
+          "youtubeEmbed": "https://www.youtube.com/embed/kmYcT5gT6a4",
+          "sourceLocal": null,
+          "keywords": [
+            {
+              "keyword": "04_jailbreak",
+              "local": {
+                "nf": "film/1/04_jailbreak_no_narration.mp4",
+                "ours": "film/1/04_jailbreak_ours.mp4"
+              }
+            },
+            {
+              "keyword": "05_romance",
+              "local": {
+                "nf": "film/1/05_romance_no_narration.mp4",
+                "ours": "film/1/05_romance_ours.mp4"
+              }
+            }
+          ],
+          "fixed": {
+            "a2summ": "film/1/film_02_a2summ.mp4",
+            "teasergen": "film/1/film_02_teasergen.mp4",
+            "regen": "film/1/film_02_regen.mp4"
+          }
+        },
+        {
+          "id": "2",
+          "youtubeEmbed": "https://www.youtube.com/embed/UhSP0ldQnuk",
+          "sourceLocal": "film/2/The Little Shop of Horrors 1960 Full Movie HD 1080p.mp4",
+          "keywords": [
+            {
+              "keyword": "01_skid_row",
+              "local": {
+                "nf": "film/2/01_skid_row_no_narration.mp4",
+                "ours": "film/2/01_skid_row_ours.mp4"
+              }
+            },
+            {
+              "keyword": "05_talking_plant",
+              "local": {
+                "nf": "film/2/05_talking_plant_no_narration.mp4",
+                "ours": "film/2/05_talking_plant_ours.mp4"
+              }
+            }
+          ],
+          "fixed": {
+            "a2summ": "film/2/film_05_a2summ.mp4",
+            "teasergen": "film/2/film_05_teasergen.mp4",
+            "regen": "film/2/film_05_regen.mp4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lecture",
+      "label": "Lecture",
+      "sets": [
+        {
+          "id": "1",
+          "youtubeEmbed": "https://www.youtube.com/embed/wvXDB9dMdEo",
+          "sourceLocal": null,
+          "keywords": [
+            {
+              "keyword": "02_finance",
+              "local": {
+                "nf": "lecture/1/02_finance_no_narration.mp4",
+                "ours": "lecture/1/02_finance_ours.mp4"
+              }
+            },
+            {
+              "keyword": "04_options",
+              "local": {
+                "nf": "lecture/1/04_options_no_narration.mp4",
+                "ours": "lecture/1/04_options_ours.mp4"
+              }
+            }
+          ],
+          "fixed": {
+            "a2summ": "lecture/1/lect_01_a2summ.mp4",
+            "teasergen": "lecture/1/lect_01_teasergen.mp4",
+            "regen": "lecture/1/lect_01_regen.mp4"
+          }
+        },
+        {
+          "id": "2",
+          "youtubeEmbed": "https://www.youtube.com/embed/0sKPkJME2Jw",
+          "sourceLocal": null,
+          "keywords": [
+            {
+              "keyword": "02_machine_learning",
+              "local": {
+                "nf": "lecture/2/02_machine_learning_no_narration.mp4",
+                "ours": "lecture/2/02_machine_learning_ours.mp4"
+              }
+            },
+            {
+              "keyword": "04_linear_models",
+              "local": {
+                "nf": "lecture/2/04_linear_models_no_narration.mp4",
+                "ours": "lecture/2/04_linear_models_ours.mp4"
+              }
+            }
+          ],
+          "fixed": {
+            "a2summ": "lecture/2/lect_13_a2summ.mp4",
+            "teasergen": "lecture/2/lect_13_teasergen.mp4",
+            "regen": "lecture/2/lect_13_regen.mp4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "News",
+      "sets": [
+        {
+          "id": "1",
+          "youtubeEmbed": "https://www.youtube.com/embed/tX80LkEqytg",
+          "sourceLocal": null,
+          "keywords": [
+            {
+              "keyword": "01_ilya_malinin",
+              "local": {
+                "nf": "news/1/01_ilya_malinin_no_narration.mp4",
+                "ours": "news/1/01_ilya_malinin_ours.mp4"
+              }
+            },
+            {
+              "keyword": "05_shooting",
+              "local": {
+                "nf": "news/1/05_shooting_no_narration.mp4",
+                "ours": "news/1/05_shooting_ours.mp4"
+              }
+            }
+          ],
+          "fixed": {
+            "a2summ": "news/1/news_02_a2summ.mp4",
+            "teasergen": "news/1/news_02_teasergen.mp4",
+            "regen": "news/1/news_02_regen.mp4"
+          }
+        },
+        {
+          "id": "2",
+          "youtubeEmbed": "https://www.youtube.com/embed/fbgQG61Irvs",
+          "sourceLocal": null,
+          "keywords": [
+            {
+              "keyword": "01_nancy_guthrie",
+              "local": {
+                "nf": "news/2/01_nancy_guthrie_no_narration.mp4",
+                "ours": "news/2/01_nancy_guthrie_ours.mp4"
+              }
+            },
+            {
+              "keyword": "03_chloe_kim",
+              "local": {
+                "nf": "news/2/03_chloe_kim_no_narration.mp4",
+                "ours": "news/2/03_chloe_kim_ours.mp4"
+              }
+            }
+          ],
+          "fixed": {
+            "a2summ": "news/2/news_08_a2summ.mp4",
+            "teasergen": "news/2/news_08_teasergen.mp4",
+            "regen": "news/2/news_08_regen.mp4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vlog",
+      "label": "Vlog",
+      "sets": [
+        {
+          "id": "1",
+          "youtubeEmbed": "https://www.youtube.com/embed/n2YNMJShKKA",
+          "sourceLocal": "vlog/1/Attempting VEDA\uff1f \uff5c Meals, Planner Sticker Haul, Bathroom Organizing Project-n2YNMJShKKA.mp4",
+          "keywords": [
+            {
+              "keyword": "01_haircut",
+              "local": {
+                "nf": "vlog/1/01_haircut_no_narration.mp4",
+                "ours": "vlog/1/01_haircut_ours.mp4"
+              }
+            },
+            {
+              "keyword": "04_sticker_haul",
+              "local": {
+                "nf": "vlog/1/04_sticker_haul_no_narration.mp4",
+                "ours": "vlog/1/04_sticker_haul_ours.mp4"
+              }
+            }
+          ],
+          "fixed": {
+            "a2summ": "vlog/1/vlog_03_a2summ.mp4",
+            "teasergen": "vlog/1/vlog_03_teasergen.mp4",
+            "regen": "vlog/1/vlog_03_regen.mp4"
+          }
+        },
+        {
+          "id": "2",
+          "youtubeEmbed": "https://www.youtube.com/embed/Tn7CL9rL27I",
+          "sourceLocal": null,
+          "keywords": [
+            {
+              "keyword": "01_mom_life",
+              "local": {
+                "nf": "vlog/2/01_mom_life_no_narration.mp4",
+                "ours": "vlog/2/01_mom_life_ours.mp4"
+              }
+            },
+            {
+              "keyword": "04_meal_prep",
+              "local": {
+                "nf": "vlog/2/04_meal_prep_no_narration.mp4",
+                "ours": "vlog/2/04_meal_prep_ours.mp4"
+              }
+            }
+          ],
+          "fixed": {
+            "a2summ": "vlog/2/vlog_07_a2summ.mp4",
+            "teasergen": "vlog/2/vlog_07_teasergen.mp4",
+            "regen": "vlog/2/vlog_07_regen.mp4"
+          }
+        }
+      ]
+    }
+  ],
+  "liveDemo": {
+    "enabled": true,
+    "_comment": "plannerEndpoint points at the deployed Cloudflare Worker (see DEPLOYMENT.md). If it's ever unreachable, the panel shows a fallback message instead of breaking the rest of the site.",
+    "plannerEndpoint": "https://clips2story-planner.clips2story-v2.workers.dev",
+    "videos": [
+      {
+        "id": "documentary-2",
+        "genre": "documentary",
+        "label": "Documentary — Can Dogs Talk? (PBS NOVA)",
+        "sourceVideo": "documentary/2/Can Dogs Talk？ ｜ Full Documentary ｜ NOVA ｜ PBS-jfLAaGtNc7U.mp4",
+        "embeddings": "embeddings/documentary-2.json",
+        "poolDurationBudgetSec": 480
+      }
+    ],
+    "exampleKeywords": [
+      "dog communication",
+      "animal cognition",
+      "button learning",
+      "language study"
+    ]
+  }
+}

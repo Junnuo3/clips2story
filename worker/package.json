@@ -1,0 +1,15 @@
+{
+  "name": "clips2story-planner-worker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stateless Cloudflare Worker: the one server-side piece of the Clips2Story live demo. Holds the LLM API key and builds/validates the NF storyboard prompt; no GPU, no persistent process.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}

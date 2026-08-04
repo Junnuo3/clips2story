@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anonymous project demo</title>
+    <script>
+      // Preserve hash before deferred module runs (GitHub Pages / redirects).
+      window.__INITIAL_HASH__ = location.hash;
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "system-ui", "sans-serif"],
+            },
+            colors: {
+              surface: {
+                DEFAULT: "#0f1419",
+                raised: "#161d27",
+                border: "#243040",
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen bg-surface text-slate-100 antialiased">
+    <div id="load-error" class="hidden max-w-lg mx-auto mt-20 px-4 text-center text-amber-200/90">
+      <p class="text-lg font-medium">Could not load demo data.</p>
+      <p class="mt-2 text-sm text-slate-400">
+        Serve this folder over HTTP (for example
+        <code class="rounded bg-surface-raised px-1 py-0.5 text-slate-300"
+          >python3 -m http.server 8080</code
+        >) so <code class="rounded bg-surface-raised px-1">data.json</code> and video files load
+        correctly.
+      </p>
+    </div>
+
+    <div id="app" class="hidden">
+      <div class="lg:flex lg:min-h-screen">
+        <!-- Mobile genre tabs -->
+        <div
+          class="sticky top-0 z-20 border-b border-surface-border bg-surface/95 backdrop-blur lg:hidden"
+        >
+          <div class="flex gap-1 overflow-x-auto px-2 py-3 scrollbar-thin" id="genre-tabs-mobile"></div>
+        </div>
+
+        <!-- Sidebar (desktop) -->
+        <aside
+          class="hidden w-56 shrink-0 border-r border-surface-border bg-surface-raised/50 lg:block"
+        >
+          <div class="sticky top-0 flex flex-col gap-1 p-4 pt-8" id="genre-tabs-desktop"></div>
+        </aside>
+
+        <main class="min-w-0 flex-1">
+          <header class="border-b border-surface-border px-4 py-10 sm:px-8 lg:px-12">
+            <h1
+              id="project-title"
+              class="mt-3 max-w-4xl text-2xl font-semibold leading-tight tracking-tight text-white sm:text-3xl"
+            ></h1>
+          </header>
+
+          <section class="px-4 py-8 sm:px-8 lg:px-12" id="genre-sections"></section>
+        </main>
+      </div>
+    </div>
+
+    <script src="./app.js?v=3" type="module"></script>
+  </body>
+</html>
