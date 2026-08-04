@@ -14,51 +14,96 @@ import { el, createDetails, resolveMediaPath } from "./dom-helpers.js";
 const TARGET_MIN_SEC = 30; // 30 seconds -- shortened from the paper's 3-5 min target so the
 const TARGET_MAX_SEC = 60; // in-browser ffmpeg.wasm render (source download + re-encode) stays fast
 
-// One shared hidden <video> used to grab poster-frame thumbnails by seeking,
-// queued so concurrent captures don't race on the same element.
-const thumbVideo = document.createElement("video");
-thumbVideo.muted = true;
-thumbVideo.preload = "auto";
-thumbVideo.playsInline = true;
-thumbVideo.crossOrigin = "anonymous"; // needed to read pixels back via canvas
-let thumbSrc = null;
-let thumbQueue = Promise.resolve(null);
+// A small pool of hidden <video> elements to grab poster-frame thumbnails by
+// seeking. All segments in one storyboard almost always share the same
+// source video, so a single shared element (the old approach) served every
+// capture strictly one at a time -- each seek waits on a network byte-range
+// fetch into a large remote file, so a 15-segment storyboard could take many
+// seconds for the last thumbnail to appear even though nothing was actually
+// broken. Round-robining across a few elements lets that many seeks/fetches
+// run concurrently instead, while each element still queues its own
+// assigned captures so it doesn't race itself.
+const THUMB_POOL_SIZE = 4;
+const thumbPool = Array.from({ length: THUMB_POOL_SIZE }, () => {
+  const video = document.createElement("video");
+  video.muted = true;
+  video.preload = "auto";
+  video.playsInline = true;
+  video.crossOrigin = "anonymous"; // needed to read pixels back via canvas
+  return { video, src: null, queue: Promise.resolve(null) };
+});
+let nextThumbSlot = 0;
+
+// Matches the on-screen thumbnail box size exactly (128x72, see thumbBox
+// below) instead of capturing extra pixels the UI just scales down --
+// smaller canvas + lower JPEG quality means a smaller data URL to encode
+// and paint, which is the part of this actually worth compressing (the
+// slow part is the network seek, not the encode).
+const THUMB_WIDTH = 128;
+const THUMB_HEIGHT = 72;
+const THUMB_JPEG_QUALITY = 0.6;
 
 function captureThumbnail(sourcePath, time) {
-  thumbQueue = thumbQueue.then(
+  const slot = thumbPool[nextThumbSlot];
+  nextThumbSlot = (nextThumbSlot + 1) % thumbPool.length;
+
+  slot.queue = slot.queue.then(
     () =>
       new Promise((resolve) => {
         const src = resolveMediaPath(sourcePath);
+        const { video } = slot;
         const doSeek = () => {
           const onSeeked = () => {
-            thumbVideo.removeEventListener("seeked", onSeeked);
+            video.removeEventListener("seeked", onSeeked);
             try {
               const canvas = document.createElement("canvas");
-              canvas.width = 160;
-              canvas.height = 90;
-              canvas.getContext("2d").drawImage(thumbVideo, 0, 0, 160, 90);
-              resolve(canvas.toDataURL("image/jpeg", 0.7));
+              canvas.width = THUMB_WIDTH;
+              canvas.height = THUMB_HEIGHT;
+              canvas.getContext("2d").drawImage(video, 0, 0, THUMB_WIDTH, THUMB_HEIGHT);
+              resolve(canvas.toDataURL("image/jpeg", THUMB_JPEG_QUALITY));
             } catch {
               resolve(null); // cross-origin canvas taint, decode failure, etc. -- fall back to no thumbnail
             }
           };
-          thumbVideo.addEventListener("seeked", onSeeked);
-          thumbVideo.currentTime = time;
+          video.addEventListener("seeked", onSeeked);
+          video.currentTime = time;
         };
-        if (thumbSrc !== src) {
-          thumbSrc = src;
-          thumbVideo.src = src;
+        if (slot.src !== src) {
+          slot.src = src;
+          video.src = src;
           const onLoaded = () => {
-            thumbVideo.removeEventListener("loadedmetadata", onLoaded);
+            video.removeEventListener("loadedmetadata", onLoaded);
             doSeek();
           };
-          thumbVideo.addEventListener("loadedmetadata", onLoaded);
+          video.addEventListener("loadedmetadata", onLoaded);
         } else {
           doSeek();
         }
       })
   );
-  return thumbQueue;
+  return slot.queue;
+}
+
+/**
+ * Thumbnail source, cheapest first: a precomputed per-shot JPEG
+ * (scripts/extract-thumbnails.mjs, seg.thumbnailPath -- set by the worker
+ * whenever the segment's shot has one) loads instantly with no video
+ * involved at all. Falls back to the live video-seek capture above only
+ * when there's no precomputed thumbnail for this shot yet (e.g. a video
+ * added before its thumbnails were extracted, or a source-file decode
+ * error for that one frame).
+ */
+function loadThumbnail(seg, onReady) {
+  if (!seg.thumbnailPath) {
+    captureThumbnail(seg.sourcePath, (seg.startTime + seg.endTime) / 2).then(onReady);
+    return;
+  }
+  const probe = new Image();
+  probe.onload = () => onReady(resolveMediaPath(seg.thumbnailPath));
+  probe.onerror = () => {
+    captureThumbnail(seg.sourcePath, (seg.startTime + seg.endTime) / 2).then(onReady);
+  };
+  probe.src = resolveMediaPath(seg.thumbnailPath);
 }
 
 function fmtDuration(sec) {
@@ -208,13 +253,14 @@ export function createStoryboardEditor({ container, segments, pool, onChange, on
 
     const thumbBox = el(
       "div",
-      "flex h-[72px] w-[128px] shrink-0 items-center justify-center overflow-hidden rounded-lg border border-surface-border/60 bg-black/40"
+      "flex h-[72px] w-[128px] shrink-0 items-center justify-center overflow-hidden rounded-lg border border-surface-border/60 bg-black/40 animate-pulse"
     );
     const thumbImg = document.createElement("img");
     thumbImg.className = "h-full w-full object-cover";
     thumbImg.alt = "";
     thumbBox.appendChild(thumbImg);
-    captureThumbnail(seg.sourcePath, (seg.startTime + seg.endTime) / 2).then((dataUrl) => {
+    loadThumbnail(seg, (dataUrl) => {
+      thumbBox.classList.remove("animate-pulse");
       if (dataUrl) {
         thumbImg.src = dataUrl;
       } else {
@@ -226,8 +272,7 @@ export function createStoryboardEditor({ container, segments, pool, onChange, on
     const body = el("div", "min-w-0 flex-1 space-y-1");
     const topRow = el("div", "flex items-center gap-2 text-xs text-slate-400");
     topRow.appendChild(el("span", "cursor-grab select-none text-slate-500", "☰"));
-    topRow.appendChild(el("span", "font-mono", seg.clipId));
-    topRow.appendChild(el("span", "", `· ${fmtDuration(seg.endTime - seg.startTime)}`));
+    topRow.appendChild(el("span", "", fmtDuration(seg.endTime - seg.startTime)));
     body.appendChild(topRow);
 
     const text = seg.transcript?.trim() ? seg.transcript : seg.caption || "(no transcript or caption)";

@@ -314,7 +314,7 @@ export function mountTryItPanel(container, liveDemo) {
             el(
               "p",
               "border-b border-surface-border/40 py-1",
-              `${c.clipId} · ${c.duration.toFixed(1)}s · ${c.caption || "(no caption)"}`
+              `${c.duration.toFixed(1)}s · ${c.caption || "(no caption)"}`
             )
           );
         }

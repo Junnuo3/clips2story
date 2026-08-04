@@ -134,7 +134,7 @@ function flattenSegments(llmOutput) {
  * much better failure mode than "502, please try again." Only throws if
  * literally nothing survives (nothing left to show).
  */
-function validateAndRemap(segments, poolById) {
+function validateAndRemap(segments, poolById, videoId) {
   const remapped = [];
   const dropped = [];
 
@@ -159,6 +159,12 @@ function validateAndRemap(segments, poolById) {
     }
     remapped.push({
       clipId: seg.clip_id,
+      shotId: clip.shotId || null,
+      // Precomputed per-shot thumbnail (scripts/extract-thumbnails.mjs), keyed
+      // by the same shotId -- lets the client show a real frame instantly
+      // instead of seeking into the full source video. null if either isn't
+      // known; storyboard-editor.js falls back to live-seek in that case.
+      thumbnailPath: videoId && clip.shotId ? `example/${videoId}/thumbs/${clip.shotId}.jpg` : null,
       sourcePath: clip.sourcePath,
       startTime: clip.startTime + Math.max(0, start),
       endTime: clip.startTime + Math.min(clip.duration, end),
@@ -287,7 +293,7 @@ export default {
       const raw = await callLlm(env, prompt);
       const parsed = parseLlmJson(raw);
       const flat = flattenSegments(parsed);
-      const { segments, dropped } = validateAndRemap(flat, poolById);
+      const { segments, dropped } = validateAndRemap(flat, poolById, videoId);
 
       const result = { segments, dropped, rawLlmOutput: parsed, prompt, cached: false };
       if (env.PLAN_CACHE) {
