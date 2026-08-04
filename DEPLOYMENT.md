@@ -26,14 +26,22 @@ git commit -m "Initial import: Clips2Story interactive demo fork"
 # create a new, empty repository on GitHub first (web UI or `gh repo create`),
 # then:
 git remote add origin https://github.com/<your-account>/<new-repo-name>.git
-git branch -M main
-git push -u origin main
+git push -u origin master
 ```
 
 Then in the new repo's GitHub settings: **Settings → Pages → Build and
-deployment → Source: Deploy from a branch → Branch: `main` / `/ (root)`**.
+deployment → Source: Deploy from a branch → Branch: `master` / `/ (root)`**.
 GitHub Pages will build and serve `index.html` at
 `https://<your-account>.github.io/<new-repo-name>/`.
+
+**Whatever branch you actually push and serve Pages from, it must match
+`GITHUB_PAGES_MEDIA_BRANCH` in `assets/js/dom-helpers.js`** -- that constant
+is what every LFS video/image URL and raw-file URL on the deployed site is
+built from. A mismatch doesn't break the page shell (`index.html`/`app.js`
+load same-origin either way), only every media file: they'll all silently
+404 on the deployed site while looking completely normal locally over
+`npm run serve`, since local dev never takes this code path at all. If you
+rename to `main` (or anything else), update that constant to match.
 
 **Git LFS bandwidth**: GitHub's free tier includes 1GB/month of LFS
 bandwidth per repository. This demo's video files will exceed that under

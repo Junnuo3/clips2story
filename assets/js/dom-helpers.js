@@ -85,7 +85,7 @@ function inferGitHubPagesRepo() {
 }
 
 /** Default branch for GitHub-hosted media (must match where demo assets live). */
-const GITHUB_PAGES_MEDIA_BRANCH = "main";
+const GITHUB_PAGES_MEDIA_BRANCH = "master";
 
 /**
  * Direct LFS CDN URL (Git LFS blobs are not on raw.githubusercontent.com as bytes).

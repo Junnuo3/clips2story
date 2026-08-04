@@ -30,7 +30,7 @@ const thumbPool = Array.from({ length: THUMB_POOL_SIZE }, () => {
   video.preload = "auto";
   video.playsInline = true;
   video.crossOrigin = "anonymous"; // needed to read pixels back via canvas
-  return { video, src: null, queue: Promise.resolve(null) };
+  return { video, loadedSrc: null, failedSrc: null, queue: Promise.resolve(null) };
 });
 let nextThumbSlot = 0;
 
@@ -52,32 +52,65 @@ function captureThumbnail(sourcePath, time) {
       new Promise((resolve) => {
         const src = resolveMediaPath(sourcePath);
         const { video } = slot;
-        const doSeek = () => {
-          const onSeeked = () => {
-            video.removeEventListener("seeked", onSeeked);
-            try {
-              const canvas = document.createElement("canvas");
-              canvas.width = THUMB_WIDTH;
-              canvas.height = THUMB_HEIGHT;
-              canvas.getContext("2d").drawImage(video, 0, 0, THUMB_WIDTH, THUMB_HEIGHT);
-              resolve(canvas.toDataURL("image/jpeg", THUMB_JPEG_QUALITY));
-            } catch {
-              resolve(null); // cross-origin canvas taint, decode failure, etc. -- fall back to no thumbnail
-            }
-          };
+
+        // Already know this exact source fails to load (e.g. a 404) -- don't
+        // repeat the network request just to fail again. Segments in one
+        // storyboard virtually always share a source, and with only
+        // THUMB_POOL_SIZE elements a broken source gets retried on every
+        // slot at most once before every later call short-circuits here.
+        if (src === slot.failedSrc) {
+          resolve(null);
+          return;
+        }
+
+        let settled = false;
+        const cleanup = () => {
+          video.removeEventListener("seeked", onSeeked);
+          video.removeEventListener("loadedmetadata", onLoaded);
+          video.removeEventListener("error", onError);
+        };
+        const finish = (result) => {
+          if (settled) return;
+          settled = true;
+          cleanup();
+          resolve(result);
+        };
+        // Without this, a source that fails to load (404, network error, an
+        // undecodable file) never fires 'loadedmetadata' or 'seeked', so the
+        // promise -- and every later capture queued behind it on this slot
+        // -- would hang forever instead of falling back to "no preview".
+        const onError = () => {
+          slot.failedSrc = src;
+          finish(null);
+        };
+        const onSeeked = () => {
+          try {
+            const canvas = document.createElement("canvas");
+            canvas.width = THUMB_WIDTH;
+            canvas.height = THUMB_HEIGHT;
+            canvas.getContext("2d").drawImage(video, 0, 0, THUMB_WIDTH, THUMB_HEIGHT);
+            finish(canvas.toDataURL("image/jpeg", THUMB_JPEG_QUALITY));
+          } catch {
+            finish(null); // cross-origin canvas taint, decode failure, etc.
+          }
+        };
+        const seekAndCapture = () => {
           video.addEventListener("seeked", onSeeked);
           video.currentTime = time;
         };
-        if (slot.src !== src) {
-          slot.src = src;
-          video.src = src;
-          const onLoaded = () => {
-            video.removeEventListener("loadedmetadata", onLoaded);
-            doSeek();
-          };
+        const onLoaded = () => {
+          video.removeEventListener("loadedmetadata", onLoaded);
+          slot.loadedSrc = src;
+          seekAndCapture();
+        };
+
+        video.addEventListener("error", onError);
+        if (slot.loadedSrc !== src) {
+          slot.loadedSrc = null;
           video.addEventListener("loadedmetadata", onLoaded);
+          video.src = src;
         } else {
-          doSeek();
+          seekAndCapture();
         }
       })
   );
