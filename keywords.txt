@@ -1,0 +1,10 @@
+documentary-1: mammals, therapsids, evolution, extinction, fossils
+documentary-2: dog communication, language study, button learning, animal cognition, human-dog interaction
+film-1: newspaper, journalism, newsroom, jailbreak, romance
+film-2: Skid Row, flower shop, Seymour Krelborn, Audrey Jr, talking plant
+lecture-1: mathematics, finance, trading, options, risk management
+lecture-2: big data, machine learning, neural networks, linear models, matrix multiplication
+news-1: Ilya Malinin, Nancy Guthrie, figure skating, controversy, shooting
+news-2: Nancy Guthrie, FBI search, Chloe Kim, Team USA, Olympic competition
+vlog-1: haircut, VEDA, meal prep, sticker haul, daily life
+vlog-2: mom life, baby care, daily routine, meal prep, household chores

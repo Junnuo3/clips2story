@@ -1,0 +1,1136 @@
+{
+  "v1_s0000": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.6286,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0001": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9332,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0002": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.5161,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0003": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.943,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0004": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.8143,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0005": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9068,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0006": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.8225,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0007": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8969,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0008": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.7251,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0009": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9208,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0010": [
+    {
+      "background": {
+        "label": "bus_interior",
+        "confidence": 0.2824,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0011": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8844,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0012": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3293,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0013": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8265,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0014": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3346,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0015": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8792,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0016": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3315,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0017": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8505,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0018": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3201,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0019": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.801,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0020": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3058,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0021": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8582,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0022": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3336,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0023": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.724,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0024": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3242,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0025": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8854,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0026": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3293,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0027": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8266,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0028": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3249,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0029": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8253,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0030": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3288,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0031": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8629,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0032": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3331,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0033": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.916,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0034": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2474,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0035": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8705,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0036": [
+    {
+      "background": {
+        "label": "bus_interior",
+        "confidence": 0.2698,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0037": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8688,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0038": [
+    {
+      "background": {
+        "label": "bus_interior",
+        "confidence": 0.2504,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0039": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8854,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0040": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.2928,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0041": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8607,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0042": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3221,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0043": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.7638,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0044": [
+    {
+      "background": {
+        "label": "car_interior",
+        "confidence": 0.6749,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0045": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9444,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0046": [
+    {
+      "background": {
+        "label": "car_interior",
+        "confidence": 0.6524,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0047": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8756,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0048": [
+    {
+      "background": {
+        "label": "car_interior",
+        "confidence": 0.6581,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0049": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8386,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0050": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4265,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0051": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.895,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0052": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4278,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0053": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8724,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0054": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4064,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0055": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8971,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0056": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4111,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0057": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.5885,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0058": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4168,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0059": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9109,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0060": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2497,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0061": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8946,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0062": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8265,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0063": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9266,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0064": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8311,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0065": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9074,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0066": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9078,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0067": [
+    {
+      "background": {
+        "label": "conference_room",
+        "confidence": 0.2783,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0068": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9224,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0069": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.235,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0070": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8249,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0071": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.2516,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0072": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8931,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0073": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.6039,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0074": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9253,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0075": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.6021,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0076": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9095,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0077": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.5971,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0078": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.7672,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0079": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.6149,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0080": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.913,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0081": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.609,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0082": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9281,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0083": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.6054,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0084": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.5098,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0085": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.5264,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0086": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8712,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0087": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.5306,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0088": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.7971,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0089": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4639,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0090": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.7932,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0091": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8569,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0092": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9361,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0093": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8994,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0094": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.7231,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0095": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8358,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0096": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8619,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0097": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8533,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0098": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8582,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0099": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.5117,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0100": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.902,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0101": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.7253,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0102": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8852,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0103": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9497,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0104": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.6013,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0105": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9151,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0106": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.6112,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0107": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.935,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0108": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.8375,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0109": [
+    {
+      "background": {
+        "label": "courtroom",
+        "confidence": 0.4348,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0110": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.8472,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0111": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4381,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0112": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.652,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0113": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4339,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0114": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.5537,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0115": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4425,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0116": [
+    {
+      "background": {
+        "label": "conference_room",
+        "confidence": 0.4083,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0117": [
+    {
+      "background": {
+        "label": "conference_room",
+        "confidence": 0.3132,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0118": [
+    {
+      "background": {
+        "label": "conference_room",
+        "confidence": 0.3878,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0119": [
+    {
+      "background": {
+        "label": "conference_room",
+        "confidence": 0.4533,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0120": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.3302,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0121": [
+    {
+      "background": {
+        "label": "conference_room",
+        "confidence": 0.4963,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0122": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.6441,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0123": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.3411,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0124": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.3622,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0125": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.9209,
+        "source": "clip_zeroshot"
+      }
+    }
+  ]
+}

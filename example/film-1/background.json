@@ -1,0 +1,3179 @@
+{
+  "v1_s0000": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1401,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0001": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.3703,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0002": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2136,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0003": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5458,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0004": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.2597,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0005": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1912,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0006": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.197,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0007": [
+    {
+      "background": {
+        "label": "subway_station",
+        "confidence": 0.594,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0008": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3253,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0009": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.3738,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0010": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2177,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0011": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3626,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0012": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.255,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0013": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.4484,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0014": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7738,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0015": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4798,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0016": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.4069,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0017": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3978,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0018": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3701,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0019": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.3807,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0020": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2961,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0021": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.3735,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0022": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3129,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0023": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2321,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0024": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.235,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0025": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5729,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0026": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2952,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0027": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1794,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0028": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.197,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0029": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.3364,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0030": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.376,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0031": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1776,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0032": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.4008,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0033": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6661,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0034": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4555,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0035": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7616,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0036": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.3133,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0037": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1013,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0038": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2753,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0039": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1799,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0040": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2376,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0041": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1197,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0042": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.4015,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0043": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1569,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0044": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2456,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0045": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3141,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0046": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1286,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0047": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5913,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0048": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3423,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0049": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2531,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0050": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2084,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0051": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.22,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0052": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2596,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0053": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4207,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0054": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4302,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0055": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.3653,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0056": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.4143,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0057": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.601,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0058": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.6891,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0059": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1737,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0060": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.6441,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0061": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2155,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0062": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7621,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0063": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7977,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0064": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.498,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0065": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.716,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0066": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4295,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0067": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.6912,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0068": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7207,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0069": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3543,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0070": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7684,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0071": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7341,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0072": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7792,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0073": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7349,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0074": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1423,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0075": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7597,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0076": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.8225,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0077": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.8382,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0078": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7699,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0079": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7316,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0080": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.6746,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0081": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.8366,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0082": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.5369,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0083": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7805,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0084": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7499,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0085": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7685,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0086": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.5953,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0087": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.7816,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0088": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1794,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0089": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4548,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0090": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7454,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0091": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7021,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0092": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3705,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0093": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4998,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0094": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6574,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0095": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6462,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0096": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.603,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0097": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3252,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0098": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3961,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0099": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2792,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0100": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1856,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0101": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.3572,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0102": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5792,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0103": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4945,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0104": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4967,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0105": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.412,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0106": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.348,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0107": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.308,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0108": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4165,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0109": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5476,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0110": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2353,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0111": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4266,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0112": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5425,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0113": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3653,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0114": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5403,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0115": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4777,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0116": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1654,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0117": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.538,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0118": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.48,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0119": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4464,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0120": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.3008,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0121": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4359,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0122": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4198,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0123": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1657,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0124": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4093,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0125": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1977,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0126": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3651,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0127": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.3694,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0128": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.38,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0129": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6659,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0130": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3412,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0131": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3358,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0132": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5587,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0133": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.116,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0134": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1455,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0135": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1341,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0136": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1944,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0137": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.175,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0138": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3589,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0139": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7973,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0140": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5241,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0141": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7599,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0142": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5563,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0143": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3528,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0144": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1347,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0145": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4383,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0146": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.139,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0147": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.3291,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0148": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.2741,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0149": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.5943,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0150": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4085,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0151": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4162,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0152": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.155,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0153": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.4343,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0154": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4589,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0155": [
+    {
+      "background": {
+        "label": "car_interior",
+        "confidence": 0.7901,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0156": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3958,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0157": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2685,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0158": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.246,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0159": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.4224,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0160": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4291,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0161": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.26,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0162": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.4228,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0163": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.5966,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0164": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.168,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0165": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3055,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0166": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.434,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0167": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6307,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0168": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2416,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0169": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5494,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0170": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7336,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0171": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4224,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0172": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1328,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0173": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6965,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0174": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6215,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0175": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0923,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0176": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5835,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0177": [
+    {
+      "background": {
+        "label": "street_night",
+        "confidence": 0.5916,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0178": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.3041,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0179": [
+    {
+      "background": {
+        "label": "car_interior",
+        "confidence": 0.5,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0180": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1334,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0181": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0926,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0182": [
+    {
+      "background": {
+        "label": "car_interior",
+        "confidence": 0.4483,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0183": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1696,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0184": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2189,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0185": [
+    {
+      "background": {
+        "label": "street_night",
+        "confidence": 0.495,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0186": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2052,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0187": [
+    {
+      "background": {
+        "label": "rooftop_night",
+        "confidence": 0.3657,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0188": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5017,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0189": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7848,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0190": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7577,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0191": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.9103,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0192": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2352,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0193": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1998,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0194": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.2733,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0195": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.243,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0196": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.2989,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0197": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.2906,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0198": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2307,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0199": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3029,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0200": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.2681,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0201": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2469,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0202": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.2808,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0203": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3448,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0204": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2927,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0205": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.8298,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0206": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1691,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0207": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1976,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0208": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1581,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0209": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3296,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0210": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6959,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0211": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.8226,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0212": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6843,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0213": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2765,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0214": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5388,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0215": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6434,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0216": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1938,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0217": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7568,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0218": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3016,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0219": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2725,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0220": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1011,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0221": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2297,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0222": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.3084,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0223": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2353,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0224": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3777,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0225": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3681,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0226": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1693,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0227": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.4658,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0228": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1897,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0229": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2283,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0230": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1548,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0231": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.333,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0232": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.2884,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0233": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.228,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0234": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.4163,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0235": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2119,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0236": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.2929,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0237": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.5415,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0238": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2024,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0239": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1259,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0240": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1243,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0241": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1331,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0242": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2056,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0243": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.373,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0244": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3658,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0245": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.5769,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0246": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1384,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0247": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2158,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0248": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7799,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0249": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5585,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0250": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2477,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0251": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.298,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0252": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3694,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0253": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4306,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0254": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3604,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0255": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1246,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0256": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5243,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0257": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5665,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0258": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.8148,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0259": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4793,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0260": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.6116,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0261": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1755,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0262": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2117,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0263": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1994,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0264": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6082,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0265": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0861,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0266": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.252,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0267": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7896,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0268": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.238,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0269": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.745,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0270": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.5942,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0271": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6147,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0272": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3685,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0273": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5583,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0274": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.5468,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0275": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3682,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0276": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5007,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0277": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7714,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0278": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.3505,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0279": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6611,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0280": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.4801,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0281": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.154,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0282": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4834,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0283": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2199,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0284": [
+    {
+      "background": {
+        "label": "rooftop_night",
+        "confidence": 0.2832,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0285": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.2663,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0286": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4883,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0287": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2494,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0288": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5722,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0289": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4101,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0290": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.443,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0291": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.211,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0292": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7079,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0293": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3517,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0294": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7018,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0295": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6956,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0296": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7995,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0297": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4637,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0298": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.623,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0299": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1923,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0300": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1988,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0301": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4526,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0302": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6531,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0303": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4255,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0304": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.739,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0305": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7255,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0306": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5321,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0307": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4453,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0308": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2627,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0309": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3965,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0310": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0969,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0311": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2961,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0312": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4323,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0313": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.8248,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0314": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3321,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0315": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5212,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0316": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4661,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0317": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2722,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0318": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6198,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0319": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7196,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0320": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.2681,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0321": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.651,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0322": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.4653,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0323": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3544,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0324": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6871,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0325": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.8383,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0326": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7245,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0327": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.416,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0328": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6936,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0329": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5803,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0330": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7226,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0331": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6454,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0332": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6735,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0333": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.568,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0334": [
+    {
+      "background": {
+        "label": "car_interior",
+        "confidence": 0.4753,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0335": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5199,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0336": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.85,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0337": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6736,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0338": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3861,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0339": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.41,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0340": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.7774,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0341": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3475,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0342": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4203,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0343": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6951,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0344": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.4608,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0345": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3412,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0346": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.8362,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0347": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5523,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0348": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.267,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0349": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.3562,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0350": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.6887,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0351": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.5515,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0352": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1986,
+        "source": "clip_zeroshot"
+      }
+    }
+  ]
+}

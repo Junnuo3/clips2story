@@ -237,7 +237,8 @@ mutable* sequence.
     use the alternates the retrieval step surfaced but the LLM didn't pick —
     good evidence retrieval is doing real filtering, and directly exercises
     the "creators can revise" claim.
-- **Live total-duration badge** at the top ("3m 42s — target 3–5 min"),
+- **Live total-duration badge** at the top ("42s — target 30–60s" — shortened
+  from the paper's 3-5 min target so the in-browser render stays fast),
   colored to match the target range, updating on every edit — mirrors the
   paper's own duration-vs-target analysis (Fig. 2 / §Results) and gives
   reorder/delete edits an immediate, legible consequence.

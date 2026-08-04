@@ -27,13 +27,13 @@ const SYSTEM_PROMPT =
 const RULES_AND_SCHEMA = `TASK
 Produce an ordered sequence of footage segments. Each item in the sequence has a "segments" list containing the footage segments that tell the story.
 
-You may select, skip, trim, or reorder clips as needed. When trimming, define the exact start_time and end_time (relative to the start of that clip, in seconds, from 0 up to the clip's own duration) to extract the specific part of the clip you want to use, while respecting transcript sentence boundaries. Choose as many sequence items as needed so that the total runtime is approximately 3-5 minutes.
+You may select, skip, trim, or reorder clips as needed. When trimming, define the exact start_time and end_time (relative to the start of that clip, in seconds, from 0 up to the clip's own duration) to extract the specific part of the clip you want to use, while respecting transcript sentence boundaries. Choose as many sequence items as needed so that the total runtime is approximately 30-60 seconds.
 
 RULES
 1. Compose a coherent story arc with a strong hook, clear progression, and a satisfying payoff. Infer intent from the user request, including topic, tone, and pacing.
 2. Select footage using transcript, caption, background, and entity evidence; prefer strong matches. Ensure that the sequence of clips flows naturally to tell the story.
 3. Choose clips and precisely define their start_time/end_time (relative to that clip, 0 = clip start) to trim the footage to the exact moments needed. Do not trim mid-sentence. If a clip contains speech, the start_time and end_time must exactly match transcript timestamp brackets, never intermediate points. Do not feel constrained to use the full clip duration.
-4. Choose as many segments as needed so that the total runtime, defined as the sum of all selected clip durations, is approximately 3-5 minutes.
+4. Choose as many segments as needed so that the total runtime, defined as the sum of all selected clip durations, is approximately 30-60 seconds.
 5. Do not invent any clips. Do not invent or output timestamps outside the bounds of the original clip duration (0 to the clip's listed duration).
 6. For each selected segment, include "duration" (computed as end_time - start_time) and "transcript" containing only the transcript text that falls within the selected time span, preserving speaker labels and relative timestamps when present.
    - Do not paraphrase, summarize, or invent transcript text.
@@ -80,7 +80,7 @@ function buildClipsBlock(pool) {
 }
 
 function buildPrompt(keyword, pool) {
-  const userRequest = `Create a catchy 3-5 minute mini-story about ${keyword}. Open with a strong hook, build curiosity and progression, and end with a satisfying payoff. Select and sequence footage that naturally builds this narrative.`;
+  const userRequest = `Create a catchy 30-60 second mini-story about ${keyword}. Open with a strong hook, build curiosity and progression, and end with a satisfying payoff. Select and sequence footage that naturally builds this narrative.`;
 
   return (
     `${SYSTEM_PROMPT}\n\n` +

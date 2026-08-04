@@ -58,7 +58,15 @@ const server = http.createServer((req, res) => {
       "Content-Length": stat.size,
       "Cache-Control": "no-store",
     });
-    fs.createReadStream(filePath).pipe(res);
+    const stream = fs.createReadStream(filePath);
+    // Without this, a read hiccup on a large file (e.g. a git-LFS video over
+    // a slow/network-mounted filesystem) throws an uncaught 'error' event and
+    // kills the whole dev server process, not just this one request.
+    stream.on("error", (err) => {
+      if (!res.headersSent) res.writeHead(500, { "Content-Type": "text/plain" });
+      res.end(`Stream error: ${err}`);
+    });
+    stream.pipe(res);
   } catch (err) {
     res.writeHead(500, { "Content-Type": "text/plain" });
     res.end(String(err));

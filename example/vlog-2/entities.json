@@ -1,0 +1,1769 @@
+{
+  "v1_s0000": [
+    {
+      "entities": []
+    }
+  ],
+  "v1_s0001": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5297,
+          "bbox_xyxy_norm": [
+            0.2904,
+            0.08,
+            0.6667,
+            0.9953
+          ]
+        },
+        {
+          "name": "bed",
+          "score": 0.3529,
+          "bbox_xyxy_norm": [
+            0.0012,
+            0.0007,
+            0.999,
+            0.9963
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0002": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.4407,
+          "bbox_xyxy_norm": [
+            0.2339,
+            0.002,
+            0.8519,
+            0.9954
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0003": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.7035,
+          "bbox_xyxy_norm": [
+            0.1361,
+            0.0725,
+            0.4848,
+            0.974
+          ]
+        },
+        {
+          "name": "bed",
+          "score": 0.5187,
+          "bbox_xyxy_norm": [
+            0.001,
+            0.0019,
+            0.6974,
+            0.995
+          ]
+        },
+        {
+          "name": "teddy bear",
+          "score": 0.4377,
+          "bbox_xyxy_norm": [
+            0.001,
+            0.5372,
+            0.2123,
+            0.8809
+          ]
+        },
+        {
+          "name": "teddy bear",
+          "score": 0.4338,
+          "bbox_xyxy_norm": [
+            0.4476,
+            0.0015,
+            0.6101,
+            0.2063
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.367,
+          "bbox_xyxy_norm": [
+            0.5484,
+            0.7361,
+            0.866,
+            0.9967
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0004": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.7117,
+          "bbox_xyxy_norm": [
+            0.2946,
+            0.0657,
+            0.7423,
+            0.9948
+          ]
+        },
+        {
+          "name": "bed",
+          "score": 0.5412,
+          "bbox_xyxy_norm": [
+            0.0014,
+            0.0015,
+            0.9985,
+            0.9958
+          ]
+        },
+        {
+          "name": "teddy bear",
+          "score": 0.3693,
+          "bbox_xyxy_norm": [
+            0.7048,
+            0.0887,
+            0.956,
+            0.3872
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.3523,
+          "bbox_xyxy_norm": [
+            0.819,
+            0.1892,
+            0.9995,
+            0.5294
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0005": [
+    {
+      "entities": [
+        {
+          "name": "bed",
+          "score": 0.6306,
+          "bbox_xyxy_norm": [
+            0.0599,
+            0.0073,
+            0.9986,
+            0.9959
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0006": [
+    {
+      "entities": [
+        {
+          "name": "book",
+          "score": 0.5567,
+          "bbox_xyxy_norm": [
+            0.0006,
+            0.0,
+            0.9994,
+            0.9979
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0007": [
+    {
+      "entities": [
+        {
+          "name": "table",
+          "score": 0.6923,
+          "bbox_xyxy_norm": [
+            0.0344,
+            0.4432,
+            0.7091,
+            0.9964
+          ]
+        },
+        {
+          "name": "book",
+          "score": 0.5471,
+          "bbox_xyxy_norm": [
+            0.1798,
+            0.6477,
+            0.5597,
+            0.9972
+          ]
+        },
+        {
+          "name": "cat dog",
+          "score": 0.5326,
+          "bbox_xyxy_norm": [
+            0.2792,
+            0.4471,
+            0.3817,
+            0.6319
+          ]
+        },
+        {
+          "name": "bowl",
+          "score": 0.4689,
+          "bbox_xyxy_norm": [
+            0.4428,
+            0.477,
+            0.6082,
+            0.7115
+          ]
+        },
+        {
+          "name": "bottle",
+          "score": 0.4124,
+          "bbox_xyxy_norm": [
+            0.4805,
+            0.3664,
+            0.5467,
+            0.5845
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0008": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5272,
+          "bbox_xyxy_norm": [
+            0.2165,
+            0.0005,
+            0.9996,
+            0.995
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.4757,
+          "bbox_xyxy_norm": [
+            0.0004,
+            0.007,
+            0.3276,
+            0.9951
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0009": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.6359,
+          "bbox_xyxy_norm": [
+            0.1738,
+            0.0022,
+            0.913,
+            0.9956
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0010": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5199,
+          "bbox_xyxy_norm": [
+            0.1114,
+            0.3473,
+            0.4395,
+            0.9961
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.3705,
+          "bbox_xyxy_norm": [
+            0.0006,
+            0.0014,
+            0.9998,
+            0.9961
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0011": [
+    {
+      "entities": [
+        {
+          "name": "bowl",
+          "score": 0.5706,
+          "bbox_xyxy_norm": [
+            0.4618,
+            0.0877,
+            0.9717,
+            0.6339
+          ]
+        },
+        {
+          "name": "bowl",
+          "score": 0.4938,
+          "bbox_xyxy_norm": [
+            0.49,
+            0.0005,
+            0.6778,
+            0.1953
+          ]
+        },
+        {
+          "name": "table",
+          "score": 0.3707,
+          "bbox_xyxy_norm": [
+            0.3599,
+            0.0025,
+            0.9991,
+            0.9939
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0012": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5091,
+          "bbox_xyxy_norm": [
+            0.0073,
+            0.4738,
+            0.5185,
+            0.9962
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.3773,
+          "bbox_xyxy_norm": [
+            0.0008,
+            0.0016,
+            0.9994,
+            0.9957
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0013": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.6211,
+          "bbox_xyxy_norm": [
+            0.1726,
+            0.0019,
+            0.9978,
+            0.995
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0014": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.4069,
+          "bbox_xyxy_norm": [
+            0.2122,
+            0.0422,
+            0.9604,
+            0.9956
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0015": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.637,
+          "bbox_xyxy_norm": [
+            0.1024,
+            0.0611,
+            0.9331,
+            0.9951
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.4115,
+          "bbox_xyxy_norm": [
+            0.0009,
+            0.2627,
+            0.9759,
+            0.9961
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0016": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.6355,
+          "bbox_xyxy_norm": [
+            0.0008,
+            0.0025,
+            0.9486,
+            0.9949
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.3547,
+          "bbox_xyxy_norm": [
+            0.0006,
+            0.2512,
+            0.97,
+            0.9925
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0017": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.6345,
+          "bbox_xyxy_norm": [
+            0.001,
+            0.0024,
+            0.999,
+            0.9947
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0018": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.847,
+          "bbox_xyxy_norm": [
+            0.3749,
+            0.1317,
+            0.4835,
+            0.6704
+          ]
+        },
+        {
+          "name": "tv",
+          "score": 0.8267,
+          "bbox_xyxy_norm": [
+            0.4943,
+            0.0596,
+            0.6266,
+            0.2301
+          ]
+        },
+        {
+          "name": "table",
+          "score": 0.7521,
+          "bbox_xyxy_norm": [
+            0.2576,
+            0.6477,
+            0.5472,
+            0.9934
+          ]
+        },
+        {
+          "name": "dog",
+          "score": 0.607,
+          "bbox_xyxy_norm": [
+            0.2518,
+            0.5703,
+            0.3142,
+            0.7563
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.4556,
+          "bbox_xyxy_norm": [
+            0.0002,
+            0.8538,
+            0.4796,
+            0.9974
+          ]
+        },
+        {
+          "name": "bottle cup",
+          "score": 0.4424,
+          "bbox_xyxy_norm": [
+            0.3933,
+            0.6696,
+            0.4313,
+            0.8498
+          ]
+        },
+        {
+          "name": "remote",
+          "score": 0.4412,
+          "bbox_xyxy_norm": [
+            0.4751,
+            0.8729,
+            0.4961,
+            0.9002
+          ]
+        },
+        {
+          "name": "book",
+          "score": 0.4406,
+          "bbox_xyxy_norm": [
+            0.2576,
+            0.8228,
+            0.3574,
+            0.909
+          ]
+        },
+        {
+          "name": "cell phone",
+          "score": 0.4393,
+          "bbox_xyxy_norm": [
+            0.4826,
+            0.8045,
+            0.5266,
+            0.8826
+          ]
+        },
+        {
+          "name": "book",
+          "score": 0.4009,
+          "bbox_xyxy_norm": [
+            0.4194,
+            0.7111,
+            0.5032,
+            0.8113
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0019": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.3669,
+          "bbox_xyxy_norm": [
+            0.717,
+            0.345,
+            0.9997,
+            0.8663
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.3521,
+          "bbox_xyxy_norm": [
+            0.4488,
+            0.345,
+            0.9996,
+            0.9953
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0020": [
+    {
+      "entities": []
+    }
+  ],
+  "v1_s0021": [
+    {
+      "entities": []
+    }
+  ],
+  "v1_s0022": [
+    {
+      "entities": [
+        {
+          "name": "dog",
+          "score": 0.8845,
+          "bbox_xyxy_norm": [
+            0.2931,
+            0.2056,
+            0.5554,
+            0.7642
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.7411,
+          "bbox_xyxy_norm": [
+            0.0003,
+            0.0002,
+            0.2559,
+            0.9955
+          ]
+        },
+        {
+          "name": "chair",
+          "score": 0.7197,
+          "bbox_xyxy_norm": [
+            0.5813,
+            0.0209,
+            0.9995,
+            0.8283
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0023": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.7727,
+          "bbox_xyxy_norm": [
+            0.195,
+            0.0929,
+            0.6898,
+            0.9949
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0024": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.762,
+          "bbox_xyxy_norm": [
+            0.1312,
+            0.0557,
+            0.6783,
+            0.9949
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0025": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.7568,
+          "bbox_xyxy_norm": [
+            0.158,
+            0.1289,
+            0.7234,
+            0.9954
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0026": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.7751,
+          "bbox_xyxy_norm": [
+            0.2221,
+            0.2661,
+            0.5777,
+            0.995
+          ]
+        },
+        {
+          "name": "bed",
+          "score": 0.3856,
+          "bbox_xyxy_norm": [
+            0.0006,
+            0.0623,
+            0.9996,
+            0.9958
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0027": [
+    {
+      "entities": [
+        {
+          "name": "bed",
+          "score": 0.4959,
+          "bbox_xyxy_norm": [
+            0.0,
+            0.1751,
+            0.9996,
+            0.9914
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.4091,
+          "bbox_xyxy_norm": [
+            0.2141,
+            0.1149,
+            0.9998,
+            0.7346
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0028": [
+    {
+      "entities": [
+        {
+          "name": "bed",
+          "score": 0.4357,
+          "bbox_xyxy_norm": [
+            0.0,
+            0.3064,
+            0.9948,
+            0.9957
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.3747,
+          "bbox_xyxy_norm": [
+            0.2662,
+            0.2129,
+            0.9995,
+            0.8933
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0029": [
+    {
+      "entities": [
+        {
+          "name": "bed",
+          "score": 0.6655,
+          "bbox_xyxy_norm": [
+            0.0007,
+            0.1616,
+            0.999,
+            0.9954
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0030": [
+    {
+      "entities": [
+        {
+          "name": "bed",
+          "score": 0.6054,
+          "bbox_xyxy_norm": [
+            0.0006,
+            0.333,
+            0.9992,
+            0.9949
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.5406,
+          "bbox_xyxy_norm": [
+            0.2359,
+            0.0044,
+            0.7319,
+            0.687
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0031": [
+    {
+      "entities": [
+        {
+          "name": "cat",
+          "score": 0.6591,
+          "bbox_xyxy_norm": [
+            0.6292,
+            0.2,
+            0.8505,
+            0.5043
+          ]
+        },
+        {
+          "name": "bed",
+          "score": 0.5731,
+          "bbox_xyxy_norm": [
+            0.0006,
+            0.453,
+            0.9992,
+            0.9952
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.5645,
+          "bbox_xyxy_norm": [
+            0.2167,
+            0.0012,
+            0.6576,
+            0.6714
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0032": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.7729,
+          "bbox_xyxy_norm": [
+            0.5871,
+            0.0004,
+            0.7818,
+            0.4398
+          ]
+        },
+        {
+          "name": "table",
+          "score": 0.7072,
+          "bbox_xyxy_norm": [
+            0.1178,
+            0.1963,
+            0.4521,
+            0.6292
+          ]
+        },
+        {
+          "name": "cell phone",
+          "score": 0.5366,
+          "bbox_xyxy_norm": [
+            0.3914,
+            0.3552,
+            0.4285,
+            0.4407
+          ]
+        },
+        {
+          "name": "cell phone",
+          "score": 0.5293,
+          "bbox_xyxy_norm": [
+            0.7522,
+            0.6236,
+            0.8619,
+            0.711
+          ]
+        },
+        {
+          "name": "bottle cup",
+          "score": 0.4345,
+          "bbox_xyxy_norm": [
+            0.2554,
+            0.228,
+            0.33,
+            0.4558
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.3788,
+          "bbox_xyxy_norm": [
+            0.0006,
+            0.5275,
+            0.9988,
+            0.996
+          ]
+        },
+        {
+          "name": "teddy bear",
+          "score": 0.3639,
+          "bbox_xyxy_norm": [
+            0.2442,
+            0.0499,
+            0.3221,
+            0.1898
+          ]
+        },
+        {
+          "name": "book",
+          "score": 0.3605,
+          "bbox_xyxy_norm": [
+            0.1182,
+            0.4491,
+            0.2389,
+            0.542
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0033": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.7235,
+          "bbox_xyxy_norm": [
+            0.0008,
+            0.0135,
+            0.1757,
+            0.6615
+          ]
+        },
+        {
+          "name": "table",
+          "score": 0.7203,
+          "bbox_xyxy_norm": [
+            0.2159,
+            0.4996,
+            0.5067,
+            0.9297
+          ]
+        },
+        {
+          "name": "cell phone",
+          "score": 0.5126,
+          "bbox_xyxy_norm": [
+            0.451,
+            0.6538,
+            0.4877,
+            0.7388
+          ]
+        },
+        {
+          "name": "bottle cup",
+          "score": 0.4572,
+          "bbox_xyxy_norm": [
+            0.3263,
+            0.5273,
+            0.3942,
+            0.7555
+          ]
+        },
+        {
+          "name": "remote cell phone",
+          "score": 0.39,
+          "bbox_xyxy_norm": [
+            0.3182,
+            0.7208,
+            0.3534,
+            0.81
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.3696,
+          "bbox_xyxy_norm": [
+            0.0809,
+            0.1371,
+            0.1361,
+            0.4312
+          ]
+        },
+        {
+          "name": "book",
+          "score": 0.357,
+          "bbox_xyxy_norm": [
+            0.1851,
+            0.7292,
+            0.302,
+            0.8248
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0034": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5571,
+          "bbox_xyxy_norm": [
+            0.1274,
+            0.0016,
+            0.9076,
+            0.9951
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0035": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5913,
+          "bbox_xyxy_norm": [
+            0.1216,
+            0.1004,
+            0.8423,
+            0.9955
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.4115,
+          "bbox_xyxy_norm": [
+            0.0007,
+            0.2021,
+            0.9995,
+            0.9964
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0036": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5898,
+          "bbox_xyxy_norm": [
+            0.142,
+            0.0694,
+            0.9007,
+            0.9953
+          ]
+        },
+        {
+          "name": "couch",
+          "score": 0.4052,
+          "bbox_xyxy_norm": [
+            0.0005,
+            0.1568,
+            0.999,
+            0.996
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0037": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5746,
+          "bbox_xyxy_norm": [
+            0.1244,
+            0.1014,
+            0.8904,
+            0.9952
+          ]
+        },
+        {
+          "name": "couch",
+          "score": 0.3651,
+          "bbox_xyxy_norm": [
+            0.0007,
+            0.1453,
+            0.9987,
+            0.9961
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0038": [
+    {
+      "entities": [
+        {
+          "name": "spoon",
+          "score": 0.4501,
+          "bbox_xyxy_norm": [
+            0.0857,
+            0.2969,
+            0.5558,
+            0.6156
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.3931,
+          "bbox_xyxy_norm": [
+            0.0004,
+            0.0523,
+            0.1622,
+            0.4569
+          ]
+        },
+        {
+          "name": "bowl",
+          "score": 0.388,
+          "bbox_xyxy_norm": [
+            0.2482,
+            0.0003,
+            0.8358,
+            0.9374
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0039": [
+    {
+      "entities": [
+        {
+          "name": "bowl",
+          "score": 0.4692,
+          "bbox_xyxy_norm": [
+            0.0945,
+            0.0008,
+            0.7442,
+            0.8436
+          ]
+        },
+        {
+          "name": "spoon",
+          "score": 0.4477,
+          "bbox_xyxy_norm": [
+            0.0273,
+            0.0002,
+            0.4752,
+            0.1979
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0040": [
+    {
+      "entities": [
+        {
+          "name": "fork spoon",
+          "score": 0.3952,
+          "bbox_xyxy_norm": [
+            0.1461,
+            0.1539,
+            0.6213,
+            0.2389
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0041": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.4174,
+          "bbox_xyxy_norm": [
+            0.8352,
+            0.5713,
+            0.9997,
+            0.8581
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0042": [
+    {
+      "entities": []
+    }
+  ],
+  "v1_s0043": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5797,
+          "bbox_xyxy_norm": [
+            0.7837,
+            0.6415,
+            0.9996,
+            0.9972
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0044": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.6798,
+          "bbox_xyxy_norm": [
+            0.4305,
+            0.4334,
+            0.9997,
+            0.995
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0045": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5684,
+          "bbox_xyxy_norm": [
+            0.1297,
+            0.1222,
+            0.7473,
+            0.9956
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.3975,
+          "bbox_xyxy_norm": [
+            0.0001,
+            0.2028,
+            0.7806,
+            0.9958
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0046": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5717,
+          "bbox_xyxy_norm": [
+            0.0966,
+            0.1426,
+            0.7139,
+            0.9958
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.399,
+          "bbox_xyxy_norm": [
+            0.0,
+            0.1824,
+            0.7246,
+            0.9958
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0047": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5204,
+          "bbox_xyxy_norm": [
+            0.0964,
+            0.1236,
+            0.7261,
+            0.9959
+          ]
+        },
+        {
+          "name": "couch",
+          "score": 0.4177,
+          "bbox_xyxy_norm": [
+            0.0003,
+            0.1376,
+            0.9994,
+            0.9959
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0048": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.423,
+          "bbox_xyxy_norm": [
+            0.1058,
+            0.1217,
+            0.7244,
+            0.9956
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0049": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.4007,
+          "bbox_xyxy_norm": [
+            0.049,
+            0.0947,
+            0.8321,
+            0.9954
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.3857,
+          "bbox_xyxy_norm": [
+            0.0002,
+            0.1009,
+            0.6931,
+            0.995
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0050": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5603,
+          "bbox_xyxy_norm": [
+            0.0877,
+            0.1307,
+            0.7688,
+            0.9961
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.424,
+          "bbox_xyxy_norm": [
+            0.0005,
+            0.2118,
+            0.7997,
+            0.9956
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0051": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5009,
+          "bbox_xyxy_norm": [
+            0.5878,
+            0.6237,
+            0.9372,
+            0.9961
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.4024,
+          "bbox_xyxy_norm": [
+            0.0011,
+            0.0001,
+            0.8039,
+            0.9966
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0052": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.421,
+          "bbox_xyxy_norm": [
+            0.001,
+            0.0012,
+            0.571,
+            0.996
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.4209,
+          "bbox_xyxy_norm": [
+            0.5465,
+            0.4793,
+            0.9004,
+            0.9965
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.3914,
+          "bbox_xyxy_norm": [
+            0.0004,
+            0.0569,
+            0.8685,
+            0.9953
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0053": [
+    {
+      "entities": [
+        {
+          "name": "bowl",
+          "score": 0.6701,
+          "bbox_xyxy_norm": [
+            0.2319,
+            0.1309,
+            0.583,
+            0.6883
+          ]
+        },
+        {
+          "name": "person",
+          "score": 0.5467,
+          "bbox_xyxy_norm": [
+            0.4735,
+            0.5269,
+            0.8285,
+            0.9961
+          ]
+        },
+        {
+          "name": "bowl",
+          "score": 0.3596,
+          "bbox_xyxy_norm": [
+            0.6343,
+            0.0868,
+            0.9996,
+            0.7516
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0054": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.6592,
+          "bbox_xyxy_norm": [
+            0.6229,
+            0.1339,
+            0.9997,
+            0.8976
+          ]
+        },
+        {
+          "name": "bowl",
+          "score": 0.6109,
+          "bbox_xyxy_norm": [
+            0.0008,
+            0.02,
+            0.3643,
+            0.672
+          ]
+        },
+        {
+          "name": "cup bowl",
+          "score": 0.4105,
+          "bbox_xyxy_norm": [
+            0.433,
+            0.0011,
+            0.8902,
+            0.7258
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0055": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.6521,
+          "bbox_xyxy_norm": [
+            0.5508,
+            0.5128,
+            0.9937,
+            0.9959
+          ]
+        },
+        {
+          "name": "bowl",
+          "score": 0.6268,
+          "bbox_xyxy_norm": [
+            0.277,
+            0.0171,
+            0.6935,
+            0.685
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0056": [
+    {
+      "entities": [
+        {
+          "name": "fork",
+          "score": 0.5399,
+          "bbox_xyxy_norm": [
+            0.5159,
+            0.2206,
+            0.8163,
+            0.8362
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0057": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5097,
+          "bbox_xyxy_norm": [
+            0.128,
+            0.0819,
+            0.8154,
+            0.9958
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0058": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.4537,
+          "bbox_xyxy_norm": [
+            0.0006,
+            0.0013,
+            0.7937,
+            0.9962
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0059": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.569,
+          "bbox_xyxy_norm": [
+            0.0598,
+            0.0027,
+            0.811,
+            0.9958
+          ]
+        },
+        {
+          "name": "couch",
+          "score": 0.3515,
+          "bbox_xyxy_norm": [
+            0.0009,
+            0.1679,
+            0.9988,
+            0.9961
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0060": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5869,
+          "bbox_xyxy_norm": [
+            0.0372,
+            0.0025,
+            0.8128,
+            0.9954
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0061": [
+    {
+      "entities": []
+    }
+  ],
+  "v1_s0062": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.6046,
+          "bbox_xyxy_norm": [
+            0.0019,
+            0.0071,
+            0.9079,
+            0.9952
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.3613,
+          "bbox_xyxy_norm": [
+            0.0007,
+            0.3149,
+            0.9485,
+            0.9946
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0063": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5805,
+          "bbox_xyxy_norm": [
+            0.081,
+            0.1207,
+            0.741,
+            0.9958
+          ]
+        },
+        {
+          "name": "couch",
+          "score": 0.4197,
+          "bbox_xyxy_norm": [
+            0.0004,
+            0.1347,
+            0.9993,
+            0.9966
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0064": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.5592,
+          "bbox_xyxy_norm": [
+            0.031,
+            0.1089,
+            0.7208,
+            0.9959
+          ]
+        },
+        {
+          "name": "chair couch",
+          "score": 0.3532,
+          "bbox_xyxy_norm": [
+            0.0016,
+            0.1392,
+            0.7362,
+            1.0
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0065": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.4609,
+          "bbox_xyxy_norm": [
+            0.0034,
+            0.0891,
+            0.8908,
+            0.9961
+          ]
+        }
+      ]
+    }
+  ],
+  "v1_s0066": [
+    {
+      "entities": [
+        {
+          "name": "person",
+          "score": 0.6797,
+          "bbox_xyxy_norm": [
+            0.769,
+            0.3848,
+            0.8844,
+            0.7236
+          ]
+        },
+        {
+          "name": "table",
+          "score": 0.5411,
+          "bbox_xyxy_norm": [
+            0.6234,
+            0.617,
+            0.7037,
+            0.7199
+          ]
+        },
+        {
+          "name": "tv",
+          "score": 0.5397,
+          "bbox_xyxy_norm": [
+            0.7008,
+            0.4385,
+            0.7456,
+            0.4945
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,8 +11,8 @@
  */
 import { el, createDetails, resolveMediaPath } from "./dom-helpers.js";
 
-const TARGET_MIN_SEC = 180; // 3 minutes, matching the paper's 3-5 min target runtime
-const TARGET_MAX_SEC = 300; // 5 minutes
+const TARGET_MIN_SEC = 30; // 30 seconds -- shortened from the paper's 3-5 min target so the
+const TARGET_MAX_SEC = 60; // in-browser ffmpeg.wasm render (source download + re-encode) stays fast
 
 // One shared hidden <video> used to grab poster-frame thumbnails by seeking,
 // queued so concurrent captures don't race on the same element.
@@ -63,6 +63,7 @@ function captureThumbnail(sourcePath, time) {
 
 function fmtDuration(sec) {
   const s = Math.max(0, Math.round(sec));
+  if (s < 60) return `${s}s`;
   const m = Math.floor(s / 60);
   const r = s % 60;
   return `${m}m ${String(r).padStart(2, "0")}s`;
@@ -127,7 +128,7 @@ export function createStoryboardEditor({ container, segments, pool, onChange, on
   function renderHeader() {
     const total = current.reduce((s, seg) => s + (seg.endTime - seg.startTime), 0);
     const inRange = total >= TARGET_MIN_SEC && total <= TARGET_MAX_SEC;
-    durationBadge.textContent = `${fmtDuration(total)} — target 3–5 min`;
+    durationBadge.textContent = `${fmtDuration(total)} — target 30–60s`;
     durationBadge.className =
       "rounded-full px-2.5 py-1 text-xs font-semibold " +
       (inRange
@@ -230,7 +231,26 @@ export function createStoryboardEditor({ container, segments, pool, onChange, on
     body.appendChild(topRow);
 
     const text = seg.transcript?.trim() ? seg.transcript : seg.caption || "(no transcript or caption)";
-    body.appendChild(el("p", "line-clamp-2 text-sm text-slate-200", text));
+    const textEl = el("p", "line-clamp-2 text-sm text-slate-200", text);
+    body.appendChild(textEl);
+    // Long ASR transcripts get clamped to 2 lines by default -- only show a
+    // toggle when there's actually more to reveal (avoids a dead "Show more"
+    // button on short captions).
+    const LONG_TEXT_CHARS = 140;
+    if (text.length > LONG_TEXT_CHARS) {
+      let expanded = false;
+      const toggleBtn = el(
+        "button",
+        "text-[11px] font-medium text-cyan-400 hover:text-cyan-300",
+        "Show more"
+      );
+      toggleBtn.addEventListener("click", () => {
+        expanded = !expanded;
+        textEl.classList.toggle("line-clamp-2", !expanded);
+        toggleBtn.textContent = expanded ? "Show less" : "Show more";
+      });
+      body.appendChild(toggleBtn);
+    }
 
     const moveRow = el("div", "flex flex-wrap items-center gap-2 pt-1");
     const upBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-300 hover:bg-white/5", "↑ Move up");

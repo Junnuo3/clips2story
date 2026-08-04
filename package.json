@@ -7,7 +7,7 @@
   "scripts": {
     "build:data": "node scripts/generate-data.mjs",
     "build:embeddings": "node scripts/export-embeddings.mjs",
-    "build": "npm run build:data && npm run build:embeddings",
+    "build": "npm run build:embeddings && npm run build:data",
     "serve": "node scripts/dev-server.mjs"
   },
   "dependencies": {

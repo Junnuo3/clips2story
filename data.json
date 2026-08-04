@@ -14,7 +14,7 @@
         {
           "id": "1",
           "youtubeEmbed": "https://www.youtube.com/embed/23BGbVBxXdQ",
-          "sourceLocal": "documentary/1/Mammal Origins \uff5c Full Documentary \uff5c NOVA \uff5c PBS-23BGbVBxXdQ.mp4",
+          "sourceLocal": "documentary/1/Mammal Origins ｜ Full Documentary ｜ NOVA ｜ PBS-23BGbVBxXdQ.mp4",
           "keywords": [
             {
               "keyword": "04_extinction",
@@ -40,7 +40,7 @@
         {
           "id": "2",
           "youtubeEmbed": null,
-          "sourceLocal": "documentary/2/Can Dogs Talk\uff1f \uff5c Full Documentary \uff5c NOVA \uff5c PBS-jfLAaGtNc7U.mp4",
+          "sourceLocal": "documentary/2/Can Dogs Talk？ ｜ Full Documentary ｜ NOVA ｜ PBS-jfLAaGtNc7U.mp4",
           "keywords": [
             {
               "keyword": "03_button_learning",
@@ -72,7 +72,7 @@
         {
           "id": "1",
           "youtubeEmbed": "https://www.youtube.com/embed/kmYcT5gT6a4",
-          "sourceLocal": null,
+          "sourceLocal": "film/1/Cary Grant Romcom Full Movie ｜ His Girl Friday (1940) ｜ Retrospective-kmYcT5gT6a4.mp4",
           "keywords": [
             {
               "keyword": "04_jailbreak",
@@ -130,7 +130,7 @@
         {
           "id": "1",
           "youtubeEmbed": "https://www.youtube.com/embed/wvXDB9dMdEo",
-          "sourceLocal": null,
+          "sourceLocal": "lecture/1/1. Introduction, Financial Terms and Concepts-wvXDB9dMdEo.mp4",
           "keywords": [
             {
               "keyword": "02_finance",
@@ -156,7 +156,7 @@
         {
           "id": "2",
           "youtubeEmbed": "https://www.youtube.com/embed/0sKPkJME2Jw",
-          "sourceLocal": null,
+          "sourceLocal": "lecture/2/Lecture： Mathematics of Big Data and Machine Learning-0sKPkJME2Jw.mp4",
           "keywords": [
             {
               "keyword": "02_machine_learning",
@@ -188,7 +188,7 @@
         {
           "id": "1",
           "youtubeEmbed": "https://www.youtube.com/embed/tX80LkEqytg",
-          "sourceLocal": null,
+          "sourceLocal": "news/1/NBC Nightly News Full Episode - Feb. 13-tX80LkEqytg.mp4",
           "keywords": [
             {
               "keyword": "01_ilya_malinin",
@@ -214,7 +214,7 @@
         {
           "id": "2",
           "youtubeEmbed": "https://www.youtube.com/embed/fbgQG61Irvs",
-          "sourceLocal": null,
+          "sourceLocal": "news/2/This Morning’s Top Headlines – Feb. 13 ｜ Morning News NOW-fbgQG61Irvs.mp4",
           "keywords": [
             {
               "keyword": "01_nancy_guthrie",
@@ -246,7 +246,7 @@
         {
           "id": "1",
           "youtubeEmbed": "https://www.youtube.com/embed/n2YNMJShKKA",
-          "sourceLocal": "vlog/1/Attempting VEDA\uff1f \uff5c Meals, Planner Sticker Haul, Bathroom Organizing Project-n2YNMJShKKA.mp4",
+          "sourceLocal": "vlog/1/Attempting VEDA？ ｜ Meals, Planner Sticker Haul, Bathroom Organizing Project-n2YNMJShKKA.mp4",
           "keywords": [
             {
               "keyword": "01_haircut",
@@ -272,7 +272,7 @@
         {
           "id": "2",
           "youtubeEmbed": "https://www.youtube.com/embed/Tn7CL9rL27I",
-          "sourceLocal": null,
+          "sourceLocal": "vlog/2/SILLY SMILING BABY PLAYTIME & HOUSE CLEANING FUN ｜ DITL Daily Vlog-Tn7CL9rL27I.mp4",
           "keywords": [
             {
               "keyword": "01_mom_life",
@@ -300,23 +300,164 @@
   ],
   "liveDemo": {
     "enabled": true,
-    "_comment": "plannerEndpoint points at the deployed Cloudflare Worker (see DEPLOYMENT.md). If it's ever unreachable, the panel shows a fallback message instead of breaking the rest of the site.",
     "plannerEndpoint": "https://clips2story-planner.clips2story-v2.workers.dev",
     "videos": [
+      {
+        "id": "documentary-1",
+        "genre": "documentary",
+        "label": "Documentary — Mammal Origins (PBS NOVA)",
+        "sourceVideo": "documentary/1/Mammal Origins ｜ Full Documentary ｜ NOVA ｜ PBS-23BGbVBxXdQ.mp4",
+        "embeddings": "embeddings/documentary-1.json",
+        "poolDurationBudgetSec": 150,
+        "exampleKeywords": [
+          "mammals",
+          "therapsids",
+          "evolution",
+          "extinction",
+          "fossils"
+        ]
+      },
       {
         "id": "documentary-2",
         "genre": "documentary",
         "label": "Documentary — Can Dogs Talk? (PBS NOVA)",
         "sourceVideo": "documentary/2/Can Dogs Talk？ ｜ Full Documentary ｜ NOVA ｜ PBS-jfLAaGtNc7U.mp4",
         "embeddings": "embeddings/documentary-2.json",
-        "poolDurationBudgetSec": 480
+        "poolDurationBudgetSec": 150,
+        "exampleKeywords": [
+          "dog communication",
+          "language study",
+          "button learning",
+          "animal cognition",
+          "human-dog interaction"
+        ]
+      },
+      {
+        "id": "film-1",
+        "genre": "film",
+        "label": "Film — His Girl Friday (1940)",
+        "sourceVideo": "film/1/Cary Grant Romcom Full Movie ｜ His Girl Friday (1940) ｜ Retrospective-kmYcT5gT6a4.mp4",
+        "embeddings": "embeddings/film-1.json",
+        "poolDurationBudgetSec": 150,
+        "exampleKeywords": [
+          "newspaper",
+          "journalism",
+          "newsroom",
+          "jailbreak",
+          "romance"
+        ]
+      },
+      {
+        "id": "film-2",
+        "genre": "film",
+        "label": "Film — The Little Shop of Horrors (1960)",
+        "sourceVideo": "film/2/The Little Shop of Horrors 1960 Full Movie HD 1080p.mp4",
+        "embeddings": "embeddings/film-2.json",
+        "poolDurationBudgetSec": 150,
+        "exampleKeywords": [
+          "Skid Row",
+          "flower shop",
+          "Seymour Krelborn",
+          "Audrey Jr",
+          "talking plant"
+        ]
+      },
+      {
+        "id": "lecture-1",
+        "genre": "lecture",
+        "label": "Lecture — Financial Terms and Concepts",
+        "sourceVideo": "lecture/1/1. Introduction, Financial Terms and Concepts-wvXDB9dMdEo.mp4",
+        "embeddings": "embeddings/lecture-1.json",
+        "poolDurationBudgetSec": 150,
+        "exampleKeywords": [
+          "mathematics",
+          "finance",
+          "trading",
+          "options",
+          "risk management"
+        ]
+      },
+      {
+        "id": "lecture-2",
+        "genre": "lecture",
+        "label": "Lecture — Mathematics of Big Data and Machine Learning",
+        "sourceVideo": "lecture/2/Lecture： Mathematics of Big Data and Machine Learning-0sKPkJME2Jw.mp4",
+        "embeddings": "embeddings/lecture-2.json",
+        "poolDurationBudgetSec": 150,
+        "exampleKeywords": [
+          "big data",
+          "machine learning",
+          "neural networks",
+          "linear models",
+          "matrix multiplication"
+        ]
+      },
+      {
+        "id": "news-1",
+        "genre": "news",
+        "label": "News — NBC Nightly News, Feb. 13",
+        "sourceVideo": "news/1/NBC Nightly News Full Episode - Feb. 13-tX80LkEqytg.mp4",
+        "embeddings": "embeddings/news-1.json",
+        "poolDurationBudgetSec": 150,
+        "exampleKeywords": [
+          "Ilya Malinin",
+          "Nancy Guthrie",
+          "figure skating",
+          "controversy",
+          "shooting"
+        ]
+      },
+      {
+        "id": "news-2",
+        "genre": "news",
+        "label": "News — Morning News NOW, Feb. 13",
+        "sourceVideo": "news/2/This Morning’s Top Headlines – Feb. 13 ｜ Morning News NOW-fbgQG61Irvs.mp4",
+        "embeddings": "embeddings/news-2.json",
+        "poolDurationBudgetSec": 150,
+        "exampleKeywords": [
+          "Nancy Guthrie",
+          "FBI search",
+          "Chloe Kim",
+          "Team USA",
+          "Olympic competition"
+        ]
+      },
+      {
+        "id": "vlog-1",
+        "genre": "vlog",
+        "label": "Vlog — Attempting VEDA (Sticker Haul & Organizing)",
+        "sourceVideo": "vlog/1/Attempting VEDA？ ｜ Meals, Planner Sticker Haul, Bathroom Organizing Project-n2YNMJShKKA.mp4",
+        "embeddings": "embeddings/vlog-1.json",
+        "poolDurationBudgetSec": 150,
+        "exampleKeywords": [
+          "haircut",
+          "VEDA",
+          "meal prep",
+          "sticker haul",
+          "daily life"
+        ]
+      },
+      {
+        "id": "vlog-2",
+        "genre": "vlog",
+        "label": "Vlog — Silly Smiling Baby Playtime & House Cleaning",
+        "sourceVideo": "vlog/2/SILLY SMILING BABY PLAYTIME & HOUSE CLEANING FUN ｜ DITL Daily Vlog-Tn7CL9rL27I.mp4",
+        "embeddings": "embeddings/vlog-2.json",
+        "poolDurationBudgetSec": 150,
+        "exampleKeywords": [
+          "mom life",
+          "baby care",
+          "daily routine",
+          "meal prep",
+          "household chores"
+        ]
       }
     ],
     "exampleKeywords": [
-      "dog communication",
-      "animal cognition",
-      "button learning",
-      "language study"
+      "central conflict",
+      "key relationships",
+      "turning point",
+      "background context"
     ]
   }
 }

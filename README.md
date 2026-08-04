@@ -21,8 +21,10 @@ to the original.
 |---|---|---|
 | Example gallery (5 genres × 2 videos × 2 keywords, NF/ND/baselines) | ✅ | ✅ unchanged |
 | Home-page pipeline walkthrough (shots → metadata → prompt → LLM → render) | ✅ | ✅ unchanged |
-| Live storyboard generation for a reviewer-typed keyword | ❌ | ✅ new |
-| Editable storyboard timeline (reorder/delete/swap, live duration badge) | ❌ | ✅ new |
+| Live storyboard generation for a reviewer-typed keyword | ❌ | ✅ new, on its own "Live Demo" nav page |
+| Choice of source video for live generation | ❌ | ✅ new -- auto-discovered from `embeddings/*.json`, one video wired today |
+| Editable storyboard timeline (reorder/delete/swap, live duration badge) | ❌ | ✅ new -- target output is 30-60s (short, so rendering stays fast) |
+| Long transcript/caption text on a storyboard card | n/a | ✅ clamps to 2 lines with a "Show more" toggle instead of being cut off |
 | "Render final video" -- a real downloadable MP4 of the edited storyboard | ❌ | ✅ new (in-browser, via ffmpeg.wasm) |
 
 ## Why this shape (short version)
@@ -50,9 +52,11 @@ index.html, app.js              the original site shell + gallery logic (lightly
                                  see "Changes to the original files" below)
 data.json                       gallery data + new "liveDemo" config block
 {documentary,film,lecture,news,vlog}/   precomputed example media (Git LFS)
-example/                        real per-shot pipeline artifacts for one worked example
-                                 (used by both the original pipeline walkthrough and, now,
-                                 as the source data for the live demo's one wired video)
+example/                        real per-shot pipeline artifacts. example/{shots,captions,asr,
+                                 entities,background} is the original worked example (documentary/2,
+                                 used by both the pipeline walkthrough and its live-demo bundle).
+                                 example/<video-id>/ (e.g. example/documentary-1/) holds the same
+                                 5 files for additional live-demo videos, one folder per video.
 plots/, visuals/                paper figures used elsewhere on the site
 
 assets/js/
@@ -62,7 +66,8 @@ assets/js/
   semantic-search.js             client-side keyword embedding + cosine-similarity retrieval
   storyboard-editor.js           the editable timeline component (the centerpiece)
   render-ffmpeg.js               "Render final video" via ffmpeg.wasm, in the browser
-  try-it-panel.js                glues the above together into the Home-page panel
+  try-it-panel.js                glues the above together into the panel mounted on the
+                                  standalone "Live Demo" page (app.js's renderLiveDemoPanel)
 
 embeddings/                      build output of scripts/export-embeddings.mjs (see below).
                                   Generated, not hand-written -- but DOES need to be committed:
@@ -77,8 +82,11 @@ worker/                          the one server-side piece: a Cloudflare Worker 
 
 scripts/
   generate-data.mjs              (from the original site) rebuilds data.json from
-                                  demo_video_links.csv + the {genre}/{id}/ folders
-  export-embeddings.mjs          NEW: embeds example/'s per-shot descriptors for the live demo
+                                  demo_video_links.csv + the {genre}/{id}/ folders; also
+                                  auto-discovers liveDemo.videos from embeddings/*.json
+  export-embeddings.mjs          NEW: embeds each live-demo video's per-shot descriptors
+                                  (DEMO_VIDEOS list); skips any video whose bundle isn't
+                                  precomputed yet instead of failing the whole run
   dev-server.mjs                 NEW: zero-dependency local static file server
 
 docs/design-plan.md              full design rationale for the live-demo feature
@@ -87,17 +95,19 @@ DEPLOYMENT.md                    step-by-step: go from this folder to a live, re
 
 ## Changes to the original files
 
-- `app.js`: added one import and three call sites to mount the new panel at
-  the top of the Home page (`mountTryItPanel(...)`); moved the small
-  DOM/media-path helpers it already had into `assets/js/dom-helpers.js` so
-  the new modules could reuse them without a circular import. Nothing about
-  the existing gallery/pipeline-walkthrough rendering logic changed.
+- `app.js`: added one import and a new routable "Live Demo" nav page
+  (`renderLiveDemoPanel`, mounting `mountTryItPanel(...)`) alongside the
+  existing Home/genre pages; the Home page keeps a small teaser link to it
+  instead of embedding the panel inline. Moved the small DOM/media-path
+  helpers it already had into `assets/js/dom-helpers.js` so the new modules
+  could reuse them without a circular import. Nothing about the existing
+  gallery/pipeline-walkthrough rendering logic changed.
 - `data.json`: added one new top-level key, `"liveDemo"` (config for the new
   panel -- which videos are live-enabled, the Worker URL, example keyword
   chips). Everything else is untouched.
-- `scripts/generate-data.mjs`: added the `LIVE_DEMO` config object that gets
-  written into `data.json`'s new key, so regenerating data.json doesn't lose
-  it.
+- `scripts/generate-data.mjs`: added `buildLiveDemo()`, which auto-discovers
+  the `liveDemo.videos` list from `embeddings/*.json` at build time (instead
+  of a hand-maintained list) and writes it into `data.json`'s new key.
 - Removed the original repo's own scratch `instruction.md` (a prior build
   instruction for an unrelated "Figures" page addition, not part of the
   site itself).
@@ -110,23 +120,29 @@ npm run serve            # http://localhost:8080 -- static site, gallery works i
 ```
 
 The gallery and pipeline walkthrough work immediately (same content as the
-original site). The **live "Try it yourself" panel is disabled by default**
-until you generate embeddings and deploy the Worker -- see below and
-[`DEPLOYMENT.md`](DEPLOYMENT.md). Until then it fails gracefully to a
-"browse the gallery below" message; it never breaks the rest of the page.
+original site). The **live "Try it yourself" panel** lives on its own "Live
+Demo" nav page and **is disabled by default** until you generate embeddings
+and deploy the Worker -- see below and [`DEPLOYMENT.md`](DEPLOYMENT.md).
+Until then it fails gracefully to a "browse the genre pages instead" message;
+it never breaks the rest of the site.
 
 ### Generating embeddings for the live demo
 
 ```bash
-npm run build:embeddings
+npm run build:embeddings   # then: npm run build:data (picks up the new video automatically)
 ```
 
 Downloads a small (~30MB) sentence-embedding model from the Hugging Face hub
-on first run (needs outbound internet once; nothing at demo time does) and
-writes `embeddings/documentary-2.json` from the real per-shot descriptors
-already checked into `example/`. This is the one demo video fully wired for
-live generation right now -- see "Known limitations" below for why only one,
-and how to add more.
+on first run (needs outbound internet once; nothing at demo time does), then
+embeds every video listed in `DEMO_VIDEOS`
+(`scripts/export-embeddings.mjs`) that already has a precomputed per-shot
+descriptor bundle, writing one `embeddings/<id>.json` per video.
+`scripts/generate-data.mjs` then auto-discovers `liveDemo.videos` from
+whatever's in `embeddings/` -- no manual list to keep in sync. Today only
+`documentary-2` ("Can Dogs Talk?") has its bundle checked in, so it's the
+only video that shows up in the picker -- see "Known limitations" below for
+what's needed to add the other three that already have a local source video
+(`documentary-1`, `film-2`, `vlog-1`), and how to go beyond those.
 
 ### Deploying so reviewers can actually use it
 
@@ -137,23 +153,45 @@ checklist).
 
 ## Known limitations
 
-- **Only one demo video is wired for live generation**: `documentary/2`
-  ("Can Dogs Talk?"), because it's the only source video with full per-shot
-  descriptors (`example/shots`, `captions`, `asr`, `entities`, `background`)
-  checked into this repo -- the same bundle the original site's pipeline
-  walkthrough already used. To add another video, export its `example/`-style
-  descriptor bundle from the actual pipeline (`src/pipeline/` in the main
-  research repo), add an entry to `DEMO_VIDEOS` in
-  `scripts/export-embeddings.mjs` and to `LIVE_DEMO.videos` in
-  `scripts/generate-data.mjs`, then re-run both build scripts.
+- **Only one demo video is wired for live generation today**: `documentary/2`
+  ("Can Dogs Talk?"), because it's the only source video with a precomputed
+  per-shot descriptor bundle (`shots`, `captions`, `asr`, `entities`,
+  `background` JSON -- checked into `example/`) -- the same bundle the
+  original site's pipeline walkthrough already used. The picker UI and build
+  scripts already support any number of videos (see "Generating embeddings"
+  above); adding one is a **precompute step, not a code change**:
+  1. Run the shot detection + multimodal metadata pipeline (`src/pipeline/`
+     in the main research repo -- shot boundaries, captioning, ASR, entity
+     and background extraction; captioning/ASR want a GPU, the rest run
+     fine on CPU) on the video's source file, producing the same 5 JSON
+     files as `example/shots/shots.json` etc.
+  2. Drop them at `example/<id>/{shots,captions,asr,entities,background}.json`
+     (flat) or `example/<id>/<name>/<name>.json` (nested, matching the
+     original layout) -- `<id>` is `<genre>-<setId>`, e.g. `film-2`.
+  3. **The video's source file must also be a real local file in this repo**
+     (not just a YouTube link), because the ffmpeg.wasm renderer downloads
+     it directly by path (see the next limitation). `documentary-1`,
+     `film-2`, and `vlog-1` already have one checked in and are the natural
+     next 3 -- their `DEMO_VIDEOS` entries are already in
+     `scripts/export-embeddings.mjs`, just waiting on their bundle. The
+     remaining 6 videos (`film-1`, `lecture-1`, `lecture-2`, `news-1`,
+     `news-2`, `vlog-2`) only have their *output* clips checked in, not the
+     original source -- that needs downloading from the YouTube link in
+     `demo_video_links.csv` and adding it to the repo (GitHub LFS caps a
+     single object at 2GB; `scripts/downsample_media.py` can compress it
+     down first) before step 1, plus a new `DEMO_VIDEOS` entry.
+  4. Run `npm run build` (`build:embeddings` then `build:data`). No other
+     code change needed -- the video shows up in the live-demo picker
+     automatically.
 - **"Render final video" downloads the whole source video into the browser**
-  before trimming it, because `documentary/2`'s "clips" are timestamp ranges
-  within one long source file, not separate per-clip media files. This is
-  fine for a single demo video but doesn't scale to a multi-hundred-MB
-  feature-length source -- `render-ffmpeg.js` enforces a 300MB size cap and
-  surfaces a clear error (rather than hanging or crashing the tab) so the
-  reviewer can edit the storyboard down and retry. A real fix (pre-slicing a
-  small "candidate reel" at build time) is a follow-up, not done here.
+  before trimming it, because each wired video's "clips" are timestamp
+  ranges within one long source file, not separate per-clip media files.
+  This is fine for a handful of demo videos but doesn't scale to a
+  multi-hundred-MB feature-length source -- `render-ffmpeg.js` enforces a
+  300MB size cap and surfaces a clear error (rather than hanging or crashing
+  the tab) so the reviewer can edit the storyboard down and retry. A real
+  fix (pre-slicing a small "candidate reel" at build time) is a follow-up,
+  not done here.
 - **"Render final video" is a browser-side reimplementation**, not a call
   into the paper's actual Python renderer (`src/pipeline/renderer.py`'s
   `render_from_timeline()`). It mirrors the same frame-accurate trim + concat

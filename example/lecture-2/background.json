@@ -1,0 +1,479 @@
+{
+  "v1_s0000": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.5869,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0001": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1877,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0002": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.8178,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0003": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2305,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0004": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2037,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0005": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.172,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0006": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1929,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0007": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4285,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0008": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1977,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0009": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.2538,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0010": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1383,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0011": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2079,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0012": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.9652,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0013": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2011,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0014": [
+    {
+      "background": {
+        "label": "conference_room",
+        "confidence": 0.2968,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0015": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.438,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0016": [
+    {
+      "background": {
+        "label": "conference_room",
+        "confidence": 0.2718,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0017": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.6757,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0018": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3768,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0019": [
+    {
+      "background": {
+        "label": "classroom",
+        "confidence": 0.467,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0020": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4564,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0021": [
+    {
+      "background": {
+        "label": "classroom",
+        "confidence": 0.5626,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0022": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1618,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0023": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.5348,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0024": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.9154,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0025": [
+    {
+      "background": {
+        "label": "conference_room",
+        "confidence": 0.5165,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0026": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.5069,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0027": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.9035,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0028": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.6114,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0029": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3042,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0030": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.5555,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0031": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.5392,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0032": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.5358,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0033": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3179,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0034": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3793,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0035": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3049,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0036": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4918,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0037": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3531,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0038": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.6001,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0039": [
+    {
+      "background": {
+        "label": "conference_room",
+        "confidence": 0.3995,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0040": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3903,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0041": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4731,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0042": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3427,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0043": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3418,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0044": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.509,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0045": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.4204,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0046": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.6097,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0047": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2056,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0048": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.6033,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0049": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.9422,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0050": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.336,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0051": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.8861,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0052": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2425,
+        "source": "clip_zeroshot"
+      }
+    }
+  ]
+}

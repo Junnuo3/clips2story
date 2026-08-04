@@ -223,6 +223,7 @@ function buildGenreButtons(genres, activeId, onSelect) {
 
   const pages = [
     { id: "home", label: "Home" },
+    { id: "workflow", label: "Workflow Demo" },
     // { id: "figures", label: "Figures" },
     ...genres,
   ];
@@ -319,6 +320,13 @@ function renderGenreSections(genres, liveDemo) {
   home.className = "genre-panel hidden space-y-6 pb-16";
   home.appendChild(renderHomePanel(liveDemo));
   container.appendChild(home);
+
+  const workflowPanel = document.createElement("div");
+  workflowPanel.id = "genre-panel-workflow";
+  workflowPanel.dataset.genrePanel = "workflow";
+  workflowPanel.className = "genre-panel hidden space-y-6 pb-16";
+  workflowPanel.appendChild(renderWorkflowPanel());
+  container.appendChild(workflowPanel);
 
   /* Figures panel (commented out — restore later)
   const figures = document.createElement("div");
@@ -456,7 +464,7 @@ function renderGenreSections(genres, liveDemo) {
 
 function buildValidPageIds(genres) {
   // "figures" commented out — restore with Figures page later
-  return new Set(["home", /* "figures", */ ...genres.map((g) => g.id)]);
+  return new Set(["home", "workflow", /* "figures", */ ...genres.map((g) => g.id)]);
 }
 
 function readPageIdFromUrl(validPageIds, { hash = location.hash } = {}) {
@@ -621,12 +629,52 @@ function renderKeyframeGridWithRemainder({
   return wrap;
 }
 
+function renderWorkflowTeaser() {
+  const box = el(
+    "a",
+    "block rounded-2xl border border-surface-border bg-surface-raised/30 p-5 shadow-xl shadow-black/20 no-underline hover:bg-white/5"
+  );
+  box.href = hrefForPage("workflow");
+  const row = el("div", "flex flex-wrap items-center justify-between gap-3");
+  const left = el("div");
+  left.appendChild(el("h2", "text-lg font-semibold text-white sm:text-xl", "See how it works"));
+  left.appendChild(
+    el(
+      "p",
+      "mt-1 max-w-2xl text-sm text-slate-300",
+      "A full walkthrough of one example, from input video through shots, metadata, retrieval, and the final render."
+    )
+  );
+  row.appendChild(left);
+  row.appendChild(el("span", "shrink-0 rounded-lg bg-white/10 px-4 py-2 text-sm font-semibold text-white", "Open Workflow Demo →"));
+  box.appendChild(row);
+  return box;
+}
+
 function renderHomePanel(liveDemo) {
   const wrap = el("div", "space-y-6");
 
   const tryItContainer = el("div");
   wrap.appendChild(tryItContainer);
   mountTryItPanel(tryItContainer, liveDemo);
+
+  if (!tryItContainer.children.length) {
+    wrap.appendChild(
+      el(
+        "div",
+        "rounded-2xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm text-amber-200",
+        "The live demo is not configured on this deployment. Browse the genre pages in the sidebar for the precomputed Clips2Story-NF/-ND examples instead."
+      )
+    );
+  }
+
+  wrap.appendChild(renderWorkflowTeaser());
+
+  return wrap;
+}
+
+function renderWorkflowPanel() {
+  const wrap = el("div", "space-y-6");
 
   const intro = el(
     "div",

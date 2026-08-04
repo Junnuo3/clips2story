@@ -1,0 +1,7384 @@
+{
+  "v1_s0000": [],
+  "v1_s0001": [],
+  "v1_s0002": [
+    {
+      "start": 6.98,
+      "end": 7.22,
+      "text": "Mammals.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0003": [
+    {
+      "start": 7.22,
+      "end": 7.66,
+      "text": "Mammals.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 8.8,
+      "end": 8.93,
+      "text": "They",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0004": [
+    {
+      "start": 8.93,
+      "end": 9.79,
+      "text": "They live in almost",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0005": [
+    {
+      "start": 9.79,
+      "end": 11.37,
+      "text": "every corner of the planet.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0006": [
+    {
+      "start": 12.19,
+      "end": 13.59,
+      "text": "Thousands of different species,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0007": [
+    {
+      "start": 13.59,
+      "end": 15.57,
+      "text": "species, from tiny",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0008": [
+    {
+      "start": 15.57,
+      "end": 16.87,
+      "text": "desert creatures to",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0009": [
+    {
+      "start": 16.87,
+      "end": 18.06,
+      "text": "to giant ocean",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0010": [
+    {
+      "start": 18.06,
+      "end": 19.0,
+      "text": "beasts,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0011": [
+    {
+      "start": 19.0,
+      "end": 19.5,
+      "text": "to us.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 20.34,
+      "end": 22.07,
+      "text": "But when did our shared history begin?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0012": [
+    {
+      "start": 22.07,
+      "end": 22.34,
+      "text": "begin?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0013": [],
+  "v1_s0014": [
+    {
+      "start": 26.03,
+      "end": 27.18,
+      "text": "You might think the start of the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0015": [
+    {
+      "start": 27.18,
+      "end": 30.28,
+      "text": "the mammal story was the extinction of the dinosaurs some 66",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0016": [
+    {
+      "start": 30.28,
+      "end": 31.88,
+      "text": "66 million years ago.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 33.29,
+      "end": 33.52,
+      "text": "But",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0017": [
+    {
+      "start": 33.52,
+      "end": 35.16,
+      "text": "But the story actually begins",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0018": [
+    {
+      "start": 35.16,
+      "end": 37.54,
+      "text": "much, much earlier.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 37.64,
+      "end": 38.16,
+      "text": "We have the very",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0019": [
+    {
+      "start": 38.16,
+      "end": 39.59,
+      "text": "very earliest ancestors of",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0020": [
+    {
+      "start": 39.59,
+      "end": 40.0,
+      "text": "mammals.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 40.38,
+      "end": 41.33,
+      "text": "Those animals are",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0021": [
+    {
+      "start": 41.33,
+      "end": 42.56,
+      "text": "are four times as old",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0022": [
+    {
+      "start": 42.56,
+      "end": 43.8,
+      "text": "old as the oldest T.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0023": [
+    {
+      "start": 43.8,
+      "end": 44.08,
+      "text": "T. rex.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 45.28,
+      "end": 45.8,
+      "text": "In a time",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0024": [
+    {
+      "start": 45.8,
+      "end": 47.16,
+      "text": "time when mysterious animals",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0025": [
+    {
+      "start": 47.16,
+      "end": 47.56,
+      "text": "ruled.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 48.41,
+      "end": 48.66,
+      "text": "They look",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0026": [
+    {
+      "start": 48.66,
+      "end": 50.56,
+      "text": "look very different from anything alive today.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0027": [
+    {
+      "start": 50.56,
+      "end": 50.63,
+      "text": "today.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 51.59,
+      "end": 53.37,
+      "text": "In some ways, they look like reptiles.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0028": [
+    {
+      "start": 53.37,
+      "end": 53.45,
+      "text": "reptiles.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 54.33,
+      "end": 55.88,
+      "text": "But it's from here that mammals took",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0029": [
+    {
+      "start": 55.88,
+      "end": 56.21,
+      "text": "shape.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 56.51,
+      "end": 56.84,
+      "text": "They were",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0030": [
+    {
+      "start": 56.84,
+      "end": 58.05,
+      "text": "were our ancestors.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0031": [
+    {
+      "start": 58.05,
+      "end": 58.11,
+      "text": "ancestors.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 59.17,
+      "end": 59.98,
+      "text": "Surviving a tumultuous",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0032": [
+    {
+      "start": 59.98,
+      "end": 61.68,
+      "text": "tumultuous period in Earth's history,",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0033": [
+    {
+      "start": 61.68,
+      "end": 62.34,
+      "text": "history,",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 62.42,
+      "end": 64.11,
+      "text": "It became apparent that there were",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0034": [
+    {
+      "start": 64.11,
+      "end": 65.14,
+      "text": "were two extinction events.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0035": [
+    {
+      "start": 65.62,
+      "end": 67.08,
+      "text": "Our ancestors made it through for",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0036": [
+    {
+      "start": 67.08,
+      "end": 68.53,
+      "text": "for very specific reasons.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 68.57,
+      "end": 68.72,
+      "text": "We had",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0037": [
+    {
+      "start": 68.72,
+      "end": 70.89,
+      "text": "had very specific adaptations as a",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0038": [
+    {
+      "start": 70.89,
+      "end": 72.67,
+      "text": "a group that allowed us to make it past",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0039": [
+    {
+      "start": 72.67,
+      "end": 73.97,
+      "text": "past these extinction events.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0040": [
+    {
+      "start": 74.74,
+      "end": 75.66,
+      "text": "What was the secret",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0041": [
+    {
+      "start": 75.66,
+      "end": 76.92,
+      "text": "secret to our ancestors' survival",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0042": [
+    {
+      "start": 76.92,
+      "end": 78.8,
+      "text": "survival in the face of deadly catastrophes?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0043": [
+    {
+      "start": 78.8,
+      "end": 78.86,
+      "text": "catastrophes?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0044": [
+    {
+      "start": 81.29,
+      "end": 85.57,
+      "text": "Mammal Origins, right now on NOVA.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0045": [],
+  "v1_s0046": [
+    {
+      "start": 101.47,
+      "end": 102.56,
+      "text": "As an American-based",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0047": [
+    {
+      "start": 102.56,
+      "end": 103.66,
+      "text": "American-based supplier to the construction",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0048": [
+    {
+      "start": 103.66,
+      "end": 105.12,
+      "text": "construction industry, Carlisle",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0049": [
+    {
+      "start": 105.12,
+      "end": 106.09,
+      "text": "Carlisle is committed to",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0050": [
+    {
+      "start": 106.09,
+      "end": 107.06,
+      "text": "to developing a diverse",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0051": [
+    {
+      "start": 107.06,
+      "end": 108.39,
+      "text": "diverse workplace that supports",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0052": [
+    {
+      "start": 108.39,
+      "end": 109.76,
+      "text": "supports our employees' advancement into",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0053": [
+    {
+      "start": 109.76,
+      "end": 111.77,
+      "text": "into the next generation of leaders, from",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0054": [
+    {
+      "start": 111.77,
+      "end": 112.89,
+      "text": "the manufacturing floor to",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0055": [
+    {
+      "start": 112.89,
+      "end": 113.7,
+      "text": "to the front office.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 113.94,
+      "end": 114.0,
+      "text": "Learn",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0056": [
+    {
+      "start": 114.0,
+      "end": 115.7,
+      "text": "Learn more at carlisle.com.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0057": [],
+  "v1_s0058": [
+    {
+      "start": 123.35,
+      "end": 124.58,
+      "text": "Mammals are spectacularly",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0059": [
+    {
+      "start": 124.58,
+      "end": 126.73,
+      "text": "spectacularly diverse.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 126.93,
+      "end": 128.42,
+      "text": "They not only survive,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0060": [
+    {
+      "start": 128.42,
+      "end": 131.38,
+      "text": "but thrive in all kinds of environments.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0061": [
+    {
+      "start": 133.18,
+      "end": 134.88,
+      "text": "Mammals have basically taken over the world.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0062": [
+    {
+      "start": 134.88,
+      "end": 135.12,
+      "text": "world.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 135.16,
+      "end": 136.9,
+      "text": "There's mammals all over the land.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 137.1,
+      "end": 138.02,
+      "text": "There's mammals that fly",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0063": [
+    {
+      "start": 138.02,
+      "end": 138.73,
+      "text": "fly in the air.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 138.97,
+      "end": 140.62,
+      "text": "There's mammals that swim in the",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0064": [
+    {
+      "start": 140.62,
+      "end": 141.01,
+      "text": "oceans.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 143.59,
+      "end": 145.1,
+      "text": "They range in size from",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0065": [
+    {
+      "start": 145.1,
+      "end": 147.67,
+      "text": "from tiny elephant shrews to gargantuan",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0066": [
+    {
+      "start": 147.67,
+      "end": 149.32,
+      "text": "gargantuan 200-ton whales.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 150.14,
+      "end": 151.13,
+      "text": "Yet all mammal species,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0067": [
+    {
+      "start": 151.13,
+      "end": 153.83,
+      "text": "species, more than 6,000 of them,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0068": [
+    {
+      "start": 153.83,
+      "end": 156.01,
+      "text": "share many of the same basic traits.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0069": [
+    {
+      "start": 158.44,
+      "end": 161.25,
+      "text": "They have hair or fur and",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0070": [
+    {
+      "start": 161.25,
+      "end": 162.72,
+      "text": "and four chambers in their hearts.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0071": [
+    {
+      "start": 164.88,
+      "end": 167.21,
+      "text": "Mammals produce milk for their young,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0072": [
+    {
+      "start": 167.21,
+      "end": 169.53,
+      "text": "and they are all warm-blooded,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0073": [
+    {
+      "start": 169.53,
+      "end": 172.69,
+      "text": "warm-blooded, a trait that has long puzzled scientists.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 173.93,
+      "end": 174.1,
+      "text": "The",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0074": [
+    {
+      "start": 174.1,
+      "end": 175.89,
+      "text": "creatures that mammals evolved from",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0075": [
+    {
+      "start": 175.89,
+      "end": 177.68,
+      "text": "from were cold-blooded.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 177.7,
+      "end": 182.74,
+      "text": "And so it's a really key thing in the history of mammals, figuring out how and when and",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0076": [
+    {
+      "start": 182.74,
+      "end": 188.11,
+      "text": "why our ancestors changed their metabolism and started warming up their bodies.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0077": [
+    {
+      "start": 189.89,
+      "end": 191.92,
+      "text": "So where does the mammal story begin?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 191.96,
+      "end": 192.35,
+      "text": "Where",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0078": [
+    {
+      "start": 192.35,
+      "end": 193.78,
+      "text": "Where do we come from?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0079": [
+    {
+      "start": 202.11,
+      "end": 206.32,
+      "text": "Rewind the clock 270 million years",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0080": [
+    {
+      "start": 206.32,
+      "end": 209.17,
+      "text": "to a time even before the dinosaurs.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 210.7,
+      "end": 214.06,
+      "text": "Back then, our planet was home not only to the ancestors",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0081": [
+    {
+      "start": 214.06,
+      "end": 220.65,
+      "text": "ancestors of the dinosaurs and other reptiles, but to another group, also now long gone.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0082": [
+    {
+      "start": 222.31,
+      "end": 225.61,
+      "text": "Among them, creatures that would one day give rise to mammals,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0083": [
+    {
+      "start": 225.61,
+      "end": 227.15,
+      "text": "the therapsids.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 228.09,
+      "end": 228.25,
+      "text": "Paleontologists",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0084": [
+    {
+      "start": 228.25,
+      "end": 230.52,
+      "text": "Paleontologists have known about them for decades.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0085": [
+    {
+      "start": 232.42,
+      "end": 235.58,
+      "text": "But in 2023, some of the oldest known remains",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0086": [
+    {
+      "start": 235.58,
+      "end": 238.76,
+      "text": "remains of these enigmatic animals were discovered in South Africa.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 242.64,
+      "end": 243.96,
+      "text": "This skull is 266",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0087": [
+    {
+      "start": 243.96,
+      "end": 248.13,
+      "text": "266 million years old, which is really interesting because it's one",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0088": [
+    {
+      "start": 248.13,
+      "end": 249.71,
+      "text": "one of the oldest fossils we have.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0089": [
+    {
+      "start": 250.51,
+      "end": 252.06,
+      "text": "The snout is here in this direction.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 252.12,
+      "end": 252.4,
+      "text": "You",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0090": [
+    {
+      "start": 252.4,
+      "end": 255.9,
+      "text": "You can also clearly see its teeth.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 258.05,
+      "end": 260.89,
+      "text": "This creature would have been the size of a large dog,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0091": [
+    {
+      "start": 260.89,
+      "end": 265.14,
+      "text": "but with sprawling limbs like a reptile and a cold-blooded metabolism.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 266.66,
+      "end": 270.19,
+      "text": "So what is it that has scientists convinced it's not a reptile?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0092": [
+    {
+      "start": 270.91,
+      "end": 272.52,
+      "text": "Here",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0093": [
+    {
+      "start": 272.52,
+      "end": 276.12,
+      "text": "Here is the eye, and here behind the eye is a pit",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0094": [
+    {
+      "start": 276.12,
+      "end": 280.1,
+      "text": "pit called the temporal fossa, which is an attachment point for the muscle that closes the",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0095": [
+    {
+      "start": 280.1,
+      "end": 280.5,
+      "text": "the jaw.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 280.84,
+      "end": 282.4,
+      "text": "It's",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0096": [
+    {
+      "start": 282.4,
+      "end": 285.35,
+      "text": "It's a defining characteristic of therapsids.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0097": [
+    {
+      "start": 287.11,
+      "end": 290.61,
+      "text": "Dinosaurs, crocodiles, and many reptiles have two of these pits,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0098": [
+    {
+      "start": 290.61,
+      "end": 294.2,
+      "text": "pits, called temporal fossae, on each side of their skulls.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0099": [
+    {
+      "start": 295.86,
+      "end": 298.7,
+      "text": "But therapsids have just one pit behind each eye,",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 300.36,
+      "end": 301.59,
+      "text": "It's the place where the jaw",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0100": [
+    {
+      "start": 301.59,
+      "end": 303.96,
+      "text": "muscles that control biting and chewing are anchored.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0101": [
+    {
+      "start": 305.86,
+      "end": 308.32,
+      "text": "And the only other group that has one pit behind each",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0102": [
+    {
+      "start": 308.32,
+      "end": 310.85,
+      "text": "eye is our group, mammals.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 312.75,
+      "end": 317.57,
+      "text": "This anatomical similarity was one of the first clues that led scientists to suspect",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0103": [
+    {
+      "start": 317.57,
+      "end": 321.36,
+      "text": "that mammals and therapsids are part of the same evolutionary line.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 323.12,
+      "end": 324.83,
+      "text": "But that's not the only evidence.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0104": [
+    {
+      "start": 326.09,
+      "end": 330.41,
+      "text": "You can see another characteristic that distinguishes therapsids from other animals, and",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0105": [
+    {
+      "start": 330.41,
+      "end": 331.18,
+      "text": "and that's their teeth.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 332.14,
+      "end": 337.81,
+      "text": "Therapsids have specialized teeth, incisors for nipping, and back teeth, known as cheek teeth.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0106": [
+    {
+      "start": 338.49,
+      "end": 341.89,
+      "text": "The two groups of teeth are separated by rather impressive canines.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 343.48,
+      "end": 343.97,
+      "text": "Just like mammals",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0107": [
+    {
+      "start": 343.97,
+      "end": 345.93,
+      "text": "mammals today, including",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0108": [
+    {
+      "start": 345.93,
+      "end": 346.78,
+      "text": "including us humans.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 348.42,
+      "end": 350.17,
+      "text": "These shared features helped convince",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0109": [
+    {
+      "start": 350.17,
+      "end": 352.53,
+      "text": "convince scientists that therapsids gave rise to mammals.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0110": [
+    {
+      "start": 352.53,
+      "end": 353.11,
+      "text": "mammals.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 354.85,
+      "end": 356.25,
+      "text": "However, if you",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0111": [
+    {
+      "start": 356.25,
+      "end": 362.08,
+      "text": "you came across any of them here today, you wouldn't realize that they were the ancestors of mammals, because they looked a lot like reptiles.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0112": [
+    {
+      "start": 362.08,
+      "end": 362.45,
+      "text": "reptiles.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 363.11,
+      "end": 366.44,
+      "text": "Some were as big as rhinoceroses, and others as small as mice.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 366.78,
+      "end": 368.78,
+      "text": "Some were carnivores, others herbivores.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 369.12,
+      "end": 371.72,
+      "text": "There wasn't just one type of therapsid, but lots.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0113": [
+    {
+      "start": 374.64,
+      "end": 377.89,
+      "text": "In fact, six main groups of therapsids roamed ancient",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0114": [
+    {
+      "start": 377.89,
+      "end": 381.51,
+      "text": "Earth, and each group included many different species.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0115": [
+    {
+      "start": 383.18,
+      "end": 391.85,
+      "text": "including the 2023 fossil, which may be from a group called the Biarmasuchians, the most ancient and primitive therapsids found so far.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 393.33,
+      "end": 407.63,
+      "text": "Many of the other groups have more specialized traits, like dinosauphalians, recognizable by their heads, thick skulls with bumps, and dicynodonts, which are distinguished by a horny beak and tusks.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 410.45,
+      "end": 416.74,
+      "text": "Gorgonopsians are characterized by their oversized canines, some even larger than the teeth of a T-Rex.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 420.67,
+      "end": 424.77,
+      "text": "Therosophalians had smaller jaws and teeth, but were more upright and agile.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 427.4,
+      "end": 432.29,
+      "text": "Finally, the cynodonts, many of which were small burrowing creatures.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 433.79,
+      "end": 437.34,
+      "text": "Altogether, there were perhaps hundreds, if not thousands, of therapsid",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0116": [
+    {
+      "start": 437.34,
+      "end": 439.27,
+      "text": "therapsid species among these groups.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 440.03,
+      "end": 444.4,
+      "text": "They were hugely varied in their appearance and size, much like mammals are today.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 444.42,
+      "end": 451.94,
+      "text": "One group would lead to the emergence of mammals on Earth 225 million years ago,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0117": [
+    {
+      "start": 451.94,
+      "end": 456.57,
+      "text": "eventually evolving and then likely passing down the most iconic mammal",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0118": [
+    {
+      "start": 456.57,
+      "end": 460.35,
+      "text": "mammal features, hair,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0119": [
+    {
+      "start": 460.35,
+      "end": 461.58,
+      "text": "warm blood,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0120": [
+    {
+      "start": 463.82,
+      "end": 468.43,
+      "text": "and lactation, but which group was it?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0121": [],
+  "v1_s0122": [
+    {
+      "start": 475.37,
+      "end": 477.73,
+      "text": "Therapsid fossils have been found on every continent,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0123": [
+    {
+      "start": 477.73,
+      "end": 479.44,
+      "text": "continent, but",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0124": [
+    {
+      "start": 479.44,
+      "end": 483.18,
+      "text": "but one part of South Africa is especially rich in clues.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 486.2,
+      "end": 489.11,
+      "text": "The Karoo is one of the most important",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0125": [
+    {
+      "start": 489.11,
+      "end": 490.69,
+      "text": "important fossil sites in the world.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 490.71,
+      "end": 490.81,
+      "text": "90%",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0126": [
+    {
+      "start": 490.81,
+      "end": 496.07,
+      "text": "90% of fossils found in these rocks are therapsids, the ancestors of mammals.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 496.36,
+      "end": 496.99,
+      "text": "Many",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0127": [
+    {
+      "start": 496.99,
+      "end": 501.69,
+      "text": "Many thousands of fossils have been discovered in the Karoo",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0128": [
+    {
+      "start": 501.69,
+      "end": 506.93,
+      "text": "and every field trip delivers more fossils and new species.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0129": [
+    {
+      "start": 506.93,
+      "end": 506.99,
+      "text": "species.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 509.25,
+      "end": 513.07,
+      "text": "This has been the case since the first therapsid fossil was found here in the 1830s.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0130": [
+    {
+      "start": 513.07,
+      "end": 513.96,
+      "text": "1830s.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 517.23,
+      "end": 517.9,
+      "text": "In the 1900s,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0131": [
+    {
+      "start": 517.9,
+      "end": 521.34,
+      "text": "1900s, during apartheid, access to dig sites was mostly",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0132": [
+    {
+      "start": 521.34,
+      "end": 522.78,
+      "text": "mostly limited to white scientists.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0133": [
+    {
+      "start": 525.52,
+      "end": 526.18,
+      "text": "But today, the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0134": [
+    {
+      "start": 526.18,
+      "end": 529.68,
+      "text": "the government has opened up access and is supporting new projects.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0135": [
+    {
+      "start": 529.68,
+      "end": 529.79,
+      "text": "projects.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 530.91,
+      "end": 532.09,
+      "text": "Now, discoveries",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0136": [
+    {
+      "start": 532.09,
+      "end": 533.08,
+      "text": "discoveries are on the rise.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0137": [],
+  "v1_s0138": [
+    {
+      "start": 537.04,
+      "end": 539.87,
+      "text": "But why have so many therapsid fossils been found here?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0139": [
+    {
+      "start": 540.89,
+      "end": 544.07,
+      "text": "What was this place like hundreds of millions of years ago that",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0140": [
+    {
+      "start": 544.07,
+      "end": 547.5,
+      "text": "that allowed therapsids not only to thrive, but",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0141": [
+    {
+      "start": 547.5,
+      "end": 549.16,
+      "text": "but to be preserved as stone?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 550.68,
+      "end": 550.93,
+      "text": "Well, over",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0142": [
+    {
+      "start": 550.93,
+      "end": 553.38,
+      "text": "over here, you could see these rocks",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0143": [
+    {
+      "start": 553.38,
+      "end": 555.38,
+      "text": "have these ball structures.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0144": [
+    {
+      "start": 555.38,
+      "end": 555.39,
+      "text": "structures.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 555.49,
+      "end": 557.05,
+      "text": "They form underwater.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 557.61,
+      "end": 558.14,
+      "text": "And accompanying",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0145": [
+    {
+      "start": 558.14,
+      "end": 564.05,
+      "text": "accompanying with these things, we find fossilized fissures and also fossilized wood,",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0146": [
+    {
+      "start": 564.05,
+      "end": 567.54,
+      "text": "which didn't grow here, but it was transported in by the rivers.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0147": [
+    {
+      "start": 567.54,
+      "end": 567.74,
+      "text": "rivers.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 568.25,
+      "end": 570.73,
+      "text": "we also find lots of ripple marks.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 572.35,
+      "end": 575.37,
+      "text": "Fossil evidence suggests a watery past, but",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0148": [
+    {
+      "start": 575.37,
+      "end": 582.61,
+      "text": "but to fully understand what the Karoo of the Therapsids' time looked like, we need to go back 300 million years,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0149": [
+    {
+      "start": 582.61,
+      "end": 588.94,
+      "text": "to a time when all of today's continents existed as one landmass, Pangaea.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 590.46,
+      "end": 594.93,
+      "text": "What was to become South Africa was much closer to the South Pole and under",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0150": [
+    {
+      "start": 594.93,
+      "end": 596.01,
+      "text": "an ice cap.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 596.88,
+      "end": 600.73,
+      "text": "By 265 million years ago, the Earth was warming up.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 601.99,
+      "end": 605.71,
+      "text": "The ice that covered the Karoo had melted, forming an inland sea.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 607.15,
+      "end": 610.88,
+      "text": "Over the next few million years, the Karoo Sea filled with sediments.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 612.28,
+      "end": 615.42,
+      "text": "It nourished lush vegetation that grew in the new wetlands.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 617.41,
+      "end": 621.27,
+      "text": "This was the environment where therapsids were first preserved in the Karoo.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 623.5,
+      "end": 624.25,
+      "text": "The remains of the",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0151": [
+    {
+      "start": 624.25,
+      "end": 630.02,
+      "text": "the animals that we are finding there, the fossils, were once living on the banks of these rivers.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0152": [
+    {
+      "start": 632.07,
+      "end": 635.79,
+      "text": "But what was life like for these ancient therapsids?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 635.81,
+      "end": 637.88,
+      "text": "Were any mammal-like traits beginning to appear?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 641.26,
+      "end": 643.13,
+      "text": "One of the most exciting discoveries",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0153": [
+    {
+      "start": 643.13,
+      "end": 646.74,
+      "text": "discoveries was made in the mid-1980s by South African fossil",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0154": [
+    {
+      "start": 646.74,
+      "end": 649.03,
+      "text": "fossil collector John Nyapuli.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0155": [
+    {
+      "start": 650.63,
+      "end": 653.21,
+      "text": "John was my preparator",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0156": [
+    {
+      "start": 653.21,
+      "end": 655.8,
+      "text": "at the National Museum in Bloemfontein, where I worked.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 656.16,
+      "end": 656.21,
+      "text": "He",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0157": [
+    {
+      "start": 656.21,
+      "end": 659.25,
+      "text": "He and I spent many, many years out living",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0158": [
+    {
+      "start": 659.25,
+      "end": 662.28,
+      "text": "living in a tent, collecting fossils.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0159": [
+    {
+      "start": 662.28,
+      "end": 662.47,
+      "text": "fossils.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 662.49,
+      "end": 666.06,
+      "text": "It's not easy to find fossil, but your eyes must be trained.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0160": [
+    {
+      "start": 666.06,
+      "end": 666.15,
+      "text": "trained.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 666.51,
+      "end": 668.15,
+      "text": "You can't find fossil anywhere.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 668.19,
+      "end": 671.06,
+      "text": "You must go to the right rose, because geology",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0161": [
+    {
+      "start": 671.06,
+      "end": 674.1,
+      "text": "must first tell you that",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0162": [
+    {
+      "start": 674.1,
+      "end": 675.98,
+      "text": "that the rose there is a good place to trace.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0163": [
+    {
+      "start": 677.0,
+      "end": 679.13,
+      "text": "And you must love the thing, and then you can find them.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0164": [
+    {
+      "start": 679.13,
+      "end": 679.18,
+      "text": "them.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0165": [
+    {
+      "start": 681.07,
+      "end": 682.57,
+      "text": "In 1984, he",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0166": [
+    {
+      "start": 682.57,
+      "end": 686.14,
+      "text": "said to me, I found some big bone in the rock.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0167": [
+    {
+      "start": 686.14,
+      "end": 686.2,
+      "text": "rock.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 686.88,
+      "end": 687.82,
+      "text": "So I went to look at it.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 688.28,
+      "end": 689.3,
+      "text": "And it was big bone.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 689.45,
+      "end": 689.64,
+      "text": "It was",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0168": [
+    {
+      "start": 689.64,
+      "end": 690.93,
+      "text": "was sort of this size.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0169": [],
+  "v1_s0170": [
+    {
+      "start": 692.79,
+      "end": 693.94,
+      "text": "John started opening",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0171": [
+    {
+      "start": 693.94,
+      "end": 694.37,
+      "text": "opening it up.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 694.83,
+      "end": 696.59,
+      "text": "And we found that by the middle of the day,",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0172": [
+    {
+      "start": 696.59,
+      "end": 698.68,
+      "text": "day, we had a complete skull of an animal.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 698.72,
+      "end": 699.98,
+      "text": "There were some teeth sticking out.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0173": [
+    {
+      "start": 700.24,
+      "end": 701.64,
+      "text": "It went on into the ground.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 702.14,
+      "end": 703.46,
+      "text": "And for several months,",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0174": [
+    {
+      "start": 703.46,
+      "end": 705.39,
+      "text": "months, we started excavating it.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0175": [
+    {
+      "start": 705.39,
+      "end": 705.41,
+      "text": "it.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0176": [
+    {
+      "start": 708.24,
+      "end": 708.93,
+      "text": "It took",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0177": [
+    {
+      "start": 708.93,
+      "end": 713.1,
+      "text": "23 years to expose that skeleton fully, but",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0178": [
+    {
+      "start": 713.1,
+      "end": 719.8,
+      "text": "but it was a completely new species of animal, it had never been found, and it was a very primitive Deinocophalian.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0179": [
+    {
+      "start": 721.42,
+      "end": 726.37,
+      "text": "This is the most complete Deinocophalian skeleton that's yet been found in the world.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 729.25,
+      "end": 731.83,
+      "text": "Dinocephalians were a group of early therapsids.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 733.62,
+      "end": 736.68,
+      "text": "This remarkable specimen was more than nine feet long.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 737.62,
+      "end": 740.17,
+      "text": "The name dinocephalian comes from the Greek",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0180": [
+    {
+      "start": 740.17,
+      "end": 745.63,
+      "text": "for terrible heads, because they had especially thick skulls.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0181": [
+    {
+      "start": 745.63,
+      "end": 746.33,
+      "text": "skulls.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 746.35,
+      "end": 749.38,
+      "text": "In some areas, more than four inches of solid bone.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 750.44,
+      "end": 753.28,
+      "text": "But what was all that extra skull thickness used for?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0182": [
+    {
+      "start": 757.74,
+      "end": 763.83,
+      "text": "In the French Alps, scientists are looking for clues with a powerful x-ray source called a synchrotron.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0183": [
+    {
+      "start": 765.82,
+      "end": 767.25,
+      "text": "Here, in a ring larger",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0184": [
+    {
+      "start": 767.25,
+      "end": 770.6,
+      "text": "larger than seven soccer fields, electrons circulate at",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0185": [
+    {
+      "start": 770.6,
+      "end": 772.25,
+      "text": "at almost the speed of light.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 775.81,
+      "end": 777.74,
+      "text": "Synchrotron radiation is so intense",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0186": [
+    {
+      "start": 777.74,
+      "end": 783.88,
+      "text": "intense that it produces 10,000 billion times more intense x-rays than a hospital or laboratory scanner.",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0187": [
+    {
+      "start": 783.88,
+      "end": 783.98,
+      "text": "scanner.",
+      "speaker": "SPEAKER_11"
+    },
+    {
+      "start": 784.16,
+      "end": 789.66,
+      "text": "With this very intense signal, we're able to see through the thickness of the fossil and produce beautiful images.",
+      "speaker": "SPEAKER_11"
+    }
+  ],
+  "v1_s0188": [],
+  "v1_s0189": [
+    {
+      "start": 793.17,
+      "end": 794.18,
+      "text": "Paleontologist Vincent",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0190": [
+    {
+      "start": 794.18,
+      "end": 798.46,
+      "text": "Vincent Fernandez is scanning another dinosauphalian skull found in the Karoo.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0191": [
+    {
+      "start": 798.46,
+      "end": 798.65,
+      "text": "Karoo.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 800.98,
+      "end": 801.29,
+      "text": "His colleague,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0192": [
+    {
+      "start": 801.29,
+      "end": 803.62,
+      "text": "colleague, paleontologist Julien Benoit,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0193": [
+    {
+      "start": 803.62,
+      "end": 805.04,
+      "text": "Benoit, is doing the analysis.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 806.4,
+      "end": 806.46,
+      "text": "Here",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0194": [
+    {
+      "start": 806.46,
+      "end": 809.03,
+      "text": "Here you can see that's the brain cavity and it's",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0195": [
+    {
+      "start": 809.03,
+      "end": 809.66,
+      "text": "very small",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0196": [
+    {
+      "start": 809.66,
+      "end": 815.7,
+      "text": "small compared to the large size of the skull and in particular you have that thickness of bone.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 815.72,
+      "end": 816.21,
+      "text": "This is all",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0197": [
+    {
+      "start": 816.21,
+      "end": 817.94,
+      "text": "bone, this is not rock.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0198": [
+    {
+      "start": 817.94,
+      "end": 818.0,
+      "text": "rock.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 819.54,
+      "end": 821.29,
+      "text": "Why is the bone so thick here?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0199": [
+    {
+      "start": 823.23,
+      "end": 825.78,
+      "text": "Back at the University of the Witswatersrand,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0200": [
+    {
+      "start": 825.78,
+      "end": 828.41,
+      "text": "Julien uses the synchrotron scans",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0201": [
+    {
+      "start": 828.41,
+      "end": 830.88,
+      "text": "to reconstruct a 3D model of the organs",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0202": [
+    {
+      "start": 830.88,
+      "end": 832.76,
+      "text": "organs that were once inside the skull.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0203": [
+    {
+      "start": 834.99,
+      "end": 836.57,
+      "text": "You can see the brain in green.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 836.83,
+      "end": 837.19,
+      "text": "And what's",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0204": [
+    {
+      "start": 837.19,
+      "end": 838.73,
+      "text": "what's really interesting about this scan",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0205": [
+    {
+      "start": 838.73,
+      "end": 841.33,
+      "text": "scan is that we can also very clearly see this",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0206": [
+    {
+      "start": 841.33,
+      "end": 842.62,
+      "text": "this animal's inner ear.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 842.64,
+      "end": 844.84,
+      "text": "It's shown here in purple.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 846.62,
+      "end": 847.57,
+      "text": "This organ",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0207": [
+    {
+      "start": 847.57,
+      "end": 851.01,
+      "text": "organ is used for hearing, but also for balance.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0208": [
+    {
+      "start": 851.51,
+      "end": 854.05,
+      "text": "Particularly these three semi-circular canals.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 855.01,
+      "end": 858.16,
+      "text": "One here, a second here, and the third.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 858.24,
+      "end": 858.44,
+      "text": "Let",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0209": [
+    {
+      "start": 858.44,
+      "end": 859.44,
+      "text": "Let me move the image.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0210": [
+    {
+      "start": 859.44,
+      "end": 859.64,
+      "text": "image.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 859.68,
+      "end": 861.08,
+      "text": "It's here.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0211": [
+    {
+      "start": 861.99,
+      "end": 869.62,
+      "text": "The orientation of these ear canals in the skull suggests that this dinosauphalian's head would usually point down,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0212": [
+    {
+      "start": 869.62,
+      "end": 871.82,
+      "text": "a bit like that of a goat or a sheep today.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 871.84,
+      "end": 877.84,
+      "text": "And if mammals like these are any guide, that might mean that the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0213": [
+    {
+      "start": 877.84,
+      "end": 881.52,
+      "text": "the dinosauphalians also engaged in social behaviors like ramming.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0214": [],
+  "v1_s0215": [
+    {
+      "start": 890.25,
+      "end": 894.25,
+      "text": "As the sun rose on ancestral earth, dinosauphalians",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0216": [
+    {
+      "start": 894.25,
+      "end": 895.14,
+      "text": "dinosauphalians awoke.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0217": [
+    {
+      "start": 902.83,
+      "end": 903.1,
+      "text": "Living",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0218": [
+    {
+      "start": 903.1,
+      "end": 908.5,
+      "text": "Living in a swampy landscape where food was abundant, they thrived.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 908.52,
+      "end": 909.07,
+      "text": "Great herds",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0219": [
+    {
+      "start": 909.07,
+      "end": 912.0,
+      "text": "herds of them perhaps living together and interacting as a group.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 914.46,
+      "end": 916.94,
+      "text": "With behaviors similar to some of today's mammals,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0220": [
+    {
+      "start": 916.94,
+      "end": 917.43,
+      "text": "mammals,",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 918.03,
+      "end": 920.31,
+      "text": "Could these dinosauphalians have been the mammal ancestors?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0221": [
+    {
+      "start": 920.31,
+      "end": 920.71,
+      "text": "ancestors?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0222": [
+    {
+      "start": 926.94,
+      "end": 936.75,
+      "text": "Fossils found in the Karoo reveal that 265 million years ago, nearly 40 million years before the appearance of mammals, five therapsid groups were living here.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 938.36,
+      "end": 939.13,
+      "text": "And the dinosauphalians",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0223": [
+    {
+      "start": 939.13,
+      "end": 941.34,
+      "text": "dinosauphalians were likely the most dominant.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0224": [
+    {
+      "start": 945.89,
+      "end": 946.93,
+      "text": "This is the skull",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0225": [
+    {
+      "start": 946.93,
+      "end": 949.74,
+      "text": "skull of the anteosaurus, a particularly",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0226": [
+    {
+      "start": 949.74,
+      "end": 951.68,
+      "text": "particularly menacing type of dinocephalian.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0227": [
+    {
+      "start": 953.66,
+      "end": 956.42,
+      "text": "The top of the snout is there, and the back of the skull is there.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 956.73,
+      "end": 958.51,
+      "text": "And this was a therapsid,",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0228": [
+    {
+      "start": 958.51,
+      "end": 961.38,
+      "text": "because you can see this temporal",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0229": [
+    {
+      "start": 961.38,
+      "end": 962.61,
+      "text": "fenestra here.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 962.65,
+      "end": 966.8,
+      "text": "It's very big, so the jaw muscle must have been incredibly powerful.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 966.86,
+      "end": 966.96,
+      "text": "And",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0230": [
+    {
+      "start": 966.96,
+      "end": 969.33,
+      "text": "And it is a dinocephalian because of",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0231": [
+    {
+      "start": 969.33,
+      "end": 974.02,
+      "text": "the thickness of the bones that make up the whole skull.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 974.83,
+      "end": 976.16,
+      "text": "but it's also very different",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0232": [
+    {
+      "start": 976.16,
+      "end": 980.02,
+      "text": "from the other species of thick-skulled dinosauphalians Julien studies.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0233": [
+    {
+      "start": 982.22,
+      "end": 987.77,
+      "text": "That canine here is beautifully recurved, which is really a signature of carnivorous animals.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0234": [
+    {
+      "start": 988.81,
+      "end": 995.44,
+      "text": "These anteosaurus were large creatures, likely predators, some 20 feet long when fully grown.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 996.46,
+      "end": 996.99,
+      "text": "But as successful",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0235": [
+    {
+      "start": 996.99,
+      "end": 1001.89,
+      "text": "successful as they might have been, the dinosauphalians weren't the only therapsid group.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0236": [
+    {
+      "start": 1004.21,
+      "end": 1008.9,
+      "text": "They were just one part of a complex ecosystem that included other therapsid groups.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0237": [
+    {
+      "start": 1011.94,
+      "end": 1015.07,
+      "text": "Based on fossils found in the Karoo, we know that many species",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0238": [
+    {
+      "start": 1015.07,
+      "end": 1016.34,
+      "text": "species from all five groups",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0239": [
+    {
+      "start": 1016.34,
+      "end": 1018.99,
+      "text": "groups of therapsids existed alongside each other.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1022.81,
+      "end": 1023.14,
+      "text": "Like",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0240": [
+    {
+      "start": 1023.14,
+      "end": 1025.55,
+      "text": "Dicynodonts, equipped with unique",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0241": [
+    {
+      "start": 1025.55,
+      "end": 1029.52,
+      "text": "unique beaks, these therapsids had their own specialized feeding habits.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1030.64,
+      "end": 1032.29,
+      "text": "Able to efficiently tear and clip",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0242": [
+    {
+      "start": 1032.29,
+      "end": 1033.54,
+      "text": "clip plant material,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0243": [
+    {
+      "start": 1037.59,
+      "end": 1039.3,
+      "text": "Carnivorous therapsids, such as gorgonopsians,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0244": [
+    {
+      "start": 1039.3,
+      "end": 1041.14,
+      "text": "gorgonopsians, would have been a threat.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0245": [
+    {
+      "start": 1047.21,
+      "end": 1050.17,
+      "text": "But the most fearsome was still the anteosaurus.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1051.6,
+      "end": 1057.4,
+      "text": "This dinosaur-falion beast was a true apex predator in the ancient Middle Permian Karoo.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0246": [
+    {
+      "start": 1063.98,
+      "end": 1069.49,
+      "text": "Therapsids lived here about 265 million to 125 million years ago.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0247": [
+    {
+      "start": 1071.25,
+      "end": 1074.28,
+      "text": "Within that time, they came up against more than one global catastrophe",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0248": [
+    {
+      "start": 1074.28,
+      "end": 1077.24,
+      "text": "catastrophe that threatened to wipe out nearly all life on Earth.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1078.48,
+      "end": 1081.32,
+      "text": "And today, the Karoo still bears the scars.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0249": [
+    {
+      "start": 1086.35,
+      "end": 1087.34,
+      "text": "For more than 15",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0250": [
+    {
+      "start": 1087.34,
+      "end": 1089.34,
+      "text": "years, paleontologist Mike Day",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0251": [
+    {
+      "start": 1089.34,
+      "end": 1090.78,
+      "text": "Day and his team have been accumulating",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0252": [
+    {
+      "start": 1090.78,
+      "end": 1093.01,
+      "text": "accumulating evidence of these large-scale",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0253": [
+    {
+      "start": 1093.01,
+      "end": 1093.86,
+      "text": "extinctions.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1095.79,
+      "end": 1096.26,
+      "text": "If you were to",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0254": [
+    {
+      "start": 1096.26,
+      "end": 1097.45,
+      "text": "to go a little further south",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0255": [
+    {
+      "start": 1097.45,
+      "end": 1101.53,
+      "text": "south into slightly older rocks, you'd find all those typical middle Permian faunas,",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0256": [
+    {
+      "start": 1101.53,
+      "end": 1103.49,
+      "text": "the large Deinocophalians, the big",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0257": [
+    {
+      "start": 1103.49,
+      "end": 1105.87,
+      "text": "big Therocophalians, and lots of Dicynodonts.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0258": [
+    {
+      "start": 1105.87,
+      "end": 1106.01,
+      "text": "Dicynodonts.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 1106.03,
+      "end": 1109.66,
+      "text": "But by the time you get to this sandstone behind us here, they've",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0259": [
+    {
+      "start": 1109.66,
+      "end": 1110.63,
+      "text": "they've all gone extinct.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 1112.67,
+      "end": 1116.92,
+      "text": "Victims of a mass extinction event called the Permian extinction.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0260": [
+    {
+      "start": 1120.1,
+      "end": 1124.13,
+      "text": "Fossil evidence suggests that for as long as 8 million years,",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1124.48,
+      "end": 1125.2,
+      "text": "life on Earth",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0261": [
+    {
+      "start": 1125.2,
+      "end": 1127.4,
+      "text": "Earth was under tremendous pressure.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1131.33,
+      "end": 1142.61,
+      "text": "And as more and more fossils have been found and plotted along the rock record, scientists now believe that within these 8 million years, there were actually two distinct extinction events.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1146.94,
+      "end": 1147.91,
+      "text": "Now, both of these mass extinctions",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0262": [
+    {
+      "start": 1147.91,
+      "end": 1150.7,
+      "text": "extinctions affected the rhapsids badly, but there",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0263": [
+    {
+      "start": 1150.7,
+      "end": 1154.44,
+      "text": "there were survivors, and those survivors include the ancestors of mammals.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0264": [
+    {
+      "start": 1155.52,
+      "end": 1160.01,
+      "text": "But what caused the first of these huge events, a global catastrophe known",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0265": [
+    {
+      "start": 1160.01,
+      "end": 1162.23,
+      "text": "known as the Capitanian Crisis?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1162.43,
+      "end": 1162.66,
+      "text": "In terms",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0266": [
+    {
+      "start": 1162.66,
+      "end": 1165.69,
+      "text": "terms of a smoking gun here in the Karoo, we haven't really",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0267": [
+    {
+      "start": 1165.69,
+      "end": 1168.9,
+      "text": "really found any good evidence for what caused this mass extinction here.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0268": [
+    {
+      "start": 1169.28,
+      "end": 1171.2,
+      "text": "We do know that in Southeast China, there",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0269": [
+    {
+      "start": 1171.2,
+      "end": 1173.13,
+      "text": "there was huge outpourings of lava",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0270": [
+    {
+      "start": 1173.13,
+      "end": 1174.51,
+      "text": "at about the same time.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0271": [
+    {
+      "start": 1174.81,
+      "end": 1179.67,
+      "text": "So it's very likely that that had something to do with the Capitanian extinction here in the Karoo.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0272": [
+    {
+      "start": 1179.67,
+      "end": 1179.72,
+      "text": "Karoo.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 1182.04,
+      "end": 1182.51,
+      "text": "Around 260",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0273": [
+    {
+      "start": 1182.51,
+      "end": 1191.17,
+      "text": "260 million years ago, far away from the Karoo, at the other end of Pangaea, Earth's surface was volatile.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1192.45,
+      "end": 1205.17,
+      "text": "In what was to become China, immense molten lava flows spread across around 100,000 square miles, releasing vast quantities of carbon dioxide, methane, and sulfur into the atmosphere.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1207.53,
+      "end": 1212.18,
+      "text": "The oceans became acidified and depleted of oxygen, and the climate changed.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1213.02,
+      "end": 1216.6,
+      "text": "This is most likely the event that caused the Capitanian Crisis.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0274": [],
+  "v1_s0275": [
+    {
+      "start": 1222.47,
+      "end": 1226.28,
+      "text": "It was disastrous for life, particularly for large animals.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1226.84,
+      "end": 1228.26,
+      "text": "But we know that at least some",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0276": [
+    {
+      "start": 1228.26,
+      "end": 1229.4,
+      "text": "some therapsids survived.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1229.7,
+      "end": 1231.32,
+      "text": "Otherwise, we wouldn't be here.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1232.48,
+      "end": 1232.95,
+      "text": "But which",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0277": [
+    {
+      "start": 1232.95,
+      "end": 1234.62,
+      "text": "ones and how?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0278": [
+    {
+      "start": 1238.43,
+      "end": 1239.7,
+      "text": "During the crisis, environmental",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0279": [
+    {
+      "start": 1239.7,
+      "end": 1244.7,
+      "text": "environmental disturbances like acid rain and a rapidly changing climate likely ravaged",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0280": [
+    {
+      "start": 1244.7,
+      "end": 1247.2,
+      "text": "ravaged the vegetation, causing the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0281": [
+    {
+      "start": 1247.2,
+      "end": 1250.22,
+      "text": "the extinction of the large plant-eating dinosauphalians.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0282": [
+    {
+      "start": 1252.93,
+      "end": 1255.58,
+      "text": "Their carnivorous cousins eventually suffered the same fate.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1257.32,
+      "end": 1263.46,
+      "text": "Earth's first giants, the Dinosaphalians, did not survive to become our direct ancestors.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0283": [
+    {
+      "start": 1265.53,
+      "end": 1267.32,
+      "text": "But what about the other four groups alive",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0284": [
+    {
+      "start": 1267.32,
+      "end": 1268.63,
+      "text": "alive in the Karoo at this time?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1269.75,
+      "end": 1273.07,
+      "text": "The Gorgonopsians with their huge teeth, the upright",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0285": [
+    {
+      "start": 1273.07,
+      "end": 1275.34,
+      "text": "upright and agile Therosaphalians,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0286": [
+    {
+      "start": 1275.34,
+      "end": 1278.3,
+      "text": "the beaked Dicynodonts, and the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0287": [
+    {
+      "start": 1278.3,
+      "end": 1280.12,
+      "text": "the primitive Bearmosukians.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1281.12,
+      "end": 1282.26,
+      "text": "Did the rest of them make it?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0288": [],
+  "v1_s0289": [
+    {
+      "start": 1287.95,
+      "end": 1289.18,
+      "text": "The Karoo fossil record reveals",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0290": [
+    {
+      "start": 1289.18,
+      "end": 1290.33,
+      "text": "reveals the survivors.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0291": [
+    {
+      "start": 1293.44,
+      "end": 1295.2,
+      "text": "This is the Rubic collection of fossils.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1295.24,
+      "end": 1300.22,
+      "text": "It was amassed largely through the enthusiasm of my grandfather from the 1930s.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0292": [
+    {
+      "start": 1300.22,
+      "end": 1300.83,
+      "text": "1930s.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1302.04,
+      "end": 1307.43,
+      "text": "These fossils were collected by Sidney Rubic from sediment above a volcanic ash layer dated",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0293": [
+    {
+      "start": 1307.43,
+      "end": 1309.87,
+      "text": "dated to the end of the Capitanian crisis.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1310.63,
+      "end": 1312.97,
+      "text": "They show that in the Karoo, all therapsid",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0294": [
+    {
+      "start": 1312.97,
+      "end": 1314.8,
+      "text": "therapsid groups other than the Dynacephalians",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0295": [
+    {
+      "start": 1314.8,
+      "end": 1315.9,
+      "text": "Dynacephalians made it.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1316.76,
+      "end": 1317.57,
+      "text": "But only some of",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0296": [
+    {
+      "start": 1317.57,
+      "end": 1321.69,
+      "text": "of the smallest species of each, the largest, were lost.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0297": [
+    {
+      "start": 1324.27,
+      "end": 1329.72,
+      "text": "The question then becomes, which of these remaining groups would give rise to the mammal line?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0298": [
+    {
+      "start": 1330.72,
+      "end": 1335.49,
+      "text": "One of the most interesting fossils in the Rubich collection is a member of the Gorgonopsian group.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1336.9,
+      "end": 1337.49,
+      "text": "Gorgonopsians",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0299": [
+    {
+      "start": 1337.49,
+      "end": 1341.41,
+      "text": "Gorgonopsians were the apex predators of the time.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0300": [
+    {
+      "start": 1341.95,
+      "end": 1345.62,
+      "text": "With the dinosauphalians gone, they became top of the food chain.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1346.3,
+      "end": 1349.47,
+      "text": "And the new species that evolved were much larger in size.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1350.41,
+      "end": 1350.81,
+      "text": "And this",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0301": [
+    {
+      "start": 1350.81,
+      "end": 1352.74,
+      "text": "one is called Robygia atrox.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0302": [
+    {
+      "start": 1352.74,
+      "end": 1353.24,
+      "text": "atrox.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1353.93,
+      "end": 1354.84,
+      "text": "These large Gorgonopsians",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0303": [
+    {
+      "start": 1354.84,
+      "end": 1357.69,
+      "text": "Gorgonopsians might have been three and a half meters long.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1358.07,
+      "end": 1359.05,
+      "text": "They probably had",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0304": [
+    {
+      "start": 1359.05,
+      "end": 1361.96,
+      "text": "a more leathery skin, something like a rhino or an elephant.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0305": [
+    {
+      "start": 1362.36,
+      "end": 1365.82,
+      "text": "They characterized by having very large canine teeth",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0306": [
+    {
+      "start": 1365.82,
+      "end": 1369.29,
+      "text": "teeth and large incisors for flesh eating.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1371.37,
+      "end": 1372.07,
+      "text": "Only small",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0307": [
+    {
+      "start": 1372.07,
+      "end": 1375.73,
+      "text": "species of Gorgonopsians survive the Capitanian crisis.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1376.39,
+      "end": 1381.43,
+      "text": "But the Rubich collection shows that as the ecosystem recovered and food returned,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0308": [
+    {
+      "start": 1381.43,
+      "end": 1385.67,
+      "text": "these small gorgonopsians not only survived, but thrived.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1386.65,
+      "end": 1390.1,
+      "text": "Over time, they evolved to be the size of modern day bears.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1392.12,
+      "end": 1396.49,
+      "text": "And in the fossil record, there's evidence that some new traits might have been developing.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0309": [
+    {
+      "start": 1400.42,
+      "end": 1402.66,
+      "text": "A Gorgonopsian fossil originally found in",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0310": [
+    {
+      "start": 1402.66,
+      "end": 1405.43,
+      "text": "in the 1940s recently provided new clues",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0311": [
+    {
+      "start": 1405.43,
+      "end": 1407.19,
+      "text": "clues to how they might have lived.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0312": [
+    {
+      "start": 1409.27,
+      "end": 1410.24,
+      "text": "Inside this skull",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0313": [
+    {
+      "start": 1410.24,
+      "end": 1412.65,
+      "text": "are the remains of an encounter with another animal.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0314": [
+    {
+      "start": 1413.79,
+      "end": 1414.28,
+      "text": "Here is",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0315": [
+    {
+      "start": 1414.28,
+      "end": 1416.12,
+      "text": "a tooth stuck in its snout.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1416.42,
+      "end": 1418.74,
+      "text": "And this tooth isn't just any tooth, it's the",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0316": [
+    {
+      "start": 1418.74,
+      "end": 1420.82,
+      "text": "tooth of another Gorgonopsian, the same",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0317": [
+    {
+      "start": 1420.82,
+      "end": 1421.52,
+      "text": "same species.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1421.8,
+      "end": 1423.05,
+      "text": "And you can even see that it",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0318": [
+    {
+      "start": 1423.05,
+      "end": 1426.05,
+      "text": "it survived the fight, because the wound around the tooth has healed.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0319": [
+    {
+      "start": 1426.05,
+      "end": 1426.43,
+      "text": "healed.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1427.96,
+      "end": 1431.91,
+      "text": "For Julien, this is a sign of how these animals may have interacted.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1431.93,
+      "end": 1432.89,
+      "text": "These",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0320": [
+    {
+      "start": 1432.89,
+      "end": 1435.12,
+      "text": "These animals fought among themselves,",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0321": [
+    {
+      "start": 1435.12,
+      "end": 1437.13,
+      "text": "themselves, biting each other on",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0322": [
+    {
+      "start": 1437.13,
+      "end": 1439.5,
+      "text": "the snout, exactly as mammals do today",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0323": [
+    {
+      "start": 1439.5,
+      "end": 1442.7,
+      "text": "today to determine dominance within groups and also to",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0324": [
+    {
+      "start": 1442.7,
+      "end": 1444.34,
+      "text": "to find mates and claim territories.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0325": [
+    {
+      "start": 1444.34,
+      "end": 1445.07,
+      "text": "territories.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0326": [
+    {
+      "start": 1445.07,
+      "end": 1447.05,
+      "text": "territories.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 1447.07,
+      "end": 1449.41,
+      "text": "Until this discovery, the teeth of carnivorous",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0327": [
+    {
+      "start": 1449.41,
+      "end": 1452.58,
+      "text": "carnivorous therapsids had been considered solely hunting weapons.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0328": [
+    {
+      "start": 1454.76,
+      "end": 1459.78,
+      "text": "And although not direct evidence of mammal ancestry, using them for more social interactions,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0329": [
+    {
+      "start": 1459.78,
+      "end": 1463.76,
+      "text": "interactions, like competition, is certainly a characteristic seen in many",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0330": [
+    {
+      "start": 1463.76,
+      "end": 1464.95,
+      "text": "many mammals alive today.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1466.73,
+      "end": 1466.96,
+      "text": "But the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0331": [
+    {
+      "start": 1466.96,
+      "end": 1470.15,
+      "text": "Gorgonopsians weren't the only ones developing new behaviors.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0332": [
+    {
+      "start": 1471.88,
+      "end": 1472.9,
+      "text": "The Dysonodonts were",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0333": [
+    {
+      "start": 1472.9,
+      "end": 1475.0,
+      "text": "were adapting in the post-extinction world as well.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1477.36,
+      "end": 1477.57,
+      "text": "Perhaps",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0334": [
+    {
+      "start": 1477.57,
+      "end": 1480.78,
+      "text": "Perhaps the most varied of the therapsids, they came in",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0335": [
+    {
+      "start": 1480.78,
+      "end": 1484.07,
+      "text": "a wide range of sizes, some as small as guinea",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0336": [
+    {
+      "start": 1484.07,
+      "end": 1484.73,
+      "text": "guinea pigs,",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1487.73,
+      "end": 1489.87,
+      "text": "The only known therapsid group with beaks.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1491.34,
+      "end": 1493.16,
+      "text": "Some also had tusks.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0337": [
+    {
+      "start": 1493.16,
+      "end": 1494.88,
+      "text": "tusks.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1494.9,
+      "end": 1497.97,
+      "text": "What was it about the Dysynodont group that helped it survive?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0338": [
+    {
+      "start": 1504.08,
+      "end": 1507.02,
+      "text": "A fossil in South Africa might hold the answer.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0339": [
+    {
+      "start": 1513.16,
+      "end": 1513.97,
+      "text": "Here we see new",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0340": [
+    {
+      "start": 1513.97,
+      "end": 1520.41,
+      "text": "new behavior in the late Permian, where animals were starting to burrow underground and create these really",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0341": [
+    {
+      "start": 1520.41,
+      "end": 1523.62,
+      "text": "really interesting burrows with a chamber underneath where they would live.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 1523.86,
+      "end": 1526.8,
+      "text": "We can see it here because it's actually preserved as a cast.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 1528.54,
+      "end": 1529.78,
+      "text": "This cast is natural.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1530.91,
+      "end": 1535.29,
+      "text": "A flood poured sediment into a hollow burrow, which hardened into rock over time.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0342": [
+    {
+      "start": 1536.11,
+      "end": 1537.84,
+      "text": "But what were these burrows used for?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1537.88,
+      "end": 1540.2,
+      "text": "How were they an advantage?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0343": [
+    {
+      "start": 1543.3,
+      "end": 1546.78,
+      "text": "To see through this massive rock, a dicynodont burrow cast",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0344": [
+    {
+      "start": 1546.78,
+      "end": 1548.81,
+      "text": "cast was sent to the synchrotron,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0345": [
+    {
+      "start": 1548.81,
+      "end": 1550.95,
+      "text": "and hidden inside, fossilized",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0346": [
+    {
+      "start": 1550.95,
+      "end": 1551.99,
+      "text": "fossilized remains.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0347": [
+    {
+      "start": 1553.52,
+      "end": 1554.51,
+      "text": "Removing",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0348": [
+    {
+      "start": 1554.51,
+      "end": 1556.18,
+      "text": "Removing",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0349": [
+    {
+      "start": 1556.18,
+      "end": 1560.23,
+      "text": "Removing the rock reveals a spectacular find.",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 1561.32,
+      "end": 1563.95,
+      "text": "We have the adult dicynodont.",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0350": [
+    {
+      "start": 1564.75,
+      "end": 1566.09,
+      "text": "We can see, like,",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0351": [
+    {
+      "start": 1566.09,
+      "end": 1568.33,
+      "text": "right in the middle, this big eye socket.",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 1568.69,
+      "end": 1569.07,
+      "text": "And the",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0352": [
+    {
+      "start": 1569.07,
+      "end": 1571.69,
+      "text": "the teeth in front, the beak would be there as well.",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0353": [
+    {
+      "start": 1572.1,
+      "end": 1574.42,
+      "text": "That's not all this ancient burrow was hiding.",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 1575.16,
+      "end": 1578.14,
+      "text": "There was another, more unexpected find.",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0354": [
+    {
+      "start": 1578.6,
+      "end": 1581.41,
+      "text": "It's like it's a baby version of the same species.",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0355": [
+    {
+      "start": 1583.19,
+      "end": 1585.12,
+      "text": "So basically, it's telling us that dicynodont,",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0356": [
+    {
+      "start": 1585.12,
+      "end": 1589.89,
+      "text": "dicynodont, they were using burrows kind of as nurseries to take care of their babies.",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "v1_s0357": [
+    {
+      "start": 1591.43,
+      "end": 1594.12,
+      "text": "It appears that a semblance of today's mammalian",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0358": [
+    {
+      "start": 1594.12,
+      "end": 1596.69,
+      "text": "mammalian parent-child bond may have existed 260",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0359": [
+    {
+      "start": 1596.69,
+      "end": 1598.72,
+      "text": "260 million years ago.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1599.83,
+      "end": 1602.49,
+      "text": "But it's an idea that scientists are still exploring.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1603.84,
+      "end": 1605.43,
+      "text": "What we do know is that these",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0360": [
+    {
+      "start": 1605.43,
+      "end": 1608.78,
+      "text": "burrows allowed Dysonodons to survive tough post-crisis",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0361": [
+    {
+      "start": 1608.78,
+      "end": 1609.79,
+      "text": "post-crisis conditions.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1611.14,
+      "end": 1612.54,
+      "text": "That kind of group sharing",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0362": [
+    {
+      "start": 1612.54,
+      "end": 1614.9,
+      "text": "sharing behavior has a lot of different advantages.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0363": [
+    {
+      "start": 1615.36,
+      "end": 1616.11,
+      "text": "If you're in a burrow, you're",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0364": [
+    {
+      "start": 1616.11,
+      "end": 1619.17,
+      "text": "you're protected from predators, you're protected from the sun.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0365": [
+    {
+      "start": 1619.39,
+      "end": 1621.55,
+      "text": "It's pretty good to be in a burrow if it's hot",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0366": [
+    {
+      "start": 1621.55,
+      "end": 1623.12,
+      "text": "hot outside, hot and dry.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0367": [
+    {
+      "start": 1625.1,
+      "end": 1627.36,
+      "text": "But how well did the other therapsid groups fare?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0368": [],
+  "v1_s0369": [
+    {
+      "start": 1632.99,
+      "end": 1637.22,
+      "text": "After the Capitanian crisis, not all therapsid groups had the same fate.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0370": [
+    {
+      "start": 1638.22,
+      "end": 1640.62,
+      "text": "The Deinosophalians disappeared completely.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1643.23,
+      "end": 1644.62,
+      "text": "The Gorgonopsians emerged",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0371": [
+    {
+      "start": 1644.62,
+      "end": 1646.07,
+      "text": "emerged as the apex predators.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0372": [
+    {
+      "start": 1646.07,
+      "end": 1646.14,
+      "text": "predators.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1649.32,
+      "end": 1649.56,
+      "text": "As for",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0373": [
+    {
+      "start": 1649.56,
+      "end": 1650.51,
+      "text": "for the Therosophalians,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0374": [
+    {
+      "start": 1650.51,
+      "end": 1653.25,
+      "text": "Therosophalians, they took second place to their larger cousins.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1654.55,
+      "end": 1655.53,
+      "text": "The Bearmosuchians",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0375": [
+    {
+      "start": 1655.53,
+      "end": 1659.4,
+      "text": "Bearmosuchians were still holding on, but also remained the most primitive.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1660.54,
+      "end": 1662.82,
+      "text": "It was the Dicynodonts who adapted best to the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0376": [
+    {
+      "start": 1662.82,
+      "end": 1663.8,
+      "text": "changing environments.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1664.36,
+      "end": 1665.24,
+      "text": "But as some groups",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0377": [
+    {
+      "start": 1665.24,
+      "end": 1668.03,
+      "text": "groups struggled, the picture grew more complicated.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1669.42,
+      "end": 1671.2,
+      "text": "A new group emerged in a post-crisis",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0378": [
+    {
+      "start": 1671.2,
+      "end": 1678.49,
+      "text": "post-crisis therapsid boom, taking the number of existing therapsid groups back up to five,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0379": [
+    {
+      "start": 1678.49,
+      "end": 1679.74,
+      "text": "the cynodonts.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1681.5,
+      "end": 1683.76,
+      "text": "They shared a common ancestor with the therosophalians,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0380": [
+    {
+      "start": 1683.76,
+      "end": 1688.72,
+      "text": "therosophalians, and it's possible that they were actually just a subgroup of therosophalians themselves.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0381": [
+    {
+      "start": 1688.72,
+      "end": 1688.87,
+      "text": "themselves.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1689.93,
+      "end": 1690.84,
+      "text": "But one thing is certain,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0382": [
+    {
+      "start": 1690.84,
+      "end": 1693.02,
+      "text": "certain, one of the secrets to their",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0383": [
+    {
+      "start": 1693.02,
+      "end": 1694.3,
+      "text": "their success was",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0384": [
+    {
+      "start": 1694.3,
+      "end": 1695.41,
+      "text": "was their size.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0385": [
+    {
+      "start": 1697.39,
+      "end": 1699.45,
+      "text": "Cynodonts generally were quite small.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 1699.49,
+      "end": 1699.56,
+      "text": "You",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0386": [
+    {
+      "start": 1699.56,
+      "end": 1701.81,
+      "text": "You could hold most of them in your arms.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0387": [
+    {
+      "start": 1704.44,
+      "end": 1708.01,
+      "text": "They also had relatively larger brains and more specialized teeth.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0388": [
+    {
+      "start": 1709.97,
+      "end": 1712.34,
+      "text": "With the Karoo ecosystem having recovered from the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0389": [
+    {
+      "start": 1712.34,
+      "end": 1713.7,
+      "text": "the Capitanian crisis,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0390": [
+    {
+      "start": 1713.7,
+      "end": 1716.08,
+      "text": "the five groups of therapsids stabilized.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0391": [
+    {
+      "start": 1718.26,
+      "end": 1720.32,
+      "text": "Cynodonts thrived, feeding off insects",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0392": [
+    {
+      "start": 1720.32,
+      "end": 1722.01,
+      "text": "insects and other small animals.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1723.44,
+      "end": 1726.45,
+      "text": "Meanwhile, Dicynodonts continued with their plant-eating diets",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0393": [
+    {
+      "start": 1726.45,
+      "end": 1727.82,
+      "text": "diets and still used",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0394": [
+    {
+      "start": 1727.82,
+      "end": 1728.95,
+      "text": "burrows as their homes.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0395": [
+    {
+      "start": 1730.05,
+      "end": 1731.75,
+      "text": "But this wasn't always an advantage.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0396": [
+    {
+      "start": 1734.42,
+      "end": 1737.07,
+      "text": "Dicynodonts were also the prey of choice for Therosophalians.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0397": [
+    {
+      "start": 1737.07,
+      "end": 1737.58,
+      "text": "Therosophalians.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1738.44,
+      "end": 1741.03,
+      "text": "These larger predators were perhaps able to hunt down entire",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0398": [
+    {
+      "start": 1741.03,
+      "end": 1742.63,
+      "text": "entire Dicynodont families.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1744.19,
+      "end": 1746.68,
+      "text": "Even so, Gorgonopsians remained",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0399": [
+    {
+      "start": 1746.68,
+      "end": 1748.12,
+      "text": "remained the apex predators.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1749.78,
+      "end": 1751.12,
+      "text": "But at the end of the Permian period,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0400": [
+    {
+      "start": 1751.12,
+      "end": 1752.89,
+      "text": "period, another crisis.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1753.65,
+      "end": 1757.01,
+      "text": "In the rock layers of the Karoo, dating to the period after 252",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0401": [
+    {
+      "start": 1757.01,
+      "end": 1761.05,
+      "text": "252 million years ago, most big Dicynodonts and",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0402": [
+    {
+      "start": 1761.05,
+      "end": 1765.77,
+      "text": "Gorgonopsians disappear, signaling another extinction crisis.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0403": [
+    {
+      "start": 1768.89,
+      "end": 1772.5,
+      "text": "Was it something local to the Karoo or more global?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1774.56,
+      "end": 1778.84,
+      "text": "Since the 1990s, scientists have suspected that the Siberian Traps,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0404": [
+    {
+      "start": 1778.84,
+      "end": 1783.47,
+      "text": "enormous volcanic eruptions in what is today's Russia, were responsible.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0405": [
+    {
+      "start": 1786.8,
+      "end": 1789.5,
+      "text": "In 2023, an international team of scientists",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0406": [
+    {
+      "start": 1789.5,
+      "end": 1791.79,
+      "text": "scientists published a project testing the idea.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1794.2,
+      "end": 1797.2,
+      "text": "When scientists studied the rocks in Siberia, they",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0407": [
+    {
+      "start": 1797.2,
+      "end": 1801.33,
+      "text": "they found that there was an increase in mercury in the rocks that they sampled.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0408": [
+    {
+      "start": 1801.65,
+      "end": 1806.9,
+      "text": "So there was a mercury spike, and they found this associated with those volcanic eruptions.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0409": [
+    {
+      "start": 1806.9,
+      "end": 1808.75,
+      "text": "eruptions.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1808.77,
+      "end": 1811.07,
+      "text": "Mercury is often associated with volcanoes.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0410": [
+    {
+      "start": 1811.07,
+      "end": 1811.36,
+      "text": "volcanoes.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1812.4,
+      "end": 1817.47,
+      "text": "As a volcano erupts, spewing out lava, it also releases mercury vapor into the atmosphere.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0411": [
+    {
+      "start": 1817.47,
+      "end": 1817.8,
+      "text": "atmosphere.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1819.09,
+      "end": 1821.78,
+      "text": "This vapor can be transported across continents",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0412": [
+    {
+      "start": 1821.78,
+      "end": 1823.31,
+      "text": "continents by currents and winds.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0413": [
+    {
+      "start": 1826.99,
+      "end": 1831.63,
+      "text": "but we did not know whether we had such a spike in the Karoo Basin of South Africa.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0414": [
+    {
+      "start": 1833.47,
+      "end": 1838.07,
+      "text": "If found, that spike could be evidence that these Siberian eruptions were responsible",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0415": [
+    {
+      "start": 1838.07,
+      "end": 1839.63,
+      "text": "responsible for the climate changes",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0416": [
+    {
+      "start": 1839.63,
+      "end": 1841.57,
+      "text": "changes that caused the extinction event seen",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0417": [
+    {
+      "start": 1841.57,
+      "end": 1842.42,
+      "text": "seen in the Karoo.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0418": [
+    {
+      "start": 1843.3,
+      "end": 1844.68,
+      "text": "So our team went to the",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0419": [
+    {
+      "start": 1844.68,
+      "end": 1846.7,
+      "text": "the field and we collected samples",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0420": [
+    {
+      "start": 1846.7,
+      "end": 1848.57,
+      "text": "and we ran the analyses and",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0421": [
+    {
+      "start": 1848.57,
+      "end": 1850.12,
+      "text": "we found that indeed we are",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0422": [
+    {
+      "start": 1850.12,
+      "end": 1851.78,
+      "text": "finding a mercury spike",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0423": [
+    {
+      "start": 1851.78,
+      "end": 1853.11,
+      "text": "in South Africa.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0424": [
+    {
+      "start": 1855.18,
+      "end": 1862.26,
+      "text": "The therapsid extinctions in the Karoo, 252 million years ago, were indeed part of a global crisis.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1864.34,
+      "end": 1873.5,
+      "text": "In the northeastern corner of Pangaea, in what is now Siberia, one of the biggest volcanic eruptions life on Earth has ever seen began.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0425": [
+    {
+      "start": 1877.27,
+      "end": 1879.7,
+      "text": "The scale of this event would dwarf the Capitanian",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0426": [
+    {
+      "start": 1879.7,
+      "end": 1880.34,
+      "text": "Capitanian crisis.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1881.36,
+      "end": 1883.91,
+      "text": "The lava spread across nearly 3 million",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0427": [
+    {
+      "start": 1883.91,
+      "end": 1888.09,
+      "text": "million square miles, an area almost as large as the US lower 48.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1888.29,
+      "end": 1892.62,
+      "text": "The eruptions lasted for at least",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0428": [
+    {
+      "start": 1892.62,
+      "end": 1894.24,
+      "text": "least 200,000 years.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1896.38,
+      "end": 1898.02,
+      "text": "Consequences for life were terrible.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0429": [
+    {
+      "start": 1899.04,
+      "end": 1902.91,
+      "text": "On land, around 70% of species disappeared.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1903.21,
+      "end": 1905.71,
+      "text": "In the seas, the toll was even heavier.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1906.65,
+      "end": 1907.41,
+      "text": "Changes in acidity",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0430": [
+    {
+      "start": 1907.41,
+      "end": 1911.88,
+      "text": "acidity and oxygen levels wiped out as many as 95% of species.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0431": [
+    {
+      "start": 1915.12,
+      "end": 1919.78,
+      "text": "The greenhouse effect also went into overdrive, causing temperatures to rise dramatically.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0432": [
+    {
+      "start": 1919.78,
+      "end": 1920.87,
+      "text": "dramatically.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1922.15,
+      "end": 1928.47,
+      "text": "Paleontologists have dubbed this event the Great Dying, and it marked the end of the Permian period.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1930.19,
+      "end": 1933.88,
+      "text": "This was the closest life has ever come to completely dying out.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0433": [
+    {
+      "start": 1934.48,
+      "end": 1936.13,
+      "text": "Our ancestors,",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0434": [
+    {
+      "start": 1936.13,
+      "end": 1939.88,
+      "text": "they were there when it happened, and they made it through.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0435": [
+    {
+      "start": 1940.41,
+      "end": 1943.87,
+      "text": "And if they didn't, then we wouldn't be here today.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0436": [
+    {
+      "start": 1945.35,
+      "end": 1949.06,
+      "text": "This crisis heralded the start of a new geological era.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1949.52,
+      "end": 1950.74,
+      "text": "It transformed the planet's climate",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0437": [
+    {
+      "start": 1950.74,
+      "end": 1953.66,
+      "text": "climate and landscape, including in the Karoo.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1954.66,
+      "end": 1956.61,
+      "text": "But what was it like to be there?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1957.06,
+      "end": 1958.82,
+      "text": "And what did this mean for the many therapsids",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0438": [
+    {
+      "start": 1958.82,
+      "end": 1961.29,
+      "text": "therapsids that called this part of the world home?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0439": [
+    {
+      "start": 1966.02,
+      "end": 1967.93,
+      "text": "At the Ezeko South African Museum,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0440": [
+    {
+      "start": 1967.93,
+      "end": 1970.24,
+      "text": "Museum, a Dicynodont fossil sheds light on",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0441": [
+    {
+      "start": 1970.24,
+      "end": 1971.4,
+      "text": "on the Karoo's climate.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0442": [
+    {
+      "start": 1972.52,
+      "end": 1975.18,
+      "text": "So here we have the skull of the animal, the head.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 1975.4,
+      "end": 1978.63,
+      "text": "There's the outline of one of its eyes, front of its nose.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0443": [
+    {
+      "start": 1979.11,
+      "end": 1981.51,
+      "text": "And then coming around, we have the front",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0444": [
+    {
+      "start": 1981.51,
+      "end": 1982.27,
+      "text": "front foot.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 1982.29,
+      "end": 1983.35,
+      "text": "The fingers are missing.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 1983.39,
+      "end": 1983.98,
+      "text": "Then if",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0445": [
+    {
+      "start": 1983.98,
+      "end": 1988.84,
+      "text": "you follow it along, here's the beautifully articulated complete spine of the animal.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0446": [
+    {
+      "start": 1988.88,
+      "end": 1990.99,
+      "text": "And the animal's kind of spread eagle.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0447": [
+    {
+      "start": 1990.99,
+      "end": 1991.27,
+      "text": "eagle.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 1991.9,
+      "end": 1995.43,
+      "text": "This unusual position can tell us how this Dicynodon died.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 1996.29,
+      "end": 1997.26,
+      "text": "One of the ways in which",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0448": [
+    {
+      "start": 1997.26,
+      "end": 2005.07,
+      "text": "which an animal dies of exhaustion is actually by collapsing, and collapsing with its feet spread out in this very distinctive",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0449": [
+    {
+      "start": 2005.07,
+      "end": 2006.88,
+      "text": "distinctive spread-eagle pose.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 2006.9,
+      "end": 2009.58,
+      "text": "In the Triassic Karoo, the rhapsids struggled.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2010.4,
+      "end": 2011.34,
+      "text": "Hunger, thirst,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0450": [
+    {
+      "start": 2011.34,
+      "end": 2013.61,
+      "text": "thirst, and exhaustion were all common threats.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2014.87,
+      "end": 2017.78,
+      "text": "What adaptations made it possible for any of them to survive?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0451": [
+    {
+      "start": 2017.78,
+      "end": 2020.82,
+      "text": "survive?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0452": [
+    {
+      "start": 2023.22,
+      "end": 2031.78,
+      "text": "In Batuli, east of the Karoo, the remains of a species of Dicynodon known as Lystrosaurus have given us clues.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0453": [
+    {
+      "start": 2033.6,
+      "end": 2036.71,
+      "text": "This is an area that I like to call the Lystrosaurus killing fields.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 2037.41,
+      "end": 2038.74,
+      "text": "I've been able to map",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0454": [
+    {
+      "start": 2038.74,
+      "end": 2043.07,
+      "text": "the actual embedded skeletons throughout this entire area, and I have",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0455": [
+    {
+      "start": 2043.07,
+      "end": 2045.3,
+      "text": "have 600 in-situ skeletons",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0456": [
+    {
+      "start": 2045.3,
+      "end": 2047.38,
+      "text": "skeletons already, so originally there must have been literally",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0457": [
+    {
+      "start": 2047.38,
+      "end": 2048.81,
+      "text": "literally many thousands.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0458": [
+    {
+      "start": 2048.81,
+      "end": 2049.16,
+      "text": "thousands.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 2050.88,
+      "end": 2056.82,
+      "text": "These Dysonodonts represent 95% of the therapsid fossils discovered in this area from this time period.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2057.98,
+      "end": 2058.39,
+      "text": "But why were",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0459": [
+    {
+      "start": 2058.39,
+      "end": 2059.38,
+      "text": "were there so many here?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0460": [],
+  "v1_s0461": [
+    {
+      "start": 2063.39,
+      "end": 2065.1,
+      "text": "Paleontologist Jennifer Botha",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0462": [
+    {
+      "start": 2065.1,
+      "end": 2066.69,
+      "text": "has discovered a clue hidden",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0463": [
+    {
+      "start": 2066.69,
+      "end": 2068.64,
+      "text": "hidden in the microstructure of their bones.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0464": [],
+  "v1_s0465": [
+    {
+      "start": 2071.47,
+      "end": 2072.9,
+      "text": "What you are looking at here",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0466": [
+    {
+      "start": 2072.9,
+      "end": 2075.28,
+      "text": "here is a cross section through the bone.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0467": [
+    {
+      "start": 2075.86,
+      "end": 2080.94,
+      "text": "The organic components of the bone have disappeared, but the position of all the bone fibers have",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0468": [
+    {
+      "start": 2080.94,
+      "end": 2082.62,
+      "text": "have remained in place.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2082.83,
+      "end": 2083.55,
+      "text": "So we can tell",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0469": [
+    {
+      "start": 2083.55,
+      "end": 2085.83,
+      "text": "tell certain things about how the animal grew.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2085.87,
+      "end": 2085.95,
+      "text": "I",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0470": [
+    {
+      "start": 2085.95,
+      "end": 2088.02,
+      "text": "I can see these lines",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0471": [
+    {
+      "start": 2088.02,
+      "end": 2092.43,
+      "text": "running down through here, through the bone, and they represent yearly",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0472": [
+    {
+      "start": 2092.43,
+      "end": 2093.62,
+      "text": "yearly growth marks.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2094.1,
+      "end": 2096.43,
+      "text": "So if I count the number of growth marks,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0473": [
+    {
+      "start": 2096.43,
+      "end": 2099.3,
+      "text": "I can tell how old the animal was when it died.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0474": [
+    {
+      "start": 2099.3,
+      "end": 2099.49,
+      "text": "died.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2100.56,
+      "end": 2105.07,
+      "text": "But how can the age at death shed light on why Lystrosaurus was so prolific in",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0475": [
+    {
+      "start": 2105.07,
+      "end": 2108.34,
+      "text": "the Karoo during the Triassic, after the Permian crisis?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0476": [
+    {
+      "start": 2108.34,
+      "end": 2108.35,
+      "text": "crisis?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0477": [],
+  "v1_s0478": [
+    {
+      "start": 2111.16,
+      "end": 2111.94,
+      "text": "Here I have",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0479": [
+    {
+      "start": 2111.94,
+      "end": 2119.19,
+      "text": "have a Lystrosaurus species from the Permian on the left and a Lystrosaurus species from the Triassic on the right.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2120.15,
+      "end": 2120.59,
+      "text": "Highlighted",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0480": [
+    {
+      "start": 2120.59,
+      "end": 2124.95,
+      "text": "Highlighted in green are the number of growth marks I have been able to count.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0481": [
+    {
+      "start": 2124.95,
+      "end": 2125.18,
+      "text": "count.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2125.34,
+      "end": 2129.3,
+      "text": "I can tell that this animal was at least 8 years old when it died.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2129.36,
+      "end": 2133.36,
+      "text": "In comparison, this Triassic specimen was",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0482": [
+    {
+      "start": 2133.36,
+      "end": 2137.07,
+      "text": "was only at least 2 years old when it died.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2137.05,
+      "end": 2139.07,
+      "text": "And very importantly, this",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0483": [
+    {
+      "start": 2139.07,
+      "end": 2143.07,
+      "text": "this is a large Lystrosaurus Permian species, and this is",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0484": [
+    {
+      "start": 2143.07,
+      "end": 2145.84,
+      "text": "is the largest known trisect specimen.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0485": [
+    {
+      "start": 2146.22,
+      "end": 2151.41,
+      "text": "So even the largest trisect specimens that we have ever discovered are not fully grown.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0486": [
+    {
+      "start": 2151.83,
+      "end": 2154.39,
+      "text": "They are at most two or three years old.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0487": [
+    {
+      "start": 2156.24,
+      "end": 2157.82,
+      "text": "After the crisis, Lystrosauruses",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0488": [
+    {
+      "start": 2157.82,
+      "end": 2159.06,
+      "text": "Lystrosauruses were dying young.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2159.1,
+      "end": 2161.81,
+      "text": "So what explains their large population?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2162.44,
+      "end": 2162.62,
+      "text": "In",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0489": [
+    {
+      "start": 2162.62,
+      "end": 2164.1,
+      "text": "In order to be so abundant,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0490": [
+    {
+      "start": 2164.1,
+      "end": 2166.81,
+      "text": "abundant, they had to be breeding quite abundantly.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2166.85,
+      "end": 2166.89,
+      "text": "This",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0491": [
+    {
+      "start": 2166.89,
+      "end": 2170.45,
+      "text": "This suggests that the birth rate increased rapidly.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0492": [],
+  "v1_s0493": [
+    {
+      "start": 2177.41,
+      "end": 2178.24,
+      "text": "During periods of drought,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0494": [
+    {
+      "start": 2178.24,
+      "end": 2180.75,
+      "text": "drought, times were tough for all the animals here.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0495": [
+    {
+      "start": 2183.65,
+      "end": 2185.27,
+      "text": "Predators who depended on the herbivores",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0496": [
+    {
+      "start": 2185.27,
+      "end": 2186.9,
+      "text": "herbivores for food went hungry.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0497": [
+    {
+      "start": 2189.6,
+      "end": 2194.06,
+      "text": "The carnivorous Gorgonopsians succumbed to the hostile conditions and vanished.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2196.43,
+      "end": 2197.89,
+      "text": "And so did the Bjarmasukians.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0498": [
+    {
+      "start": 2203.92,
+      "end": 2207.7,
+      "text": "The Dicynodonts were dying young, but their rapid reproduction",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0499": [
+    {
+      "start": 2207.7,
+      "end": 2212.35,
+      "text": "reproduction rates and their burrowing habits helped them survive this period's climate chaos.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2215.38,
+      "end": 2217.38,
+      "text": "The Therocephalians initially made",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0500": [
+    {
+      "start": 2217.38,
+      "end": 2219.91,
+      "text": "it, but as time went on, they too",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0501": [
+    {
+      "start": 2219.91,
+      "end": 2221.31,
+      "text": "too eventually died out.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2222.69,
+      "end": 2225.06,
+      "text": "The Cynodonts survived this tumultuous period,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0502": [
+    {
+      "start": 2225.06,
+      "end": 2226.12,
+      "text": "period, barely.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0503": [
+    {
+      "start": 2228.82,
+      "end": 2232.69,
+      "text": "Only two groups remained, the Dicynodonts",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0504": [
+    {
+      "start": 2232.69,
+      "end": 2233.83,
+      "text": "and the Cynodonts.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0505": [
+    {
+      "start": 2239.68,
+      "end": 2241.28,
+      "text": "The fossil record shows just",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0506": [
+    {
+      "start": 2241.28,
+      "end": 2243.19,
+      "text": "just how successful the Dicynodonts",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0507": [
+    {
+      "start": 2243.19,
+      "end": 2243.78,
+      "text": "Dicynodonts were.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0508": [
+    {
+      "start": 2245.11,
+      "end": 2247.03,
+      "text": "This is what this animal looked like.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2247.35,
+      "end": 2251.52,
+      "text": "It was about 50 to 70 centimeters long, so about the size of a small",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0509": [
+    {
+      "start": 2251.52,
+      "end": 2252.05,
+      "text": "small pig.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2253.53,
+      "end": 2258.82,
+      "text": "Dicynodonts literally swarmed during the first five million years of the Triassic period.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2259.36,
+      "end": 2263.99,
+      "text": "So much so that they re-diversified and gave rise to large herbivores,",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0510": [
+    {
+      "start": 2263.99,
+      "end": 2269.1,
+      "text": "herbivores, as illustrated here by this skull, which belonged to an animal that must have been",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0511": [
+    {
+      "start": 2269.1,
+      "end": 2273.07,
+      "text": "been roughly the size of a modern wildebeest, weighing several hundred kilos.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0512": [
+    {
+      "start": 2273.07,
+      "end": 2273.24,
+      "text": "kilos.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2273.7,
+      "end": 2275.74,
+      "text": "And these giant",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0513": [
+    {
+      "start": 2275.74,
+      "end": 2277.92,
+      "text": "dicynodonts repopulated the world.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2278.28,
+      "end": 2281.16,
+      "text": "They spread across the whole of Pangea.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2282.51,
+      "end": 2285.95,
+      "text": "Fossil remains of Dicynodonts have been found on every continent.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0514": [
+    {
+      "start": 2285.95,
+      "end": 2286.36,
+      "text": "continent.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2287.44,
+      "end": 2289.76,
+      "text": "But the Dicynodonts weren't the only group that found",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0515": [
+    {
+      "start": 2289.76,
+      "end": 2291.62,
+      "text": "a way to adapt to their new environment.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0516": [
+    {
+      "start": 2292.6,
+      "end": 2294.56,
+      "text": "Paleontologist Roger Smith has found",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0517": [
+    {
+      "start": 2294.56,
+      "end": 2297.83,
+      "text": "found a fossil that reveals that some of the Cynodonts had discovered",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0518": [
+    {
+      "start": 2297.83,
+      "end": 2299.43,
+      "text": "discovered some of the same tricks.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0519": [],
+  "v1_s0520": [],
+  "v1_s0521": [
+    {
+      "start": 2303.74,
+      "end": 2306.43,
+      "text": "Here we have an underground burrow cast",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0522": [
+    {
+      "start": 2306.43,
+      "end": 2308.44,
+      "text": "made into the ancient floodplain",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0523": [
+    {
+      "start": 2308.44,
+      "end": 2309.44,
+      "text": "by a Cynodont.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0524": [
+    {
+      "start": 2309.44,
+      "end": 2309.88,
+      "text": "Cynodont.",
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "start": 2310.57,
+      "end": 2317.32,
+      "text": "The architecture of the Cynodon Burrow is a tube going into the ground and when it gets to the end, it forms this",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0525": [
+    {
+      "start": 2317.32,
+      "end": 2318.69,
+      "text": "round terminal chamber.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0526": [
+    {
+      "start": 2318.87,
+      "end": 2320.81,
+      "text": "This doesn't have a skeleton in it.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0527": [
+    {
+      "start": 2321.03,
+      "end": 2325.59,
+      "text": "If it did have a skeleton, and we do have skeletons in these, they're curled up generally",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0528": [
+    {
+      "start": 2325.59,
+      "end": 2328.39,
+      "text": "generally with their back to the outside with the tail",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0529": [
+    {
+      "start": 2328.39,
+      "end": 2330.4,
+      "text": "curled around against the wall.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0530": [
+    {
+      "start": 2332.48,
+      "end": 2334.77,
+      "text": "This burrow cast could well be a behavioral",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0531": [
+    {
+      "start": 2334.77,
+      "end": 2339.11,
+      "text": "behavioral adaptation of the cynodonts to go underground, to escape the",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0532": [
+    {
+      "start": 2339.11,
+      "end": 2343.5,
+      "text": "the extremes of heat during day and night, and perhaps to even breed.",
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "v1_s0533": [
+    {
+      "start": 2344.82,
+      "end": 2348.85,
+      "text": "Being able to burrow, that was a major survival strategy, being",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0534": [
+    {
+      "start": 2348.85,
+      "end": 2350.01,
+      "text": "being able to hide away.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2350.05,
+      "end": 2355.48,
+      "text": "And that is probably one of the things that enabled our ancestors to endure.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0535": [
+    {
+      "start": 2356.29,
+      "end": 2360.66,
+      "text": "The same adaptations that helped the Dicynodonts emerge from the first crisis",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0536": [
+    {
+      "start": 2360.66,
+      "end": 2364.54,
+      "text": "crisis 8 million years before also helped the Cynodonts survive.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0537": [],
+  "v1_s0538": [
+    {
+      "start": 2369.3,
+      "end": 2370.51,
+      "text": "As the ecosystem recovered",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0539": [
+    {
+      "start": 2370.51,
+      "end": 2372.64,
+      "text": "recovered from the crisis, the Cynodonts led",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0540": [
+    {
+      "start": 2372.64,
+      "end": 2374.53,
+      "text": "led a relatively stable existence.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0541": [],
+  "v1_s0542": [
+    {
+      "start": 2378.93,
+      "end": 2382.92,
+      "text": "But according to the fossil record, the Dicynodonts really thrived.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0543": [
+    {
+      "start": 2385.97,
+      "end": 2393.3,
+      "text": "Freed from the Gorgonopsian threat, they took full advantage of available ecological niches and grew many times larger.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2396.63,
+      "end": 2399.49,
+      "text": "Meanwhile, the therapsids weren't the only creatures doing well.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0544": [
+    {
+      "start": 2399.49,
+      "end": 2399.54,
+      "text": "well.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2400.3,
+      "end": 2401.92,
+      "text": "Others were starting to appear.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2405.8,
+      "end": 2407.84,
+      "text": "The top predators of the late Triassic",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0545": [
+    {
+      "start": 2407.84,
+      "end": 2409.54,
+      "text": "Triassic are things called pseudosuchians.",
+      "speaker": "SPEAKER_12"
+    },
+    {
+      "start": 2409.7,
+      "end": 2411.57,
+      "text": "They're sort of the cousins of dinosaurs.",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0546": [
+    {
+      "start": 2411.84,
+      "end": 2413.81,
+      "text": "They look a bit like modern crocs.",
+      "speaker": "SPEAKER_12"
+    },
+    {
+      "start": 2413.87,
+      "end": 2415.89,
+      "text": "They're covered in body armor along their back.",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0547": [
+    {
+      "start": 2417.37,
+      "end": 2422.59,
+      "text": "Soon to be found in almost every corner of the globe, they are evidence of yet another planet-wide",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0548": [
+    {
+      "start": 2422.59,
+      "end": 2429.21,
+      "text": "planet-wide environmental change, one that would greatly impact the therapsids and their mammal descendants.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2432.22,
+      "end": 2432.49,
+      "text": "232",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0549": [
+    {
+      "start": 2432.49,
+      "end": 2436.27,
+      "text": "million-year-old plant fossils show new flora was developing,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0550": [
+    {
+      "start": 2436.27,
+      "end": 2440.82,
+      "text": "developing, the type of plants that only exist in extremely rainy climates.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2443.22,
+      "end": 2445.6,
+      "text": "Heavy rainfall was a planet-wide phenomenon,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0551": [
+    {
+      "start": 2445.6,
+      "end": 2449.68,
+      "text": "phenomenon, and paleontologists have dubbed this period the Carnian Pluvial episode.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0552": [
+    {
+      "start": 2449.68,
+      "end": 2449.87,
+      "text": "episode.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2451.2,
+      "end": 2453.81,
+      "text": "Over about two million years, the climate changed from extreme",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0553": [
+    {
+      "start": 2453.81,
+      "end": 2458.36,
+      "text": "extreme to extreme, cold to hot, dry to",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0554": [
+    {
+      "start": 2458.36,
+      "end": 2458.91,
+      "text": "to wet.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2460.59,
+      "end": 2467.08,
+      "text": "In the Karoo, the desert turned green, but only one therapsid lineage would survive this time.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2468.58,
+      "end": 2469.1,
+      "text": "Would it be the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0555": [
+    {
+      "start": 2469.1,
+      "end": 2471.23,
+      "text": "the thriving and vastly varied Dicynodonts",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0556": [
+    {
+      "start": 2471.23,
+      "end": 2474.39,
+      "text": "Dicynodonts or the newly emerged Cynodonts?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2476.15,
+      "end": 2477.68,
+      "text": "Which would give rise to all of",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0557": [
+    {
+      "start": 2477.68,
+      "end": 2479.58,
+      "text": "mammal kind, to us?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0558": [
+    {
+      "start": 2479.58,
+      "end": 2479.68,
+      "text": "us?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0559": [
+    {
+      "start": 2482.82,
+      "end": 2485.82,
+      "text": "The remaining therapsids had to contend with new creatures",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0560": [
+    {
+      "start": 2485.82,
+      "end": 2487.31,
+      "text": "creatures dominating the Karoo.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2488.35,
+      "end": 2488.52,
+      "text": "Dinosaurs",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0561": [
+    {
+      "start": 2488.52,
+      "end": 2490.56,
+      "text": "Dinosaurs like the ones in front of me soon",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0562": [
+    {
+      "start": 2490.56,
+      "end": 2493.66,
+      "text": "soon become the most dominant large-bodied animals on the landscape.",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0563": [
+    {
+      "start": 2494.04,
+      "end": 2497.19,
+      "text": "The therapsids and the other animals that were once so common on landscapes",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0564": [
+    {
+      "start": 2497.19,
+      "end": 2499.03,
+      "text": "landscapes become much more rare.",
+      "speaker": "SPEAKER_12"
+    },
+    {
+      "start": 2499.53,
+      "end": 2501.6,
+      "text": "And instead of seeing therapsids eating plants,",
+      "speaker": "SPEAKER_12"
+    }
+  ],
+  "v1_s0565": [
+    {
+      "start": 2501.6,
+      "end": 2505.39,
+      "text": "plants, we'd be seeing dinosaurs like this one browsing on the vegetation.",
+      "speaker": "SPEAKER_12"
+    },
+    {
+      "start": 2506.32,
+      "end": 2506.74,
+      "text": "It was also",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0566": [
+    {
+      "start": 2506.74,
+      "end": 2511.84,
+      "text": "also a time when new characteristics that would prove helpful for survival were appearing.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2512.25,
+      "end": 2515.72,
+      "text": "And one in particular, a very mammal-like quality,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0567": [
+    {
+      "start": 2515.72,
+      "end": 2521.46,
+      "text": "may have been the biggest advantage of all, a metabolism that kept the body warm.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0568": [
+    {
+      "start": 2522.78,
+      "end": 2526.2,
+      "text": "Being warm-blooded is really important.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0569": [
+    {
+      "start": 2526.51,
+      "end": 2529.75,
+      "text": "It means that we can go outside when it's wintertime.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0570": [
+    {
+      "start": 2530.21,
+      "end": 2534.3,
+      "text": "It means that we can be active in the morning or when the sun's not out.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0571": [
+    {
+      "start": 2534.43,
+      "end": 2537.96,
+      "text": "You're not like a cold-blooded animal that's at the mercy of the sun.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0572": [
+    {
+      "start": 2538.14,
+      "end": 2539.92,
+      "text": "And that's really unusual.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0573": [
+    {
+      "start": 2540.28,
+      "end": 2541.31,
+      "text": "It's a superpower.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0574": [
+    {
+      "start": 2541.31,
+      "end": 2541.64,
+      "text": "superpower.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2542.1,
+      "end": 2543.94,
+      "text": "Modern-day mammals are warm-blooded.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2544.92,
+      "end": 2545.31,
+      "text": "When did this",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0575": [
+    {
+      "start": 2545.31,
+      "end": 2547.4,
+      "text": "this trait emerge, and how?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2549.05,
+      "end": 2549.22,
+      "text": "It is",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0576": [
+    {
+      "start": 2549.22,
+      "end": 2550.89,
+      "text": "is really challenging to",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0577": [
+    {
+      "start": 2550.89,
+      "end": 2554.72,
+      "text": "to figure out if a fossil species was warm-blooded or cold-blooded.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0578": [
+    {
+      "start": 2554.72,
+      "end": 2555.21,
+      "text": "cold-blooded.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2555.53,
+      "end": 2560.04,
+      "text": "You can't just stick a thermometer into them and see how their body temperature changes over the day.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2560.1,
+      "end": 2562.03,
+      "text": "So you have to look for clues in the fossils.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0579": [
+    {
+      "start": 2562.03,
+      "end": 2562.06,
+      "text": "fossils.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2562.5,
+      "end": 2564.69,
+      "text": "There's one very interesting clue,",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0580": [
+    {
+      "start": 2564.69,
+      "end": 2569.2,
+      "text": "this opening in the top of the head for what's called a third eye.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2569.28,
+      "end": 2570.43,
+      "text": "It's a bunch of cells that",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0581": [
+    {
+      "start": 2570.43,
+      "end": 2571.23,
+      "text": "that sense light.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2572.32,
+      "end": 2577.51,
+      "text": "It's thought that the third eye helped ancient cold-blooded therapsids regulate their daily activities.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0582": [
+    {
+      "start": 2579.51,
+      "end": 2583.73,
+      "text": "In modern species, the third eye only exists among cold-blooded animals.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2584.49,
+      "end": 2584.95,
+      "text": "Therefore, the",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0583": [
+    {
+      "start": 2584.95,
+      "end": 2589.26,
+      "text": "disappearance of the third eye may be linked to the appearance of warm-blooded metabolism.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2589.58,
+      "end": 2590.45,
+      "text": "My colleagues",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0584": [
+    {
+      "start": 2590.45,
+      "end": 2592.53,
+      "text": "colleagues and I decided",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0585": [
+    {
+      "start": 2592.53,
+      "end": 2595.22,
+      "text": "decided to look for when the therapsids lost this",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0586": [
+    {
+      "start": 2595.22,
+      "end": 2597.89,
+      "text": "this third eye.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0587": [
+    {
+      "start": 2598.92,
+      "end": 2610.14,
+      "text": "Julien and his team have studied fossils from across the reign of the Therapsids, all the way back to almost 270 million years ago, in the Permian period before the Great Dying.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2611.79,
+      "end": 2615.03,
+      "text": "In the Permian, almost all Therapsids had a third eye.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0588": [
+    {
+      "start": 2616.94,
+      "end": 2618.11,
+      "text": "Then, when",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0589": [
+    {
+      "start": 2618.11,
+      "end": 2622.12,
+      "text": "when we enter the Triassic, the first Triassic species still had a third",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0590": [
+    {
+      "start": 2622.12,
+      "end": 2622.42,
+      "text": "eye.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2623.87,
+      "end": 2624.95,
+      "text": "But a little later, we",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0591": [
+    {
+      "start": 2624.95,
+      "end": 2627.32,
+      "text": "we begin to encounter species that no longer",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0592": [
+    {
+      "start": 2627.32,
+      "end": 2628.93,
+      "text": "have a hole at the top of their skull.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2628.97,
+      "end": 2631.19,
+      "text": "They no longer had a third eye.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0593": [
+    {
+      "start": 2632.82,
+      "end": 2641.02,
+      "text": "By 240 million years ago, the third eye had all but vanished from the fossil record of one therapsid group, the cynodonts.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0594": [
+    {
+      "start": 2642.19,
+      "end": 2644.45,
+      "text": "This isn't definitive proof of warm blood.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0595": [
+    {
+      "start": 2645.47,
+      "end": 2647.66,
+      "text": "But scientists have found another clue.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2648.86,
+      "end": 2651.87,
+      "text": "The most decisive argument was the study of the inner ear.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0596": [
+    {
+      "start": 2653.74,
+      "end": 2656.99,
+      "text": "The warmer the internal body temperature of an animal, the runnier",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0597": [
+    {
+      "start": 2656.99,
+      "end": 2661.46,
+      "text": "runnier their ear canal fluid becomes, and the thinner the tubes can be.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0598": [
+    {
+      "start": 2662.52,
+      "end": 2676.76,
+      "text": "We were able to measure changes in the size of the canals in cynodonts and determined precisely that the body temperature had increased by 10 degrees exactly here, between this Triassic animal and this animal 233 million years ago.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2676.78,
+      "end": 2677.94,
+      "text": "Evidence",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0599": [
+    {
+      "start": 2677.94,
+      "end": 2685.32,
+      "text": "Evidence suggests that the cynodonts were warm-blooded during the Carnian Pluvial episode.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0600": [
+    {
+      "start": 2686.48,
+      "end": 2690.03,
+      "text": "It was a time of fairly rapid change in climate and in precipitation.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0601": [
+    {
+      "start": 2690.03,
+      "end": 2690.55,
+      "text": "precipitation.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2691.09,
+      "end": 2692.06,
+      "text": "And being warm-blooded",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0602": [
+    {
+      "start": 2692.06,
+      "end": 2697.49,
+      "text": "warm-blooded would have been beneficial at that time, because if you can control your own body temperature,",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0603": [
+    {
+      "start": 2697.49,
+      "end": 2700.08,
+      "text": "that can protect you from the whims of the weather.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0604": [
+    {
+      "start": 2701.64,
+      "end": 2704.18,
+      "text": "What did this mean for therapsids that were not warm-blooded?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0605": [
+    {
+      "start": 2706.0,
+      "end": 2709.41,
+      "text": "This canyon rainfall event had a huge impact on the therapsids.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0606": [
+    {
+      "start": 2709.41,
+      "end": 2709.79,
+      "text": "therapsids.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2711.3,
+      "end": 2713.74,
+      "text": "By about 200 million years ago, the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0607": [
+    {
+      "start": 2713.74,
+      "end": 2719.48,
+      "text": "the dicynodonts disappear from the fossil record.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0608": [
+    {
+      "start": 2719.48,
+      "end": 2719.75,
+      "text": "record.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2719.95,
+      "end": 2722.86,
+      "text": "There was one small group that came out on top, the cynodonts,",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0609": [
+    {
+      "start": 2722.86,
+      "end": 2723.93,
+      "text": "cynodonts, and this group",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0610": [
+    {
+      "start": 2723.93,
+      "end": 2727.51,
+      "text": "group is the one that gave rise to mammals.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0611": [
+    {
+      "start": 2728.85,
+      "end": 2732.07,
+      "text": "It was the small size of these cynodonts, their ability to dig",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0612": [
+    {
+      "start": 2732.07,
+      "end": 2736.14,
+      "text": "dig burrows, being able to grow fast, being able to eat lots of different foods.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2736.16,
+      "end": 2737.46,
+      "text": "That's what helped make them through.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2737.48,
+      "end": 2737.84,
+      "text": "And then on",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0613": [
+    {
+      "start": 2737.84,
+      "end": 2743.91,
+      "text": "on the other side, they would have found this wide open world, a land of new frontiers and opportunities.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0614": [
+    {
+      "start": 2743.91,
+      "end": 2744.44,
+      "text": "opportunities.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0615": [
+    {
+      "start": 2744.44,
+      "end": 2744.57,
+      "text": "opportunities.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2744.59,
+      "end": 2751.03,
+      "text": "230 million years ago, the cynodonts were just starting to adapt to this new world.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0616": [
+    {
+      "start": 2752.58,
+      "end": 2754.72,
+      "text": "How did they give rise to mammals just 5",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0617": [
+    {
+      "start": 2754.72,
+      "end": 2756.26,
+      "text": "5 million years later?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0618": [
+    {
+      "start": 2756.26,
+      "end": 2756.7,
+      "text": "later?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2756.98,
+      "end": 2758.72,
+      "text": "When did the other key mammal traits,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0619": [
+    {
+      "start": 2758.72,
+      "end": 2760.86,
+      "text": "lactation and hair, appear",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0620": [
+    {
+      "start": 2760.86,
+      "end": 2761.63,
+      "text": "appear in their evolution?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2764.34,
+      "end": 2765.16,
+      "text": "Hair",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0621": [
+    {
+      "start": 2765.16,
+      "end": 2768.58,
+      "text": "is the insulating layer that allows mammals to retain heat.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2768.98,
+      "end": 2769.4,
+      "text": "The",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0622": [
+    {
+      "start": 2769.4,
+      "end": 2773.9,
+      "text": "The rarity of hair or fur in the fossil record has",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0623": [
+    {
+      "start": 2773.9,
+      "end": 2777.88,
+      "text": "has made it difficult for scientists to find exactly when this mammal trait evolved.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2778.8,
+      "end": 2779.52,
+      "text": "But",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0624": [
+    {
+      "start": 2779.52,
+      "end": 2781.66,
+      "text": "there is one type of hair that leaves a mark.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2782.95,
+      "end": 2783.67,
+      "text": "Whiskers.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2784.98,
+      "end": 2788.09,
+      "text": "And although mammals are not the only animals with whisker-like features",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0625": [
+    {
+      "start": 2788.09,
+      "end": 2791.17,
+      "text": "features today, they're a sure sign that hair has evolved.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0626": [
+    {
+      "start": 2792.97,
+      "end": 2793.96,
+      "text": "We can track the evolution",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0627": [
+    {
+      "start": 2793.96,
+      "end": 2796.66,
+      "text": "evolution of whiskers thanks to traces left behind by the",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0628": [
+    {
+      "start": 2796.66,
+      "end": 2798.07,
+      "text": "the nerve which makes them sensitive.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0629": [
+    {
+      "start": 2798.07,
+      "end": 2798.37,
+      "text": "sensitive.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2801.64,
+      "end": 2803.43,
+      "text": "Whiskers help mammals detect small",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0630": [
+    {
+      "start": 2803.43,
+      "end": 2808.01,
+      "text": "small changes in the world around them, find prey, and even communicate.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2808.99,
+      "end": 2809.57,
+      "text": "They're incredibly",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0631": [
+    {
+      "start": 2809.57,
+      "end": 2811.95,
+      "text": "incredibly sensitive to external surroundings.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2812.39,
+      "end": 2813.64,
+      "text": "This is because they're",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0632": [
+    {
+      "start": 2813.64,
+      "end": 2816.68,
+      "text": "they're connected directly to the brain by the trigeminal nerve.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2818.36,
+      "end": 2824.98,
+      "text": "It's evidence of how this nerve emerged from Cynodon's skulls that is revealed when whiskers first appeared in this line.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0633": [
+    {
+      "start": 2827.72,
+      "end": 2832.8,
+      "text": "In animals that lived around 230 million years ago, a single",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0634": [
+    {
+      "start": 2832.8,
+      "end": 2836.14,
+      "text": "single hole appears, which is exactly what we find in modern mammals.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2836.62,
+      "end": 2842.68,
+      "text": "This single hole is the passageway for the trigeminal nerve, which innervates the whiskers",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0635": [
+    {
+      "start": 2842.68,
+      "end": 2844.97,
+      "text": "whiskers located here in this cavity.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2844.99,
+      "end": 2851.62,
+      "text": "This creature had whiskers just after the carnian pluvial episode.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0636": [
+    {
+      "start": 2852.01,
+      "end": 2854.17,
+      "text": "around the same time warm-bloodedness appeared.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2854.79,
+      "end": 2855.43,
+      "text": "Coincidence?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2856.37,
+      "end": 2857.57,
+      "text": "Or could they be linked?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0637": [
+    {
+      "start": 2858.85,
+      "end": 2860.66,
+      "text": "Typically, traits evolve at different",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0638": [
+    {
+      "start": 2860.66,
+      "end": 2864.94,
+      "text": "different rates over millions of years, unless they are somehow connected.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0639": [
+    {
+      "start": 2866.4,
+      "end": 2870.81,
+      "text": "The final missing piece in the puzzle is the appearance of lactation,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0640": [
+    {
+      "start": 2870.81,
+      "end": 2872.97,
+      "text": "mothers producing milk to feed their young.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2873.85,
+      "end": 2874.61,
+      "text": "When did that appear?",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0641": [
+    {
+      "start": 2874.61,
+      "end": 2874.81,
+      "text": "appear?",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2877.15,
+      "end": 2877.68,
+      "text": "Lactation",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0642": [
+    {
+      "start": 2877.68,
+      "end": 2879.65,
+      "text": "is tough to spot in the fossil record.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2880.85,
+      "end": 2882.25,
+      "text": "So scientists have instead turned",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0643": [
+    {
+      "start": 2882.25,
+      "end": 2883.55,
+      "text": "turned to DNA for answers.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0644": [
+    {
+      "start": 2883.55,
+      "end": 2883.67,
+      "text": "answers.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2884.89,
+      "end": 2884.95,
+      "text": "With",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0645": [
+    {
+      "start": 2884.95,
+      "end": 2886.41,
+      "text": "With tantalizing results.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0646": [
+    {
+      "start": 2887.72,
+      "end": 2888.62,
+      "text": "The evolution of a single",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0647": [
+    {
+      "start": 2888.62,
+      "end": 2891.06,
+      "text": "single gene seems to be related to all three",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0648": [
+    {
+      "start": 2891.06,
+      "end": 2891.94,
+      "text": "mammalian traits.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2893.37,
+      "end": 2893.6,
+      "text": "The",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0649": [
+    {
+      "start": 2893.6,
+      "end": 2895.83,
+      "text": "MSX2 gene controlled not only the",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0650": [
+    {
+      "start": 2895.83,
+      "end": 2902.88,
+      "text": "the disappearance of the third eye and the appearance of hair, but also the appearance of mammary glands, and with that, lactation.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2903.2,
+      "end": 2904.9,
+      "text": "This is the most characteristic trait",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0651": [
+    {
+      "start": 2904.9,
+      "end": 2908.29,
+      "text": "trait of mammals.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0652": [
+    {
+      "start": 2909.84,
+      "end": 2913.85,
+      "text": "The evolution of MSX2 contributed to the emergence of these",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0653": [
+    {
+      "start": 2913.85,
+      "end": 2920.43,
+      "text": "these mammalian features in cynodonts, which they then passed on to their mammal descendants, giving them the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0654": [
+    {
+      "start": 2920.43,
+      "end": 2923.07,
+      "text": "the defining characteristics of all mammal kind.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2924.16,
+      "end": 2927.07,
+      "text": "But it's not the only gene responsible for big evolutionary changes.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0655": [
+    {
+      "start": 2927.07,
+      "end": 2927.34,
+      "text": "changes.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2928.38,
+      "end": 2930.84,
+      "text": "Whether it's turning fish fins into limbs",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0656": [
+    {
+      "start": 2930.84,
+      "end": 2936.4,
+      "text": "or developing a spoken language, there's a set of key regulator genes that have a profound impact",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0657": [
+    {
+      "start": 2936.4,
+      "end": 2939.14,
+      "text": "impact on development and evolutionary change.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0658": [
+    {
+      "start": 2941.39,
+      "end": 2947.7,
+      "text": "At the boundary between the Triassic and Jurassic periods, the Dicynodont group had gone extinct, and the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0659": [
+    {
+      "start": 2947.7,
+      "end": 2950.33,
+      "text": "the Cynodonts were the last surviving therapsids.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0660": [
+    {
+      "start": 2952.01,
+      "end": 2953.41,
+      "text": "So at last we have an answer.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0661": [
+    {
+      "start": 2954.57,
+      "end": 2962.36,
+      "text": "This is the group that gave rise to the mammal line around 225 million years ago,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0662": [
+    {
+      "start": 2962.36,
+      "end": 2964.23,
+      "text": "not long before the other therapsid lineages",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0663": [
+    {
+      "start": 2964.23,
+      "end": 2965.11,
+      "text": "lineages ended.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0664": [
+    {
+      "start": 2967.11,
+      "end": 2969.81,
+      "text": "The very first true mammals",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0665": [
+    {
+      "start": 2969.81,
+      "end": 2970.62,
+      "text": "were tiny.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2971.18,
+      "end": 2974.62,
+      "text": "And if you saw one, it would have looked like a little mouse or a little shrew.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2974.66,
+      "end": 2975.97,
+      "text": "They would have been covered in hair.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2976.05,
+      "end": 2977.43,
+      "text": "They would have had molar teeth.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2977.75,
+      "end": 2979.37,
+      "text": "They would have fed their babies milk.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 2979.39,
+      "end": 2981.72,
+      "text": "You would recognize them as mammals,",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0666": [
+    {
+      "start": 2981.72,
+      "end": 2985.48,
+      "text": "but you would probably just think they were some kind of little rodent scurrying around.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0667": [],
+  "v1_s0668": [
+    {
+      "start": 2987.38,
+      "end": 2994.97,
+      "text": "It wasn't easy for the newly evolved mammals, as the dinosaurs reigned for roughly the next 160 million years.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 2995.43,
+      "end": 2995.97,
+      "text": "The fates",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0669": [
+    {
+      "start": 2995.97,
+      "end": 2998.61,
+      "text": "fates of dinosaurs and mammals have always been intertwined.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0670": [
+    {
+      "start": 2999.07,
+      "end": 2999.9,
+      "text": "And while dinosaurs",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0671": [
+    {
+      "start": 2999.9,
+      "end": 3002.12,
+      "text": "dinosaurs took over the world, mammals went the other way.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 3002.54,
+      "end": 3003.3,
+      "text": "They went small.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 3003.32,
+      "end": 3007.09,
+      "text": "They evolved stronger jaw muscles so they could bite harder.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 3007.59,
+      "end": 3007.78,
+      "text": "They",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0672": [
+    {
+      "start": 3007.78,
+      "end": 3009.73,
+      "text": "evolved a keener sense of hearing.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 3010.09,
+      "end": 3011.68,
+      "text": "All these things would have helped them survive",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0673": [
+    {
+      "start": 3011.68,
+      "end": 3018.32,
+      "text": "survive in a world controlled by massive, enormous dinosaurs that could have smashed one",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0674": [
+    {
+      "start": 3018.32,
+      "end": 3020.61,
+      "text": "one of these little mammals with a single footstep.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 3021.91,
+      "end": 3027.99,
+      "text": "As had been the case for the therapsids in the extinction events they faced, it would be primarily the smallest",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0675": [
+    {
+      "start": 3027.99,
+      "end": 3030.1,
+      "text": "smallest of the mammals that would survive the next",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0676": [
+    {
+      "start": 3030.1,
+      "end": 3030.98,
+      "text": "major crisis.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0677": [
+    {
+      "start": 3032.24,
+      "end": 3033.4,
+      "text": "The asteroid strike",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0678": [
+    {
+      "start": 3033.4,
+      "end": 3036.64,
+      "text": "that wiped out the dinosaurs 66 million years ago.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0679": [
+    {
+      "start": 3036.64,
+      "end": 3036.67,
+      "text": "ago.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 3037.87,
+      "end": 3039.51,
+      "text": "Our ancestors made it through that",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0680": [
+    {
+      "start": 3039.51,
+      "end": 3041.42,
+      "text": "that boundary for very specific reasons.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 3041.46,
+      "end": 3043.05,
+      "text": "We had very specific adaptations",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0681": [
+    {
+      "start": 3043.05,
+      "end": 3047.11,
+      "text": "adaptations as a group that allowed us to make it past these extinction events.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0682": [
+    {
+      "start": 3047.11,
+      "end": 3047.29,
+      "text": "events.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 3048.97,
+      "end": 3050.89,
+      "text": "Over millions of years of evolution,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0683": [
+    {
+      "start": 3050.89,
+      "end": 3052.36,
+      "text": "evolution, cynodonts,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0684": [
+    {
+      "start": 3052.36,
+      "end": 3054.89,
+      "text": "these small burrowing animals, survived",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0685": [
+    {
+      "start": 3054.89,
+      "end": 3056.22,
+      "text": "survived multiple crises,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0686": [
+    {
+      "start": 3056.22,
+      "end": 3056.86,
+      "text": "adapting",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0687": [
+    {
+      "start": 3056.86,
+      "end": 3058.32,
+      "text": "adapting and changing to fit",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0688": [
+    {
+      "start": 3058.32,
+      "end": 3059.59,
+      "text": "fit each new environment.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0689": [
+    {
+      "start": 3060.96,
+      "end": 3063.84,
+      "text": "They gave rise to the mammals some 200 million",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0690": [
+    {
+      "start": 3063.84,
+      "end": 3068.64,
+      "text": "million years ago, at a time when the dinosaurs were just beginning their reign on Earth.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0691": [
+    {
+      "start": 3070.12,
+      "end": 3075.64,
+      "text": "Mammals were not born as a result of the extinction of the dinosaurs, but had appeared millions",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0692": [
+    {
+      "start": 3075.64,
+      "end": 3077.03,
+      "text": "millions of years before.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 3078.03,
+      "end": 3080.68,
+      "text": "For 160 million years, they",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0693": [
+    {
+      "start": 3080.68,
+      "end": 3082.81,
+      "text": "lived alongside these giants.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 3084.3,
+      "end": 3091.53,
+      "text": "And only once the dinosaurs were extinct could the surviving mammals rise, diversifying into the spectacular",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0694": [
+    {
+      "start": 3091.53,
+      "end": 3093.66,
+      "text": "spectacular variety we see today.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0695": [
+    {
+      "start": 3093.66,
+      "end": 3093.83,
+      "text": "today.",
+      "speaker": "SPEAKER_14"
+    },
+    {
+      "start": 3095.12,
+      "end": 3095.7,
+      "text": "We",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0696": [
+    {
+      "start": 3095.7,
+      "end": 3100.57,
+      "text": "and all mammals alive today, we are the descendants of survivors.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0697": [
+    {
+      "start": 3100.89,
+      "end": 3102.01,
+      "text": "And ultimately,",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0698": [
+    {
+      "start": 3102.01,
+      "end": 3105.11,
+      "text": "we come from this line that's been small,",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0699": [
+    {
+      "start": 3105.11,
+      "end": 3107.28,
+      "text": "small, adaptable, a line",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0700": [
+    {
+      "start": 3107.28,
+      "end": 3109.88,
+      "text": "line that's been resilient, that could handle",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0701": [
+    {
+      "start": 3109.88,
+      "end": 3114.65,
+      "text": "everything that nature's been able to throw at us over hundreds of millions of years.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0702": [
+    {
+      "start": 3117.74,
+      "end": 3117.98,
+      "text": "With",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0703": [
+    {
+      "start": 3117.98,
+      "end": 3120.43,
+      "text": "more than 270 million years",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0704": [
+    {
+      "start": 3120.43,
+      "end": 3122.99,
+      "text": "years of shared evolution running through our veins,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0705": [
+    {
+      "start": 3122.99,
+      "end": 3123.45,
+      "text": "veins,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0706": [
+    {
+      "start": 3125.35,
+      "end": 3127.47,
+      "text": "We are therapsids,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0707": [
+    {
+      "start": 3127.47,
+      "end": 3130.66,
+      "text": "therapsids,",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0708": [
+    {
+      "start": 3130.66,
+      "end": 3131.6,
+      "text": "just",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0709": [
+    {
+      "start": 3131.6,
+      "end": 3132.61,
+      "text": "one of the",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0710": [
+    {
+      "start": 3132.61,
+      "end": 3134.97,
+      "text": "thousands of modern mammal species",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0711": [
+    {
+      "start": 3134.97,
+      "end": 3136.4,
+      "text": "that are their descendants.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0712": [
+    {
+      "start": 3138.57,
+      "end": 3140.43,
+      "text": "Long live the therapsids.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0713": [
+    {
+      "start": 3140.43,
+      "end": 3142.94,
+      "text": "therapsids.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0714": [
+    {
+      "start": 3142.94,
+      "end": 3148.0,
+      "text": "therapsids.",
+      "speaker": "SPEAKER_14"
+    }
+  ],
+  "v1_s0715": [],
+  "v1_s0716": [],
+  "v1_s0717": [],
+  "v1_s0718": [],
+  "v1_s0719": [],
+  "v1_s0720": [],
+  "v1_s0721": [
+    {
+      "start": 3201.67,
+      "end": 3208.33,
+      "text": "♪♪"
+    }
+  ],
+  "v1_s0722": [
+    {
+      "start": 3208.33,
+      "end": 3210.85,
+      "text": "♪♪"
+    }
+  ],
+  "v1_s0723": [
+    {
+      "start": 3210.85,
+      "end": 3213.98,
+      "text": "♪♪"
+    }
+  ],
+  "v1_s0724": [
+    {
+      "start": 3213.98,
+      "end": 3222.87,
+      "text": "♪♪"
+    }
+  ]
+}

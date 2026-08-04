@@ -1,0 +1,2663 @@
+{
+  "v1_s0000": [
+    {
+      "start": 0.03,
+      "end": 3.72,
+      "text": "The following content is provided under a Creative Commons license.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3.74,
+      "end": 9.32,
+      "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 10.03,
+      "end": 19.34,
+      "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0001": [],
+  "v1_s0002": [
+    {
+      "start": 26.74,
+      "end": 27.8,
+      "text": "All right, welcome.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 28.01,
+      "end": 30.81,
+      "text": "Thank you so much for coming.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 31.39,
+      "end": 32.67,
+      "text": "I'm Jeremy Kepner.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0003": [
+    {
+      "start": 33.69,
+      "end": 37.24,
+      "text": "I'm a fellow at Lincoln Laboratory.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 37.26,
+      "end": 48.95,
+      "text": "I lead the supercomputing center there, which means I have the privilege of working every day with pretty much everyone at MIT.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 49.49,
+      "end": 57.32,
+      "text": "I think I have the best job at MIT because I get to help you all pursue your research dreams.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 58.55,
+      "end": 72.33,
+      "text": "And as a result of that, I get an opportunity to see what a really wide range of folks are doing and observe patterns between what different folks are doing.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0004": [
+    {
+      "start": 72.33,
+      "end": 72.65,
+      "text": "doing.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 72.63,
+      "end": 74.69,
+      "text": "So with that, I'll get started.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 75.27,
+      "end": 92.61,
+      "text": "This is meant to be some initial motivational material, why you should be interested in learning about this mathematics, this mathematics of big data, and how it relates to machine learning and other really exciting topics.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 92.67,
+      "end": 93.55,
+      "text": "It is a math course.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 93.73,
+      "end": 96.7,
+      "text": "We will be going over a fair amount of math.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 96.94,
+      "end": 101.72,
+      "text": "But we really work hard to make it very accessible to people.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 101.7,
+      "end": 102.06,
+      "text": "So",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0005": [
+    {
+      "start": 102.06,
+      "end": 111.0,
+      "text": "So we start out with a really elementary mathematical concept here, probably one that hopefully most of you are familiar with.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 111.46,
+      "end": 113.94,
+      "text": "It's the basic concept of a circle.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 115.72,
+      "end": 116.07,
+      "text": "And I",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0006": [
+    {
+      "start": 116.07,
+      "end": 117.57,
+      "text": "bring that up.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 117.55,
+      "end": 123.25,
+      "text": "because many of us know many ways to state this mathematically, right?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 123.28,
+      "end": 127.88,
+      "text": "It's all the points that are equal distance from a particular point.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 128.74,
+      "end": 130.28,
+      "text": "There's other ways to describe it.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 130.54,
+      "end": 137.73,
+      "text": "But this is sort of a basic mathematical concept of a circle that many of us have grown up with.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 137.71,
+      "end": 154.94,
+      "text": "But of course, the other thing we know is that, right, and this is the big idea, is that although I can write down an equation for a circle, which is the equation for a perfect ideal circle, we know that such things don't",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0007": [
+    {
+      "start": 154.94,
+      "end": 157.19,
+      "text": "don't actually exist in nature.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 157.64,
+      "end": 161.93,
+      "text": "There is no true perfect circle in nature.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 162.31,
+      "end": 165.2,
+      "text": "Even this circle that we've drawn here, it has pixels.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 165.26,
+      "end": 168.4,
+      "text": "If I zoomed in on it, if I zoomed in on enough, it wouldn't look like a circle at all.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 168.42,
+      "end": 171.06,
+      "text": "It would look like a series of blocks.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 172.01,
+      "end": 179.82,
+      "text": "And so that approximation process, where we have a mathematical concept of an ideal circle,",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 179.8,
+      "end": 192.51,
+      "text": "But we know that there are not really, they don't really exist in nature, but we understand that it is worthwhile to think about these mathematical ideals",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 192.62,
+      "end": 197.75,
+      "text": "manipulate them, and then take the results of those manipulation back into the real world.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 197.81,
+      "end": 206.46,
+      "text": "That's a really productive way to think about things, and really the basis for a lot of what we do here at MIT.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 206.87,
+      "end": 211.83,
+      "text": "This concept is essentially the basis of sort of",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 211.81,
+      "end": 216.8,
+      "text": "modern or ancient Western thought on mathematics.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 217.34,
+      "end": 221.85,
+      "text": "If you remember your history courses, this concept of ideal shapes and",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0008": [
+    {
+      "start": 221.85,
+      "end": 230.35,
+      "text": "ideal circles is sort of the foundation of Platonic mathematics some 2,500 years ago.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 231.17,
+      "end": 233.65,
+      "text": "And at the time, though,",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 233.63,
+      "end": 248.15,
+      "text": "that they were developing that concept, this idea that there are ideal shapes out there, and that thinking about them and manipulate them was a more effective way to reason about the real world, there was a lot of skepticism.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 249.31,
+      "end": 260.14,
+      "text": "You could imagine 2,500 years ago, someone's walking around saying, I believe there's these things called ideal circles, and ideal squares, and ideal shapes, but they don't actually exist in nature.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 260.7,
+      "end": 262.43,
+      "text": "that would probably not be well received.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 262.93,
+      "end": 265.08,
+      "text": "In fact, it was not well received.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 265.62,
+      "end": 267.13,
+      "text": "Many of",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 267.69,
+      "end": 274.67,
+      "text": "Those philosophers who were thinking about this were very negatively received.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 275.01,
+      "end": 294.21,
+      "text": "And in fact, if you want to learn about how negative the response was to this, I encourage you to go and read the Allegory of the Cave, which is essentially the story of these philosophers talking about how they're trying to bring the light of this knowledge to the broader world, and how they essentially get killed because of it, because people don't want to see it.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 294.25,
+      "end": 297.15,
+      "text": "So that struggle that they experienced 2,500 years",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0009": [
+    {
+      "start": 297.15,
+      "end": 297.69,
+      "text": "years ago",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 297.67,
+      "end": 298.73,
+      "text": "It exists today.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 298.77,
+      "end": 307.83,
+      "text": "You, as people at MIT, will try and bring mathematical concepts into environments where people are like, I don't see why that's relevant.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 308.21,
+      "end": 311.91,
+      "text": "And you will experience negative inputs.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 311.97,
+      "end": 315.92,
+      "text": "But you should rest assured that this is a good bet.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 315.9,
+      "end": 318.08,
+      "text": "It's worked well for thousands of years.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 318.94,
+      "end": 320.58,
+      "text": "It's what I base my career on.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 320.62,
+      "end": 321.99,
+      "text": "People ask me, well, what's the basis?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 322.08,
+      "end": 323.59,
+      "text": "Well, I'm just sort of betting on math here.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 323.97,
+      "end": 325.51,
+      "text": "It's been a good tool.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 325.89,
+      "end": 334.62,
+      "text": "And so this is why we're beginning to think of this way when we talk about big data and machine learning, sort of really looking at the fundamentals.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 334.76,
+      "end": 343.47,
+      "text": "What are the ideals that we need in order to effectively reason about the problems that we're facing today in the virtual world?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 343.45,
+      "end": 357.19,
+      "text": "And the fact that this mathematical concepts describe the natural world so well and also describe in the virtual world is sometimes called the unreasonable effectiveness of mathematics.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 357.65,
+      "end": 358.5,
+      "text": "You can look that up.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 358.54,
+      "end": 364.35,
+      "text": "But people talk about, why does it do such a good job of describing so many of things?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 364.46,
+      "end": 366.91,
+      "text": "And people say, well, they don't really know.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 367.17,
+      "end": 372.3,
+      "text": "But it seems to be a good bit of luck that it happens that way.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 372.85,
+      "end": 376.2,
+      "text": "This is circles, and that gets us a certain way.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 376.32,
+      "end": 378.68,
+      "text": "But in most of the fields that",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0010": [
+    {
+      "start": 378.68,
+      "end": 389.24,
+      "text": "we work with, and I would say that in almost any introductory course that you take in college, whatever the discipline is, whether it be",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 389.22,
+      "end": 407.14,
+      "text": "chemistry, or mechanical engineering, or electrical engineering, or physics, or biology, the basic fundamental theoretical ideas that they will introduce to you will be the concept of a linear model.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 408.57,
+      "end": 410.26,
+      "text": "There we have a linear model.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 410.9,
+      "end": 413.78,
+      "text": "And why do we like linear models?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 413.8,
+      "end": 415.0,
+      "text": "And again, it can be physics.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 415.04,
+      "end": 417.37,
+      "text": "It can be as simple as F equals ma.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 417.91,
+      "end": 419.38,
+      "text": "Or in chemistry, it can be some",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0011": [
+    {
+      "start": 419.38,
+      "end": 421.51,
+      "text": "some kind of chemical rate equation.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 422.09,
+      "end": 426.76,
+      "text": "Or in mechanical engineering, it can be basic concepts of friction.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 427.22,
+      "end": 433.81,
+      "text": "The reason we like these basic linear models is because we can project.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 433.79,
+      "end": 434.19,
+      "text": "Right?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 434.87,
+      "end": 449.44,
+      "text": "I know that if that solid line represents what I believe to, you know, I have evidence to support that that is correct, then I feel pretty good about projecting maybe where I don't have data or into a new domain.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 449.86,
+      "end": 453.25,
+      "text": "So linear models allow us to do this reasoning.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 453.27,
+      "end": 462.8,
+      "text": "And that's why in almost every, in the first few weeks of almost any introductory course, they begin with these linear models, because they have proven to be so effective.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 464.26,
+      "end": 467.88,
+      "text": "Now there are many non-linear phenomena that are tremendously important.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 468.18,
+      "end": 468.68,
+      "text": "OK?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 469.34,
+      "end": 477.75,
+      "text": "And as a person who deals with large scale computation, those are a staple of what people do.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 478.13,
+      "end": 491.07,
+      "text": "But in order to do nonlinear calculations or reason about things nonlinearly, it usually requires a much more complicated analysis and much more computation, much more data.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 491.45,
+      "end": 495.43,
+      "text": "And so our ability to extrapolate is very limited.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 495.83,
+      "end": 497.62,
+      "text": "OK, it's very limited.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 498.06,
+      "end": 498.8,
+      "text": "So",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0012": [
+    {
+      "start": 498.8,
+      "end": 506.63,
+      "text": "here I am talking about the benefits of thinking mathematically, talking about linearity.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 506.92,
+      "end": 511.86,
+      "text": "What does this have to do with big data and machine learning?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 512.65,
+      "end": 517.67,
+      "text": "So we would like to be able to do the same things",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 517.81,
+      "end": 521.89,
+      "text": "that we've been able to do in other fields in this sort of new emerging",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0013": [
+    {
+      "start": 521.89,
+      "end": 523.6,
+      "text": "emerging field of big data.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 524.2,
+      "end": 532.89,
+      "text": "And this often deals with data that doesn't look like the traditional measurements we see in science.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 533.27,
+      "end": 546.65,
+      "text": "This can be data that has to do with words or images, pictures of people, other types of things that don't feel like the kinds of data that we traditionally deal with in science and engineering.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 546.63,
+      "end": 551.2,
+      "text": "But we know we want to use linear models.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 551.29,
+      "end": 552.72,
+      "text": "So how are we going to do that?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 553.2,
+      "end": 566.03,
+      "text": "How can we take this concept of linearity, which has been so powerful across so many disciplines, and bring them to this field that just feels completely different in terms of times of data that we have?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 566.94,
+      "end": 576.03,
+      "text": "So to begin with, I need to refresh for you what it really means to be linear.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 576.14,
+      "end": 579.31,
+      "text": "Before, I showed you a line, and hence line linear.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 579.37,
+      "end": 582.99,
+      "text": "But mathematically, linearity means something much deeper.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 583.63,
+      "end": 588.52,
+      "text": "And so here's an equation that you may have first seen in elementary school.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 589.9,
+      "end": 596.55,
+      "text": "We basically have 2 times 3 plus 4 is equal to 2 times 3 plus 2 times 4.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 597.01,
+      "end": 598.78,
+      "text": "That is called the distributive property.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 599.28,
+      "end": 603.59,
+      "text": "It basically says multiplication distributes over addition.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 603.57,
+      "end": 603.84,
+      "text": "And this",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0014": [
+    {
+      "start": 603.84,
+      "end": 609.41,
+      "text": "this is the fundamental reason why I would say mathematics works in our world.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 610.17,
+      "end": 618.33,
+      "text": "If this wasn't true very early on, in the earliest days of inventing mathematics, it would not have been very useful.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 618.63,
+      "end": 627.5,
+      "text": "Let's say that I have 2 of 3 plus 4 of something, and then I can change it and do it in this other way.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 627.84,
+      "end": 632.41,
+      "text": "That's really what makes mathematics useful.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 632.39,
+      "end": 639.5,
+      "text": "From a deeper perspective, the distributive property is basically what makes math linear.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 640.14,
+      "end": 648.57,
+      "text": "This is the property that if this property holds, then we can reason about a system linearly.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 648.72,
+      "end": 649.18,
+      "text": "Now,",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0015": [
+    {
+      "start": 649.18,
+      "end": 654.65,
+      "text": "you're very familiar with this type of mathematics, but there's other types of mathematics.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 654.67,
+      "end": 664.78,
+      "text": "So if you'll allow me, hopefully you will let me just replace those multiplication symbols and addition symbols with this sort of funny circle times and circle plus.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 665.3,
+      "end": 667.37,
+      "text": "And we'll get to why I'm going to do that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 667.77,
+      "end": 675.36,
+      "text": "Because it turns out that while you have done most of your careers with traditional arithmetic,",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 675.34,
+      "end": 681.68,
+      "text": "multiplication, and addition, the kind you would do on your calculator or have done in elementary school.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0016": [
+    {
+      "start": 682.42,
+      "end": 700.06,
+      "text": "It turns out there's other pairs of operations that also obey this property, this distributive property, and therefore allow us to potentially build linear models of very different types of data using this property.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0017": [
+    {
+      "start": 700.36,
+      "end": 709.87,
+      "text": "So as I mentioned, the classic two are circle plus is just equal to regular arithmetic addition, as we show on the first line.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 710.21,
+      "end": 713.24,
+      "text": "And circle times is equal to regular arithmetic multiplication.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 713.68,
+      "end": 715.54,
+      "text": "So those are the standard ones.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 715.96,
+      "end": 722.05,
+      "text": "And by far, this pair, this is the most common pair that we use across the world today.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 722.09,
+      "end": 722.89,
+      "text": "But there are others.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 724.27,
+      "end": 725.69,
+      "text": "So for instance.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 727.12,
+      "end": 740.63,
+      "text": "I can replace the plus operation with max and the multiplication operation with addition, and the above distributive equation will still hold.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 740.71,
+      "end": 741.01,
+      "text": "Right?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 741.57,
+      "end": 746.9,
+      "text": "That's a little confusing, and I often get confused that multiplication is no addition.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 747.28,
+      "end": 757.77,
+      "text": "But this pair, sometimes referred to as max plus, you'll sometimes hear about as max plus algebra, is actually very important in machine learning and neural networks.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 758.01,
+      "end": 764.78,
+      "text": "This is actually sort of the back end of the rectified linear unit is essentially this operation.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 764.84,
+      "end": 768.07,
+      "text": "If you didn't understand what that meant, that's OK. We'll get to that later.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 768.05,
+      "end": 772.05,
+      "text": "It's very important in finance.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 772.37,
+      "end": 776.8,
+      "text": "There's certain finance operations that rely on this type of mathematics.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 778.08,
+      "end": 780.84,
+      "text": "There are other pairs also.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 781.84,
+      "end": 782.66,
+      "text": "So here's one.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 782.98,
+      "end": 786.29,
+      "text": "I can replace addition with union and multiplication with intersection.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0018": [
+    {
+      "start": 789.31,
+      "end": 794.68,
+      "text": "Now, that also obeys that linear property.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 795.6,
+      "end": 805.09,
+      "text": "This is essentially a pair of operations that any time you make a transaction and work with what's called a relational database, that's the mathematical",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0019": [
+    {
+      "start": 805.09,
+      "end": 808.57,
+      "text": "mathematical operation, a pair that's sitting inside it.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 808.68,
+      "end": 811.57,
+      "text": "It's why those databases work.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 811.55,
+      "end": 824.37,
+      "text": "It allows us to reason about queries, which are just a series of intersections and unions, and reorder them in such a way where this is in databases called query planning.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 824.97,
+      "end": 827.96,
+      "text": "And if that property wasn't true, we wouldn't be able to do that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 827.93,
+      "end": 830.96,
+      "text": "So this is a deep property of that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 831.04,
+      "end": 837.26,
+      "text": "So we can put all different types of pairs in here and reason about them linearly.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 837.28,
+      "end": 839.51,
+      "text": "And this is why that",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0020": [
+    {
+      "start": 839.51,
+      "end": 842.97,
+      "text": "many, many of the systems we use today work.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 842.95,
+      "end": 859.41,
+      "text": "And so this class is about really exposing that, that really the mathematics that allows us to think linearly about data that we haven't really thought of as maybe obeying some kind of linear model, this is essentially the critical point of this class.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0021": [
+    {
+      "start": 860.57,
+      "end": 863.75,
+      "text": "So it goes beyond that, though.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 864.3,
+      "end": 868.66,
+      "text": "So hopefully, you'll allow me to replace those numbers with letters.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 869.54,
+      "end": 873.87,
+      "text": "So that's sort of basic algebra there.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 875.03,
+      "end": 881.13,
+      "text": "Just for refresher, the previous equation, we had a equals 2, b equals 3, c equals 4.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 882.53,
+      "end": 886.16,
+      "text": "But we're not limited to these.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 887.0,
+      "end": 896.29,
+      "text": "Variables, or these letters to being just simple scalar numbers, in this case real numbers or integers or something like that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 896.33,
+      "end": 897.67,
+      "text": "They can be other things too.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 899.55,
+      "end": 902.61,
+      "text": "So for instance, a, b, and c could be spreadsheets.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 904.24,
+      "end": 907.68,
+      "text": "And that's something we'll go over extensively in a class.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 908.22,
+      "end": 916.67,
+      "text": "So that I can basically have a, b, and c be whole spreadsheets of data, and the linear equation will still hold.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0022": [
+    {
+      "start": 918.03,
+      "end": 929.42,
+      "text": "In fact, that's probably the key concept in big data is the necessity to reason about data as whole collections and transforming whole collections.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 930.61,
+      "end": 942.64,
+      "text": "Going and looking at things one element at a time is essentially the thing that is extremely difficult to do when you have large amounts of data.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0023": [
+    {
+      "start": 947.68,
+      "end": 949.74,
+      "text": "A, B, and C can be database tables.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 950.52,
+      "end": 952.59,
+      "text": "Those don't differ too much from spreadsheets.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 952.61,
+      "end": 959.76,
+      "text": "And as I talked to you in the previous slide, you know that union intersection pair naturally lines up.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 959.82,
+      "end": 966.74,
+      "text": "And we can do reason about whole tables in a database using linear properties.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 970.48,
+      "end": 971.62,
+      "text": "They can be matrices.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 972.32,
+      "end": 983.12,
+      "text": "I think for those of you who have had linear algebra and matrix mathematics, that would have been the first example, right, when I substituted the a, b, and c and had these linear equations.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 983.44,
+      "end": 993.09,
+      "text": "Often, in many of the sciences, we think about matrix operations and linearity as sort of being coupled together.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 996.26,
+      "end": 1004.01,
+      "text": "And through the duality between matrices and graphs and networks, we can represent graphs and networks through matrices.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1004.6,
+      "end": 1009.9,
+      "text": "Anytime you work with a neural network, you're representing that network as a matrix.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1010.33,
+      "end": 1014.39,
+      "text": "And of course, all these equations apply there as well.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1014.45,
+      "end": 1016.32,
+      "text": "And you can reason about those systems linearly.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0024": [
+    {
+      "start": 1016.88,
+      "end": 1019.74,
+      "text": "So that provides a little motivation there.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1023.03,
+      "end": 1027.41,
+      "text": "As we like to say enough about me, let me tell you about my book.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1028.02,
+      "end": 1031.6,
+      "text": "So this will be the text that we use in the class.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1032.16,
+      "end": 1040.64,
+      "text": "We are not going to go through the full text, but we have printed out copies of the first seven chapters that we will go through.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1041.22,
+      "end": 1047.33,
+      "text": "And we will hand those out later when you do the class.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0025": [
+    {
+      "start": 1049.13,
+      "end": 1068.48,
+      "text": "So let me now switch gears a little bit and talk about how this relates to, I think, one of the most wonderful breakthroughs that we have seen, or I've seen in my career, and many of my colleagues here at MIT have seen, which is what's been going on in machine learning.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1069.02,
+      "end": 1073.17,
+      "text": "It's not hype.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1073.65,
+      "end": 1075.59,
+      "text": "There's a real, real there there.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1076.27,
+      "end": 1078.31,
+      "text": "And it's tremendously exciting.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1078.29,
+      "end": 1081.6,
+      "text": "So let me give you a little history, basic history of this field.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0026": [
+    {
+      "start": 1082.56,
+      "end": 1089.2,
+      "text": "So in a certain sense, before 2010, machine learning looked like this.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1089.26,
+      "end": 1094.11,
+      "text": "And then after 2015,",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1095.78,
+      "end": 1096.86,
+      "text": "It kind of looks like this.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1097.68,
+      "end": 1107.19,
+      "text": "So when people talk about the hype in machine learning or AI, really deep neural networks are the elephant inside the machine learning snake.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1107.23,
+      "end": 1116.72,
+      "text": "It has stormed onto the scene in the last five years and basically allowed us to do things that we",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1116.7,
+      "end": 1120.08,
+      "text": "had almost taken for granted were impossible.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1120.58,
+      "end": 1123.21,
+      "text": "Just the fact that you're able to talk to",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0027": [
+    {
+      "start": 1123.21,
+      "end": 1133.7,
+      "text": "computers, and they can understand you, that we can have computers that can see in a way, or at least in a way that approximate the way humans do.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1134.48,
+      "end": 1142.87,
+      "text": "These are really almost technological miracles that, for those of us who've been working on this field for 50 years, we had almost literally given up on.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1143.43,
+      "end": 1146.57,
+      "text": "And then all of a sudden, it became possible.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1146.55,
+      "end": 1151.54,
+      "text": "So let me give you a little sense of appreciation for this field and its roots.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1151.62,
+      "end": 1152.31,
+      "text": "So",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0028": [
+    {
+      "start": 1152.31,
+      "end": 1160.37,
+      "text": "machine learning, like any field, is defined as a set of techniques and problems.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1160.87,
+      "end": 1167.04,
+      "text": "When you ask what defines a field, you ask, well, what are the problems that they work on that other fields don't really work on?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1167.34,
+      "end": 1172.31,
+      "text": "And what are the techniques they employ that really are not really being employed by others?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1172.72,
+      "end": 1174.25,
+      "text": "So the core techniques.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1174.23,
+      "end": 1176.97,
+      "text": "as I mentioned earlier, are these neural networks.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1177.41,
+      "end": 1183.22,
+      "text": "These are meant to crudely approximate maybe the way humans think about problems.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1183.28,
+      "end": 1185.14,
+      "text": "We have these circles, which are neurons.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1185.52,
+      "end": 1187.51,
+      "text": "They have connections to other neurons.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1188.35,
+      "end": 1191.25,
+      "text": "Those connections have different weights associated with them.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1191.73,
+      "end": 1194.82,
+      "text": "As information comes in, they get multiplied by those weights.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1194.89,
+      "end": 1195.86,
+      "text": "They get summed together.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1196.22,
+      "end": 1202.77,
+      "text": "And if they pass certain thresholds or criteria, then they send a signal on to another neuron.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1202.75,
+      "end": 1212.29,
+      "text": "to a certain degree, how we believe the brain works, and is a natural starting point for how do we think about how could we make computers do similar things.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1213.19,
+      "end": 1222.58,
+      "text": "The big problems that people have worked on that are these classic problems in machine learning are language.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0029": [
+    {
+      "start": 1222.58,
+      "end": 1222.63,
+      "text": "language.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1222.61,
+      "end": 1226.73,
+      "text": "How do we make computers understand human language?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1226.76,
+      "end": 1231.82,
+      "text": "Vision, how do we make computers see pictures or explain pictures back to us the way we would like?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1232.22,
+      "end": 1235.29,
+      "text": "And strategy, and games, and other types of things like that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1235.59,
+      "end": 1237.43,
+      "text": "How do we get them to solve problems?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1238.33,
+      "end": 1239.43,
+      "text": "This is not new.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1240.48,
+      "end": 1246.23,
+      "text": "These core concepts trace back to the earliest days of the field.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1246.71,
+      "end": 1247.57,
+      "text": "In fact,",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0030": [
+    {
+      "start": 1247.57,
+      "end": 1259.47,
+      "text": "these four figures here, each one is taken from a paper that was presented at the very first machine learning conference in the mid-1950s.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1259.81,
+      "end": 1263.39,
+      "text": "So there was a machine learning conference in the mid-1950s.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1263.51,
+      "end": 1265.95,
+      "text": "It was in Los Angeles.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1266.38,
+      "end": 1268.36,
+      "text": "It had four papers presented.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1268.69,
+      "end": 1270.7,
+      "text": "These were the four papers.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1271.66,
+      "end": 1282.5,
+      "text": "And I will say that three of them were done by folks at MIT Lincoln Laboratory, which is where I work.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1282.52,
+      "end": 1286.74,
+      "text": "And so that was basically the neural networks, the language, and vision.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1286.77,
+      "end": 1287.87,
+      "text": "And we didn't play games.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1287.99,
+      "end": 1290.11,
+      "text": "So that was that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1290.09,
+      "end": 1293.2,
+      "text": "So this was, and you might say, well, why is it?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1293.24,
+      "end": 1299.76,
+      "text": "Why was there so much work going on in Lincoln Laboratory in the mid-1950s that they would want",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0031": [
+    {
+      "start": 1299.76,
+      "end": 1305.1,
+      "text": "want to sort of pioneer in these directions?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1305.66,
+      "end": 1310.11,
+      "text": "At that time, people were first building computers, and computers were a very special purpose.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1311.13,
+      "end": 1315.85,
+      "text": "So different organizations around the world were building computers to do different things.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1316.31,
+      "end": 1327.98,
+      "text": "Some were doing them to simulate complex fluid dynamic systems.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1327.96,
+      "end": 1331.49,
+      "text": "You know, think about designing ships or other types of things like that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1331.95,
+      "end": 1336.53,
+      "text": "Others, or airplanes, others were doing them to say, like what Alan Turing was doing",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0032": [
+    {
+      "start": 1336.53,
+      "end": 1337.76,
+      "text": "doing to break codes.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1338.36,
+      "end": 1344.3,
+      "text": "And our task was to help people who were watching radar scopes make decisions.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1344.65,
+      "end": 1356.46,
+      "text": "Right, how could we watch, how could humans be, could computers enable humans to watch more sensors and see what they're going to, how could we do that?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1356.53,
+      "end": 1360.99,
+      "text": "So at Lincoln Laboratory, we were building special purpose computers to do this.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1361.59,
+      "end": 1367.58,
+      "text": "And we built the first large computer with reliable, fast memory.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1368.82,
+      "end": 1374.45,
+      "text": "This system had 4,096 bytes of memory.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1375.82,
+      "end": 1378.85,
+      "text": "which at the time people thought was too much.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1380.92,
+      "end": 1381.28,
+      "text": "What",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0033": [
+    {
+      "start": 1381.28,
+      "end": 1385.22,
+      "text": "could you possibly do with 4,096 numbers?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1386.48,
+      "end": 1388.87,
+      "text": "The human brain, of course, right?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1389.13,
+      "end": 1389.95,
+      "text": "That's enough, right?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1389.99,
+      "end": 1392.97,
+      "text": "Most of us can remember 5, 6, 7 digits, right?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1393.56,
+      "end": 1401.23,
+      "text": "So a computer that can remember 4,096 numbers should be able to do things like language and vision and strategy.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1401.73,
+      "end": 1403.04,
+      "text": "So why not?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1403.12,
+      "end": 1407.64,
+      "text": "So they went out and they started working on these problems, OK?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1408.18,
+      "end": 1420.47,
+      "text": "But Lincoln Laboratory being an applied research laboratory, we are required to get answers to our sponsors in a few years' time frame.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1421.15,
+      "end": 1429.64,
+      "text": "If problems are going to take longer than that, then they really are the purview of the basic research community, universities.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1429.96,
+      "end": 1435.07,
+      "text": "And it became apparent pretty early on that this problem was going to be more difficult.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1435.05,
+      "end": 1435.53,
+      "text": "it was not",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0034": [
+    {
+      "start": 1435.53,
+      "end": 1439.46,
+      "text": "not going to be solved right away.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1439.6,
+      "end": 1443.09,
+      "text": "So we did what we often do, is we partnered.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1443.39,
+      "end": 1448.7,
+      "text": "We found some bright young people at MIT, people just like yourselves.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1448.72,
+      "end": 1453.31,
+      "text": "In this case, we found a young professor named Marvin Minsky.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1453.29,
+      "end": 1467.65,
+      "text": "who, and we said, why don't you go and get some of your friends together and create a meeting where you can lay out what the fundamental challenges are in this field, and then we will figure out how to get that funded so that you can go and do that research.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1468.13,
+      "end": 1471.32,
+      "text": "And that was the famous Dartmouth",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1471.3,
+      "end": 1474.0,
+      "text": "AI conference, which kicked off the field.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1474.58,
+      "end": 1491.44,
+      "text": "And the person leading this group, Oliver Selfridge at Lincoln Laboratory, basically arranged for that conference to happen, and then subsequently arranged for what became the MIT AI Lab that was founded by Professor Minsky.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1491.84,
+      "end": 1495.13,
+      "text": "And likewise, Professor Selfridge also realized",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0035": [
+    {
+      "start": 1495.13,
+      "end": 1496.76,
+      "text": "realized that we would need more",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1496.74,
+      "end": 1498.83,
+      "text": "computing power.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1498.93,
+      "end": 1505.76,
+      "text": "So he left Lincoln Laboratory and formed what was called Project MAC, which became the Laboratory for Computer Science.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1506.3,
+      "end": 1512.59,
+      "text": "And then those two entities later merged 30 years later to become CSAIL.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1513.27,
+      "end": 1516.12,
+      "text": "So that was sort of the initial thing.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1516.25,
+      "end": 1527.15,
+      "text": "Now, it was pretty clear that when this problem was handed off to the basic research community that there was a feeling that these problems would be solved in about a decade.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1528.01,
+      "end": 1534.13,
+      "text": "So we were really thinking by the mid-1960s is when these problems would",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0036": [
+    {
+      "start": 1534.13,
+      "end": 1536.74,
+      "text": "would be really solved.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1536.76,
+      "end": 1540.15,
+      "text": "So it's kind of like giving someone an assignment.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1540.69,
+      "end": 1545.51,
+      "text": "You all are given assignments by professors, and they give you a week to do it.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1546.57,
+      "end": 1549.14,
+      "text": "But it took a little longer.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1549.9,
+      "end": 1555.74,
+      "text": "In this case, it took five weeks, or in this case, five decades to solve this problem.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1557.03,
+      "end": 1557.46,
+      "text": "But we have.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1558.63,
+      "end": 1563.57,
+      "text": "We've now really, using those techniques, we've made tremendous progress on those problems.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1565.13,
+      "end": 1567.98,
+      "text": "But we don't know why it works.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1568.74,
+      "end": 1570.14,
+      "text": "So let me show you",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0037": [
+    {
+      "start": 1570.14,
+      "end": 1571.62,
+      "text": "you a little bit what we have learned.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1572.51,
+      "end": 1576.48,
+      "text": "And then this course will explore the deeper mathematics to help us gain insight.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1578.12,
+      "end": 1583.55,
+      "text": "We still don't know why it works, but at least we can lay the foundations, and maybe you can figure it out.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1584.85,
+      "end": 1594.89,
+      "text": "So here I am, 50 years later, a person from Lincoln Laboratory saying, all right, question one has been answered.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1595.88,
+      "end": 1596.82,
+      "text": "Here's question two.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1598.03,
+      "end": 1598.87,
+      "text": "Why does this work?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1599.27,
+      "end": 1602.93,
+      "text": "And hopefully, you can be the generation that figures out.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1602.95,
+      "end": 1604.34,
+      "text": "Hopefully, it'll take less than 50 years.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1605.02,
+      "end": 1608.68,
+      "text": "Historically, this type, once we know how it works,",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0038": [
+    {
+      "start": 1608.68,
+      "end": 1613.33,
+      "text": "it usually takes about 20 years to figure out why in the past.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1613.51,
+      "end": 1617.41,
+      "text": "But maybe some people are smarter, and they'll figure it out faster.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1618.77,
+      "end": 1621.42,
+      "text": "So this is what a neural network looks like.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1625.72,
+      "end": 1629.91,
+      "text": "On the left, you have your input, in this case a vector y0.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1629.95,
+      "end": 1632.72,
+      "text": "It's just these dots that are called features.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1635.17,
+      "end": 1636.35,
+      "text": "What is a feature?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1637.56,
+      "end": 1639.01,
+      "text": "Anything can be a feature.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1639.91,
+      "end": 1643.35,
+      "text": "That is the power of neural networks, is they don't",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0039": [
+    {
+      "start": 1643.35,
+      "end": 1649.35,
+      "text": "require you to sort of a priori state what the inputs can be.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1649.43,
+      "end": 1650.37,
+      "text": "They can be anything.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1650.97,
+      "end": 1654.82,
+      "text": "People have said, well, neural networks, machine learning, it's just curve fitting.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1654.86,
+      "end": 1658.1,
+      "text": "Yeah, but it's confer fitting without domain knowledge.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1658.08,
+      "end": 1668.96,
+      "text": "Because the domain knowledge is so costly and expensive to create that having a general system that can do this is really what's so powerful.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0040": [
+    {
+      "start": 1669.96,
+      "end": 1672.52,
+      "text": "So the inputs, so we have an input feature.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1672.98,
+      "end": 1675.68,
+      "text": "It could be a vector, which we call y sub 0.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1676.22,
+      "end": 1678.07,
+      "text": "And that can just be an image, right?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1678.41,
+      "end": 1681.69,
+      "text": "The canonical thing being an image of a cat, right?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1682.25,
+      "end": 1687.84,
+      "text": "And that can just be the pixels of values just sort of rolled out into a vector.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1688.11,
+      "end": 1689.27,
+      "text": "And they will be the inputs.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1690.35,
+      "end": 1692.25,
+      "text": "And then we have a series of layers.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1692.29,
+      "end": 1694.12,
+      "text": "These are called hidden layers.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1694.88,
+      "end": 1697.46,
+      "text": "The circles are often referred to as neurons.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1699.42,
+      "end": 1705.3,
+      "text": "And each line connecting each dot has a value associated with it, a weight.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1706.6,
+      "end": 1711.12,
+      "text": "And the strength of connection between any two neurons is given by that weight.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1711.91,
+      "end": 1722.61,
+      "text": "And then ultimately, output, in this case, the output classification, the series of blue dots there, are the different possible categories.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1723.07,
+      "end": 1726.43,
+      "text": "So if I put in a cat picture, one of those dots would be cat.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1726.45,
+      "end": 1727.56,
+      "text": "Maybe one would be dog.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1727.82,
+      "end": 1731.88,
+      "text": "Maybe one would be apple, orange, whatever I desire.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1732.6,
+      "end": 1745.3,
+      "text": "And the whole idea is that if I put in a picture of a cat and I set all these values correctly, then the dot corresponding to cat will end up with the highest score.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1746.83,
+      "end": 1751.95,
+      "text": "And then I mentioned earlier that each one of these neurons collects inputs.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1752.4,
+      "end": 1754.36,
+      "text": "And if it's above a certain threshold,",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1754.34,
+      "end": 1757.72,
+      "text": "it then chooses to pass on information to the next.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1758.14,
+      "end": 1763.85,
+      "text": "And that's where these b values, which are vectors, those are just the thresholds associated with each one of those.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1763.95,
+      "end": 1767.05,
+      "text": "It's a vector, one value associated with each one of those that does those.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1771.44,
+      "end": 1779.92,
+      "text": "This entire system can be represented relatively simply with one equation, which is that",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1780.02,
+      "end": 1799.67,
+      "text": "y i plus 1, which is the next vector in the layer, can be computed by the previous vector, y i, matrix multiplied by the weights, w. So whenever you see transformations from one set of",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1800.71,
+      "end": 1804.35,
+      "text": "neurons to the next layer, you should think, oh, I have",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0041": [
+    {
+      "start": 1804.35,
+      "end": 1806.42,
+      "text": "have a matrix that represent all those weights.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1806.5,
+      "end": 1809.06,
+      "text": "And I'm going to multiply it by the vector to get the next one.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1809.64,
+      "end": 1811.2,
+      "text": "Then we apply these thresholds.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1812.65,
+      "end": 1816.11,
+      "text": "And then so we add the bi's.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1816.45,
+      "end": 1821.44,
+      "text": "And then we have a function that we pass it through.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1821.42,
+      "end": 1827.68,
+      "text": "Typically, this h function has been given the name rectified linear unit.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0042": [
+    {
+      "start": 1827.68,
+      "end": 1827.81,
+      "text": "unit.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1828.05,
+      "end": 1830.19,
+      "text": "It's much simpler than that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1830.33,
+      "end": 1838.84,
+      "text": "It's just if the value is greater than that comes out of this matrix multiplying, if the value is greater than 0, don't touch it.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1838.88,
+      "end": 1839.85,
+      "text": "Just let it pass through.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1840.17,
+      "end": 1841.65,
+      "text": "If it's less than 0, make it 0.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1842.53,
+      "end": 1848.96,
+      "text": "It's a pretty complicated name for a very simple function.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1849.11,
+      "end": 1850.69,
+      "text": "That's actually critical.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1851.67,
+      "end": 1860.04,
+      "text": "If you didn't have that h function, this nonlinear function there, then we could roll up all of these together, and we'd just have one big matrix equation.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1860.36,
+      "end": 1863.4,
+      "text": "So that's really considered a pretty important part of it.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1863.46,
+      "end": 1865.73,
+      "text": "So that's pretty much what's going on.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1865.77,
+      "end": 1868.95,
+      "text": "When you want to know what the big deal is of neural networks, that's all that's going on.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1869.87,
+      "end": 1870.75,
+      "text": "It's just that equation.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0043": [
+    {
+      "start": 1872.53,
+      "end": 1876.94,
+      "text": "The challenge is we don't know what the w's and the b's are.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1877.29,
+      "end": 1878.91,
+      "text": "And we don't know how many layers there should be.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1878.95,
+      "end": 1884.38,
+      "text": "And we don't know how many neurons there should be in each layer.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1886.18,
+      "end": 1889.85,
+      "text": "And although the features can be arbitrary, picking the right ones do matter.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1890.73,
+      "end": 1892.27,
+      "text": "And picking the right categories do matter.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1892.29,
+      "end": 1903.89,
+      "text": "So when people talk about, I do machine learning, or I'm off working on, they're basically playing with all of these parameters to try and find the ones that will work best",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1903.87,
+      "end": 1904.65,
+      "text": "for their problem.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0044": [
+    {
+      "start": 1905.29,
+      "end": 1906.71,
+      "text": "And there's a lot of trial and error.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1907.23,
+      "end": 1912.26,
+      "text": "And you'll hear about there's now systems that try and use machine learning to do that process automatically.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1912.84,
+      "end": 1916.8,
+      "text": "This is how do you make machines that learn how to do machine learning.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1919.73,
+      "end": 1923.01,
+      "text": "The basic approach is a trial and error approach.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1924.15,
+      "end": 1927.5,
+      "text": "I take a whole bunch of pictures of cats.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1927.81,
+      "end": 1932.37,
+      "text": "that I now have cats in them and other things.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1933.44,
+      "end": 1937.13,
+      "text": "And I randomly set all those weights and thresholds.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1938.12,
+      "end": 1940.19,
+      "text": "And I put in the vector.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1940.75,
+      "end": 1946.66,
+      "text": "And I see what the system, I guess what I think the number of layers and neurons and all should be.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1947.34,
+      "end": 1948.84,
+      "text": "And I run it through the system.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1949.58,
+      "end": 1956.49,
+      "text": "And I get an estimate for what I think, or a calculation for what I think these final values should be.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1956.51,
+      "end": 1958.49,
+      "text": "And I compare it with the truth.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1958.59,
+      "end": 1960.77,
+      "text": "That is, I just basically subtract it.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1960.75,
+      "end": 1966.86,
+      "text": "And then I use those corrections to very carefully adjust the weights.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1967.34,
+      "end": 1971.32,
+      "text": "Basically, with the last weights first, I what's called back propagate",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0045": [
+    {
+      "start": 1971.32,
+      "end": 1976.82,
+      "text": "propagate these little changes to try and make a better guess on what these weights should be.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1977.26,
+      "end": 1988.21,
+      "text": "So if you hear the term back propagation, that's that process of taking those differences and using them to adjust these weights by about 0.01% at a time.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1989.22,
+      "end": 1998.85,
+      "text": "And then we just do this over and over again until eventually we get a set of weights that we think does the problem well enough for our purpose.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 1999.25,
+      "end": 2000.74,
+      "text": "So that's called backpropagation.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2001.82,
+      "end": 2006.58,
+      "text": "Once we have the set of weights and we have a new picture that we want to know what it is, we drop it in there.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2006.94,
+      "end": 2009.91,
+      "text": "And it tells us it's a cat or a dog or whatever.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2010.17,
+      "end": 2012.01,
+      "text": "That forward step is called inference.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2012.03,
+      "end": 2016.7,
+      "text": "These are two words you'll hear frequently in machine learning, backpropagation and inference.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2016.9,
+      "end": 2018.32,
+      "text": "And that's all there is to it.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2018.3,
+      "end": 2018.63,
+      "text": "There's really",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0046": [
+    {
+      "start": 2018.63,
+      "end": 2020.78,
+      "text": "really nothing else to that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2021.02,
+      "end": 2025.27,
+      "text": "If you can understand this equation, you'll be way ahead of most people in machine learning.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2026.65,
+      "end": 2031.9,
+      "text": "There's lots of people who understand about all the software, and the packages, and the data.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2032.46,
+      "end": 2034.16,
+      "text": "All of them are just doing that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2034.14,
+      "end": 2042.63,
+      "text": "And I'd say this is one of the most powerful ways to be ahead in your field, is to actually understand the mathematical principles.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2042.93,
+      "end": 2046.65,
+      "text": "Because then the software and what it's doing is much clearer.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2046.91,
+      "end": 2051.28,
+      "text": "And other people who don't understand these mathematical principles, they're really kind of guessing.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2051.76,
+      "end": 2054.88,
+      "text": "They're like, oh, well, I do this, and I throw this module in.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2054.9,
+      "end": 2063.93,
+      "text": "They don't really know that all it's doing is making adjustments to these various equations, how many different layers they are, and stuff like that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2064.65,
+      "end": 2065.94,
+      "text": "Now, why is this important?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2066.04,
+      "end": 2067.28,
+      "text": "You're like, well, what does it matter?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2067.6,
+      "end": 2069.64,
+      "text": "As I said before, we have this system.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2069.93,
+      "end": 2070.39,
+      "text": "It works.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2070.83,
+      "end": 2071.73,
+      "text": "But we don't know why.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2072.41,
+      "end": 2074.3,
+      "text": "Well, why is it important to know why?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2074.9,
+      "end": 2076.0,
+      "text": "Well, there's two reasons.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2076.46,
+      "end": 2082.91,
+      "text": "One is that if we want to be able to apply this incredible innovation to other domains,",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2082.89,
+      "end": 2084.76,
+      "text": "So many of you probably want to do that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2085.18,
+      "end": 2086.47,
+      "text": "Many of you want to say, how can",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0047": [
+    {
+      "start": 2086.47,
+      "end": 2095.45,
+      "text": "I apply machine learning to something else other than language or vision or some of these other sort of standard problems?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2096.13,
+      "end": 2105.58,
+      "text": "I kind of need some theory to know, like, OK, if I have a problem that's kind of like this one over here, and I change it in this way, there's a good chance it'll work.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2105.6,
+      "end": 2110.08,
+      "text": "There's some basis for why I'm going to try something, right?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2110.06,
+      "end": 2111.65,
+      "text": "Right now, there's a lot of trial and error.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2111.67,
+      "end": 2112.95,
+      "text": "It's like, well, it's an idea.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2113.25,
+      "end": 2122.08,
+      "text": "But if you can have some math that says, you know, I think that will probably work, that really is a great way to guide your reasoning and guide your efforts.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2122.92,
+      "end": 2126.78,
+      "text": "Another reason is that, so here's",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0048": [
+    {
+      "start": 2126.78,
+      "end": 2129.83,
+      "text": "here's a picture of a very cute poodle, right?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2130.29,
+      "end": 2135.41,
+      "text": "And the machine learning system correctly identifies it as poodle.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2136.64,
+      "end": 2146.41,
+      "text": "One thing we realize is that the way you and I see that picture is actually very, very different than the way the neural network sees that picture.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2147.94,
+      "end": 2159.51,
+      "text": "And in fact, I can make changes to that picture that are imperceptible to you or me, but will completely change how the neural network that is given a neural network, I can basically make",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2160.3,
+      "end": 2161.66,
+      "text": "it think anything.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2162.99,
+      "end": 2164.75,
+      "text": "And so for instance, this is a famous paper.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2165.65,
+      "end": 2169.18,
+      "text": "And they got the system to think that that was an ostrich.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2169.7,
+      "end": 2172.38,
+      "text": "And you can basically show this for anything.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2172.86,
+      "end": 2181.58,
+      "text": "So what's called robust AI or robust machine learning, machine learning that can't be tricked, it's going to become more and more important.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2181.6,
+      "end": 2185.68,
+      "text": "And again, having a deeper understanding of the theory is very, very critical of that.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2187.81,
+      "end": 2190.21,
+      "text": "So how are we going to do this?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2191.27,
+      "end": 2195.76,
+      "text": "What's the main concept that we are going to go through in this class?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2196.0,
+      "end": 2200.7,
+      "text": "This has mostly been motivational, but how are we going to understand the data at a deeper level?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2201.23,
+      "end": 2202.63,
+      "text": "What's the big idea?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2203.43,
+      "end": 2213.12,
+      "text": "And the big idea is sort of captured now in this sort of one, I apologize, this eye chart slide, which is what we call declarative mathematically rigorous data.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2213.1,
+      "end": 2215.97,
+      "text": "So we have this mathematical concept",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0049": [
+    {
+      "start": 2215.97,
+      "end": 2231.17,
+      "text": "concept called an associative array, and it's coarsen bonding algebra that basically encompasses the data you would put in databases, the data you would put in graphs, the data you would put in matrices, and it makes it all a linear system.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2231.53,
+      "end": 2234.1,
+      "text": "And the key operations are outlined there at the bottom.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2234.36,
+      "end": 2235.03,
+      "text": "If you recall, we",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0050": [
+    {
+      "start": 2235.03,
+      "end": 2239.13,
+      "text": "we have our basic little addition, our multiplication, and then",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2239.11,
+      "end": 2246.11,
+      "text": "What's going to be very important, probably the real sort of workhorse for this, and I didn't show it before, which is called essentially array multiplication or matrix multiplication.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2246.57,
+      "end": 2253.1,
+      "text": "And that's the far one on the right there, which we often abbreviate just with no symbol, just A, B.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2253.58,
+      "end": 2265.71,
+      "text": "But if we really want to explicitly call out that it's matrix multiplication is a combination of both multiplication and addition, we put in what we call the punch drunk emoji, which is plus dot times.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2266.73,
+      "end": 2268.46,
+      "text": "You're probably all.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2269.79,
+      "end": 2270.49,
+      "text": "young enough that you",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0051": [
+    {
+      "start": 2270.49,
+      "end": 2276.0,
+      "text": "you don't even remember emojis when they had to type them out with just little characters and we didn't have icons.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2277.02,
+      "end": 2279.22,
+      "text": "That meant you went to the bar and lost to the fight.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2282.39,
+      "end": 2285.58,
+      "text": "But anyway, that's really going to be the workhorse of what we're doing here.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0052": [
+    {
+      "start": 2285.58,
+      "end": 2285.75,
+      "text": "here.",
+      "speaker": "SPEAKER_00"
+    }
+  ]
+}

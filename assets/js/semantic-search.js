@@ -81,12 +81,14 @@ function maskedClipId(shotId) {
  * highest-scoring ones up to a duration budget, mirroring "Keyword-based
  * Clip Retrieval" (paper Method section): "The highest-scoring clips, up to
  * a total duration of 15 minutes, form the planning pool." The demo uses a
- * smaller default budget so the live LLM call stays fast.
+ * smaller default budget so the live LLM call stays fast -- and since the
+ * live demo's target output is only 30-60s (see storyboard-editor.js), a
+ * much smaller pool than the paper's 15-minute one is still plenty of choice.
  */
 export function retrievePool(
   index,
   queryEmbedding,
-  { maxDurationSec = 480, maxClips = 60 } = {}
+  { maxDurationSec = 150, maxClips = 30 } = {}
 ) {
   const scored = index.shots.map((shot) => ({
     shot,

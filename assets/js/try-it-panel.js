@@ -33,24 +33,17 @@ export function mountTryItPanel(container, liveDemo) {
     el(
       "p",
       "max-w-4xl text-sm leading-relaxed text-slate-300",
-      "Pick a demo video, type any theme or keyword, and Clips2Story-NF retrieves relevant footage " +
-        "and plans a real storyboard live for it — not one of the precomputed examples below. The " +
-        "result is an editable timeline: reorder, remove, or swap clips and preview the change " +
-        "instantly, then optionally render a real downloadable video."
-    )
-  );
-  root.appendChild(
-    el(
-      "p",
-      "text-xs text-slate-500",
-      "Using pre-extracted shot descriptors for this video, we plan a new storyboard live for your " +
-        "keyword — shot detection and multimodal metadata extraction (the slow steps) are precomputed, " +
-        "not run per request. This is an editorial proposal for a human editor to revise, not an " +
-        "authoritative final cut."
+      "Pick a video, type a theme, and Clips2Story-NF drafts a real storyboard from matching footage. " +
+        "Reorder, remove, or swap clips, then render a downloadable video."
     )
   );
 
   // --- video picker ---
+  const videoLabel = el(
+    "p",
+    "text-xs font-medium uppercase tracking-wide text-slate-500",
+    `Source video (${liveDemo.videos.length} available)`
+  );
   const videoRow = el("div", "flex flex-wrap gap-2");
   let selectedVideo = liveDemo.videos[0];
   const videoButtons = [];
@@ -65,6 +58,7 @@ export function mountTryItPanel(container, liveDemo) {
       selectedVideo = v;
       for (const { el: b } of videoButtons) b.classList.remove(...activeCls);
       btn.classList.add(...activeCls);
+      onVideoSelected(v);
     });
     videoButtons.push({ el: btn, v });
     videoRow.appendChild(btn);
@@ -75,7 +69,6 @@ export function mountTryItPanel(container, liveDemo) {
   const inputRow = el("div", "flex flex-wrap gap-2");
   const input = document.createElement("input");
   input.type = "text";
-  input.placeholder = 'Type a theme, e.g. "dog communication"';
   input.className =
     "min-w-[240px] flex-1 rounded-lg border border-surface-border bg-black/30 px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500";
   input.addEventListener("focus", () => preloadEmbeddingModel(), { once: true });
@@ -87,25 +80,42 @@ export function mountTryItPanel(container, liveDemo) {
   inputRow.appendChild(input);
   inputRow.appendChild(submitBtn);
 
+  // Suggested keywords (and the input placeholder example) are per-video
+  // (each source video has its own real extracted/gallery keywords -- see
+  // scripts/generate-data.mjs), so both re-render every time the video
+  // picker selection changes instead of showing one fixed global example.
   const chipsRow = el("div", "flex flex-wrap gap-2");
-  for (const kw of liveDemo.exampleKeywords || []) {
-    const chip = el(
-      "button",
-      "rounded-full border border-surface-border/70 px-3 py-1 text-xs text-slate-400 hover:bg-white/5",
-      kw
-    );
-    chip.addEventListener("click", () => {
-      input.value = kw;
-      input.focus();
-    });
-    chipsRow.appendChild(chip);
+  function onVideoSelected(video) {
+    const keywords = (video.exampleKeywords && video.exampleKeywords.length
+      ? video.exampleKeywords
+      : liveDemo.exampleKeywords) || [];
+
+    input.placeholder = keywords.length
+      ? `Type a theme, e.g. "${keywords[0]}"`
+      : "Type a theme, e.g. a topic or keyword";
+
+    chipsRow.innerHTML = "";
+    for (const kw of keywords) {
+      const chip = el(
+        "button",
+        "rounded-full border border-surface-border/70 px-3 py-1 text-xs text-slate-400 hover:bg-white/5",
+        kw
+      );
+      chip.addEventListener("click", () => {
+        input.value = kw;
+        input.focus();
+      });
+      chipsRow.appendChild(chip);
+    }
   }
+  onVideoSelected(selectedVideo);
 
   const statusEl = el("p", "text-sm text-slate-400", "");
   const genProgress = createProgressBar();
   genProgress.el.classList.add("hidden");
   const resultWrap = el("div", "hidden space-y-4");
 
+  root.appendChild(videoLabel);
   root.appendChild(videoRow);
   root.appendChild(inputRow);
   root.appendChild(chipsRow);
@@ -138,7 +148,7 @@ export function mountTryItPanel(container, liveDemo) {
       el(
         "div",
         "rounded-lg border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-200",
-        `Live planning is temporarily unavailable. Browse the "${video.genre}" section below for ` +
+        `Live planning is temporarily unavailable. Browse the "${video.genre}" page in the sidebar for ` +
           "precomputed Clips2Story-NF/-ND examples on this and other source videos, or try again in a moment."
       )
     );

@@ -1,0 +1,2865 @@
+{
+  "v1_s0000": [
+    {
+      "start": 0.03,
+      "end": 0.87,
+      "text": "I'm Joe Fryer.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 0.95,
+      "end": 2.78,
+      "text": "Savannah is on assignment.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 2.8,
+      "end": 11.09,
+      "text": "We begin this morning with new developments in the search for Nancy Guthrie on day 13, as the FBI releases details about a suspect for the first time.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0001": [
+    {
+      "start": 11.09,
+      "end": 11.35,
+      "text": "time.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 11.83,
+      "end": 15.8,
+      "text": "The search for the 84-year-old mother of our NBC News colleague Savannah Guthrie",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0002": [
+    {
+      "start": 15.8,
+      "end": 17.08,
+      "text": "is intensifying.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 17.46,
+      "end": 25.95,
+      "text": "Earlier this week, this surveillance video showing an armed masked man on Nancy's porch was released to the public, and a flood of new tips followed.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 25.93,
+      "end": 28.14,
+      "text": "That suspect, now being described by authorities",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0003": [
+    {
+      "start": 28.14,
+      "end": 33.93,
+      "text": "authorities as a male, about 5 foot 9 to 5 foot 10 inches tall, with an average build.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 34.41,
+      "end": 41.38,
+      "text": "He was seen on surveillance video wearing a black 25 liter Ozark Trail Hiker Pack backpack.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0004": [
+    {
+      "start": 41.82,
+      "end": 53.59,
+      "text": "The FBI doubled its reward yesterday, offering $100,000 for information leading to Nancy or the arrest and conviction of anyone involved in her disappearance.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0005": [
+    {
+      "start": 53.95,
+      "end": 63.03,
+      "text": "And an Instagram post yesterday, Savannah shared this touching montage of home movies of Nancy writing, our lovely mom, we will never give up on her.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 63.44,
+      "end": 65.72,
+      "text": "Thank you for your prayers and hope.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 66.56,
+      "end": 67.45,
+      "text": "NBC News Chief Justice",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0006": [
+    {
+      "start": 67.45,
+      "end": 71.74,
+      "text": "Justice and National Affairs Correspondent Kelly O'Donnell joins me now from Tucson with the latest.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 71.78,
+      "end": 76.77,
+      "text": "So Kelly, we saw this white tent go up outside Nancy Guthrie's house yesterday.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 76.79,
+      "end": 77.67,
+      "text": "Do we know",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0007": [
+    {
+      "start": 77.67,
+      "end": 82.23,
+      "text": "know why and if it's connected to this new description of the suspect and just what else",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0008": [
+    {
+      "start": 82.23,
+      "end": 83.95,
+      "text": "is the FBI saying about this man?",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 83.93,
+      "end": 87.25,
+      "text": "Well, the FBI",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0009": [
+    {
+      "start": 87.25,
+      "end": 92.28,
+      "text": "FBI is being careful about what they say publicly, but in talking with a number of sources who are familiar with this",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0010": [
+    {
+      "start": 92.28,
+      "end": 96.47,
+      "text": "this kind of work in crime scene investigations, a tent",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0011": [
+    {
+      "start": 96.47,
+      "end": 103.92,
+      "text": "tent is simply a way for those who are on the ground to be able to have a shielded area to do more of their work.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 103.94,
+      "end": 104.49,
+      "text": "We expect",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0012": [
+    {
+      "start": 104.49,
+      "end": 104.86,
+      "text": "that",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 104.84,
+      "end": 106.5,
+      "text": "It may be during that period of",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0013": [
+    {
+      "start": 106.5,
+      "end": 123.85,
+      "text": "time when the white tent was up that they were able to do some of the measurements that produced what you described and what was posted by the FBI with identifiable information that they've now been able to discern about this suspect to give us a sense of height by using measurements and doing those kinds of things.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 123.83,
+      "end": 125.44,
+      "text": "They may have also been doing some other",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0014": [
+    {
+      "start": 125.44,
+      "end": 126.63,
+      "text": "other evidence collection.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 127.03,
+      "end": 134.32,
+      "text": "A lot of that is not discussed in real time, but the experts who are familiar with these kinds of investigations see it as",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0015": [
+    {
+      "start": 134.32,
+      "end": 139.14,
+      "text": "as a part of the process that needs to take place that gives some care.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 139.6,
+      "end": 141.43,
+      "text": "Obviously, at some point,",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0016": [
+    {
+      "start": 141.43,
+      "end": 141.46,
+      "text": "point,",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 141.44,
+      "end": 144.69,
+      "text": "There is a hope among law enforcement there will be a",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0017": [
+    {
+      "start": 144.69,
+      "end": 149.72,
+      "text": "process taking this to prosecution and they have to document all of these",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0018": [
+    {
+      "start": 149.72,
+      "end": 151.4,
+      "text": "these steps and for now",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0019": [
+    {
+      "start": 151.4,
+      "end": 157.9,
+      "text": "it is all meant to try to help identify and find the person who's responsible for Nancy Guthrie's disappearance.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 157.92,
+      "end": 158.62,
+      "text": "So Kelly, we know",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0020": [
+    {
+      "start": 158.62,
+      "end": 161.63,
+      "text": "know law enforcement expanded its search radius yesterday.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 161.69,
+      "end": 165.93,
+      "text": "Has there been any additional physical or video evidence uncovered?",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0021": [
+    {
+      "start": 168.0,
+      "end": 171.59,
+      "text": "Well, this sort of expansion is the kind of step we would expect.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 171.67,
+      "end": 174.43,
+      "text": "They have so many agents and law enforcement",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0022": [
+    {
+      "start": 174.43,
+      "end": 178.88,
+      "text": "who are participating in careful searches so that they can check certain boxes.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 178.92,
+      "end": 183.38,
+      "text": "There have been reports and acknowledgments from investigators that there have",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0023": [
+    {
+      "start": 183.38,
+      "end": 185.91,
+      "text": "have been items that have been taken into custody.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 185.89,
+      "end": 187.43,
+      "text": "At this point, though, we",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0024": [
+    {
+      "start": 187.43,
+      "end": 190.85,
+      "text": "we don't know if any of those things, you may have heard about some gloves being found.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0025": [
+    {
+      "start": 190.85,
+      "end": 191.02,
+      "text": "found.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 191.1,
+      "end": 194.88,
+      "text": "We don't know if those were simply discarded and completely unrelated",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0026": [
+    {
+      "start": 194.88,
+      "end": 198.92,
+      "text": "unrelated or if they have evidentiary value in this case.",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0027": [
+    {
+      "start": 198.92,
+      "end": 199.37,
+      "text": "case.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 199.39,
+      "end": 201.05,
+      "text": "Again, that is part of a process.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 201.09,
+      "end": 202.95,
+      "text": "There is a wide net of collecting",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0028": [
+    {
+      "start": 202.95,
+      "end": 207.0,
+      "text": "collecting details, information, evidence, discarded",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0029": [
+    {
+      "start": 207.0,
+      "end": 207.69,
+      "text": "discarded items,",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0030": [
+    {
+      "start": 207.69,
+      "end": 211.0,
+      "text": "items, looking for things that might provide clues.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 211.02,
+      "end": 213.83,
+      "text": "So it is a part of the process and that work continues.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 213.93,
+      "end": 214.23,
+      "text": "Joe.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 214.21,
+      "end": 215.44,
+      "text": "Kelly, we should ask you, there's",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0031": [
+    {
+      "start": 215.44,
+      "end": 220.16,
+      "text": "there's a man who's accused of sending a fake ransom note to the Guthrie family.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 220.2,
+      "end": 223.61,
+      "text": "That person made his first appearance in federal court yesterday.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 223.65,
+      "end": 226.29,
+      "text": "Tell us more about what he's been charged with.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0032": [
+    {
+      "start": 228.52,
+      "end": 232.17,
+      "text": "Well, this is the kind of case where it is maybe a",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0033": [
+    {
+      "start": 232.17,
+      "end": 238.23,
+      "text": "a reminder to the public that engaging in sending a note is its own",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0034": [
+    {
+      "start": 238.23,
+      "end": 238.75,
+      "text": "crime.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 239.23,
+      "end": 241.39,
+      "text": "That is the case with Derek Colella.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 241.41,
+      "end": 242.82,
+      "text": "There are several federal counts.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 242.88,
+      "end": 244.26,
+      "text": "This is about using the",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0035": [
+    {
+      "start": 244.26,
+      "end": 248.74,
+      "text": "the Internet, sending a message for ransom without identifying yourself.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 248.76,
+      "end": 249.33,
+      "text": "There's all sorts",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0036": [
+    {
+      "start": 249.33,
+      "end": 253.43,
+      "text": "sorts of things in the federal code that are serious charges.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 253.41,
+      "end": 269.23,
+      "text": "And when an investigation is underway like this, and there will sometimes be kind of a magnet for people who are wanting to cause trouble, wanting to be pranksters, wanting to extort money, any of those kinds of things, that is its own crime and is a separate investigation.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 269.55,
+      "end": 280.31,
+      "text": "We don't know if those notes that have been sent to the media and, by extension, messages directed at the Guthrie family, if any of those are actually tied to the disappearance",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "v1_s0037": [
+    {
+      "start": 280.31,
+      "end": 281.98,
+      "text": "disappearance of Nancy Guthrie.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 281.96,
+      "end": 283.76,
+      "text": "But it is part of the investigation.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 283.85,
+      "end": 288.21,
+      "text": "And already, you can see the federal officials were able to find and identify this person.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 288.35,
+      "end": 291.86,
+      "text": "And his path through prosecution has now begun.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 291.88,
+      "end": 293.48,
+      "text": "No doubt they're taking that seriously.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 293.52,
+      "end": 295.22,
+      "text": "Kelly O'Donnell, thank you so much.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 295.68,
+      "end": 299.19,
+      "text": "For more analysis of the investigation, I want to bring in Dr. Brianna Fox.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 299.21,
+      "end": 304.43,
+      "text": "She is a former FBI special agent and professor of criminology at the University of South Dakota.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 304.45,
+      "end": 306.06,
+      "text": "Dr. Fox, good to have you with us.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 306.12,
+      "end": 310.06,
+      "text": "You've called the video of the suspect outside Nancy's front door.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 310.04,
+      "end": 312.21,
+      "text": "the game changer that we've been waiting",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0038": [
+    {
+      "start": 312.21,
+      "end": 312.81,
+      "text": "waiting for.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 312.83,
+      "end": 316.45,
+      "text": "We now have this more detailed description from the FBI of the man.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 317.05,
+      "end": 319.44,
+      "text": "How much do you think the identification of, say, this",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0039": [
+    {
+      "start": 319.44,
+      "end": 324.51,
+      "text": "Walmart store-labeled backpack helps narrow things down?",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0040": [
+    {
+      "start": 326.24,
+      "end": 329.39,
+      "text": "Absolutely, it is an incredible new detail.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 329.65,
+      "end": 338.43,
+      "text": "Now they are able to go through, now Walmart is obviously a major retailer, so many stores across the country, but they've been able to track down purchases",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0041": [
+    {
+      "start": 338.43,
+      "end": 341.36,
+      "text": "purchases from even larger stores like Amazon.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 342.0,
+      "end": 343.81,
+      "text": "So it is a huge detail.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 343.89,
+      "end": 344.37,
+      "text": "That combined",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0042": [
+    {
+      "start": 344.37,
+      "end": 349.05,
+      "text": "combined with some of the tips that have been coming in, there's 4,000 in one day alone.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 349.09,
+      "end": 351.16,
+      "text": "They're gonna start matching things up.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 352.12,
+      "end": 353.41,
+      "text": "One name co-occurring",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0043": [
+    {
+      "start": 353.41,
+      "end": 355.1,
+      "text": "co-occurring with purchase,",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 355.08,
+      "end": 359.09,
+      "text": "a few names and a tip line co-occurring with somebody who's seen this backpack on",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0044": [
+    {
+      "start": 359.09,
+      "end": 361.47,
+      "text": "on someone, it's going to start coalescing.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 361.51,
+      "end": 363.59,
+      "text": "And I think that's the big thing that they're trying to",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0045": [
+    {
+      "start": 363.59,
+      "end": 363.89,
+      "text": "find.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 365.1,
+      "end": 365.39,
+      "text": "Tell us",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0046": [
+    {
+      "start": 365.39,
+      "end": 367.86,
+      "text": "us more about this white tent that we saw go up.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 367.88,
+      "end": 370.18,
+      "text": "Kelly talked about it a little bit ago, but what might be",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0047": [
+    {
+      "start": 370.18,
+      "end": 375.47,
+      "text": "going on inside that front, that white tent that's outside Nancy's front door?",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 376.51,
+      "end": 379.38,
+      "text": "Yeah, I thought Nancy's analysis of it was fantastic.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 379.4,
+      "end": 387.91,
+      "text": "That's exactly what they're trying to do is go back either to collect new data or forensics to be able to make this case even stronger.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 388.29,
+      "end": 390.36,
+      "text": "There's new things that we've learned just in the past few days.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 390.78,
+      "end": 395.62,
+      "text": "From that video, we saw that there was this potential flashlight in the mouth,",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0048": [
+    {
+      "start": 395.62,
+      "end": 397.39,
+      "text": "mouth, like a bite flashlight.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 397.37,
+      "end": 399.38,
+      "text": "That could suggest that there was some",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0049": [
+    {
+      "start": 399.38,
+      "end": 402.72,
+      "text": "saliva, maybe some sweat that came off, spit.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 403.14,
+      "end": 408.86,
+      "text": "That's what the investigators are gonna be looking for when they're walking around maybe with luminol.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 408.88,
+      "end": 411.11,
+      "text": "They could be taking measurements, seeing the conditions,",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0050": [
+    {
+      "start": 411.11,
+      "end": 415.18,
+      "text": "maybe if it's darker, how that would match up with an infrared",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0051": [
+    {
+      "start": 415.18,
+      "end": 416.17,
+      "text": "infrared camera footage.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 416.15,
+      "end": 419.47,
+      "text": "You just never know where you could find just one clue that could be the big break in this",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0052": [
+    {
+      "start": 419.47,
+      "end": 419.92,
+      "text": "this case.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 419.98,
+      "end": 424.27,
+      "text": "I know as part of your work in criminology, you study behavioral science.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 424.29,
+      "end": 429.71,
+      "text": "So what other clues from that video of the suspect could be key in just trying to figure out who this person",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0053": [
+    {
+      "start": 429.71,
+      "end": 430.36,
+      "text": "person is?",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 431.34,
+      "end": 431.62,
+      "text": "Yeah,",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0054": [
+    {
+      "start": 431.62,
+      "end": 432.86,
+      "text": "Yeah, that is the key.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 432.92,
+      "end": 434.23,
+      "text": "For me, it was seeing",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0055": [
+    {
+      "start": 434.23,
+      "end": 435.72,
+      "text": "seeing these images are huge, but",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0056": [
+    {
+      "start": 435.72,
+      "end": 437.99,
+      "text": "but the video tells even more of a story.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 438.31,
+      "end": 440.55,
+      "text": "That's where we can glean a lot about the behavior.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 441.11,
+      "end": 443.77,
+      "text": "We see somebody that clearly wants to appear",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0057": [
+    {
+      "start": 443.77,
+      "end": 445.94,
+      "text": "appear to be very premeditated.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 445.98,
+      "end": 446.5,
+      "text": "They have",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0058": [
+    {
+      "start": 446.5,
+      "end": 452.39,
+      "text": "have the gloves, the mask, the weapon, but there's a lot that's kind of not jiving.",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0059": [
+    {
+      "start": 452.75,
+      "end": 457.53,
+      "text": "The fact that he didn't come prepared to black off that camera or to disable it.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 457.51,
+      "end": 458.62,
+      "text": "Going over to grab",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0060": [
+    {
+      "start": 458.62,
+      "end": 463.63,
+      "text": "grab weeds out of that saunter that he has both while he's approaching and going back out.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 464.19,
+      "end": 471.21,
+      "text": "There's this somebody who I think has probably inflated ego is confidence and being able to pull this off.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 471.73,
+      "end": 474.48,
+      "text": "1 thing we know from criminology research is.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 474.45,
+      "end": 477.1,
+      "text": "Those behaviors don't just appear in crimes.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 477.34,
+      "end": 480.25,
+      "text": "That's how they act outside of their criminal behavior, too.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 480.29,
+      "end": 482.18,
+      "text": "So those kind of things with",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0061": [
+    {
+      "start": 482.18,
+      "end": 485.9,
+      "text": "with this description that we're getting could hopefully, again, match up.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 485.98,
+      "end": 487.22,
+      "text": "And I think it's all going to come",
+      "speaker": "SPEAKER_08"
+    }
+  ],
+  "v1_s0062": [
+    {
+      "start": 487.22,
+      "end": 487.68,
+      "text": "come together.",
+      "speaker": "SPEAKER_08"
+    },
+    {
+      "start": 487.72,
+      "end": 488.56,
+      "text": "All right.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 488.58,
+      "end": 489.33,
+      "text": "We can only hope.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 489.35,
+      "end": 492.01,
+      "text": "Dr. Brianna Fox, thank you for your analysis this morning.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 492.03,
+      "end": 493.38,
+      "text": "We appreciate it.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 493.36,
+      "end": 494.09,
+      "text": "Developing this",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0063": [
+    {
+      "start": 494.09,
+      "end": 500.23,
+      "text": "this morning, the U.S. military is continuing to build up its military presence in the Middle East amid ongoing nuclear talks",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0064": [
+    {
+      "start": 500.23,
+      "end": 501.29,
+      "text": "talks with Iran.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 501.71,
+      "end": 507.82,
+      "text": "The USS Gerald Ford carrier strike group was notified Thursday it's leaving the Caribbean and heading to the Middle East.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 507.84,
+      "end": 509.94,
+      "text": "Two U.S. officials familiar with the decision",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0065": [
+    {
+      "start": 509.94,
+      "end": 511.13,
+      "text": "told NBC News.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 511.47,
+      "end": 514.01,
+      "text": "The Ford will join the USS Abraham Lincoln carrier group,",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0066": [
+    {
+      "start": 514.01,
+      "end": 516.05,
+      "text": "group, which is already in the region.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 516.03,
+      "end": 518.14,
+      "text": "His tensions with Iran remain high.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 518.2,
+      "end": 522.71,
+      "text": "For more on this and some other headlines, let's bring in NBC News Gary Grumbach from Washington.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 522.75,
+      "end": 523.57,
+      "text": "Gary, good morning.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 523.59,
+      "end": 529.64,
+      "text": "So this is the Ford's, what, second redirect since it was sort of set off on a deployment to Europe in October.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 529.8,
+      "end": 533.79,
+      "text": "What more can you tell us about this new extended deployment to the Middle East?",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 534.09,
+      "end": 534.26,
+      "text": "Yeah,",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0067": [
+    {
+      "start": 534.26,
+      "end": 536.22,
+      "text": "Yeah, this is not like pulling a UEE in your SUV.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 536.24,
+      "end": 540.91,
+      "text": "This is a serious turnaround for some major pieces of military equipment.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 541.15,
+      "end": 542.67,
+      "text": "This is a massive aircraft carrier.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 543.07,
+      "end": 549.59,
+      "text": "It includes about a dozen different vehicles, if you will, a destroyer, several aircrafts as well.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 549.57,
+      "end": 560.12,
+      "text": "And they were heading to Europe earlier this year, when they were rerouted towards the Caribbean, towards the coast of Venezuela, to participate in the operation that captured Nicolas Maduro and brought him to the United States.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 560.24,
+      "end": 561.12,
+      "text": "They've wrapped that up.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 561.46,
+      "end": 567.93,
+      "text": "And now they're heading to the Middle East, as tensions are growing here in the U.S. with Iran and Iran's allies.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 568.23,
+      "end": 568.89,
+      "text": "So they're heading there.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 568.91,
+      "end": 571.13,
+      "text": "It'll take them several weeks to get there.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 571.15,
+      "end": 578.14,
+      "text": "And this is going to extend the operation that they have been on, for thousands of them on these ships, for several weeks.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 578.12,
+      "end": 579.14,
+      "text": "Let's get to some other political",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0068": [
+    {
+      "start": 579.14,
+      "end": 579.72,
+      "text": "political news.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 579.78,
+      "end": 587.97,
+      "text": "Yesterday, a federal judge blocked Defense Secretary Pete Hegseth from reducing Senator Mark Kelly's military rank and reducing his pension pay.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 588.45,
+      "end": 594.56,
+      "text": "This all centers on Kelly's participation in that video reminding military officers they can reject illegal orders.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 595.22,
+      "end": 600.21,
+      "text": "What did the judge say in what was a pretty scathing ruling and how is Hegseth responding?",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 600.34,
+      "end": 602.13,
+      "text": "It was a colorful ruling by the George",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0069": [
+    {
+      "start": 602.13,
+      "end": 605.27,
+      "text": "George W. Bush-appointed judge Richard Leon.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 605.87,
+      "end": 609.71,
+      "text": "He said in it that Mark Kelly—Senator Mark Kelly's rights were trampled.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 609.75,
+      "end": 610.36,
+      "text": "His First Amendment",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0070": [
+    {
+      "start": 610.36,
+      "end": 611.89,
+      "text": "rights were trampled here.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 612.17,
+      "end": 616.04,
+      "text": "And he said the U.S. government should have more respect for retired members of the military,",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0071": [
+    {
+      "start": 616.04,
+      "end": 618.52,
+      "text": "military, let alone members of the United States Senate.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 618.54,
+      "end": 622.36,
+      "text": "He even quoted Bob Dylan in the order, writing, quote, you don't need a weatherman to",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0072": [
+    {
+      "start": 622.36,
+      "end": 624.41,
+      "text": "to know which way the wind is blowing.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 624.71,
+      "end": 628.07,
+      "text": "Defense Secretary Pete Hegseth has promised an appeal.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 628.05,
+      "end": 628.88,
+      "text": "writing on ExQuote,",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0073": [
+    {
+      "start": 628.88,
+      "end": 632.38,
+      "text": "ExQuote, sedition is sedition, captain, in quotations.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 633.08,
+      "end": 633.28,
+      "text": "Joe?",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 633.3,
+      "end": 634.02,
+      "text": "One more note here.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 634.06,
+      "end": 634.85,
+      "text": "The Environmental Protection",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0074": [
+    {
+      "start": 634.85,
+      "end": 638.93,
+      "text": "Protection Agency repealing its own legal framework that regulates greenhouse",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0075": [
+    {
+      "start": 638.93,
+      "end": 640.05,
+      "text": "greenhouse gas emissions.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 640.07,
+      "end": 642.83,
+      "text": "This is called the endangerment finding.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0076": [
+    {
+      "start": 643.41,
+      "end": 645.97,
+      "text": "What's the Trump administration's reasoning behind this?",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 646.03,
+      "end": 648.33,
+      "text": "And just what could this mean for the U.S.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0077": [
+    {
+      "start": 648.33,
+      "end": 650.7,
+      "text": "and how it combats climate change?",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 650.68,
+      "end": 652.72,
+      "text": "This is going to have serious implications",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0078": [
+    {
+      "start": 652.72,
+      "end": 659.2,
+      "text": "implications for the U.S. and the globe around—around the world over the next several decades, potentially.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 659.24,
+      "end": 666.6,
+      "text": "The finding that is decades in the making was that global warming was caused by carbon dioxide",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 666.58,
+      "end": 670.28,
+      "text": "and methane, and it endangers the health of future generations.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 670.38,
+      "end": 671.21,
+      "text": "That was the finding.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 671.49,
+      "end": 674.98,
+      "text": "It was pretty much agreed upon by many scientists around the world.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 675.0,
+      "end": 683.91,
+      "text": "This is now no longer a finding that the U.S. is going to believe in, in terms of politically, and so this is going to upend policies that have been in place for years here",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0079": [
+    {
+      "start": 683.91,
+      "end": 685.06,
+      "text": "here in the U.S., Joe.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 685.04,
+      "end": 687.02,
+      "text": "All right, Gary Grumbach, thank you so much.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 687.52,
+      "end": 687.68,
+      "text": "The Trump",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0080": [
+    {
+      "start": 687.68,
+      "end": 692.79,
+      "text": "Trump administration says it is drawing back its controversial immigration crackdown in Minneapolis.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 692.85,
+      "end": 697.85,
+      "text": "It was a surprising announcement delivered during a news conference yesterday with Border Czar Tom Homan.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 699.75,
+      "end": 704.54,
+      "text": "I have proposed, and President Trump has concurred, that this surge operation conclude.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 708.8,
+      "end": 714.49,
+      "text": "A significant drawdown has already been underway this week, and will continue through the next week.",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "v1_s0081": [
+    {
+      "start": 714.8,
+      "end": 717.62,
+      "text": "The announcement comes after federal agents shot and killed",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0082": [
+    {
+      "start": 717.62,
+      "end": 721.65,
+      "text": "two U.S. citizens, sparking protests and outrage in Minneapolis nationwide",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0083": [
+    {
+      "start": 721.65,
+      "end": 722.95,
+      "text": "nationwide and across the world.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 723.43,
+      "end": 727.7,
+      "text": "NBC News Senior Homeland Security Correspondent Julia Ainsley joins us now from Washington with more.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 727.76,
+      "end": 728.46,
+      "text": "Julia, good morning.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 728.48,
+      "end": 733.46,
+      "text": "So the Trump administration's announcement signals the end of what it called Operation Metro Surge.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 733.48,
+      "end": 734.42,
+      "text": "Couple questions here.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 734.46,
+      "end": 741.37,
+      "text": "So how many arrests were made in Minneapolis during this operation and where will these federal agents who led this surge go to next?",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0084": [
+    {
+      "start": 742.94,
+      "end": 748.04,
+      "text": "I can answer the first, but not the second, Joe, because we know that 4,000 people were arrested",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0085": [
+    {
+      "start": 748.04,
+      "end": 750.28,
+      "text": "arrested since the surge began on November 29.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 750.3,
+      "end": 753.83,
+      "text": "Now, they started by putting in a few hundred more.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 753.93,
+      "end": 755.9,
+      "text": "And then, by early January, there were",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0086": [
+    {
+      "start": 755.9,
+      "end": 758.06,
+      "text": "were 3,000 agents from",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0087": [
+    {
+      "start": 758.06,
+      "end": 759.39,
+      "text": "from ICE and CBP",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0088": [
+    {
+      "start": 759.39,
+      "end": 762.1,
+      "text": "that came into Minneapolis to be part of that operation",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0089": [
+    {
+      "start": 762.1,
+      "end": 763.66,
+      "text": "operation that arrested 4,000.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 763.64,
+      "end": 767.25,
+      "text": "As to where they go next, for now, they're going back to their home offices.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0090": [
+    {
+      "start": 767.25,
+      "end": 767.51,
+      "text": "offices.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 767.57,
+      "end": 768.57,
+      "text": "And that's because typically",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0091": [
+    {
+      "start": 768.57,
+      "end": 772.23,
+      "text": "typically when we've heard about one surge ending, it's because another is beginning.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 772.51,
+      "end": 772.54,
+      "text": "They",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0092": [
+    {
+      "start": 772.54,
+      "end": 780.89,
+      "text": "They went from LA to Chicago to Charlotte to New Orleans to Minneapolis, really going from June of last year right up until yesterday in Minneapolis.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 780.93,
+      "end": 783.71,
+      "text": "But this time, we don't have word on where they might go next.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 783.73,
+      "end": 788.64,
+      "text": "And what that indicates to us is that there's not a planning, there's no plan in place",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 788.62,
+      "end": 790.54,
+      "text": "for a next surge.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 790.56,
+      "end": 791.45,
+      "text": "And that's significant.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 791.47,
+      "end": 798.42,
+      "text": "That comes after President Trump told our colleague Tom Yamas that he thinks they might need a softer approach, a softer touch when it comes to immigration.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 798.44,
+      "end": 803.64,
+      "text": "So the fact that we're not hearing about another surge while they leave this location, that's significant.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 803.62,
+      "end": 804.2,
+      "text": "No doubt.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 804.26,
+      "end": 804.67,
+      "text": "And this whole",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0093": [
+    {
+      "start": 804.67,
+      "end": 808.73,
+      "text": "situation in Minneapolis has created another shutdown standoff in Washington.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 808.79,
+      "end": 813.5,
+      "text": "The Department of Homeland Security set to run out of money today, and lawmakers have left town.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 813.6,
+      "end": 816.76,
+      "text": "So we know they're not going to reach a deal on DHS funding in time.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 816.78,
+      "end": 818.57,
+      "text": "So what happens next is uncertain",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0094": [
+    {
+      "start": 818.57,
+      "end": 818.95,
+      "text": "uncertain here.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 819.15,
+      "end": 822.25,
+      "text": "Any evidence that the impeding shutdown played a role in yesterday's",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0095": [
+    {
+      "start": 822.25,
+      "end": 824.17,
+      "text": "yesterday's announcement to end this operation?",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0096": [
+    {
+      "start": 826.42,
+      "end": 828.88,
+      "text": "You know, we did get some breadcrumbs from the White House.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 828.96,
+      "end": 830.0,
+      "text": "I saw my colleague,",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0097": [
+    {
+      "start": 830.0,
+      "end": 834.03,
+      "text": "Julie Cirkin, reporting on a statement yesterday where they said, the White",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0098": [
+    {
+      "start": 834.03,
+      "end": 835.32,
+      "text": "White House said, look at all the progress",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0099": [
+    {
+      "start": 835.32,
+      "end": 836.03,
+      "text": "progress we've made.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 836.29,
+      "end": 837.87,
+      "text": "Shouldn't Democrats be negotiating?",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 837.89,
+      "end": 845.3,
+      "text": "And they pointed to this announcement from Homan, which, of course, came at the critical hour when they were hoping to get through that procedural vote.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 845.28,
+      "end": 845.44,
+      "text": "and",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0100": [
+    {
+      "start": 845.44,
+      "end": 848.13,
+      "text": "and move toward a resolution that would keep DHS funded.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 848.65,
+      "end": 851.59,
+      "text": "Of course, Democrats want a lot more than a drawdown in Minneapolis.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 851.89,
+      "end": 854.81,
+      "text": "They want officers and agents to stop wearing masks in their arrest.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0101": [
+    {
+      "start": 855.11,
+      "end": 857.74,
+      "text": "They want people to get judicial warrants before going into a home.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 857.98,
+      "end": 859.2,
+      "text": "There's a whole list of things.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 859.52,
+      "end": 870.61,
+      "text": "But basically, the White House was pointing to Homan's announcement as some kind of olive branch that they had given Democrats, hoping to get them to the table to make them realize they're going in a different approach.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 870.71,
+      "end": 872.27,
+      "text": "But that wasn't enough for Democrats.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 872.61,
+      "end": 874.14,
+      "text": "And now we're looking at a shutdown for the agency.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0102": [
+    {
+      "start": 874.14,
+      "end": 874.82,
+      "text": "agency.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 875.42,
+      "end": 877.25,
+      "text": "Another factor here could be public opinion.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 877.28,
+      "end": 879.75,
+      "text": "We know we have this new polling this week from NBC News shows",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0103": [
+    {
+      "start": 879.75,
+      "end": 886.58,
+      "text": "shows that support for the Trump administration's immigration policies have taken a huge hit since the Minneapolis killings last month.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 886.6,
+      "end": 888.4,
+      "text": "This used to be a strength for the president.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 888.48,
+      "end": 889.25,
+      "text": "Now it's not.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 889.67,
+      "end": 896.74,
+      "text": "What are you hearing from your sources about how this faltering public perception is impacting DHS and its immigration operations?",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0104": [
+    {
+      "start": 898.4,
+      "end": 901.36,
+      "text": "Yeah, the public perception cannot be underestimated.",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0105": [
+    {
+      "start": 901.36,
+      "end": 901.57,
+      "text": "underestimated.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 901.63,
+      "end": 903.05,
+      "text": "We've seen a real flip.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 903.07,
+      "end": 905.3,
+      "text": "This used to be such a winning issue for the president.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 905.34,
+      "end": 906.12,
+      "text": "So often",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0106": [
+    {
+      "start": 906.12,
+      "end": 910.95,
+      "text": "often whenever something else might not be going as well, we would hear about a new immigration crackdown.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 911.43,
+      "end": 916.34,
+      "text": "What I understand now is it's not that immigration is going away, but there will be more of a focus on the worst of the worst.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 916.4,
+      "end": 919.18,
+      "text": "That was really the strategy when they pulled Greg Bovino.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 919.16,
+      "end": 924.75,
+      "text": "who had been leading those really aggressive Border Patrol crackdowns in Minneapolis and replaced him with Tom Homan.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 925.11,
+      "end": 929.98,
+      "text": "Tom Homan has always been, even since the campaign, really saying we need to go after the worst of the worst.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 930.02,
+      "end": 936.21,
+      "text": "In fact, he told me last June that he was worried if they didn't go after the worst of the worst, they could lose the faith of the American people.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 936.23,
+      "end": 938.57,
+      "text": "So that seems to be the winning approach now.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 938.55,
+      "end": 940.43,
+      "text": "because of those numbers.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 940.5,
+      "end": 945.99,
+      "text": "And clearly, the way the president was interpreting that was that they needed a softer touch when it came to immigration.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 946.09,
+      "end": 949.25,
+      "text": "So I think we'll see a little bit of a tour of",
+      "speaker": "SPEAKER_09"
+    }
+  ],
+  "v1_s0107": [
+    {
+      "start": 949.25,
+      "end": 959.31,
+      "text": "goodwill, of trying to show people that immigration enforcement matters because they can arrest serious criminals and not just go into communities where they're meeting such hard backlash.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 959.29,
+      "end": 966.06,
+      "text": "It was a way for them to confront Democrat leaders like Governor Tim Walz and Mayor Jacob Frey in Minneapolis.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 966.32,
+      "end": 971.29,
+      "text": "So we'll see if they continue to pick areas where they'll be bumping up against blue city policies.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 971.89,
+      "end": 977.3,
+      "text": "But in this case, we expect them to, again, be focused on criminals and",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 977.28,
+      "end": 982.18,
+      "text": "though they still have an infusion of $75 billion, even with this shutdown.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 982.53,
+      "end": 992.0,
+      "text": "So I think the real question is where they spend the money next, and if they continue to do their hiring surge and build these mass detention facilities that we've been reporting on.",
+      "speaker": "SPEAKER_09"
+    },
+    {
+      "start": 992.28,
+      "end": 992.84,
+      "text": "All right.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 992.86,
+      "end": 994.16,
+      "text": "Julia Ainsley, thank you so much.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0108": [
+    {
+      "start": 994.76,
+      "end": 1000.03,
+      "text": "Just hours ago, NASA and SpaceX launched Crew 12 from Kennedy Space Center at Cape Canaveral.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1000.11,
+      "end": 1000.69,
+      "text": "Take a look.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0109": [
+    {
+      "start": 1001.34,
+      "end": 1006.71,
+      "text": "3, 2, 1, ignition, and liftoff.",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 1006.73,
+      "end": 1007.57,
+      "text": "Go Falcon.",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 1007.85,
+      "end": 1008.63,
+      "text": "Go Dragon.",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 1008.84,
+      "end": 1010.97,
+      "text": "And Godspeed, Crew 12.",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 1011.43,
+      "end": 1012.78,
+      "text": "Never get tired of that sight.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1012.8,
+      "end": 1017.5,
+      "text": "The crew of four now heading to the International Space Station aboard a Falcon 9 rocket.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1017.92,
+      "end": 1019.89,
+      "text": "It's a mission designed to restore full",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0110": [
+    {
+      "start": 1019.89,
+      "end": 1020.57,
+      "text": "full staffing.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1020.61,
+      "end": 1023.16,
+      "text": "The ISS has been short-staffed since Crew 11",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0111": [
+    {
+      "start": 1023.16,
+      "end": 1027.16,
+      "text": "11 came home early because of that serious medical emergency that left just",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0112": [
+    {
+      "start": 1027.16,
+      "end": 1031.17,
+      "text": "just one American astronaut and two Russian cosmonauts on board",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0113": [
+    {
+      "start": 1031.17,
+      "end": 1032.04,
+      "text": "for about a month.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1032.48,
+      "end": 1032.88,
+      "text": "Crew 12",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0114": [
+    {
+      "start": 1032.88,
+      "end": 1037.39,
+      "text": "12 includes two Americans, a European astronaut and a Russian cosmonaut.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1037.41,
+      "end": 1038.38,
+      "text": "When they dock, the station",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0115": [
+    {
+      "start": 1038.38,
+      "end": 1039.68,
+      "text": "station gets back to full strength",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0116": [
+    {
+      "start": 1039.68,
+      "end": 1040.07,
+      "text": "strength",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1040.05,
+      "end": 1041.24,
+      "text": "More hands for science,",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0117": [
+    {
+      "start": 1041.24,
+      "end": 1043.18,
+      "text": "science, for repairs, and just the",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0118": [
+    {
+      "start": 1043.18,
+      "end": 1044.22,
+      "text": "day-to-day work that's",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0119": [
+    {
+      "start": 1044.22,
+      "end": 1045.49,
+      "text": "happening 260",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0120": [
+    {
+      "start": 1045.49,
+      "end": 1047.05,
+      "text": "miles above",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0121": [
+    {
+      "start": 1047.05,
+      "end": 1048.05,
+      "text": "above Earth.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0122": [
+    {
+      "start": 1048.05,
+      "end": 1048.26,
+      "text": "Earth.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1048.28,
+      "end": 1051.4,
+      "text": "A storm that's bringing lots of heavy rain is heading for the South this weekend.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1051.42,
+      "end": 1053.79,
+      "text": "We've got all the details with your morning news now weather.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1054.09,
+      "end": 1054.49,
+      "text": "Meteorologist",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0123": [
+    {
+      "start": 1054.49,
+      "end": 1055.87,
+      "text": "Meteorologist Melissa McGee joins us",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0124": [
+    {
+      "start": 1055.87,
+      "end": 1056.21,
+      "text": "us now.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1056.68,
+      "end": 1056.98,
+      "text": "Melissa,",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0125": [
+    {
+      "start": 1056.98,
+      "end": 1057.66,
+      "text": "Melissa, good morning.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1058.04,
+      "end": 1058.92,
+      "text": "Good morning everyone.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1058.96,
+      "end": 1059.07,
+      "text": "We're",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0126": [
+    {
+      "start": 1059.07,
+      "end": 1061.65,
+      "text": "tracking a pretty active pattern that's going to set up today.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1061.67,
+      "end": 1065.89,
+      "text": "Big winter storm develops over the southern Rockies with rain and mountain snow.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1065.91,
+      "end": 1069.82,
+      "text": "So we're watching Arizona, New Mexico and Colorado very closely.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1070.12,
+      "end": 1073.16,
+      "text": "Even thunderstorms possible later today across West Texas.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1073.48,
+      "end": 1077.51,
+      "text": "This storm system continues to travel to the east as we head into our weekend.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1077.57,
+      "end": 1084.57,
+      "text": "So soaking rain and a flooding risk out across the Mississippi Valley and some gusty thunderstorms also possible along the Gulf Coast.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1084.55,
+      "end": 1090.86,
+      "text": "Once we head into our Sunday, we're watching beneficial rain that's going to set up across the southeast in Florida.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1091.1,
+      "end": 1095.41,
+      "text": "The system will slide off the coast as we head into early Monday.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1095.75,
+      "end": 1098.88,
+      "text": "Let's talk about why the rainfall is beneficial.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1099.02,
+      "end": 1101.52,
+      "text": "We've got drought conditions for much of the southeast.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1101.58,
+      "end": 1105.55,
+      "text": "In fact, 88% of this region is underneath a moderate drought.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1105.87,
+      "end": 1109.09,
+      "text": "In fact, this is the driest season in Hattiesburg, Mississippi.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1109.07,
+      "end": 1110.17,
+      "text": "Check out Florida.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1110.19,
+      "end": 1113.4,
+      "text": "99% of the state is underneath the moderate drought.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1113.7,
+      "end": 1117.02,
+      "text": "This is the second driest winter season in Tampa.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1117.04,
+      "end": 1118.61,
+      "text": "So how much rain are we talking about?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1118.67,
+      "end": 1123.69,
+      "text": "Anywhere from one to four inches of rain across the region and locally, higher amounts than that.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1124.07,
+      "end": 1126.28,
+      "text": "Out west, we're tracking a large Pacific storm.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1126.34,
+      "end": 1132.04,
+      "text": "Heavy rain begins in California as we move out on our Sunday, even areas in southern Oregon.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1132.02,
+      "end": 1142.32,
+      "text": "By Monday, we tap into an atmospheric river, so flooding is possible, especially near some of our most recent burn scar areas, and the moisture does linger into our Tuesday.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1142.66,
+      "end": 1150.76,
+      "text": "In terms of rainfall amounts along the coast, anywhere from two to four inches of rainfall along the Sierra Mountain Range, we could find a few feet of snow.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1150.74,
+      "end": 1152.4,
+      "text": "The record warmth does continue.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1152.5,
+      "end": 1159.17,
+      "text": "Winter is on vacation for much of the middle half of the US-75 in Oklahoma City, 66 in Memphis.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1159.49,
+      "end": 1164.82,
+      "text": "As we move out tomorrow, we've got 50 in Indianapolis and 66 degrees there in Atlanta.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1164.84,
+      "end": 1167.84,
+      "text": "And that thaw continues out across the Northeast.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1168.02,
+      "end": 1172.47,
+      "text": "On Sunday in New York, we've got a high temperature above freezing and at 37 degrees.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1172.61,
+      "end": 1174.55,
+      "text": "And by Tuesday, we're up to 46.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1175.45,
+      "end": 1177.23,
+      "text": "That is a look at your national weather.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1177.21,
+      "end": 1178.08,
+      "text": "Now back to you.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1178.1,
+      "end": 1179.42,
+      "text": "All right, Melissa, thank you.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1179.48,
+      "end": 1186.37,
+      "text": "With the first week of 2026 Milan-Cortina Winter Games almost in the books, snowboarding was the focus.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0127": [
+    {
+      "start": 1186.37,
+      "end": 1186.39,
+      "text": "focus.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1186.45,
+      "end": 1193.13,
+      "text": "Chloe Kim was looking to do something no other snowboarder, man or woman, has done, a three-peat on the halfpipe.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1193.15,
+      "end": 1196.9,
+      "text": "And the men's hockey team hit the ice for the first time with an impressive showing.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1197.34,
+      "end": 1201.15,
+      "text": "NBC Nightly News anchor Tom Yamas has the latest Olympic highlights.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1202.53,
+      "end": 1207.55,
+      "text": "Under the bright lights, and with the snow coming down, Khloe Kim threw down a monster",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0128": [
+    {
+      "start": 1207.55,
+      "end": 1209.55,
+      "text": "monster run in Livigno, going",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0129": [
+    {
+      "start": 1209.55,
+      "end": 1211.74,
+      "text": "going for a third consecutive gold medal.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1212.28,
+      "end": 1212.34,
+      "text": "But",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0130": [
+    {
+      "start": 1212.34,
+      "end": 1213.86,
+      "text": "But she fell just short.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1214.02,
+      "end": 1215.48,
+      "text": "Here we go, into the doubles.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1215.56,
+      "end": 1216.72,
+      "text": "Here's the first,",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0131": [
+    {
+      "start": 1216.72,
+      "end": 1217.54,
+      "text": "first, up and over twice.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1219.15,
+      "end": 1219.33,
+      "text": "Oh!",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1219.61,
+      "end": 1221.37,
+      "text": "An upset for Khloe Kim.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1221.75,
+      "end": 1222.03,
+      "text": "But all",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0132": [
+    {
+      "start": 1222.03,
+      "end": 1223.53,
+      "text": "all went according to plan for",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0133": [
+    {
+      "start": 1223.53,
+      "end": 1225.8,
+      "text": "Team USA's men's hockey team,",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0134": [
+    {
+      "start": 1225.8,
+      "end": 1227.41,
+      "text": "putting away Latvia in their first",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0135": [
+    {
+      "start": 1227.41,
+      "end": 1228.58,
+      "text": "first game here in Milan.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0136": [
+    {
+      "start": 1229.38,
+      "end": 1229.93,
+      "text": "Yakaiko,",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0137": [
+    {
+      "start": 1229.93,
+      "end": 1231.12,
+      "text": "Yakaiko, Austin Matthews,",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0138": [
+    {
+      "start": 1231.12,
+      "end": 1231.42,
+      "text": "Matthews, scores!",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0139": [
+    {
+      "start": 1231.96,
+      "end": 1234.28,
+      "text": "NHL players are back at the Olympics for the",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0140": [
+    {
+      "start": 1234.28,
+      "end": 1235.82,
+      "text": "first time in 12 years.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1236.22,
+      "end": 1236.58,
+      "text": "It's the best",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0141": [
+    {
+      "start": 1236.58,
+      "end": 1237.62,
+      "text": "best against the best.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1238.0,
+      "end": 1239.01,
+      "text": "Team USA, one",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0142": [
+    {
+      "start": 1239.01,
+      "end": 1241.36,
+      "text": "one of three teams made up entirely",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0143": [
+    {
+      "start": 1241.36,
+      "end": 1242.41,
+      "text": "of NHL pros.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0144": [
+    {
+      "start": 1242.87,
+      "end": 1243.93,
+      "text": "An",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0145": [
+    {
+      "start": 1243.93,
+      "end": 1245.09,
+      "text": "An absolute thing of beauty.",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0146": [
+    {
+      "start": 1245.09,
+      "end": 1245.23,
+      "text": "beauty.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1245.25,
+      "end": 1247.59,
+      "text": "Also on the ice for Team USA, Kristen",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0147": [
+    {
+      "start": 1247.59,
+      "end": 1250.98,
+      "text": "Kristen Santos Griswold, out of medal contention during the",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0148": [
+    {
+      "start": 1250.98,
+      "end": 1253.74,
+      "text": "the women's speed skating 500-meter short track.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0149": [
+    {
+      "start": 1254.28,
+      "end": 1258.11,
+      "text": "Santos Griswold fell after hitting her blades with another skater,",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0150": [
+    {
+      "start": 1258.11,
+      "end": 1259.11,
+      "text": "losing her balance.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1261.29,
+      "end": 1261.69,
+      "text": "Oh, and then Santos.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0151": [
+    {
+      "start": 1262.67,
+      "end": 1264.41,
+      "text": "trying that aggressive pass.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1264.63,
+      "end": 1265.07,
+      "text": "She has another",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0152": [
+    {
+      "start": 1265.07,
+      "end": 1267.18,
+      "text": "another chance for gold during Saturday's 1,000-meter",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0153": [
+    {
+      "start": 1267.18,
+      "end": 1268.74,
+      "text": "1,000-meter competition.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0154": [
+    {
+      "start": 1268.96,
+      "end": 1271.35,
+      "text": "And take a look at this finish from American cross-country",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0155": [
+    {
+      "start": 1271.35,
+      "end": 1272.85,
+      "text": "cross-country skier Jesse",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0156": [
+    {
+      "start": 1272.85,
+      "end": 1274.38,
+      "text": "Jesse Diggins, who competed",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0157": [
+    {
+      "start": 1274.38,
+      "end": 1275.71,
+      "text": "with a bruised rib.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0158": [
+    {
+      "start": 1276.05,
+      "end": 1278.18,
+      "text": "Jesse",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0159": [],
+  "v1_s0160": [],
+  "v1_s0161": [],
+  "v1_s0162": [
+    {
+      "start": 1283.85,
+      "end": 1285.02,
+      "text": "Diggins with that final surge for the finish.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1285.04,
+      "end": 1285.87,
+      "text": "And Diggins is into a medal position, third",
+      "speaker": "SPEAKER_07"
+    }
+  ],
+  "v1_s0163": [
+    {
+      "start": 1285.87,
+      "end": 1287.68,
+      "text": "third place in the 10K.",
+      "speaker": "SPEAKER_07"
+    },
+    {
+      "start": 1287.66,
+      "end": 1287.76,
+      "text": "Diggins",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0164": [
+    {
+      "start": 1287.76,
+      "end": 1290.63,
+      "text": "Diggins collapsing from pain at the finish,",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0165": [
+    {
+      "start": 1290.63,
+      "end": 1292.53,
+      "text": "but feeling much better by the time",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0166": [
+    {
+      "start": 1292.53,
+      "end": 1293.79,
+      "text": "time she got her bronze medal.",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "start": 1294.77,
+      "end": 1294.97,
+      "text": "That'll",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0167": [
+    {
+      "start": 1294.97,
+      "end": 1295.85,
+      "text": "That'll make you feel better.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1295.91,
+      "end": 1297.89,
+      "text": "Our thanks to Tom Yamas for that report.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1298.35,
+      "end": 1299.72,
+      "text": "Taking a look at the latest medal",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0168": [
+    {
+      "start": 1299.72,
+      "end": 1302.36,
+      "text": "counting, USA is now catapulted into second.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1302.4,
+      "end": 1305.98,
+      "text": "They're tied with Norway at 14, but trailing the host Italy.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 1306.0,
+      "end": 1309.62,
+      "text": "Of course, we've still got more than a week of competition ahead of us.",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "v1_s0169": [
+    {
+      "start": 1309.62,
+      "end": 1317.65,
+      "text": "us.",
+      "speaker": "SPEAKER_06"
+    }
+  ]
+}

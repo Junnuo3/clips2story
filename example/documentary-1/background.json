@@ -1,0 +1,6527 @@
+{
+  "v1_s0000": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.3401,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0001": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.3072,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0002": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.7371,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0003": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4559,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0004": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3771,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0005": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.6118,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0006": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.4778,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0007": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.9472,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0008": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9227,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0009": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.9803,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0010": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.995,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0011": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2058,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0012": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.8615,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0013": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.358,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0014": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.4086,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0015": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2051,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0016": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.2665,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0017": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.6782,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0018": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.4001,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0019": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1509,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0020": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1462,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0021": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0955,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0022": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0942,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0023": [
+    {
+      "background": {
+        "label": "lake",
+        "confidence": 0.7621,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0024": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.6207,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0025": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2563,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0026": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1703,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0027": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.8266,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0028": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.5246,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0029": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.2854,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0030": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.4249,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0031": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.4389,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0032": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.3938,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0033": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8706,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0034": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8472,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0035": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.174,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0036": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1757,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0037": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8264,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0038": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8481,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0039": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.6134,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0040": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.7114,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0041": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.5569,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0042": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.3202,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0043": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.4432,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0044": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.7027,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0045": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1779,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0046": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1967,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0047": [
+    {
+      "background": {
+        "label": "factory",
+        "confidence": 0.5616,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0048": [
+    {
+      "background": {
+        "label": "factory",
+        "confidence": 0.8626,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0049": [
+    {
+      "background": {
+        "label": "factory",
+        "confidence": 0.3282,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0050": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1994,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0051": [
+    {
+      "background": {
+        "label": "press_room",
+        "confidence": 0.5908,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0052": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.3532,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0053": [
+    {
+      "background": {
+        "label": "seminar_room",
+        "confidence": 0.9097,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0054": [
+    {
+      "background": {
+        "label": "factory",
+        "confidence": 0.8727,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0055": [
+    {
+      "background": {
+        "label": "parking_lot",
+        "confidence": 0.4503,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0056": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1317,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0057": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.2605,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0058": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.303,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0059": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9582,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0060": [
+    {
+      "background": {
+        "label": "lake",
+        "confidence": 0.462,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0061": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.4715,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0062": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1335,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0063": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.3895,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0064": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.9542,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0065": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1321,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0066": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.9516,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0067": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.716,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0068": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.5819,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0069": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.3031,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0070": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.3758,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0071": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.4848,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0072": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.2951,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0073": [
+    {
+      "background": {
+        "label": "lake",
+        "confidence": 0.3841,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0074": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.3313,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0075": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2143,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0076": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.3231,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0077": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.9793,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0078": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.439,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0079": [
+    {
+      "background": {
+        "label": "lake",
+        "confidence": 0.5289,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0080": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.9042,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0081": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.4498,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0082": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1413,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0083": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0756,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0084": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2708,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0085": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.292,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0086": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2175,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0087": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.2611,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0088": [
+    {
+      "background": {
+        "label": "kitchen",
+        "confidence": 0.6778,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0089": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3849,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0090": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1957,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0091": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.5338,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0092": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.209,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0093": [
+    {
+      "background": {
+        "label": "kitchen",
+        "confidence": 0.381,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0094": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1742,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0095": [
+    {
+      "background": {
+        "label": "kitchen",
+        "confidence": 0.3716,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0096": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.47,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0097": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7961,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0098": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1803,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0099": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.3716,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0100": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.4698,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0101": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.2583,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0102": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1907,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0103": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1103,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0104": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1729,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0105": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2318,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0106": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1889,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0107": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.3573,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0108": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1647,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0109": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.128,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0110": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8156,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0111": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9271,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0112": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.6072,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0113": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.4591,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0114": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.9844,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0115": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2114,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0116": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1644,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0117": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.9154,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0118": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.8701,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0119": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1933,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0120": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1426,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0121": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8036,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0122": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.6907,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0123": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9452,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0124": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8092,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0125": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8657,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0126": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8716,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0127": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8665,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0128": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4155,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0129": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.5757,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0130": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7987,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0131": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8933,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0132": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.6478,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0133": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.5931,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0134": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9252,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0135": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7595,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0136": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8961,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0137": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8361,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0138": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2055,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0139": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1189,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0140": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.5879,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0141": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3578,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0142": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9568,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0143": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9451,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0144": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7169,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0145": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.6499,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0146": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8915,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0147": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.7955,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0148": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9543,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0149": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.7585,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0150": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.3715,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0151": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.6498,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0152": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.8672,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0153": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3052,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0154": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4452,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0155": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.4885,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0156": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.6038,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0157": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.5185,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0158": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4656,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0159": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.7744,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0160": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.5955,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0161": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.622,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0162": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7022,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0163": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.7958,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0164": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.6237,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0165": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2333,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0166": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.7106,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0167": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9211,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0168": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.5818,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0169": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.672,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0170": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4219,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0171": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8985,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0172": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.5696,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0173": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.5546,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0174": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4883,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0175": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3346,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0176": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4015,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0177": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.3003,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0178": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.6621,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0179": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3839,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0180": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.5229,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0181": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.3627,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0182": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.6378,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0183": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.696,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0184": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.3006,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0185": [
+    {
+      "background": {
+        "label": "factory",
+        "confidence": 0.9309,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0186": [
+    {
+      "background": {
+        "label": "factory",
+        "confidence": 0.8103,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0187": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.4652,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0188": [
+    {
+      "background": {
+        "label": "factory",
+        "confidence": 0.5242,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0189": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3703,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0190": [
+    {
+      "background": {
+        "label": "factory",
+        "confidence": 0.7708,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0191": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2906,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0192": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1758,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0193": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.5886,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0194": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.6215,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0195": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.231,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0196": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1744,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0197": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2434,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0198": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.2689,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0199": [
+    {
+      "background": {
+        "label": "intersection",
+        "confidence": 0.3694,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0200": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.4407,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0201": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.4873,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0202": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.4132,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0203": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.3584,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0204": [
+    {
+      "background": {
+        "label": "car_interior",
+        "confidence": 0.3297,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0205": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.3574,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0206": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.3592,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0207": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.3135,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0208": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2199,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0209": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.3393,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0210": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1694,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0211": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.3945,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0212": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.9305,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0213": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2539,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0214": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.5639,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0215": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2399,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0216": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.2742,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0217": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2219,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0218": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7526,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0219": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.5117,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0220": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.2737,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0221": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.2972,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0222": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4467,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0223": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.4183,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0224": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1264,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0225": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.3989,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0226": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1164,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0227": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1479,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0228": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1547,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0229": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1666,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0230": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1636,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0231": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2122,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0232": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.3758,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0233": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1637,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0234": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1249,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0235": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.6267,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0236": [
+    {
+      "background": {
+        "label": "lake",
+        "confidence": 0.7284,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0237": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3319,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0238": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.6061,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0239": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.7692,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0240": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7147,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0241": [
+    {
+      "background": {
+        "label": "beach",
+        "confidence": 0.3483,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0242": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2134,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0243": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.4564,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0244": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.3206,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0245": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.4057,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0246": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.5025,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0247": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.3484,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0248": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.3585,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0249": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9712,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0250": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9001,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0251": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8673,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0252": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.5479,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0253": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9735,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0254": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9512,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0255": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9521,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0256": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.6424,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0257": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8708,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0258": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.743,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0259": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9487,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0260": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.3911,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0261": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.379,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0262": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9813,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0263": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9229,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0264": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9792,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0265": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9316,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0266": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9473,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0267": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8763,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0268": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9546,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0269": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9395,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0270": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9732,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0271": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8197,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0272": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8885,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0273": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.7875,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0274": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0779,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0275": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.7779,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0276": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3561,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0277": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.3149,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0278": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.5852,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0279": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.8845,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0280": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.2607,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0281": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9193,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0282": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.5223,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0283": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2346,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0284": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4722,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0285": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3244,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0286": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3063,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0287": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.2895,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0288": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3965,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0289": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.92,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0290": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.7616,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0291": [
+    {
+      "background": {
+        "label": "lecture_hall",
+        "confidence": 0.3715,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0292": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1139,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0293": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.2714,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0294": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.266,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0295": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.3353,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0296": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.12,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0297": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1264,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0298": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1036,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0299": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2399,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0300": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3389,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0301": [
+    {
+      "background": {
+        "label": "bedroom",
+        "confidence": 0.3297,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0302": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.092,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0303": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1308,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0304": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1907,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0305": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1577,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0306": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2662,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0307": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2485,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0308": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.487,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0309": [
+    {
+      "background": {
+        "label": "factory",
+        "confidence": 0.4037,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0310": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.4078,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0311": [
+    {
+      "background": {
+        "label": "factory",
+        "confidence": 0.4358,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0312": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.3736,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0313": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.5446,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0314": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.7725,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0315": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4911,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0316": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2024,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0317": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1193,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0318": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1313,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0319": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.7286,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0320": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.3837,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0321": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.6516,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0322": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3093,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0323": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2472,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0324": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2378,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0325": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.2886,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0326": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1672,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0327": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.7685,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0328": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2838,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0329": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.7726,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0330": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.6438,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0331": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8559,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0332": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.6556,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0333": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4058,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0334": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2441,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0335": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.5686,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0336": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8193,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0337": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1128,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0338": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1993,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0339": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.142,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0340": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.4005,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0341": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2492,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0342": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.4412,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0343": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1333,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0344": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.35,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0345": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.5463,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0346": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.6045,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0347": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1709,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0348": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.3217,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0349": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.4032,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0350": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.8,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0351": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.4382,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0352": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.272,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0353": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.293,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0354": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1968,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0355": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.3527,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0356": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1498,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0357": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.3679,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0358": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.4074,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0359": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.3769,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0360": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2143,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0361": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3971,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0362": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.207,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0363": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1708,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0364": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.6416,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0365": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.2929,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0366": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1414,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0367": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.5417,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0368": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2248,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0369": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1712,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0370": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3169,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0371": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.3441,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0372": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1616,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0373": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2154,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0374": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.83,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0375": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1878,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0376": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4199,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0377": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.2587,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0378": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2443,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0379": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1744,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0380": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1641,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0381": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2294,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0382": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.2543,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0383": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.5343,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0384": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1647,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0385": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.4215,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0386": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1074,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0387": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1801,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0388": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.5635,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0389": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.3026,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0390": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.3858,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0391": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.5965,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0392": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.3879,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0393": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.426,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0394": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.3084,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0395": [
+    {
+      "background": {
+        "label": "bedroom",
+        "confidence": 0.3325,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0396": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3485,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0397": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1576,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0398": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0954,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0399": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.8479,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0400": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4464,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0401": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7662,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0402": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1618,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0403": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.6593,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0404": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.5239,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0405": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.7718,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0406": [
+    {
+      "background": {
+        "label": "corridor",
+        "confidence": 0.3114,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0407": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9111,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0408": [
+    {
+      "background": {
+        "label": "hospital",
+        "confidence": 0.6532,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0409": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2049,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0410": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4837,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0411": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.4142,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0412": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.8251,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0413": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9059,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0414": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9493,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0415": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9563,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0416": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9192,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0417": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9456,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0418": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9221,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0419": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.891,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0420": [
+    {
+      "background": {
+        "label": "hospital",
+        "confidence": 0.4946,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0421": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.7666,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0422": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.8383,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0423": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.7771,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0424": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.3798,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0425": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.519,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0426": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2152,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0427": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1808,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0428": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4187,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0429": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.2798,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0430": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.8391,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0431": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4591,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0432": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.6362,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0433": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.202,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0434": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.5957,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0435": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.199,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0436": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.5368,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0437": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.5748,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0438": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.6854,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0439": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2485,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0440": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2448,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0441": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1622,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0442": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2648,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0443": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1805,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0444": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2672,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0445": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2711,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0446": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2079,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0447": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.2999,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0448": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.4993,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0449": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.75,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0450": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3425,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0451": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7516,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0452": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7104,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0453": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.713,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0454": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8731,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0455": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8385,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0456": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9641,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0457": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.6946,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0458": [
+    {
+      "background": {
+        "label": "arena",
+        "confidence": 0.3283,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0459": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.3032,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0460": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9094,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0461": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9662,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0462": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1583,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0463": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.6591,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0464": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1011,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0465": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1981,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0466": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.8254,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0467": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.5579,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0468": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.8876,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0469": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.4541,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0470": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.8873,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0471": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.3571,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0472": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9123,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0473": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.8366,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0474": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1472,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0475": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1237,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0476": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.272,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0477": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.4814,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0478": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.4604,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0479": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.5205,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0480": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2163,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0481": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.7598,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0482": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.47,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0483": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.6957,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0484": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.6336,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0485": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.7911,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0486": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.6401,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0487": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.8454,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0488": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.4034,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0489": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.3238,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0490": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.6066,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0491": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9029,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0492": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.9226,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0493": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8847,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0494": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8734,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0495": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2034,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0496": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2129,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0497": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2281,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0498": [
+    {
+      "background": {
+        "label": "rooftop_night",
+        "confidence": 0.4635,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0499": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1594,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0500": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.6112,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0501": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2309,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0502": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.409,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0503": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2317,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0504": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4156,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0505": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.2736,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0506": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1887,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0507": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0827,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0508": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1499,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0509": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2145,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0510": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1164,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0511": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8837,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0512": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7738,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0513": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3159,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0514": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9494,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0515": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4769,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0516": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4606,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0517": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2371,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0518": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.6102,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0519": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3435,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0520": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3487,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0521": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2475,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0522": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2304,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0523": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.288,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0524": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2497,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0525": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4667,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0526": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3948,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0527": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4019,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0528": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2786,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0529": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2843,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0530": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3231,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0531": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.2642,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0532": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.6056,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0533": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1054,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0534": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.3511,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0535": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1352,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0536": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9248,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0537": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2541,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0538": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.4647,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0539": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.5864,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0540": [
+    {
+      "background": {
+        "label": "lake",
+        "confidence": 0.5523,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0541": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.6801,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0542": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.5469,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0543": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2131,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0544": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.377,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0545": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1816,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0546": [
+    {
+      "background": {
+        "label": "factory",
+        "confidence": 0.3228,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0547": [
+    {
+      "background": {
+        "label": "lake",
+        "confidence": 0.4599,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0548": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3821,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0549": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3066,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0550": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.5535,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0551": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.719,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0552": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3732,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0553": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.8078,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0554": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.6795,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0555": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7058,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0556": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3163,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0557": [
+    {
+      "background": {
+        "label": "lake",
+        "confidence": 0.5177,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0558": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2385,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0559": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1397,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0560": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1223,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0561": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1703,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0562": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.3056,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0563": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1201,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0564": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2478,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0565": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.186,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0566": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0869,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0567": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1818,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0568": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.3635,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0569": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2378,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0570": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.2883,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0571": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2258,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0572": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.2849,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0573": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1292,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0574": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.8265,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0575": [
+    {
+      "background": {
+        "label": "beach",
+        "confidence": 0.6098,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0576": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.5022,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0577": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.2563,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0578": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.4928,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0579": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2275,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0580": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.11,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0581": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.4888,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0582": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2147,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0583": [
+    {
+      "background": {
+        "label": "bedroom",
+        "confidence": 0.2523,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0584": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.3583,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0585": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2298,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0586": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2964,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0587": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2835,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0588": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2096,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0589": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4644,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0590": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2419,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0591": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2109,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0592": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2398,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0593": [
+    {
+      "background": {
+        "label": "arena",
+        "confidence": 0.4483,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0594": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.4166,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0595": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2486,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0596": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.428,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0597": [
+    {
+      "background": {
+        "label": "home_office",
+        "confidence": 0.73,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0598": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.2899,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0599": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1712,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0600": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.2851,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0601": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3104,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0602": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.3761,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0603": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1724,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0604": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.842,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0605": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7258,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0606": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.4495,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0607": [
+    {
+      "background": {
+        "label": "tv_studio",
+        "confidence": 0.3044,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0608": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9278,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0609": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.7881,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0610": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.5388,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0611": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.3292,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0612": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.3606,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0613": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1411,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0614": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.4596,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0615": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1981,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0616": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.3346,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0617": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.8901,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0618": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.4493,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0619": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.5445,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0620": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.7093,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0621": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1717,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0622": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.2838,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0623": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.423,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0624": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.5665,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0625": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1364,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0626": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2296,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0627": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2147,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0628": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1477,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0629": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1883,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0630": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1589,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0631": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1222,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0632": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0879,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0633": [
+    {
+      "background": {
+        "label": "dining_room",
+        "confidence": 0.3345,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0634": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1954,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0635": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1991,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0636": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.237,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0637": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.3283,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0638": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.7121,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0639": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1851,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0640": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.301,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0641": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.304,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0642": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.2542,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0643": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9646,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0644": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.86,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0645": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.9689,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0646": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.8577,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0647": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1898,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0648": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2111,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0649": [
+    {
+      "background": {
+        "label": "bedroom",
+        "confidence": 0.2745,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0650": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2193,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0651": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1892,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0652": [
+    {
+      "background": {
+        "label": "lab",
+        "confidence": 0.3925,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0653": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1369,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0654": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2393,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0655": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1319,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0656": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1774,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0657": [
+    {
+      "background": {
+        "label": "park",
+        "confidence": 0.3039,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0658": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.2583,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0659": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.2853,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0660": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.2736,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0661": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.3251,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0662": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.539,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0663": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.2925,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0664": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1749,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0665": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1157,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0666": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.2731,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0667": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.3591,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0668": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1965,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0669": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.3692,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0670": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1401,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0671": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.2681,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0672": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.3023,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0673": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.167,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0674": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.7624,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0675": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.7067,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0676": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.2706,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0677": [
+    {
+      "background": {
+        "label": "ocean",
+        "confidence": 0.2821,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0678": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.2965,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0679": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.705,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0680": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1165,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0681": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1321,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0682": [
+    {
+      "background": {
+        "label": "lake",
+        "confidence": 0.5068,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0683": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.8805,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0684": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.7421,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0685": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.9075,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0686": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.3535,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0687": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.4001,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0688": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.7157,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0689": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.2836,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0690": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.6752,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0691": [
+    {
+      "background": {
+        "label": "lake",
+        "confidence": 0.3523,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0692": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.3031,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0693": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.5169,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0694": [
+    {
+      "background": {
+        "label": "river",
+        "confidence": 0.6129,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0695": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.974,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0696": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2208,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0697": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.8936,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0698": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3774,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0699": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.6078,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0700": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.3428,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0701": [
+    {
+      "background": {
+        "label": "interview_set",
+        "confidence": 0.4868,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0702": [
+    {
+      "background": {
+        "label": "mountain",
+        "confidence": 0.9917,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0703": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.6332,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0704": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.3784,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0705": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.3546,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0706": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.453,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0707": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.4824,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0708": [
+    {
+      "background": {
+        "label": "jungle",
+        "confidence": 0.4121,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0709": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.2964,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0710": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1849,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0711": [
+    {
+      "background": {
+        "label": "forest",
+        "confidence": 0.411,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0712": [
+    {
+      "background": {
+        "label": "lake",
+        "confidence": 0.574,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0713": [
+    {
+      "background": {
+        "label": "desert",
+        "confidence": 0.5992,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0714": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0957,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0715": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1591,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0716": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2134,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0717": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2414,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0718": [
+    {
+      "background": {
+        "label": "farmland",
+        "confidence": 0.2579,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0719": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2236,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0720": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2064,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0721": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.1985,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0722": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.2058,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0723": [
+    {
+      "background": {
+        "label": "stage",
+        "confidence": 0.315,
+        "source": "clip_zeroshot"
+      }
+    }
+  ],
+  "v1_s0724": [
+    {
+      "background": {
+        "label": "unknown",
+        "confidence": 0.0843,
+        "source": "clip_zeroshot"
+      }
+    }
+  ]
+}

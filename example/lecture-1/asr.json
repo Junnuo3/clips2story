@@ -1,0 +1,5251 @@
+{
+  "v1_s0000": [
+    {
+      "start": 0.03,
+      "end": 3.29,
+      "text": "The following content is provided under a Creative Commons license.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 3.98,
+      "end": 9.78,
+      "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 10.62,
+      "end": 20.22,
+      "text": "To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 21.31,
+      "end": 21.69,
+      "text": "This is",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0001": [
+    {
+      "start": 21.69,
+      "end": 24.05,
+      "text": "is the second time we are having this class.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 24.09,
+      "end": 27.14,
+      "text": "We had it last year in a smaller version.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 27.9,
+      "end": 29.88,
+      "text": "That was for six units of credit.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 30.8,
+      "end": 32.13,
+      "text": "And we had it once a week.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 32.99,
+      "end": 43.3,
+      "text": "And mostly practitioners from the industry, from Morgan Stanley, talking about examples how math is applied in modern finance.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 45.04,
+      "end": 48.04,
+      "text": "OK. Is it OK?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 48.06,
+      "end": 48.24,
+      "text": "OK. Yeah.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 48.26,
+      "end": 50.82,
+      "text": "And so we got some good response last year.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 50.94,
+      "end": 59.85,
+      "text": "So with the support of the math department, we decided to expand this class to be 12 units of credit and have twice a week.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 60.22,
+      "end": 67.91,
+      "text": "So we have every Tuesday and Thursday afternoon from 2.30 to 4, as you know, in this classroom.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 68.41,
+      "end": 75.9,
+      "text": "So last year, Dr. Vasili Strela and I, by the way, I'm Jake Shaw, and that's Dr. Vasili.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 76.14,
+      "end": 78.24,
+      "text": "And we were the main instructors last year.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 78.26,
+      "end": 78.39,
+      "text": "Now",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0002": [
+    {
+      "start": 78.39,
+      "end": 81.67,
+      "text": "Now we doubled it up to four main instructors.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 82.57,
+      "end": 87.41,
+      "text": "That's Dr. Peter Kempthorne and Dr. Chunbong Lee.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0003": [
+    {
+      "start": 87.56,
+      "end": 100.32,
+      "text": "The reason we doubled up the main instructors is we have newly added math lectures, mostly focusing on from linear algebra, probability, to statistics, and some stochastic calculus.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 100.78,
+      "end": 114.1,
+      "text": "So give you the foundation to understand the math will be used in those examples in the lecture taught by the practitioners from the industry.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0004": [
+    {
+      "start": 114.1,
+      "end": 114.13,
+      "text": "industry.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 114.39,
+      "end": 126.84,
+      "text": "And the purpose of this course is really to give you a sampling manual to see how mathematics is applied in modern finance and help you to decide if this is a field that you would be",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0005": [
+    {
+      "start": 126.84,
+      "end": 127.38,
+      "text": "using.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 128.08,
+      "end": 131.86,
+      "text": "Please visit our website at www.webex.com.",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "start": 134.1,
+      "end": 134.44,
+      "text": "OK?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 134.88,
+      "end": 135.62,
+      "text": "You heard that?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 135.65,
+      "end": 145.36,
+      "text": "And so hopefully, this will give you enough information to decide this is the field you'd like to pursue in your future career.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 145.52,
+      "end": 153.57,
+      "text": "In fact, last year, when we finished the class, we had a few students come in to work in the industry.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 153.75,
+      "end": 155.09,
+      "text": "Some worked at Morgan Stanley.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 155.11,
+      "end": 158.37,
+      "text": "Some worked at elsewhere.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 158.35,
+      "end": 160.03,
+      "text": "So that's really the goal.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 160.66,
+      "end": 166.95,
+      "text": "And at the same time, obviously, you will further solidify your math knowledge",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0006": [
+    {
+      "start": 166.95,
+      "end": 171.21,
+      "text": "knowledge and learn new content.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 171.23,
+      "end": 174.96,
+      "text": "And we'll put the prerequisite about the math part a bit later.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0007": [
+    {
+      "start": 176.12,
+      "end": 186.8,
+      "text": "So I will use today's first lecture's time to give you an introduction, really to prepare you some basic background knowledge about the financial markets.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 188.25,
+      "end": 192.81,
+      "text": "Some terminologies will be used, which you may not have heard before.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 193.35,
+      "end": 198.96,
+      "text": "So before I get into the introduction, I always like to know who are actually in the classroom.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 199.18,
+      "end": 200.7,
+      "text": "So let me ask you a few questions.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 200.9,
+      "end": 207.43,
+      "text": "You just need to raise your hands so I know roughly what kind of background and where you are.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 208.33,
+      "end": 210.91,
+      "text": "So how many undergraduate students are here?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 213.48,
+      "end": 215.48,
+      "text": "So I would say 80%.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 215.72,
+      "end": 217.88,
+      "text": "OK, statistics.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 218.67,
+      "end": 219.81,
+      "text": "How many graduate students are here?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 220.03,
+      "end": 221.03,
+      "text": "Just to verify.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 221.55,
+      "end": 223.45,
+      "text": "OK, yeah, that's about right, 20%.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 224.61,
+      "end": 229.32,
+      "text": "And how many students are in finance and business major?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 231.5,
+      "end": 232.41,
+      "text": "Just one.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 232.43,
+      "end": 235.21,
+      "text": "OK. And how many of you are in math major?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 236.55,
+      "end": 237.03,
+      "text": "Most of you.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 237.62,
+      "end": 238.56,
+      "text": "OK. How many",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0008": [
+    {
+      "start": 238.56,
+      "end": 240.08,
+      "text": "many of you are engineering major?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 242.04,
+      "end": 242.96,
+      "text": "OK, a few.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 243.71,
+      "end": 247.69,
+      "text": "How many of you are actually from other universities?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 248.48,
+      "end": 250.54,
+      "text": "OK, great, because last year we had quite",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0009": [
+    {
+      "start": 250.54,
+      "end": 250.87,
+      "text": "quite a few.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 251.23,
+      "end": 256.9,
+      "text": "So I want to specifically tell you that you're very welcome to attend the classes here.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 257.52,
+      "end": 259.17,
+      "text": "So it's open door.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 259.63,
+      "end": 263.6,
+      "text": "And last year, I remember, we had a couple of students from Harvard.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 264.4,
+      "end": 266.85,
+      "text": "That's where I actually work right now.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 267.18,
+      "end": 275.75,
+      "text": "But I forgot to mention that even that, but I'm affiliated with both the math department and the Sloan School here.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 275.85,
+      "end": 278.93,
+      "text": "So anyway, thanks for that.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 279.17,
+      "end": 285.46,
+      "text": "We will be doing a bit more polling along the way, mainly to get feedback of how you feel about the class.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 286.16,
+      "end": 287.64,
+      "text": "Last year, we had it online.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 287.66,
+      "end": 295.45,
+      "text": "So if you feel the class is going too fast, or the math part is going too slow, or the finance part is a bit confusing,",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 295.43,
+      "end": 301.22,
+      "text": "And the easiest way is really just to send us emails, which you will find from the class website.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 302.48,
+      "end": 303.6,
+      "text": "So anyway, today.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 303.64,
+      "end": 311.07,
+      "text": "We all have MIT emails, which are listed on the website.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 313.38,
+      "end": 316.93,
+      "text": "Yep, and obviously we have offices here.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 317.11,
+      "end": 321.75,
+      "text": "You can easily stop by Peter and Choon-Boon's offices.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 322.07,
+      "end": 327.84,
+      "text": "And Vasilis and I probably will be less often on campus, but we'll be here quite often.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 328.3,
+      "end": 330.06,
+      "text": "And definitely love to be more.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 330.85,
+      "end": 336.57,
+      "text": "So anyway, I will start today's lecture with a story and a quiz at the end.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 337.78,
+      "end": 339.51,
+      "text": "Don't worry, it's not a real quiz.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 339.67,
+      "end": 340.91,
+      "text": "Just going to ask you some questions.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 340.97,
+      "end": 343.47,
+      "text": "You can raise your hand and give your answer.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 343.98,
+      "end": 346.34,
+      "text": "But let me start with my story.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 346.36,
+      "end": 347.74,
+      "text": "This is actually my personal story.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 347.76,
+      "end": 351.75,
+      "text": "I want to tell you the story later.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 352.47,
+      "end": 356.52,
+      "text": "But the story actually was in the mid-'90s.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 356.5,
+      "end": 359.42,
+      "text": "I just left Salomon Brothers.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 359.74,
+      "end": 368.49,
+      "text": "That was my first financial industry job to go to Morgan Stanley in New York to join the options trading desk.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 369.79,
+      "end": 371.75,
+      "text": "So the first day, I sat down.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 373.16,
+      "end": 374.7,
+      "text": "I opened the trading book.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 375.38,
+      "end": 376.62,
+      "text": "I found something was missing.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 378.24,
+      "end": 380.16,
+      "text": "And so I turned around.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 380.56,
+      "end": 382.51,
+      "text": "I asked my desk quant.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 382.55,
+      "end": 386.56,
+      "text": "I said, where is the Vega report?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 387.02,
+      "end": 387.7,
+      "text": "Let me show you.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 392.15,
+      "end": 395.28,
+      "text": "So that's the story.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 396.46,
+      "end": 399.8,
+      "text": "I'm obviously not going to tell you the story of pi or life of pi.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 400.02,
+      "end": 400.93,
+      "text": "That's not a financial",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0010": [
+    {
+      "start": 400.93,
+      "end": 402.01,
+      "text": "financial story.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 402.69,
+      "end": 410.54,
+      "text": "Or the rest of the story, alpha, beta, delta, gamma, theta, which you will learn from Peter and Chumbo and Vasilis' classes.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 410.92,
+      "end": 412.6,
+      "text": "So I'm going to talk about Vega.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 413.42,
+      "end": 416.95,
+      "text": "So by the way, before I tell you the story, what's unique about Vega on this list?",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0011": [
+    {
+      "start": 419.14,
+      "end": 420.12,
+      "text": "It's not a Greek letter.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 420.14,
+      "end": 420.52,
+      "text": "That's right.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 422.07,
+      "end": 425.3,
+      "text": "So I turn around and ask my desk client, where's the Vega report?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 425.86,
+      "end": 429.25,
+      "text": "But how many of you actually know what Vega is?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 429.8,
+      "end": 430.66,
+      "text": "OK, a lot of people know.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 430.72,
+      "end": 432.83,
+      "text": "So anyway, I'm not going to.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 432.85,
+      "end": 442.32,
+      "text": "It's just for the people who haven't heard of it before, it's a measurement about a book or portfolio or position sensitivity to volatility.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 442.94,
+      "end": 443.92,
+      "text": "So what is volatility?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 444.44,
+      "end": 452.57,
+      "text": "Which, again, you will learn more in rigorous terms how it's defined in mathematics.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 452.55,
+      "end": 462.22,
+      "text": "The meaning of it is really a measurement or indication of how volatile or what's the standard deviation of a price can change over time.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 462.52,
+      "end": 464.18,
+      "text": "That's all you need to know right now.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 464.88,
+      "end": 466.49,
+      "text": "I'm not going to ask you questions later.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 467.57,
+      "end": 474.57,
+      "text": "So my desk clerk looked at me and said, this is supposed to be an options trading desk.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 474.79,
+      "end": 477.28,
+      "text": "So he looked at me kind of puzzled.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 478.12,
+      "end": 485.99,
+      "text": "So instead of answering my question, he handed over me a training manual for new employees and new analysts.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 486.99,
+      "end": 490.16,
+      "text": "So I opened the training manual and looked it through.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 490.18,
+      "end": 492.68,
+      "text": "I actually found my answer.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 492.7,
+      "end": 495.68,
+      "text": "So actually, at Moon Stanley, this is not called Vega.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 496.25,
+      "end": 497.63,
+      "text": "It's called Kappa.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 497.71,
+      "end": 499.37,
+      "text": "So now remember, it's called a kappa.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 500.05,
+      "end": 501.19,
+      "text": "Kappa is actually a Greek letter.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 502.01,
+      "end": 508.64,
+      "text": "So further, I look at, on the same page, there was actually a footnote, which I copied down.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 509.78,
+      "end": 517.37,
+      "text": "So the footnote about why it's called kappa at Morgan Stanley.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 519.69,
+      "end": 524.44,
+      "text": "Kappa is also called vega by some uneducated traders at the Solomon Brothers.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 525.4,
+      "end": 526.3,
+      "text": "That's where I came from.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 526.32,
+      "end": 527.24,
+      "text": "I just joined.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 527.76,
+      "end": 532.41,
+      "text": "They have mistaken Vega as a Greek letter after gambling at Vegas.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 535.36,
+      "end": 538.0,
+      "text": "So anyway, so that was my first day.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 538.56,
+      "end": 544.95,
+      "text": "So obviously, I learned how to call Kappa very quickly, because I came from Solomon Brothers.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 545.91,
+      "end": 548.91,
+      "text": "And I called Kappa in the last 17 years.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 549.79,
+      "end": 551.52,
+      "text": "But you will hear people calling it a Vega.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 551.98,
+      "end": 553.76,
+      "text": "Obviously, there are probably more people calling it a Vega.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 554.6,
+      "end": 558.59,
+      "text": "But anyway, so that's my first day at Morgan Stanley.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 559.35,
+      "end": 561.23,
+      "text": "But why did I tell you this story?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 561.93,
+      "end": 563.81,
+      "text": "What point did I try to make?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 564.94,
+      "end": 573.91,
+      "text": "So this story is actually, when you think about it, mathematical or quantitative finance is a rather new field.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 574.41,
+      "end": 577.02,
+      "text": "A lot of these terms were newly introduced.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 578.22,
+      "end": 589.43,
+      "text": "And the pricing model of options, as you know, was introduced at the black shows in the 70s, or some of the groundwork maybe done a bit earlier.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 589.95,
+      "end": 592.5,
+      "text": "But it's not like.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 592.83,
+      "end": 596.38,
+      "text": "Finance was a quantitative profession to start with.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 597.12,
+      "end": 608.49,
+      "text": "So what we witnessed in the last 30 years was really a transformation of the trading profession coming from mostly undereducated traders.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 609.39,
+      "end": 614.76,
+      "text": "Some of them typically joined the firms in the mailroom and became trader later on.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 615.1,
+      "end": 617.22,
+      "text": "That's typical career path.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 617.2,
+      "end": 631.76,
+      "text": "Nowadays, if you walk on the trading floor, you talk to the traders, most of them have advanced degrees, and quite a few of them have very high training in mathematics and computer science.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 632.65,
+      "end": 635.91,
+      "text": "So, what has changed over the last 20 or 30 years?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 636.95,
+      "end": 641.3,
+      "text": "I myself, personally, was probably one of the data points.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 642.38,
+      "end": 643.64,
+      "text": "experiencing this change.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 644.66,
+      "end": 654.83,
+      "text": "And I certainly didn't expect I would be doing this when I was at MIT, but I did that in the last 20 years.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 656.09,
+      "end": 670.19,
+      "text": "So the point I'm trying to tell you is before you dive into any details of mathematics or any concept in finance in this class, just bear in mind",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 671.18,
+      "end": 676.67,
+      "text": "This is a field developed in the last, mostly, 30 years, or even shorter.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 677.23,
+      "end": 686.88,
+      "text": "And what you really need to ask questions is, is it right or wrong in mathematics?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 686.9,
+      "end": 688.33,
+      "text": "Is it right or wrong in physics?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 689.39,
+      "end": 692.65,
+      "text": "So how are the concepts established?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 693.27,
+      "end": 694.63,
+      "text": "define and verify.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 695.12,
+      "end": 704.31,
+      "text": "Because this is a field, the transformation about the participants, products, models, methodology, everything are changing very rapidly.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 704.45,
+      "end": 705.85,
+      "text": "Even nowadays, it's still changing.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 706.67,
+      "end": 716.04,
+      "text": "So with that, I will give you some background of how the financial markets are actually started.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0012": [
+    {
+      "start": 716.04,
+      "end": 716.83,
+      "text": "started.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 717.35,
+      "end": 722.98,
+      "text": "And that's really the history part of this industry.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 723.66,
+      "end": 730.02,
+      "text": "So when we talk about markets, we know in the early days, people need to exchange goods.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 730.44,
+      "end": 731.78,
+      "text": "You have something I don't have.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 731.9,
+      "end": 732.13,
+      "text": "I have",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0013": [
+    {
+      "start": 732.13,
+      "end": 732.95,
+      "text": "something you don't have.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 733.05,
+      "end": 734.87,
+      "text": "So there's exchanges.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 735.23,
+      "end": 736.95,
+      "text": "Then it becomes centralized.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 737.56,
+      "end": 741.83,
+      "text": "There are stock exchanges, futures exchanges all over the world.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 741.91,
+      "end": 746.57,
+      "text": "then these products will be listed as securities on these exchanges.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 747.31,
+      "end": 749.92,
+      "text": "That's one way of trading, which is centralized.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 750.66,
+      "end": 760.65,
+      "text": "Obviously, in the last 10, 15 years, now we have ECNs, electronic platforms, trade over even larger volume of those trades.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 761.33,
+      "end": 765.21,
+      "text": "So financial products is really just one form of trading.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 765.79,
+      "end": 771.88,
+      "text": "And when you think about it, there are many other ways of trading, aside from exchanges.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 772.01,
+      "end": 780.98,
+      "text": "One of them, which is called OTC, is over-the-counter, meaning two counterparties agree to do a",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0014": [
+    {
+      "start": 780.98,
+      "end": 781.6,
+      "text": "trade.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 782.74,
+      "end": 785.65,
+      "text": "without really subject to the exchange rules.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 786.07,
+      "end": 789.42,
+      "text": "Or the underlying trading agreement does not",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0015": [
+    {
+      "start": 789.42,
+      "end": 795.66,
+      "text": "not have to be a securitized product, or standardized, or whatever ways you define it.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 796.5,
+      "end": 799.8,
+      "text": "And the different regions have different exchanges and markets as well.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0016": [
+    {
+      "start": 799.8,
+      "end": 800.09,
+      "text": "well.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 800.89,
+      "end": 806.12,
+      "text": "And they typically specialize in local products, local company stocks.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 806.79,
+      "end": 807.08,
+      "text": "local",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0017": [
+    {
+      "start": 807.08,
+      "end": 811.18,
+      "text": "local bonds, and local currencies.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 811.9,
+      "end": 813.74,
+      "text": "So there are many different forms.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 813.96,
+      "end": 817.35,
+      "text": "So again, what's in common?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 817.81,
+      "end": 819.59,
+      "text": "That's the question you need to ask.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 819.69,
+      "end": 821.74,
+      "text": "Also, you need to know the specifics.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 822.46,
+      "end": 825.72,
+      "text": "And the currencies, money itself, are also traded.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 826.63,
+      "end": 831.74,
+      "text": "And that's where different currencies are issued by different countries.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 832.39,
+      "end": 837.43,
+      "text": "So when we talk about trading stocks, there are also people who trade baskets of stocks,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0018": [
+    {
+      "start": 837.43,
+      "end": 843.08,
+      "text": "stocks, trade groups of stocks together, and that's stock index or indices.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0019": [
+    {
+      "start": 843.7,
+      "end": 845.92,
+      "text": "So there are different products.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 846.0,
+      "end": 848.56,
+      "text": "Now, how does stock get listed on a stock exchange?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 849.25,
+      "end": 852.09,
+      "text": "It goes through IPO, initial public offering process.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0020": [
+    {
+      "start": 852.09,
+      "end": 852.53,
+      "text": "process.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 853.13,
+      "end": 858.94,
+      "text": "So when a company changes from private to public, it goes through this IPO process.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 859.56,
+      "end": 862.44,
+      "text": "It's called primary market, primary listing.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 863.5,
+      "end": 867.03,
+      "text": "And once the stock is listed on the exchange,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0021": [
+    {
+      "start": 867.03,
+      "end": 867.83,
+      "text": "exchange,",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 868.2,
+      "end": 870.42,
+      "text": "And it becomes traded in the market.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 870.82,
+      "end": 872.07,
+      "text": "We call it secondary trading.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0022": [
+    {
+      "start": 872.47,
+      "end": 876.37,
+      "text": "So that's after the primary market.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 876.39,
+      "end": 882.8,
+      "text": "And equity or stock is one form of trading or one form of financial products.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0023": [
+    {
+      "start": 883.72,
+      "end": 884.58,
+      "text": "What are other forms?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 885.56,
+      "end": 885.95,
+      "text": "Loans.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0024": [
+    {
+      "start": 886.59,
+      "end": 891.15,
+      "text": "Actually, debt products are more generic than equity products.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 892.08,
+      "end": 897.19,
+      "text": "When you started thinking about what is really finance is about,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0025": [
+    {
+      "start": 897.19,
+      "end": 900.87,
+      "text": "about, it's really about someone has money, someone doesn't.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 901.61,
+      "end": 904.76,
+      "text": "Someone has money to lend out, someone needs to borrow money.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 905.44,
+      "end": 906.24,
+      "text": "So that's loan.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 907.3,
+      "end": 912.27,
+      "text": "Loan is really a private agreement between two counterparties or multiple counterparties.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 913.17,
+      "end": 915.15,
+      "text": "When you securitize them, they become",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0026": [
+    {
+      "start": 915.15,
+      "end": 917.9,
+      "text": "bonds.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 918.27,
+      "end": 922.41,
+      "text": "When you look at bonds, every government issues large sovereign debt.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 922.85,
+      "end": 927.1,
+      "text": "So US government has large outstanding US Treasury debt,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0027": [
+    {
+      "start": 927.1,
+      "end": 928.92,
+      "text": "debt, bonds, notes, bills.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 930.13,
+      "end": 934.69,
+      "text": "And corporates have issued a lot of debt product as well.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 934.83,
+      "end": 935.62,
+      "text": "They borrow money.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 936.0,
+      "end": 940.42,
+      "text": "When they need to build a new factory or expand, universities borrow money.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 941.24,
+      "end": 943.77,
+      "text": "When MIT needs to build a new building,",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 944.36,
+      "end": 947.46,
+      "text": "Some of the money will come from the endowment support.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 947.7,
+      "end": 952.09,
+      "text": "Some will come from some other form of research budget.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 952.49,
+      "end": 957.84,
+      "text": "Or some will come from debt financing, just borrowed from the public.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 957.86,
+      "end": 960.71,
+      "text": "Local governments, states, counties even.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 961.39,
+      "end": 962.83,
+      "text": "So they have various forms.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0028": [
+    {
+      "start": 964.56,
+      "end": 966.6,
+      "text": "So that's debt product.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 968.59,
+      "end": 977.78,
+      "text": "Actually, you know, metal, energy, agriculture, products, all traded, mostly in the futures format, and some in physical format, meaning you",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0029": [
+    {
+      "start": 977.78,
+      "end": 978.71,
+      "text": "you take deliveries.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 979.35,
+      "end": 983.76,
+      "text": "When you actually buy and sell, you build a warehouse to take them.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 984.24,
+      "end": 989.11,
+      "text": "You ship a tank to store above the ocean.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 989.83,
+      "end": 992.5,
+      "text": "And the real estates, you buy and sell houses,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0030": [
+    {
+      "start": 992.5,
+      "end": 1003.07,
+      "text": "houses, 2008 financial crisis, if you read about it, this has a lot to do with the real estate market, the mortgages, and asset-backed securities.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1003.23,
+      "end": 1005.17,
+      "text": "And so I'm not trying",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0031": [
+    {
+      "start": 1005.17,
+      "end": 1007.98,
+      "text": "trying to give you all the definition, dumping the information on you.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1008.1,
+      "end": 1011.13,
+      "text": "But I like at least you're hearing it once today.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1011.17,
+      "end": 1013.75,
+      "text": "And then you have more interest.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1013.77,
+      "end": 1015.19,
+      "text": "You can read on the side.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1016.03,
+      "end": 1020.06,
+      "text": "So asset-backed securities is when you have an asset.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1020.17,
+      "end": 1025.54,
+      "text": "you basically issue a debt with the asset backing it.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1026.34,
+      "end": 1030.76,
+      "text": "And how do you rate the asset's risk level?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1031.18,
+      "end": 1033.75,
+      "text": "And what's the income stream, cash flow?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1034.61,
+      "end": 1048.9,
+      "text": "And before 2008 financial crisis, as you heard, large amount of CMBS, basically it's a commercial real estate backed",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1049.17,
+      "end": 1052.85,
+      "text": "securities, mortgage securities, and the residential as well.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1053.99,
+      "end": 1054.49,
+      "text": "And further",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0032": [
+    {
+      "start": 1054.49,
+      "end": 1058.48,
+      "text": "further of all these, you heard probably a lot about the derivative products.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1059.08,
+      "end": 1064.05,
+      "text": "So that started with swaps, options, and the structure of the products.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1064.33,
+      "end": 1065.27,
+      "text": "It become",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0033": [
+    {
+      "start": 1065.27,
+      "end": 1069.72,
+      "text": "more tailor-made for either investors or",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1069.91,
+      "end": 1074.23,
+      "text": "borrowers to structure the products in a way to suit their needs.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1074.51,
+      "end": 1081.04,
+      "text": "And some of the complexity of those structured products become quite high.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1081.8,
+      "end": 1095.81,
+      "text": "And the mathematics involved in pricing them and the risk management become rather challenging.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1096.79,
+      "end": 1100.39,
+      "text": "Let me come back to the players in the market.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1101.27,
+      "end": 1105.72,
+      "text": "One large sector or player, one large type of player is really bank.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0034": [
+    {
+      "start": 1106.76,
+      "end": 1116.38,
+      "text": "So essentially after 1933, Glass-Steagall legislation, there were two main types of banks.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1116.88,
+      "end": 1118.16,
+      "text": "One is called commercial bank.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1118.28,
+      "end": 1119.44,
+      "text": "The other is investment bank.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0035": [
+    {
+      "start": 1120.4,
+      "end": 1123.29,
+      "text": "Commercial bank is supposedly",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1123.43,
+      "end": 1130.44,
+      "text": "You're taking deposits and lend out the money and doing more commercial services.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1131.04,
+      "end": 1134.91,
+      "text": "An investment bank is supposed to focus on the capital markets.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1135.18,
+      "end": 1140.2,
+      "text": "raising capital, trading, and asset management.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1140.86,
+      "end": 1147.69,
+      "text": "But obviously, after 1999, the Glass-Steagall was repealed.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1148.07,
+      "end": 1149.91,
+      "text": "There's no longer that.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1149.97,
+      "end": 1157.48,
+      "text": "Some people blame that, probably for a very good reason, for the cause of 2008 financial crisis.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1158.14,
+      "end": 1160.76,
+      "text": "But I want to tell you how currently",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0036": [
+    {
+      "start": 1160.76,
+      "end": 1165.18,
+      "text": "currently investment banks are organized.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1165.16,
+      "end": 1169.09,
+      "text": "Vasily just mentioned he works in the fixed income.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1170.31,
+      "end": 1176.56,
+      "text": "And so banks are typically organized by institutional business and asset management.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1177.14,
+      "end": 1182.79,
+      "text": "So within the institutional client business, it has typically three main parts.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0037": [
+    {
+      "start": 1183.62,
+      "end": 1188.74,
+      "text": "Fixed income, which trade the debt and the derivative products.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1188.92,
+      "end": 1192.13,
+      "text": "Equity trade stocks and derivative products.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0038": [
+    {
+      "start": 1192.99,
+      "end": 1207.6,
+      "text": "And IBD stands for Investment Banking Division, which really covers corporate finance, raising capital, listing a stock, IPO, and merger and acquisition, and advisory.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1208.3,
+      "end": 1208.88,
+      "text": "So that's",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0039": [
+    {
+      "start": 1208.88,
+      "end": 1210.76,
+      "text": "how banks are organized.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1211.8,
+      "end": 1213.24,
+      "text": "Outside banks.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1213.48,
+      "end": 1220.05,
+      "text": "Other players, basically the asset managers, are obviously a very big force in the financial markets.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1222.52,
+      "end": 1226.92,
+      "text": "So the question a lot of people ask is, is this a zero-sum game?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1227.46,
+      "end": 1229.51,
+      "text": "I'm sure you heard this many times.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1230.47,
+      "end": 1233.72,
+      "text": "So in the financial markets, some people win, some people lose.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1233.74,
+      "end": 1236.16,
+      "text": "I mean, a lot of times.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1236.34,
+      "end": 1240.27,
+      "text": "It depends on specific products you trade, the market you're in.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1240.77,
+      "end": 1244.54,
+      "text": "It is, a lot of times, pretty net zero.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1244.98,
+      "end": 1247.9,
+      "text": "But why do we need financial markets?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1249.43,
+      "end": 1250.49,
+      "text": "This comes back",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0040": [
+    {
+      "start": 1250.49,
+      "end": 1255.62,
+      "text": "back to what I described before, because something existed.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1255.68,
+      "end": 1256.76,
+      "text": "Actually, there's a need for it.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1257.36,
+      "end": 1260.01,
+      "text": "It's really the need to bridge.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1260.66,
+      "end": 1262.96,
+      "text": "between the lenders and the borrowers.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1263.97,
+      "end": 1266.84,
+      "text": "That's really coming down to the essential relationship.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0041": [
+    {
+      "start": 1266.84,
+      "end": 1267.13,
+      "text": "relationship.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1267.83,
+      "end": 1275.67,
+      "text": "So investors who have money need to have better yield or better return, better interest in the current environment.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1276.2,
+      "end": 1280.55,
+      "text": "When you have a savings account, you know you don't really earn much at all.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1281.31,
+      "end": 1287.22,
+      "text": "And so you would have to take more risk to generate more return.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1287.86,
+      "end": 1293.87,
+      "text": "Or you have a longer horizon, CDs or other type of products, or trade stocks.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1294.67,
+      "end": 1296.16,
+      "text": "So that's when somebody has money.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1296.24,
+      "end": 1299.02,
+      "text": "When you trade stocks, you are essentially",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1299.52,
+      "end": 1309.62,
+      "text": "You're buying a stock, you give the money somewhere, supposedly, go to the company, the company use the money to generate a better return.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1310.44,
+      "end": 1317.32,
+      "text": "And for the borrowers, whoever needs money, they need to have access to the capital.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1318.08,
+      "end": 1318.96,
+      "text": "So obviously,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0042": [
+    {
+      "start": 1318.96,
+      "end": 1321.97,
+      "text": "obviously, different borrowers have different risks.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1322.01,
+      "end": 1328.54,
+      "text": "Some people borrow money, never return, or never generate any returns, or never even return the principal.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1328.65,
+      "end": 1334.78,
+      "text": "And so the trade between lenders and the borrowers is, again, essentially the main driver",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0043": [
+    {
+      "start": 1334.78,
+      "end": 1336.14,
+      "text": "of the financial markets.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1340.33,
+      "end": 1343.35,
+      "text": "So a few more words about market participants.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1344.63,
+      "end": 1346.43,
+      "text": "So banks and",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0044": [
+    {
+      "start": 1346.43,
+      "end": 1349.5,
+      "text": "so-called dealers play the role of market making.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1350.28,
+      "end": 1354.72,
+      "text": "What is market making?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1354.92,
+      "end": 1356.0,
+      "text": "end user go",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0045": [
+    {
+      "start": 1356.0,
+      "end": 1362.84,
+      "text": "go to the market, wants to buy or sell, typically, if there's no market, you don't really find the match.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1363.1,
+      "end": 1368.86,
+      "text": "And some of the products you want to buy or sell may not necessarily be liquid.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1368.88,
+      "end": 1374.71,
+      "text": "So the dealers step in the middle, make you a price, say, OK, you want to buy or sell.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1375.47,
+      "end": 1378.21,
+      "text": "I can tell you this stock.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1378.45,
+      "end": 1379.72,
+      "text": "I make you a price.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1380.34,
+      "end": 1385.54,
+      "text": "$0.99, and that's my bid.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1385.56,
+      "end": 1387.07,
+      "text": "$0.95, that's my offer.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1388.11,
+      "end": 1391.46,
+      "text": "So that's the price I'm willing to buy or sell.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1391.58,
+      "end": 1397.89,
+      "text": "So the result of the trade, the dealer actually takes the other side of your trade.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1398.17,
+      "end": 1401.15,
+      "text": "So they take principal risk in this case.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1401.87,
+      "end": 1404.25,
+      "text": "So that's the difference between dealers and the brokers.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0046": [
+    {
+      "start": 1404.89,
+      "end": 1408.52,
+      "text": "So brokers don't really take principal risks.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1408.54,
+      "end": 1413.96,
+      "text": "If you want to buy something or sell something, if I'm a broker, so I don't make",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0047": [
+    {
+      "start": 1413.96,
+      "end": 1414.53,
+      "text": "your price.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1415.09,
+      "end": 1417.11,
+      "text": "I go to the market makers.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1417.09,
+      "end": 1422.93,
+      "text": "I actually put two people together to kind of matchmaking, make that trade happen.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1423.53,
+      "end": 1424.6,
+      "text": "So I earned a commission.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1425.02,
+      "end": 1426.46,
+      "text": "So that's a broker's role.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1427.27,
+      "end": 1431.67,
+      "text": "So obviously, there are individual investors, retail investors, same meaning.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1432.69,
+      "end": 1444.08,
+      "text": "Mutual funds, who actually manage public investors' money typically in a long-only format, meaning long means you buy something.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1444.24,
+      "end": 1449.31,
+      "text": "So you don't really short sell a particular security.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1449.91,
+      "end": 1452.13,
+      "text": "Insurance companies have large assets.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1452.15,
+      "end": 1456.95,
+      "text": "They need to generate return, generate cash flow to meet their liability needs.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1456.93,
+      "end": 1458.16,
+      "text": "So they need to invest.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1459.02,
+      "end": 1460.54,
+      "text": "And the pension funds, same thing.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1461.04,
+      "end": 1463.81,
+      "text": "As inflation goes higher, they need to pay out more to the",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0048": [
+    {
+      "start": 1463.81,
+      "end": 1464.49,
+      "text": "retirees.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1464.83,
+      "end": 1467.01,
+      "text": "So where do you get a return, right?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1467.03,
+      "end": 1468.55,
+      "text": "Sovereign wealth fund, similarly.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1468.89,
+      "end": 1475.24,
+      "text": "Endowment funds, they all have the same situation, have capital and needs to deploy and make better return.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1476.37,
+      "end": 1478.67,
+      "text": "So there's other type of players.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1479.17,
+      "end": 1479.63,
+      "text": "Hedge funds.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0049": [
+    {
+      "start": 1480.85,
+      "end": 1483.5,
+      "text": "So how many of you have heard hedge funds?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1485.12,
+      "end": 1485.6,
+      "text": "OK, good.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1485.92,
+      "end": 1486.5,
+      "text": "Almost everyone.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1486.94,
+      "end": 1491.9,
+      "text": "And Peter mentioned that he used to work at a hedge fund.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1493.66,
+      "end": 1497.99,
+      "text": "So there are different types of strategies, which I will dive into a bit more.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1498.31,
+      "end": 1501.01,
+      "text": "But hedge funds play the role in the market.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1501.65,
+      "end": 1509.52,
+      "text": "They basically find opportunities to profit from inefficient market positioning or pricing.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1510.16,
+      "end": 1511.68,
+      "text": "So they have different strategies.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1513.18,
+      "end": 1534.55,
+      "text": "And the private equity, different type of funds, they basically look to invest in companies and either take them private or invest in a private equity form to hopefully improve the company's profitability and then cash out.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1535.73,
+      "end": 1540.3,
+      "text": "And governments obviously have a huge impact on the market.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1540.4,
+      "end": 1544.64,
+      "text": "So we know in the financial crisis, government intervened.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1545.49,
+      "end": 1553.84,
+      "text": "And not only that, at the normal market condition, government always have a very large impact on the market, because they are the policymakers.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1554.36,
+      "end": 1557.08,
+      "text": "They decide the interest rate and interest rate curve.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1557.7,
+      "end": 1567.08,
+      "text": "And the different policies they push out, obviously, will generate different outlook for the future markets, therefore, profitability.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1567.55,
+      "end": 1569.41,
+      "text": "than the corporate hedges and the liabilities.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1569.47,
+      "end": 1572.89,
+      "text": "When corporates borrow money, they create some risk.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1573.19,
+      "end": 1576.28,
+      "text": "So they need to be sensitive to the market changes.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1580.96,
+      "end": 1586.63,
+      "text": "So to summarize the types of trading, the first type",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0050": [
+    {
+      "start": 1586.63,
+      "end": 1588.29,
+      "text": "is really just hedging.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1588.61,
+      "end": 1592.87,
+      "text": "That means you're not proactively adding risk to what you have.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1593.45,
+      "end": 1596.91,
+      "text": "You already have some exposure, let's say,",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1597.84,
+      "end": 1600.41,
+      "text": "Just to give you an example, let's say you borrow money.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1600.55,
+      "end": 1601.19,
+      "text": "You bought a house.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1601.35,
+      "end": 1601.99,
+      "text": "You have a mortgage.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1602.99,
+      "end": 1605.36,
+      "text": "And so",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0051": [
+    {
+      "start": 1605.36,
+      "end": 1609.99,
+      "text": "let's say it's a floating rate mortgage payments.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1611.46,
+      "end": 1614.48,
+      "text": "And you're worried about the interest rate going higher.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1615.31,
+      "end": 1619.02,
+      "text": "So you can lock that rate in into the fixed rate format.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1619.8,
+      "end": 1622.97,
+      "text": "Or you can find ways to hedge your exposure.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1623.93,
+      "end": 1628.96,
+      "text": "Or your corporate has a large income coming from Europe.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1629.13,
+      "end": 1638.22,
+      "text": "So you have euros coming in, but you're not sure if euro will trade stronger to the U.S. dollar in the future or trade weaker.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1638.98,
+      "end": 1641.67,
+      "text": "If you think it will be stronger, you just leave it.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1642.19,
+      "end": 1649.36,
+      "text": "But if you think it will trade weaker, so you may want to hedge it, meaning you want to sell euro and buy U.S. dollars.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1650.76,
+      "end": 1652.26,
+      "text": "And so that's the hedging type.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1652.56,
+      "end": 1655.29,
+      "text": "The second type, as I mentioned, is a market maker.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0052": [
+    {
+      "start": 1655.71,
+      "end": 1658.79,
+      "text": "So market maker also takes principal risk.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1658.81,
+      "end": 1663.5,
+      "text": "But the main source of profit is really to earn the bid offer.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1664.26,
+      "end": 1667.86,
+      "text": "I gave you the example of $0.90 bid, $0.95 offer.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0053": [
+    {
+      "start": 1668.36,
+      "end": 1672.53,
+      "text": "So that's what the market maker is trying to profit from.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1673.07,
+      "end": 1676.63,
+      "text": "But obviously, they have residual risks sitting on the book.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1676.65,
+      "end": 1678.98,
+      "text": "Not every trade is matched.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1679.04,
+      "end": 1685.21,
+      "text": "So how to optimize those group of trades, that's what market makers do.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1686.47,
+      "end": 1687.2,
+      "text": "Most of the bank's",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0054": [
+    {
+      "start": 1687.2,
+      "end": 1689.12,
+      "text": "bank's dealers are market makers.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1689.14,
+      "end": 1697.37,
+      "text": "In the new regulation, obviously, proprietary trading is banned.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1698.4,
+      "end": 1702.71,
+      "text": "And so the third type is really the proprietary trader, the risk taker.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1703.35,
+      "end": 1706.48,
+      "text": "So these are the hedge funds or some portfolio managers.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1707.04,
+      "end": 1712.71,
+      "text": "They need to focus on generating return with controlled risk.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1713.15,
+      "end": 1717.11,
+      "text": "So that's where the beta and alpha, the concept, comes in.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1717.29,
+      "end": 1722.06,
+      "text": "So if you're a portfolio manager, some people say, don't worry.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1722.12,
+      "end": 1723.32,
+      "text": "Don't go pick any stocks.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1723.34,
+      "end": 1725.81,
+      "text": "Just buy S&P 500 index fund.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1726.41,
+      "end": 1726.99,
+      "text": "Very cheap.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1727.31,
+      "end": 1728.78,
+      "text": "You can pay",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0055": [
+    {
+      "start": 1728.78,
+      "end": 1730.45,
+      "text": "pay very little cost to do it.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1730.59,
+      "end": 1731.76,
+      "text": "That's true.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1732.13,
+      "end": 1735.88,
+      "text": "But if you want to beat the S&P 500 index,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0056": [
+    {
+      "start": 1737.33,
+      "end": 1743.32,
+      "text": "Let's assume we call S&P 500 index fund is asset B.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1743.8,
+      "end": 1747.64,
+      "text": "So the return of that, all of B, that's the return of that index.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1748.41,
+      "end": 1750.15,
+      "text": "Then you have a portfolio A.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1750.81,
+      "end": 1757.88,
+      "text": "Your time series of return of your asset A, obviously, you can do linear regression.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0057": [
+    {
+      "start": 1757.88,
+      "end": 1758.0,
+      "text": "regression.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1758.62,
+      "end": 1760.62,
+      "text": "A lot of you are math major here.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1761.24,
+      "end": 1766.27,
+      "text": "And you can find a correlation between those two time series.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1766.76,
+      "end": 1770.79,
+      "text": "So how the two returns are related in a simplified form.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1771.65,
+      "end": 1776.89,
+      "text": "So you can say this actually, somehow it came out, it's supposed to be alpha and a beta,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0058": [
+    {
+      "start": 1776.89,
+      "end": 1781.48,
+      "text": "beta, but it turned out to be the letters.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1782.02,
+      "end": 1787.11,
+      "text": "So in a short description, beta is really kind of, I think, as",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0059": [
+    {
+      "start": 1787.11,
+      "end": 1790.59,
+      "text": "a correlated move with the other asset.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1791.07,
+      "end": 1795.5,
+      "text": "Alpha is really the difference in return.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1796.31,
+      "end": 1797.01,
+      "text": "It's a format.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1797.03,
+      "end": 1798.58,
+      "text": "You want to beat S&P 500.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1799.04,
+      "end": 1804.78,
+      "text": "So you want to basically have certain tracking of this index, but you want to return more on top of that.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1810.7,
+      "end": 1817.15,
+      "text": "So let me just go in details of how each type of trade actually occurs.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0060": [
+    {
+      "start": 1818.03,
+      "end": 1821.38,
+      "text": "So when we talk about hedging, I mentioned the currency example.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1821.42,
+      "end": 1822.98,
+      "text": "Let me give you another example.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1823.52,
+      "end": 1826.73,
+      "text": "A lot of people issue bonds or issue debt.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1827.27,
+      "end": 1833.2,
+      "text": "So this example I'm going to give you is, let's think about Australian corporate.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1834.12,
+      "end": 1834.99,
+      "text": "Because interest",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0061": [
+    {
+      "start": 1834.99,
+      "end": 1839.11,
+      "text": "interest rate in Australia is higher than in Japan.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1839.2,
+      "end": 1847.28,
+      "text": "So typically, people like to borrow money in Japan because you pay smaller interest.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1847.3,
+      "end": 1849.52,
+      "text": "And they invest it in Australia.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1849.7,
+      "end": 1854.85,
+      "text": "You earn higher interest rate.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1855.69,
+      "end": 1856.69,
+      "text": "Let me ask you a question.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1857.27,
+      "end": 1865.06,
+      "text": "Who can tell me, why don't people just do that all day long, just borrow from Japan and invest it in Australia?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1865.72,
+      "end": 1869.55,
+      "text": "Then that interest rate, I'm giving you an example of a difference.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1870.15,
+      "end": 1875.96,
+      "text": "It's about 3.5% for the 10-year, roughly, swap rates.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1876.67,
+      "end": 1878.47,
+      "text": "Why don't, yeah, go ahead.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0062": [
+    {
+      "start": 1879.95,
+      "end": 1881.01,
+      "text": "Right.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1881.03,
+      "end": 1884.26,
+      "text": "Because you invest in the Australian Aussie, Australian dollar.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1884.64,
+      "end": 1887.16,
+      "text": "The Australian dollar may become weaker to the yen.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1887.56,
+      "end": 1889.31,
+      "text": "You may lose all your profit or even more.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0063": [
+    {
+      "start": 1890.91,
+      "end": 1900.56,
+      "text": "And further, if everybody plays the same game, then when you try to exit, you have the adverse impact of your trade.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1900.98,
+      "end": 1909.41,
+      "text": "So let's say you think that's the right time to do it, but then at one time you wake up and you say, huh, I think too many people are doing this.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1909.51,
+      "end": 1910.42,
+      "text": "I want to hedge myself.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1910.78,
+      "end": 1911.38,
+      "text": "So what do you do?",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0064": [
+    {
+      "start": 1914.99,
+      "end": 1917.01,
+      "text": "Yeah, so you try to lock in, right?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1917.29,
+      "end": 1921.91,
+      "text": "So basically, you sell the Australian dollars, buy the Japanese",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0065": [
+    {
+      "start": 1921.91,
+      "end": 1922.28,
+      "text": "Japanese yen.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1923.12,
+      "end": 1928.72,
+      "text": "Or on the interest rate terms, you say you basically pay the Australian",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0066": [
+    {
+      "start": 1928.72,
+      "end": 1931.75,
+      "text": "Australian dollar in the swap and receive yen.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1933.13,
+      "end": 1933.49,
+      "text": "So this",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0067": [
+    {
+      "start": 1933.49,
+      "end": 1939.49,
+      "text": "this involves foreign exchange trade, interest rate swap,",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1939.74,
+      "end": 1941.87,
+      "text": "and the cross-currency swap.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1941.89,
+      "end": 1945.37,
+      "text": "So your answer about currency forward is roughly",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0068": [
+    {
+      "start": 1945.37,
+      "end": 1949.4,
+      "text": "roughly right, but it obviously involves a bit more in actual execution.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1951.15,
+      "end": 1952.77,
+      "text": "So that's just to give you an example.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1952.81,
+      "end": 1960.61,
+      "text": "Even you are not a finance guy, you work in a corporate, you just do import, export, or building a factory.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1961.43,
+      "end": 1964.37,
+      "text": "You have to know, actually, what an exposure is.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1964.95,
+      "end": 1970.02,
+      "text": "So risk management nowadays becomes a pretty widespread responsibility.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1970.32,
+      "end": 1973.38,
+      "text": "It's not just the corporate treasurer's responsibility.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1975.37,
+      "end": 1980.87,
+      "text": "So that's on the hedging side, obviously, if you're Intel, for example.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1981.29,
+      "end": 1984.78,
+      "text": "You sell a lot of chips overseas.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1985.94,
+      "end": 1990.68,
+      "text": "And your income, actually Intel does have a lot of overseas income sitting outside the states.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 1991.82,
+      "end": 1999.37,
+      "text": "So the exposure to them is, if the exchange rate fluctuates, dollar becomes a lot stronger, they actually lose money.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2000.28,
+      "end": 2005.34,
+      "text": "So they need to think about how to hedge the revenue produced overseas.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2006.65,
+      "end": 2011.22,
+      "text": "And obviously, if you are import-exporters, that's even more apparent.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2012.36,
+      "end": 2024.28,
+      "text": "And if you're entering in a merger deal, one company is buying another, you need to hedge your potential currency exposure and your interest rate exposure.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2024.3,
+      "end": 2030.99,
+      "text": "And whatever is on the assets or liability or the balance sheet, you need to hedge your exposure.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2036.03,
+      "end": 2038.4,
+      "text": "So we talk about hedging activity.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2038.44,
+      "end": 2040.16,
+      "text": "Let's talk about a bit of market making.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0069": [
+    {
+      "start": 2041.48,
+      "end": 2046.97,
+      "text": "So if it's a simple, transparent product, everybody pretty much knows where the price is.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2047.51,
+      "end": 2052.12,
+      "text": "So if you buy Apple stock, I think a lot of people know pretty much where it is.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2052.2,
+      "end": 2056.95,
+      "text": "You may even have it on your cell phone, know where that stock is.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2058.37,
+      "end": 2059.15,
+      "text": "But",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0070": [
+    {
+      "start": 2059.15,
+      "end": 2061.2,
+      "text": "if it's not transparent,",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2061.35,
+      "end": 2061.91,
+      "text": "So what do you do?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2061.99,
+      "end": 2065.84,
+      "text": "So instead of asking you where Apple is, probably you're going to tell me $4.95 today.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2068.58,
+      "end": 2075.92,
+      "text": "But if I ask you instead, what is the call option on Apple stock in two months' time?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2077.28,
+      "end": 2079.61,
+      "text": "I give you a strike, let's say $500.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2079.93,
+      "end": 2081.69,
+      "text": "So you're probably less transparent.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2081.83,
+      "end": 2088.16,
+      "text": "So that market maker comes in to provide that liquidity, and then takes the risk.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2088.48,
+      "end": 2093.4,
+      "text": "They manage the book by balancing those Greeks, which I mentioned earlier.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2093.44,
+      "end": 2103.43,
+      "text": "Delta, which describes the linear relationship of this whole book to the underlying stock, or underlying whatever currency.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2103.71,
+      "end": 2104.57,
+      "text": "That's called a delta.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2105.2,
+      "end": 2107.52,
+      "text": "Gamma is really",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2107.6,
+      "end": 2116.51,
+      "text": "the change of the portfolio take the derivative to the delta or to the underlying spot.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2116.53,
+      "end": 2120.07,
+      "text": "So that's the second order derivative.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2120.09,
+      "end": 2121.28,
+      "text": "The delta is the first order.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2121.48,
+      "end": 2122.2,
+      "text": "So gamma you take.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2122.54,
+      "end": 2125.82,
+      "text": "So now you have curvature or convexity come in.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2127.08,
+      "end": 2132.05,
+      "text": "And theta is really nothing changes in the market.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2132.25,
+      "end": 2135.21,
+      "text": "Nothing changes in your position.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2135.6,
+      "end": 2139.54,
+      "text": "trading book is carrying or bleeding away money.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2140.88,
+      "end": 2142.66,
+      "text": "And we talk about the volatility",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0071": [
+    {
+      "start": 2142.66,
+      "end": 2143.96,
+      "text": "volatility exposure with Vega.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2144.18,
+      "end": 2147.33,
+      "text": "And on top of that, what are the tail risks?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2148.01,
+      "end": 2150.29,
+      "text": "What are the events that can actually get you into big trouble?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2151.97,
+      "end": 2154.35,
+      "text": "So people use value at risk.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2154.37,
+      "end": 2155.08,
+      "text": "So you will hear this",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0072": [
+    {
+      "start": 2155.08,
+      "end": 2161.06,
+      "text": "this VAR concept in some of the lectures, which is also obviously a very important concept.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2161.26,
+      "end": 2164.64,
+      "text": "I think Peter will teach.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2165.5,
+      "end": 2170.86,
+      "text": "Then capital, how much capital are you using?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2171.28,
+      "end": 2173.18,
+      "text": "It becomes a very important issue nowadays.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2173.95,
+      "end": 2175.07,
+      "text": "And balance sheet.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2176.47,
+      "end": 2178.35,
+      "text": "Again, you have asset, you have liability.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2178.47,
+      "end": 2179.65,
+      "text": "How do you leverage?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2179.83,
+      "end": 2180.77,
+      "text": "How much leverage do you have?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2181.27,
+      "end": 2188.4,
+      "text": "Before the crisis, for example, a lot of the banks leveraged up 40 times, meaning when you have $1, you had a $40 exposure.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2188.94,
+      "end": 2191.22,
+      "text": "So when the market moves a little, you get wiped out.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2191.36,
+      "end": 2195.79,
+      "text": "That's really what amplified in the 2008 financial crisis.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2196.61,
+      "end": 2204.4,
+      "text": "And how do you measure the asset in balance sheet when you have derivatives rather than a straightforward notional?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2210.55,
+      "end": 2215.31,
+      "text": "So a lot of quantitative type of people like to focus a bit more on the",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0073": [
+    {
+      "start": 2215.31,
+      "end": 2216.43,
+      "text": "risk-taking side.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2216.97,
+      "end": 2223.16,
+      "text": "Because people heard stories about successful cases of some hedge funds using high math.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2223.66,
+      "end": 2226.72,
+      "text": "They generated very impressive returns.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2226.7,
+      "end": 2228.93,
+      "text": "And they seem to have an edge.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2229.09,
+      "end": 2231.51,
+      "text": "So now people focus on trading strategies.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0074": [
+    {
+      "start": 2232.21,
+      "end": 2237.84,
+      "text": "So that falls into the category of proprietary trading or risk taking.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2238.48,
+      "end": 2241.78,
+      "text": "So you can just simply do directional trading strategies.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2241.99,
+      "end": 2243.95,
+      "text": "Just go long or short a stock.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2244.49,
+      "end": 2245.25,
+      "text": "That's very simple.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2245.27,
+      "end": 2249.22,
+      "text": "The so-called gut traders, gut feeling.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2249.62,
+      "end": 2250.48,
+      "text": "Go with your gut.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2250.88,
+      "end": 2251.76,
+      "text": "You don't even think.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2251.78,
+      "end": 2254.7,
+      "text": "You say, I'm eating.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2255.32,
+      "end": 2258.12,
+      "text": "curry today, so I go long.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2258.28,
+      "end": 2261.32,
+      "text": "I'm eating rice tomorrow, so I go short.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2261.67,
+      "end": 2263.95,
+      "text": "So there's arbitrage.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2264.45,
+      "end": 2266.26,
+      "text": "Arbitrage is really to find",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0075": [
+    {
+      "start": 2266.26,
+      "end": 2275.77,
+      "text": "find the relationships between prices and try to profit from those relationship mispricing.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2276.39,
+      "end": 2277.55,
+      "text": "This is actually very interesting.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0076": [
+    {
+      "start": 2279.24,
+      "end": 2286.21,
+      "text": "Not many people focus on arbitrage, because when a lot of people are gut traders, you essentially just watch your own market.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2286.23,
+      "end": 2287.81,
+      "text": "You don't really care what's going on.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2287.83,
+      "end": 2290.61,
+      "text": "If you trade gold in the States,",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2291.0,
+      "end": 2296.51,
+      "text": "I mean, obviously, the gold price happening in Asia and in Europe matters, right?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2297.19,
+      "end": 2298.28,
+      "text": "Because you're trading the same thing.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2298.8,
+      "end": 2302.63,
+      "text": "If they are not priced the same way, you can profit from the difference.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2302.74,
+      "end": 2305.47,
+      "text": "And that's just a simple example.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2305.89,
+      "end": 2311.48,
+      "text": "But a spot price versus forward price, that's a deterministic relationship.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2311.66,
+      "end": 2312.98,
+      "text": "It's a mathematical relationship.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2313.38,
+      "end": 2315.84,
+      "text": "If that relationship breaks down, you can also profit.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2316.28,
+      "end": 2322.89,
+      "text": "So there are many examples of mathematical relationship which gives you the arbitrage opportunity.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2323.62,
+      "end": 2324.92,
+      "text": "And the other type is",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0077": [
+    {
+      "start": 2324.92,
+      "end": 2329.04,
+      "text": "is called a value trader or relative value strategies.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2329.92,
+      "end": 2340.11,
+      "text": "Instead of think there's a deterministic, temporary, mathematical relationship, you look at a bit longer term in the horizon, trying to determine",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0078": [
+    {
+      "start": 2340.11,
+      "end": 2345.82,
+      "text": "determine what is really the underlying value of a particular instrument, then trade on the relative value.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2346.9,
+      "end": 2350.59,
+      "text": "Obviously, there are successful value investors out there.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2350.9,
+      "end": 2354.75,
+      "text": "And the systematic trader builds computer models.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2355.67,
+      "end": 2357.29,
+      "text": "One example is trend following.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2357.91,
+      "end": 2359.45,
+      "text": "So just follow the price trend.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2360.09,
+      "end": 2364.98,
+      "text": "I mean, that used to be an effective strategy for some time.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2365.52,
+      "end": 2371.83,
+      "text": "But when a lot of people are doing the same thing, that becomes much less effective.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2371.85,
+      "end": 2372.17,
+      "text": "Or momentum,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0079": [
+    {
+      "start": 2372.17,
+      "end": 2373.21,
+      "text": "momentum, same things.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2373.67,
+      "end": 2379.59,
+      "text": "Stat op, finding statistics, statistical relationship among",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2379.71,
+      "end": 2381.98,
+      "text": "larger number of stocks than trade",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0080": [
+    {
+      "start": 2381.98,
+      "end": 2385.0,
+      "text": "trade at higher frequency.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2386.32,
+      "end": 2388.28,
+      "text": "And fundamental analysis, you're really",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0081": [
+    {
+      "start": 2388.28,
+      "end": 2390.45,
+      "text": "really trying to understand what's going on in the world.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2390.91,
+      "end": 2393.79,
+      "text": "What is the trade balance?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2394.15,
+      "end": 2395.39,
+      "text": "What is the earning potential",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0082": [
+    {
+      "start": 2395.39,
+      "end": 2397.72,
+      "text": "potential of a company?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2398.2,
+      "end": 2399.74,
+      "text": "What's the trade balance of a country?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2400.26,
+      "end": 2401.84,
+      "text": "What is the policy change?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2401.86,
+      "end": 2407.39,
+      "text": "What does it mean when Federal Reserve announced they're going to taper the quantitative easing?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2407.49,
+      "end": 2412.11,
+      "text": "Why has the stock market sold off in the last couple of months?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2412.9,
+      "end": 2417.71,
+      "text": "Especially why stocks in India, Brazil, Indonesia sold out more.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2418.29,
+      "end": 2419.35,
+      "text": "Why is that?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2419.55,
+      "end": 2422.26,
+      "text": "So we're going to go through this fundamental analysis.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2422.81,
+      "end": 2424.12,
+      "text": "And there",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0083": [
+    {
+      "start": 2424.12,
+      "end": 2425.53,
+      "text": "there are special situations.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2425.83,
+      "end": 2431.24,
+      "text": "Some companies are going through particular difficulties.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2431.64,
+      "end": 2433.04,
+      "text": "Assets are priced very cheaply.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2433.54,
+      "end": 2433.57,
+      "text": "So",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0084": [
+    {
+      "start": 2433.57,
+      "end": 2435.18,
+      "text": "So there are firms out there.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2435.89,
+      "end": 2439.91,
+      "text": "You probably heard Bain Capital and many others.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2440.11,
+      "end": 2445.28,
+      "text": "They focus on these private equity and special situation opportunities.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2449.65,
+      "end": 2450.49,
+      "text": "So.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2451.02,
+      "end": 2454.03,
+      "text": "What have all these to do with mathematics?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2455.71,
+      "end": 2456.73,
+      "text": "Where does math come in?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2458.13,
+      "end": 2458.95,
+      "text": "How do you use math?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2459.72,
+      "end": 2460.53,
+      "text": "So I",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0085": [
+    {
+      "start": 2460.53,
+      "end": 2462.54,
+      "text": "want to give you some aspects of that.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2462.98,
+      "end": 2469.35,
+      "text": "So from my personal experience, I joined the market, really start working on pricing models.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2469.89,
+      "end": 2470.97,
+      "text": "So that's the first area.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0086": [
+    {
+      "start": 2471.55,
+      "end": 2474.82,
+      "text": "So math is very effective, because when you",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2475.56,
+      "end": 2483.26,
+      "text": "your bank or your corporate, you want to buy some financial instruments, you have to know",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2483.44,
+      "end": 2484.86,
+      "text": "Where is the price?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2485.56,
+      "end": 2488.15,
+      "text": "It's easy to observe a stock in the market.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2488.31,
+      "end": 2496.2,
+      "text": "But when it comes to more complex products, they just take one step forward on the complexity, which is option.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2496.74,
+      "end": 2498.3,
+      "text": "You have to know how to price an option.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2498.52,
+      "end": 2500.16,
+      "text": "So that's where the math comes in.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2500.72,
+      "end": 2505.57,
+      "text": "You actually have to be able to solve differential equations to get a model price.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2505.83,
+      "end": 2511.54,
+      "text": "Then you obviously adjust your assumptions to fit into the market.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2511.52,
+      "end": 2523.21,
+      "text": "So the pricing model, which Vasily and many of his colleagues can tell you more, which is very much a very interesting and challenging area.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2523.31,
+      "end": 2525.49,
+      "text": "How do you price all these instruments?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2526.11,
+      "end": 2530.88,
+      "text": "And when I say pricing, it's not in the narrow definition of just coming up with a price.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2531.4,
+      "end": 2537.95,
+      "text": "When you build a pricing model, you also generate the risk parameters of these instruments.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2538.31,
+      "end": 2540.65,
+      "text": "And how do you risk manage them?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2540.98,
+      "end": 2541.51,
+      "text": "So that comes",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0087": [
+    {
+      "start": 2541.51,
+      "end": 2542.41,
+      "text": "to the second part.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2543.05,
+      "end": 2555.6,
+      "text": "So math is very useful in risk management, which I will give you some questions after this slide, when you can see that risk management itself is very challenging.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2555.66,
+      "end": 2557.39,
+      "text": "It's not a purely mathematical question.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2557.47,
+      "end": 2562.87,
+      "text": "But yet, math plays a very important role to quantify how much exposure you have.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2564.07,
+      "end": 2565.92,
+      "text": "Then the third is trading strategies.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2567.1,
+      "end": 2570.06,
+      "text": "Again, I think a lot of people with math background",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2570.6,
+      "end": 2577.41,
+      "text": "Or in general, people are looking for the so-called Holy Grail trading strategies, just almost",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0088": [
+    {
+      "start": 2577.41,
+      "end": 2581.65,
+      "text": "almost like perpetual motion machines people were looking for 100 years ago.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2582.23,
+      "end": 2583.07,
+      "text": "You just turn it on.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2583.61,
+      "end": 2585.22,
+      "text": "It makes money by itself.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2585.68,
+      "end": 2586.46,
+      "text": "You go to sleep.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2586.48,
+      "end": 2587.44,
+      "text": "You go on vacation.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2587.48,
+      "end": 2588.0,
+      "text": "You come back.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2588.34,
+      "end": 2589.78,
+      "text": "You have more in your bank account.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2590.82,
+      "end": 2592.43,
+      "text": "Obviously, that's not going to happen.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2593.59,
+      "end": 2599.49,
+      "text": "The robo-trader or robotic trader is the dream.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2600.01,
+      "end": 2605.64,
+      "text": "It has its place or its use, but it's a fast evolving market.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2606.38,
+      "end": 2613.79,
+      "text": "You have to constantly upgrade your research and adjust your strategies.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2614.47,
+      "end": 2618.2,
+      "text": "There's no such thing you can build and leave it alone.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2618.42,
+      "end": 2619.8,
+      "text": "It runs for itself forever.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2620.5,
+      "end": 2624.59,
+      "text": "But I just want to mention that because maybe",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2624.77,
+      "end": 2630.18,
+      "text": "Towards the end of the term, you will feel, hmm, I came up with this brilliant trading strategy.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2630.34,
+      "end": 2631.64,
+      "text": "I think it's going to make money forever.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2632.26,
+      "end": 2638.14,
+      "text": "Please let me know first.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2639.21,
+      "end": 2644.66,
+      "text": "So I want to leave some time to Vasily.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2644.74,
+      "end": 2656.92,
+      "text": "Actually, he can give you some examples of projects of last year's students who actually came to this class and did some real application at Morgan Stanley.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2657.42,
+      "end": 2661.93,
+      "text": "But before I hand it over to Vasily, let me ask you some questions.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2662.07,
+      "end": 2666.99,
+      "text": "I just want to give you, not really to quiz you, just give you the sense how",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2667.45,
+      "end": 2671.71,
+      "text": "math and intuition and judgment can come into the same place.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2672.33,
+      "end": 2673.73,
+      "text": "So let me first give you an example.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2673.79,
+      "end": 2675.06,
+      "text": "So I call it risk aversion.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2675.88,
+      "end": 2679.09,
+      "text": "So you are facing two choices, choice A",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0089": [
+    {
+      "start": 2679.09,
+      "end": 2680.36,
+      "text": "and choice B.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2681.28,
+      "end": 2684.05,
+      "text": "Choice A being you have 80 chance to lose $500.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2685.57,
+      "end": 2689.46,
+      "text": "You have 20% chance to win $500.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2689.76,
+      "end": 2692.42,
+      "text": "It's pretty clear, right?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2692.54,
+      "end": 2693.2,
+      "text": "That's choice A.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2693.96,
+      "end": 2695.01,
+      "text": "Or choice B,",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2695.9,
+      "end": 2697.5,
+      "text": "You basically just lock in.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2697.8,
+      "end": 2699.68,
+      "text": "You have 100% chance to lose $280.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2700.64,
+      "end": 2709.77,
+      "text": "Let me ask you, for whoever likes to choose choice A, please raise your hand.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0090": [],
+  "v1_s0091": [
+    {
+      "start": 2717.02,
+      "end": 2720.88,
+      "text": "About 6 out of, say, let's call it 50.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2721.36,
+      "end": 2722.28,
+      "text": "OK.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2722.3,
+      "end": 2722.6,
+      "text": "So can",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0092": [
+    {
+      "start": 2722.6,
+      "end": 2725.47,
+      "text": "can I ask you why you think choice A makes sense?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2725.63,
+      "end": 2726.71,
+      "text": "Right.",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "v1_s0093": [
+    {
+      "start": 2726.97,
+      "end": 2738.32,
+      "text": "Because you don't want to lock in that $280 loss, right?",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 2738.78,
+      "end": 2741.73,
+      "text": "That way, you still have a 20% chance to win.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2742.45,
+      "end": 2747.43,
+      "text": "So OK. For the ones who raised their hand for choice A, are there any other reasons?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2748.26,
+      "end": 2748.72,
+      "text": "Same reason?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2749.54,
+      "end": 2749.8,
+      "text": "OK.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0094": [
+    {
+      "start": 2755.94,
+      "end": 2758.6,
+      "text": "OK, I assume the rest of you will choose choice B,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0095": [
+    {
+      "start": 2758.6,
+      "end": 2760.22,
+      "text": "B, unless you're neither.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2760.26,
+      "end": 2762.33,
+      "text": "OK, how many of you choose choice B?",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0096": [
+    {
+      "start": 2765.71,
+      "end": 2769.98,
+      "text": "OK, choice B, OK. And are there anybody think neither is right?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2770.08,
+      "end": 2772.38,
+      "text": "So maybe they're just,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0097": [
+    {
+      "start": 2772.38,
+      "end": 2772.76,
+      "text": "just, hey.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2772.78,
+      "end": 2773.5,
+      "text": "You have to choose.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2774.0,
+      "end": 2775.97,
+      "text": "OK. No, you have to choose.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2776.21,
+      "end": 2776.32,
+      "text": "OK,",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0098": [
+    {
+      "start": 2776.32,
+      "end": 2778.47,
+      "text": "OK, so either choice A or choice B.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2779.51,
+      "end": 2782.38,
+      "text": "So let me just talk a little bit about this.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2782.4,
+      "end": 2787.82,
+      "text": "Again, I'm not trying to tell you which one is right, but I'll just share my thoughts on how to look at this.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2787.84,
+      "end": 2789.41,
+      "text": "Why I call it risk aversion.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2789.43,
+      "end": 2792.75,
+      "text": "So this is a very common human behavior.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2793.25,
+      "end": 2795.47,
+      "text": "When you go to the market, you buy a stock.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2796.6,
+      "end": 2801.82,
+      "text": "When the stock goes up, makes a bit of money, the natural tendency",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2802.02,
+      "end": 2807.63,
+      "text": "for especially someone who is new to the market, is to let's take profit.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2807.71,
+      "end": 2808.13,
+      "text": "Let's sell.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2808.81,
+      "end": 2809.7,
+      "text": "Oh, I made $1,000.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2810.02,
+      "end": 2811.0,
+      "text": "I made $500.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2811.18,
+      "end": 2814.58,
+      "text": "Let's go have a nice meal or whatever.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2814.94,
+      "end": 2816.73,
+      "text": "Buy an iPad.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2818.43,
+      "end": 2822.18,
+      "text": "But when the stock loses money, what's the natural tendency?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2824.82,
+      "end": 2827.02,
+      "text": "That's it.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2827.04,
+      "end": 2828.99,
+      "text": "I think natural tendency, a lot of people will keep it.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2829.11,
+      "end": 2831.97,
+      "text": "I think if you have the discipline to get out, that's great.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2832.33,
+      "end": 2842.52,
+      "text": "Trading is really all about how do you risk manage, have a discipline, and how to manage your losses.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2842.78,
+      "end": 2846.95,
+      "text": "The natural tendency, a lot of people say, I think there's a 20% chance to come back.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2846.97,
+      "end": 2848.05,
+      "text": "I'm going to make $500 more.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2848.97,
+      "end": 2853.83,
+      "text": "Why do I want to lock in to stop myself out at $280?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2854.13,
+      "end": 2863.73,
+      "text": "So even though the expected value, as a lot of people said, you lose expected value, which is $300 in choice A.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2864.53,
+      "end": 2866.44,
+      "text": "But you would still",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2867.43,
+      "end": 2871.82,
+      "text": "not to choose choice B, because you don't want to lock in the $280 loss.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2872.36,
+      "end": 2879.45,
+      "text": "Again, I'm not trying to inject the idea to you of which one is right or wrong, but think about it.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2880.31,
+      "end": 2889.04,
+      "text": "So that's really the common behavior, which mathematically may not make sense, but that's what a lot of people still would like to do.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2890.4,
+      "end": 2896.95,
+      "text": "And also, really, when you think about it, it depends on your situation.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2898.65,
+      "end": 2905.16,
+      "text": "If you can, let's say, you think the market, I mean, I'm going to give you the stock example again.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2906.08,
+      "end": 2921.94,
+      "text": "If you're not purely following the discipline of stop loss, but you just think the fundamental picture has changed, you really don't think the stock should go up anymore, obviously, at whatever level it should get out, regardless how much loss you're locking.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2923.15,
+      "end": 2926.82,
+      "text": "But if you think of the fundamental story, it's still very sound.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2927.28,
+      "end": 2931.78,
+      "text": "You should think about, as if you don't have a position, what do you want to do next?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2932.72,
+      "end": 2935.22,
+      "text": "But anyway, mathematically, I just want to see.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2935.7,
+      "end": 2938.97,
+      "text": "It's actually, I think, I guess this is MIT.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2939.69,
+      "end": 2948.66,
+      "text": "So many people think, mathematically, you would actually choose choice B, because that's low expectation, which makes sense.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2948.7,
+      "end": 2950.26,
+      "text": "But I think if you ask,",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2950.88,
+      "end": 2952.08,
+      "text": "a larger audience.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2952.32,
+      "end": 2957.41,
+      "text": "I think a lot of people don't really want to choose choice B, because they don't want to lock in the loss.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2961.07,
+      "end": 2963.78,
+      "text": "Now let me change the question a little bit.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0099": [
+    {
+      "start": 2963.78,
+      "end": 2963.88,
+      "text": "bit.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2964.8,
+      "end": 2972.23,
+      "text": "So choice A becomes, instead of the 80% chance to lose, now you have 80% chance to win.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2972.33,
+      "end": 2975.81,
+      "text": "$500 and 20% chance to lose $500.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2977.17,
+      "end": 2980.68,
+      "text": "Choice B, you have 100% chance to win $280.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2982.12,
+      "end": 2984.57,
+      "text": "Who would choose choice A?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2988.11,
+      "end": 2989.39,
+      "text": "Again, minority of this",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0100": [
+    {
+      "start": 2989.39,
+      "end": 2990.2,
+      "text": "this audience.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2990.48,
+      "end": 2991.66,
+      "text": "Let's say less than 10%.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2992.5,
+      "end": 2993.62,
+      "text": "Who would choose choice B?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2994.74,
+      "end": 2995.24,
+      "text": "The rest of it.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2996.39,
+      "end": 2998.25,
+      "text": "All right.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 2999.09,
+      "end": 3001.35,
+      "text": "Can someone choose choice",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0101": [
+    {
+      "start": 3001.35,
+      "end": 3003.7,
+      "text": "choice A, give me an argument?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3003.72,
+      "end": 3004.2,
+      "text": "Why would you?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3004.43,
+      "end": 3004.62,
+      "text": "Yeah.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0102": [
+    {
+      "start": 3007.52,
+      "end": 3014.22,
+      "text": "A seemingly high-resulted value, and my utility is roughly marginal utility is probably constant over this $500 range.",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "start": 3014.24,
+      "end": 3015.31,
+      "text": "OK. Yeah.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3016.13,
+      "end": 3018.23,
+      "text": "Anyone wants to give me a reason for choice B?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3018.93,
+      "end": 3021.13,
+      "text": "Higher sharp.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3021.15,
+      "end": 3021.63,
+      "text": "Higher sharp?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3022.99,
+      "end": 3025.76,
+      "text": "Yeah.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3026.12,
+      "end": 3026.18,
+      "text": "OK.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0103": [
+    {
+      "start": 3026.82,
+      "end": 3027.92,
+      "text": "Let me just leave it here.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3027.98,
+      "end": 3032.9,
+      "text": "Again, I think we can talk a bit more along in the class.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3033.28,
+      "end": 3037.21,
+      "text": "I mean, the last day of the class, hopefully we'll have a much deeper discussion on this.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3038.93,
+      "end": 3039.81,
+      "text": "It's not unique.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3039.85,
+      "end": 3042.51,
+      "text": "The answer, OK, I think it can go either way.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3042.76,
+      "end": 3054.19,
+      "text": "I mean, as you said, if your bank account balance is, let's say you're a freshman student, your bank account is $800.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3054.78,
+      "end": 3061.07,
+      "text": "Your choice will be very different from someone who has $100,000 in his bank account.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3061.93,
+      "end": 3065.99,
+      "text": "And also, your risk tolerance.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3067.12,
+      "end": 3069.52,
+      "text": "How much you can tolerate.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3070.48,
+      "end": 3073.43,
+      "text": "But I'm not going to give you, say, this is right or wrong.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3073.45,
+      "end": 3078.14,
+      "text": "But with that, let me move on and give you some homework.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3083.33,
+      "end": 3086.64,
+      "text": "So before I give you the homework, I want to make a few more comments.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0104": [
+    {
+      "start": 3087.7,
+      "end": 3089.78,
+      "text": "So do people always learn from their experiences?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3089.98,
+      "end": 3093.33,
+      "text": "You think, in science, we collect evidence.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3093.85,
+      "end": 3094.87,
+      "text": "We build models.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3095.51,
+      "end": 3096.91,
+      "text": "We first understand the physics.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3096.93,
+      "end": 3101.22,
+      "text": "We build mathematic models, then we verify in physics, doing experiments.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3102.0,
+      "end": 3106.45,
+      "text": "But is that the same investigation process in finance?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3107.87,
+      "end": 3112.84,
+      "text": "I mean market cycles are typically very long, but people tend to have short memories.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3113.5,
+      "end": 3117.3,
+      "text": "So how do people really learn from the experience is a very interesting question.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3117.89,
+      "end": 3120.4,
+      "text": "And a very natural tendency is to",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0105": [
+    {
+      "start": 3120.4,
+      "end": 3123.5,
+      "text": "extrapolate historical experience.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3123.52,
+      "end": 3125.82,
+      "text": "What happened in 2008, people still remember.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3126.5,
+      "end": 3128.09,
+      "text": "What happened in",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3128.07,
+      "end": 3131.25,
+      "text": "1970s, maybe some people still remember.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3131.37,
+      "end": 3133.05,
+      "text": "What happened 100 years ago?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3133.95,
+      "end": 3139.51,
+      "text": "So people tend to extrapolate, join conclusions from very recent experience.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3140.65,
+      "end": 3143.26,
+      "text": "And deterministic relationship versus",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0106": [
+    {
+      "start": 3143.26,
+      "end": 3146.72,
+      "text": "versus statistical relationship is very interesting as well.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3147.04,
+      "end": 3150.66,
+      "text": "When you try to trade on those, how do you really build models?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3150.9,
+      "end": 3152.68,
+      "text": "Is the market really efficient?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3155.99,
+      "end": 3157.07,
+      "text": "What part is efficient?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3157.61,
+      "end": 3164.55,
+      "text": "How do you really apply those theories in your day-to-day risk management or trading activities?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3165.46,
+      "end": 3169.06,
+      "text": "And sometimes, people tend to oversimplify.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3169.54,
+      "end": 3171.39,
+      "text": "Just say, oh, I can model this.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3171.85,
+      "end": 3173.59,
+      "text": "This is one important parameter.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3174.07,
+      "end": 3174.75,
+      "text": "I just take that.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3175.45,
+      "end": 3176.82,
+      "text": "So I just give you all the warnings",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0107": [
+    {
+      "start": 3176.82,
+      "end": 3181.76,
+      "text": "warnings that, again, very young, new field.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3182.28,
+      "end": 3187.14,
+      "text": "And largely, often, this is odd than science.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3187.6,
+      "end": 3190.51,
+      "text": "So keep that in mind, even though we're talking about",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3190.49,
+      "end": 3192.31,
+      "text": "mathematics in finance.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3192.33,
+      "end": 3203.47,
+      "text": "Math is very powerful and useful in finance, so learn the math, learn the finance first, but keep those questions along the way when you are learning during this class.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3207.22,
+      "end": 3209.3,
+      "text": "Suggested homework is optional.",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0108": [
+    {
+      "start": 3210.15,
+      "end": 3210.69,
+      "text": "Just",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3212.1,
+      "end": 3215.17,
+      "text": "I mentioned a lot of terminologies today.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3215.21,
+      "end": 3220.8,
+      "text": "Go to the course website, read what we have put up for the financial glossary.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3221.64,
+      "end": 3233.22,
+      "text": "So if you still have things you don't understand, compile your own list of financial concepts, which you can search on the web or even ask us.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3233.2,
+      "end": 3234.44,
+      "text": "But I encourage you",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "v1_s0109": [
+    {
+      "start": 3234.44,
+      "end": 3234.86,
+      "text": "you to do that.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3234.92,
+      "end": 3236.18,
+      "text": "It will prepare you well.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3236.74,
+      "end": 3241.97,
+      "text": "So that's really, and read other materials on the course web.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3241.99,
+      "end": 3244.61,
+      "text": "So we got maybe, how about this?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3244.67,
+      "end": 3247.85,
+      "text": "We still got about 15 minutes or 12 minutes left.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3248.29,
+      "end": 3250.08,
+      "text": "So I'll pass it to Vasily.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3250.1,
+      "end": 3253.06,
+      "text": "Then maybe we can leave five minutes for some questions.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3253.28,
+      "end": 3255.06,
+      "text": "Yeah, OK. Yeah.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3255.08,
+      "end": 3259.63,
+      "text": "Just to mention that Apple trades now at $4.94.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3260.7,
+      "end": 3266.31,
+      "text": "when you were saying it was at 88 cents.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3266.33,
+      "end": 3267.49,
+      "text": "All right.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3268.75,
+      "end": 3271.11,
+      "text": "So yeah, just a couple of examples.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3271.24,
+      "end": 3282.86,
+      "text": "Well, first of all, no offense to a few people who were, but",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0110": [
+    {
+      "start": 3282.86,
+      "end": 3286.69,
+      "text": "but I just wanted to give an example",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3291.18,
+      "end": 3300.43,
+      "text": "OK. Yeah, thanks.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3301.77,
+      "end": 3310.49,
+      "text": "Because he was working in our group, and it just will give you an idea of what a little bit of an idea of what",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3310.79,
+      "end": 3314.89,
+      "text": "what we will be talking about and what actually we do in the daily life, or",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0111": [
+    {
+      "start": 3314.89,
+      "end": 3321.56,
+      "text": "what an intern or somebody who comes to work in this industry could do.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3322.24,
+      "end": 3331.17,
+      "text": "And one project which Dushan worked was on estimating the noisy derivative.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3331.43,
+      "end": 3331.68,
+      "text": "The derivative",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0112": [
+    {
+      "start": 3331.68,
+      "end": 3332.95,
+      "text": "derivative is called delta.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3333.07,
+      "end": 3336.37,
+      "text": "Delta is usually the first derivative to a function.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3337.52,
+      "end": 3348.41,
+      "text": "As we'll see in the class, quite often to obtain a price, you do it through Monte Carlo, meaning running a lot of paths and then averaging along them.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3348.75,
+      "end": 3350.13,
+      "text": "So it's a statistical method.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3350.27,
+      "end": 3352.43,
+      "text": "So obviously, there is a noise",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0113": [
+    {
+      "start": 3352.43,
+      "end": 3355.59,
+      "text": "noise to your answer every time.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3356.32,
+      "end": 3363.86,
+      "text": "So if you want to differentiate this function and get a derivative,",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3363.99,
+      "end": 3366.14,
+      "text": "then this derivative will be quite noisy.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3367.0,
+      "end": 3379.13,
+      "text": "And so instead of getting the true derivative, you might obtain something quite different from two derivatives, just because there is a confidence interval around any point.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3379.65,
+      "end": 3394.0,
+      "text": "And obviously, there is a trade-off here as well, because you can run more paths, throw more computational power, which will reduce your confidence interval.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3393.98,
+      "end": 3396.47,
+      "text": "better where you are, more precise.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0114": [
+    {
+      "start": 3398.05,
+      "end": 3406.72,
+      "text": "Or the other solution could be, if you know that your function is not too concave and reasonably flat, you might",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0115": [
+    {
+      "start": 3406.72,
+      "end": 3413.29,
+      "text": "do the numerical differentiation on wider interval.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3413.71,
+      "end": 3417.27,
+      "text": "basically reducing the significance of the error, right?",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3417.29,
+      "end": 3420.14,
+      "text": "And you would hope to arrive to a better approximation.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3420.66,
+      "end": 3422.3,
+      "text": "So obviously, there is somewhere a balance.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3422.48,
+      "end": 3422.74,
+      "text": "And the",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0116": [
+    {
+      "start": 3422.74,
+      "end": 3432.26,
+      "text": "the question was, is there an optimal shift size to get the derivative?",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3433.42,
+      "end": 3436.5,
+      "text": "And that's what, uh-oh, uh-oh.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3437.22,
+      "end": 3438.48,
+      "text": "The slide got corrupted.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3439.16,
+      "end": 3442.16,
+      "text": "Right, so there was quite a",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0117": [
+    {
+      "start": 3442.16,
+      "end": 3445.83,
+      "text": "a bit of mathematics involved in minimization and optimization.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0118": [
+    {
+      "start": 3446.55,
+      "end": 3450.93,
+      "text": "There was an answer, and that's actually what we",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0119": [
+    {
+      "start": 3450.93,
+      "end": 3453.0,
+      "text": "finally arrived at.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3455.55,
+      "end": 3457.25,
+      "text": "And that's some.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3457.47,
+      "end": 3467.8,
+      "text": "Some toy example, but still it shows you that if you use constant size and not optimal size, that would be your numerical derivative of this blue function.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3468.38,
+      "end": 3476.71,
+      "text": "While if you use the optimal shift size, which Dushan computed, it would be much smoother and much better.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3477.45,
+      "end": 3479.17,
+      "text": "So that's one example.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3480.25,
+      "end": 3481.15,
+      "text": "And that's what he did.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3481.23,
+      "end": 3484.11,
+      "text": "And we actually are implementing it in our systems.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3484.09,
+      "end": 3485.31,
+      "text": "plan",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0120": [
+    {
+      "start": 3485.31,
+      "end": 3488.17,
+      "text": "to use it in practice.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3489.69,
+      "end": 3494.09,
+      "text": "Another project was actually quite different.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3494.47,
+      "end": 3499.45,
+      "text": "And it was about electronic trading and basically how",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0121": [
+    {
+      "start": 3499.45,
+      "end": 3506.11,
+      "text": "to better predict prices of currencies.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3506.45,
+      "end": 3515.97,
+      "text": "And exchange rate, funnily enough, it was on ruble US dollar because it was actually aimed for our",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0122": [
+    {
+      "start": 3515.97,
+      "end": 3517.81,
+      "text": "Moscow office.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3517.79,
+      "end": 3523.26,
+      "text": "And basically, what we had, we had the noise observation of broker data.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3524.04,
+      "end": 3531.39,
+      "text": "And it was coming on at different non-uniform times, basically at random times.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3532.23,
+      "end": 3540.16,
+      "text": "So we decided to use Kalman filter and to study how it can predict.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3541.22,
+      "end": 3542.89,
+      "text": "And yeah, that's one of",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0123": [
+    {
+      "start": 3542.89,
+      "end": 3546.55,
+      "text": "of the nice.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3546.53,
+      "end": 3562.87,
+      "text": "graphs Duchamp produced, which again, we will use this strategy and the Kalman filters which he constructed in our iterating platform in Moscow.",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0124": [
+    {
+      "start": 3563.36,
+      "end": 3571.87,
+      "text": "All right, so that's just a couple of examples which I wanted to give you as a preview of what we will be talking in the class.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3574.01,
+      "end": 3576.57,
+      "text": "Just to remind, so the website is fully functional.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3578.9,
+      "end": 3582.2,
+      "text": "We put syllables there, a short list of literature.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3583.8,
+      "end": 3586.27,
+      "text": "We will be posting a lot of materials there.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3587.75,
+      "end": 3590.69,
+      "text": "Probably most lectures will be published there.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3591.25,
+      "end": 3592.97,
+      "text": "Jake's slides are there already.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3594.46,
+      "end": 3596.5,
+      "text": "So any questions?",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "v1_s0125": [
+    {
+      "start": 3599.63,
+      "end": 3599.93,
+      "text": "Yeah.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3600.07,
+      "end": 3603.6,
+      "text": "Please hand back the sign-up sheets.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3603.68,
+      "end": 3606.54,
+      "text": "So we'd like to get your emails so we can",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3609.27,
+      "end": 3612.96,
+      "text": "announcements, but you can also add yourself.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3612.98,
+      "end": 3613.7,
+      "text": "Yes.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3613.92,
+      "end": 3620.32,
+      "text": "But it's probably easier if you put your email on the sign-up sheet, so we can, yeah.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 3620.34,
+      "end": 3625.47,
+      "text": "Yeah, but please visit and sign up here, because there will be announcements to the class.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3625.49,
+      "end": 3627.33,
+      "text": "Yeah.",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "start": 3627.35,
+      "end": 3627.73,
+      "text": "All right.",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "start": 3627.75,
+      "end": 3629.04,
+      "text": "Thank you very much.",
+      "speaker": "SPEAKER_05"
+    }
+  ]
+}
