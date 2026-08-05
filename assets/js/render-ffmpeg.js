@@ -121,7 +121,11 @@ export async function renderStoryboard(segments, onProgress) {
   const report = (m) => onProgress && onProgress(m);
 
   report("Loading ffmpeg.wasm (first use only, ~25–30MB)…");
-  const ffmpeg = await getFfmpeg(report);
+  // Not wired to `report`: ffmpeg's own internal log stream is raw
+  // encoder/muxer chatter (stream mappings, codec negotiation, etc.), not
+  // user-facing status -- the report() calls below already cover every
+  // phase a reviewer needs to see.
+  const ffmpeg = await getFfmpeg();
 
   const uniqueSources = [...new Set(segments.map((s) => s.sourcePath))];
   const inputByPath = new Map();

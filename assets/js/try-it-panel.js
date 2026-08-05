@@ -10,7 +10,7 @@
  *
  * See docs/design-plan.md for the full design rationale.
  */
-import { el, createDetails, createProgressBar } from "./dom-helpers.js";
+import { el, createDetails, createProgressBar, setVideoMp4FromRepoPath } from "./dom-helpers.js";
 import { embedQuery, loadEmbeddingIndex, retrievePool, preloadEmbeddingModel } from "./semantic-search.js";
 import { createStoryboardEditor } from "./storyboard-editor.js";
 import { renderStoryboard } from "./render-ffmpeg.js";
@@ -65,6 +65,17 @@ export function mountTryItPanel(container, liveDemo) {
   }
   if (videoButtons[0]) videoButtons[0].el.classList.add(...activeCls);
 
+  // Shows the actual selected source video -- reviewers pick a keyword blind
+  // to what footage they're drawing from otherwise. preload="metadata" only
+  // (not the full file) until they actually press play.
+  const previewVideo = document.createElement("video");
+  previewVideo.className =
+    "w-full max-w-xl overflow-hidden rounded-lg border border-surface-border/80 bg-black aspect-video object-contain shadow-inner";
+  previewVideo.controls = true;
+  previewVideo.muted = true;
+  previewVideo.playsInline = true;
+  previewVideo.preload = "metadata";
+
   // --- keyword input + example chips ---
   const inputRow = el("div", "flex flex-wrap gap-2");
   const input = document.createElement("input");
@@ -86,6 +97,8 @@ export function mountTryItPanel(container, liveDemo) {
   // picker selection changes instead of showing one fixed global example.
   const chipsRow = el("div", "flex flex-wrap gap-2");
   function onVideoSelected(video) {
+    setVideoMp4FromRepoPath(previewVideo, video.sourceVideo);
+
     const keywords = (video.exampleKeywords && video.exampleKeywords.length
       ? video.exampleKeywords
       : liveDemo.exampleKeywords) || [];
@@ -117,6 +130,7 @@ export function mountTryItPanel(container, liveDemo) {
 
   root.appendChild(videoLabel);
   root.appendChild(videoRow);
+  root.appendChild(previewVideo);
   root.appendChild(inputRow);
   root.appendChild(chipsRow);
   root.appendChild(statusEl);
@@ -295,8 +309,8 @@ export function mountTryItPanel(container, liveDemo) {
           renderOutputBox.appendChild(outVideo);
           renderOutputBox.appendChild(link);
           renderProgress.el.classList.add("hidden");
-          renderStatus.textContent =
-            "Rendered final video — client-side, frame-accurate trim + concat (see README for how this differs from the paper's Python renderer).";
+          renderStatus.classList.add("hidden");
+          renderStatus.textContent = "";
         } catch (err) {
           renderProgress.el.classList.add("hidden");
           renderStatus.textContent = `Rendering unavailable right now (${err.message}) — edit the storyboard and try again.`;
