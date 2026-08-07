@@ -192,6 +192,22 @@ function cloneSegments(segments) {
 }
 
 /**
+ * Move the item at `fromIndex` so it ends up at gap `toIndex` -- both
+ * indices are positions in the ORIGINAL (pre-move) array, where `toIndex`
+ * counts the gaps between items (0 = before the first item, `array.length`
+ * = after the last). Matches the drop-indicator line: the line sits at
+ * gap `toIndex`, and dropping there is exactly this move.
+ */
+function reorder(list, fromIndex, toIndex) {
+  const item = list[fromIndex];
+  const without = list.slice(0, fromIndex).concat(list.slice(fromIndex + 1));
+  // Removing an earlier item shifts every later gap index down by one.
+  const adjusted = fromIndex < toIndex ? toIndex - 1 : toIndex;
+  without.splice(adjusted, 0, item);
+  return without;
+}
+
+/**
  * Split a "[Xs-Ys] [SPEAKER] text | [Xs-Ys] text | ..." transcript string
  * (built by scripts/export-embeddings.mjs's buildTranscript, timestamps
  * relative to the *shot's own* start) into its per-sentence pieces.
@@ -323,6 +339,31 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
 
   const list = el("div", "space-y-2");
 
+  // A single reusable line that marks where a dragged card would land --
+  // moved between cards on dragover rather than rebuilt, since render()
+  // wipes and rebuilds the whole list (which would abort the drag).
+  //
+  // dragover fires continuously (many times a second) for as long as the
+  // pointer sits over a valid target, not just when it moves. Touching the
+  // DOM (remove + insertBefore) on every single one of those events forces
+  // a synchronous layout recalc each time -- with several cards in the
+  // list that's enough thrashing to visibly lag input, including a
+  // backlog of already-queued dragover events still applying stale moves
+  // for a moment *after* the mouse button is released. Only touch the DOM
+  // when the target gap actually changes.
+  const dropIndicator = el("div", "h-0.5 rounded-full bg-cyan-400");
+  let shownInsertIndex = null;
+  function showDropIndicator(insertIndex) {
+    if (insertIndex === shownInsertIndex) return;
+    shownInsertIndex = insertIndex;
+    if (dropIndicator.parentNode) dropIndicator.remove();
+    list.insertBefore(dropIndicator, list.children[insertIndex] || null);
+  }
+  function clearDropIndicator() {
+    shownInsertIndex = null;
+    if (dropIndicator.parentNode) dropIndicator.remove();
+  }
+
   root.appendChild(header);
   root.appendChild(undoBar);
   root.appendChild(list);
@@ -407,14 +448,29 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
     card.addEventListener("dragover", (e) => {
       e.preventDefault();
       e.dataTransfer.dropEffect = "move";
+      if (dragIndex === null) return;
+      // Which half of this card the pointer is over decides whether the
+      // line lands above it (insert here) or below it (insert after).
+      const rect = card.getBoundingClientRect();
+      const insertIndex = e.clientY < rect.top + rect.height / 2 ? index : index + 1;
+      showDropIndicator(insertIndex);
     });
     card.addEventListener("drop", (e) => {
       e.preventDefault();
-      if (dragIndex === null || dragIndex === index) return;
-      const [moved] = current.splice(dragIndex, 1);
-      current.splice(index, 0, moved);
+      clearDropIndicator();
+      if (dragIndex === null) return;
+      const rect = card.getBoundingClientRect();
+      const insertIndex = e.clientY < rect.top + rect.height / 2 ? index : index + 1;
+      current = reorder(current, dragIndex, insertIndex);
       dragIndex = null;
       emitChange();
+    });
+    card.addEventListener("dragend", () => {
+      // Fires on the drag source once the gesture ends, success or not --
+      // the only reliable place to clean up a drag that got cancelled
+      // (Escape, dropped outside any card) rather than actually dropped.
+      dragIndex = null;
+      clearDropIndicator();
     });
 
     const thumbBox = el(
