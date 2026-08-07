@@ -229,7 +229,7 @@ export function mountTryItPanel(container, liveDemo) {
           : "Ready.") + droppedNote
       );
       hideGenProgress();
-      renderResult(video, keyword, data, pool);
+      renderResult(video, keyword, data, pool, index.shots);
     } catch (err) {
       const reason = err.name === "AbortError" ? "the request timed out" : err.message;
       showFallback(video, `Live planning is temporarily unavailable (${reason}).`);
@@ -243,7 +243,7 @@ export function mountTryItPanel(container, liveDemo) {
     if (e.key === "Enter") handleSubmit();
   });
 
-  function renderResult(video, keyword, data, pool) {
+  function renderResult(video, keyword, data, pool, shots) {
     resultWrap.innerHTML = "";
     resultWrap.classList.remove("hidden");
     resultWrap.appendChild(
@@ -280,6 +280,7 @@ export function mountTryItPanel(container, liveDemo) {
       container: editorBox,
       segments: data.segments,
       pool,
+      shots,
       onRender: async (segments) => {
         renderStatus.classList.remove("hidden");
         renderProgress.el.classList.remove("hidden");

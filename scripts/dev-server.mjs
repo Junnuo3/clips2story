@@ -53,11 +53,49 @@ const server = http.createServer((req, res) => {
     }
     const ext = path.extname(filePath).toLowerCase();
     const stat = fs.statSync(filePath);
-    res.writeHead(200, {
+    const commonHeaders = {
       "Content-Type": MIME[ext] || "application/octet-stream",
-      "Content-Length": stat.size,
       "Cache-Control": "no-store",
-    });
+      "Accept-Ranges": "bytes",
+    };
+
+    // <video> seeking needs real byte-range support: without it, the
+    // browser can't jump ahead of what it's already downloaded and instead
+    // aborts and restarts the whole file on every seek, so currentTime
+    // never actually reaches the requested position for anything past the
+    // first few buffered seconds.
+    const range = req.headers.range;
+    const rangeMatch = range && /^bytes=(\d*)-(\d*)$/.exec(range);
+    if (rangeMatch) {
+      const [, startStr, endStr] = rangeMatch;
+      let start = startStr ? Number(startStr) : 0;
+      let end = endStr ? Number(endStr) : stat.size - 1;
+      if (!startStr && endStr) {
+        // Suffix range ("bytes=-500" -> last 500 bytes).
+        start = Math.max(0, stat.size - Number(endStr));
+        end = stat.size - 1;
+      }
+      if (Number.isNaN(start) || Number.isNaN(end) || start > end || start >= stat.size) {
+        res.writeHead(416, { ...commonHeaders, "Content-Range": `bytes */${stat.size}` });
+        res.end();
+        return;
+      }
+      end = Math.min(end, stat.size - 1);
+      res.writeHead(206, {
+        ...commonHeaders,
+        "Content-Length": end - start + 1,
+        "Content-Range": `bytes ${start}-${end}/${stat.size}`,
+      });
+      const stream = fs.createReadStream(filePath, { start, end });
+      stream.on("error", (err) => {
+        if (!res.headersSent) res.writeHead(500, { "Content-Type": "text/plain" });
+        res.end(`Stream error: ${err}`);
+      });
+      stream.pipe(res);
+      return;
+    }
+
+    res.writeHead(200, { ...commonHeaders, "Content-Length": stat.size });
     const stream = fs.createReadStream(filePath);
     // Without this, a read hiccup on a large file (e.g. a git-LFS video over
     // a slow/network-mounted filesystem) throws an uncaught 'error' event and

@@ -9,10 +9,42 @@
  * the caller (assets/js/try-it-panel.js) via the onRender callback, so
  * this file has no dependency on render-ffmpeg.js.
  */
-import { el, createDetails, resolveMediaPath } from "./dom-helpers.js";
+import { el, createDetails, resolveMediaPath, setVideoMp4FromRepoPath } from "./dom-helpers.js";
 
 const TARGET_MIN_SEC = 30; // 30 seconds -- shortened from the paper's 3-5 min target so the
 const TARGET_MAX_SEC = 60; // in-browser ffmpeg.wasm render (source download + re-encode) stays fast
+
+// Floor on a segment's own length so a trim handle can never collapse it to
+// zero (which would break both the on-screen preview and the ffmpeg trim
+// filter at render time).
+const MIN_SEG_DURATION = 0.3;
+
+function clamp(v, lo, hi) {
+  return Math.min(hi, Math.max(lo, v));
+}
+
+/**
+ * The trim/extend handles need to know the *full* source video's duration
+ * (not just the current clip's), since extending restores footage the clip
+ * doesn't currently include. Nothing else in this app loads that today --
+ * probe it once per unique source path with a throwaway <video> and cache
+ * the result (a promise, so concurrent cards asking for the same source
+ * share one probe instead of racing separate loads).
+ */
+const sourceDurationCache = new Map();
+function getSourceDuration(sourcePath) {
+  if (sourceDurationCache.has(sourcePath)) return sourceDurationCache.get(sourcePath);
+  const promise = new Promise((resolve) => {
+    const probe = document.createElement("video");
+    probe.preload = "metadata";
+    probe.muted = true;
+    probe.addEventListener("loadedmetadata", () => resolve(probe.duration || null), { once: true });
+    probe.addEventListener("error", () => resolve(null), { once: true });
+    probe.src = resolveMediaPath(sourcePath);
+  });
+  sourceDurationCache.set(sourcePath, promise);
+  return promise;
+}
 
 // A small pool of hidden <video> elements to grab poster-frame thumbnails by
 // seeking. All segments in one storyboard almost always share the same
@@ -147,8 +179,90 @@ function fmtDuration(sec) {
   return `${m}m ${String(r).padStart(2, "0")}s`;
 }
 
+/** m:ss timestamp for trim-handle labels (as opposed to fmtDuration's "Xm Ys" span format). */
+function fmtClock(sec) {
+  const s = Math.max(0, Math.round(sec));
+  const m = Math.floor(s / 60);
+  const r = s % 60;
+  return `${m}:${String(r).padStart(2, "0")}`;
+}
+
 function cloneSegments(segments) {
   return segments.map((s) => ({ ...s }));
+}
+
+/**
+ * Split a "[Xs-Ys] [SPEAKER] text | [Xs-Ys] text | ..." transcript string
+ * (built by scripts/export-embeddings.mjs's buildTranscript, timestamps
+ * relative to the *shot's own* start) into its per-sentence pieces.
+ */
+function parseTranscriptEntries(transcript) {
+  if (!transcript) return [];
+  return transcript
+    .split(" | ")
+    .map((piece) => {
+      const m = /^\[(\d+(?:\.\d+)?)s-(\d+(?:\.\d+)?)s\]/.exec(piece.trim());
+      if (!m) return null;
+      return { start: Number(m[1]), end: Number(m[2]), text: piece.trim() };
+    })
+    .filter(Boolean);
+}
+
+/**
+ * Re-slice a shot's full transcript down to whatever sentences overlap
+ * [relStart, relEnd] (both relative to the shot's own start, matching the
+ * bracket convention above). Used to keep a card's displayed transcript in
+ * sync as its trim handles move -- the segment's own `transcript` field is
+ * whatever the LLM (or the original AI proposal) chose to keep, which is
+ * too narrow once a trim/extend moves outside that original window, so this
+ * always re-derives from the *full* per-shot transcript instead.
+ * Returns null if the source string didn't parse into any entries at all
+ * (e.g. a shot with no speech) -- callers should leave the field alone then,
+ * rather than blanking out a transcript that was never sliceable to begin with.
+ */
+function resliceTranscript(fullShotTranscript, relStart, relEnd) {
+  const entries = parseTranscriptEntries(fullShotTranscript);
+  if (entries.length === 0) return null;
+  return entries
+    .filter((e) => e.start < relEnd && e.end > relStart)
+    .map((e) => e.text)
+    .join(" | ");
+}
+
+/**
+ * A trimmed clip's transcript re-slices fine from a single shot's own full
+ * transcript (resliceTranscript above) as long as the trim stays inside that
+ * one shot's own span. But extending is explicitly allowed to cross into
+ * neighboring shots' footage (per spec, bounded only by the full source
+ * video, not the current shot) -- a single shot's transcript has no idea
+ * what's said in the next one, so a large extend needs to pull in and
+ * re-slice *each* shot the new [seg.startTime, seg.endTime] range now
+ * overlaps, not just the segment's own originating shot.
+ *
+ * `shots` is the full per-video shot list (embeddings/<id>.json's `shots`,
+ * already loaded by the time the storyboard planner ran -- see
+ * try-it-panel.js), each with absolute start_time/end_time and its own
+ * full shot-relative transcript. Falls back to the single-shot pool lookup
+ * when the caller didn't have the full shot list available.
+ */
+function fullRangeTranscript(seg, { shots, poolByClipId }) {
+  if (shots && shots.length) {
+    const overlapping = shots
+      .filter((s) => s.start_time < seg.endTime && s.end_time > seg.startTime)
+      .sort((a, b) => a.start_time - b.start_time);
+    if (overlapping.length > 0) {
+      return overlapping
+        .map((s) => resliceTranscript(s.transcript, seg.startTime - s.start_time, seg.endTime - s.start_time))
+        .filter(Boolean)
+        .join(" | "); // may end up "" if none of the overlapping shots have speech in range
+    }
+  }
+  const origin = poolByClipId.get(seg.clipId);
+  if (origin && origin.transcript) {
+    const resliced = resliceTranscript(origin.transcript, seg.startTime - origin.startTime, seg.endTime - origin.startTime);
+    if (resliced !== null) return resliced;
+  }
+  return null; // no source we can re-slice from -- leave the existing transcript alone
 }
 
 /**
@@ -156,12 +270,23 @@ function cloneSegments(segments) {
  * @param {HTMLElement} opts.container
  * @param {Array} opts.segments - initial AI-proposed segments (ordered)
  * @param {Array} opts.pool - full retrieved pool (used + unused), for the swap popover
+ * @param {Array} [opts.shots] - full per-video shot list (embeddings/<id>.json's `shots`), used to
+ *   re-slice a card's transcript across shot boundaries when a trim/extend reaches past its own shot
  * @param {(segments: Array) => void} [opts.onChange] - called after every mutation
  * @param {(segments: Array) => void} [opts.onRender] - "Render final video" clicked
  */
-export function createStoryboardEditor({ container, segments, pool, onChange, onRender }) {
+export function createStoryboardEditor({ container, segments, pool, shots, onChange, onRender }) {
   const original = cloneSegments(segments);
   let current = cloneSegments(segments);
+  // clipId -> its pool entry, which always carries the *full* per-shot
+  // transcript/absolute start (pool entries are never trimmed) -- the
+  // source of truth for re-slicing a card's transcript as it's trimmed.
+  const poolByClipId = new Map((pool || []).map((p) => [p.clipId, p]));
+  // Every mutation (including committing a trim drag) rebuilds every card
+  // from scratch via render(), which would otherwise reset a "Show more"
+  // toggle back to collapsed on each edit -- track expansion by clipId here
+  // so it survives across re-renders.
+  const expandedClipIds = new Set();
   let dragIndex = null;
   let lastDeleted = null; // { segment, index } for undo
 
@@ -268,6 +393,14 @@ export function createStoryboardEditor({ container, segments, pool, onChange, on
     card.dataset.index = String(index);
 
     card.addEventListener("dragstart", (e) => {
+      // The card itself is the HTML5 drag source, so a press-and-drag
+      // gesture starting on a descendant (a trim handle, the video scrub
+      // bar) would otherwise be hijacked into a reorder-drag instead of
+      // reaching that widget's own pointer handlers. Opt those out here.
+      if (e.target.closest && e.target.closest(".no-native-drag")) {
+        e.preventDefault();
+        return;
+      }
       dragIndex = index;
       e.dataTransfer.effectAllowed = "move";
     });
@@ -305,36 +438,222 @@ export function createStoryboardEditor({ container, segments, pool, onChange, on
     const body = el("div", "min-w-0 flex-1 space-y-1");
     const topRow = el("div", "flex items-center gap-2 text-xs text-slate-400");
     topRow.appendChild(el("span", "cursor-grab select-none text-slate-500", "☰"));
-    topRow.appendChild(el("span", "", fmtDuration(seg.endTime - seg.startTime)));
+    const durationLabel = el("span", "", fmtDuration(seg.endTime - seg.startTime));
+    topRow.appendChild(durationLabel);
     body.appendChild(topRow);
 
     const text = seg.transcript?.trim() ? seg.transcript : seg.caption || "(no transcript or caption)";
-    const textEl = el("p", "line-clamp-2 text-sm text-slate-200", text);
+    let expanded = expandedClipIds.has(seg.clipId);
+    const textEl = el("p", "text-sm text-slate-200", text);
+    textEl.classList.toggle("line-clamp-2", !expanded);
     body.appendChild(textEl);
     // Long ASR transcripts get clamped to 2 lines by default -- only show a
     // toggle when there's actually more to reveal (avoids a dead "Show more"
     // button on short captions).
     const LONG_TEXT_CHARS = 140;
     if (text.length > LONG_TEXT_CHARS) {
-      let expanded = false;
       const toggleBtn = el(
         "button",
         "text-[11px] font-medium text-cyan-400 hover:text-cyan-300",
-        "Show more"
+        expanded ? "Show less" : "Show more"
       );
       toggleBtn.addEventListener("click", () => {
         expanded = !expanded;
+        if (expanded) expandedClipIds.add(seg.clipId);
+        else expandedClipIds.delete(seg.clipId);
         textEl.classList.toggle("line-clamp-2", !expanded);
         toggleBtn.textContent = expanded ? "Show less" : "Show more";
       });
       body.appendChild(toggleBtn);
     }
 
+    // Keeps the card's displayed transcript in sync as trim handles move --
+    // re-derives from the full source transcript (across shot boundaries
+    // once an extend reaches past this segment's own shot) rather than
+    // slicing seg.transcript itself, since that field may already be
+    // narrower than the shot (an LLM- or previously-user-chosen sub-range),
+    // which would lose text on an extend past that earlier window.
+    function updateTranscriptDisplay() {
+      const resliced = fullRangeTranscript(seg, { shots, poolByClipId });
+      if (resliced !== null) seg.transcript = resliced;
+      textEl.textContent = seg.transcript?.trim() ? seg.transcript : seg.caption || "(no transcript or caption)";
+    }
+
+    // --- inline playback (clamped to this segment's current in/out points) ---
+    let videoEl = null;
+    const playerWrap = el("div", "no-native-drag mt-2 hidden");
+
+    function clampPlayerToRange() {
+      if (!videoEl) return;
+      if (videoEl.currentTime < seg.startTime) videoEl.currentTime = seg.startTime;
+      else if (videoEl.currentTime > seg.endTime) {
+        videoEl.currentTime = seg.endTime;
+        videoEl.pause();
+      }
+    }
+
+    // --- trim/extend timeline (positions are against the full source video's
+    // duration, not just this segment's own span, per spec) ---
+    const trimWrap = el("div", "no-native-drag mt-2 space-y-1");
+    const trimLabelRow = el("div", "flex items-center justify-between text-[10px] text-slate-500");
+    const trimLabelLeft = el("span", "", "");
+    const trimLabelRight = el("span", "", "");
+    trimLabelRow.appendChild(trimLabelLeft);
+    trimLabelRow.appendChild(el("span", "", "drag edges to trim / extend"));
+    trimLabelRow.appendChild(trimLabelRight);
+
+    const track = el("div", "relative h-6 w-full rounded-md bg-white/5");
+    const rangeEl = el("div", "absolute inset-y-0 rounded-md bg-cyan-500/25 ring-1 ring-inset ring-cyan-400/50");
+    const leftHandle = el(
+      "div",
+      "absolute inset-y-0 -ml-1.5 w-3 cursor-ew-resize rounded bg-cyan-300 hover:bg-cyan-200"
+    );
+    const rightHandle = el(
+      "div",
+      "absolute inset-y-0 -ml-1.5 w-3 cursor-ew-resize rounded bg-cyan-300 hover:bg-cyan-200"
+    );
+    track.appendChild(rangeEl);
+    track.appendChild(leftHandle);
+    track.appendChild(rightHandle);
+    trimWrap.appendChild(trimLabelRow);
+    trimWrap.appendChild(track);
+    const trimStatus = el("p", "text-[10px] text-slate-500", "Loading source timeline…");
+    trimWrap.appendChild(trimStatus);
+
+    let sourceDuration = null; // full source video length; null until (or unless) it loads
+
+    // Pixel<->time mapping basis: the true full-source duration once known.
+    // Until then, fall back to this clip's own current end -- extending the
+    // right edge is capped at that fallback (can't safely offer more of the
+    // source than we've confirmed exists), but trimming inward and
+    // extending the *left* edge toward 0 are always safe and stay live.
+    function trackTotal() {
+      return sourceDuration != null ? sourceDuration : Math.max(seg.endTime, MIN_SEG_DURATION);
+    }
+
+    function updateTrimVisuals() {
+      const total = trackTotal();
+      const leftPct = clamp((seg.startTime / total) * 100, 0, 100);
+      const rightPct = clamp((seg.endTime / total) * 100, 0, 100);
+      rangeEl.style.left = `${leftPct}%`;
+      rangeEl.style.right = `${100 - rightPct}%`;
+      leftHandle.style.left = `${leftPct}%`;
+      rightHandle.style.left = `${rightPct}%`;
+      trimLabelLeft.textContent = fmtClock(seg.startTime);
+      trimLabelRight.textContent = fmtClock(seg.endTime);
+      durationLabel.textContent = fmtDuration(seg.endTime - seg.startTime);
+    }
+    updateTrimVisuals();
+
+    getSourceDuration(seg.sourcePath).then((dur) => {
+      sourceDuration = dur; // null means the probe failed -- trimming still works, extending past the current edges won't
+      trimStatus.textContent = dur
+        ? ""
+        : "Full-source duration unavailable — extending past this clip's current range is disabled.";
+      trimStatus.classList.toggle("hidden", !!dur);
+      updateTrimVisuals();
+    });
+
+    function bindTrimHandle(handle, isLeft) {
+      handle.addEventListener("pointerdown", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        handle.setPointerCapture(e.pointerId);
+        const rect = track.getBoundingClientRect();
+
+        const onMove = (ev) => {
+          const total = trackTotal();
+          const ratio = clamp((ev.clientX - rect.left) / rect.width, 0, 1);
+          const t = ratio * total;
+          if (isLeft) {
+            const maxStart = Math.max(0, seg.endTime - MIN_SEG_DURATION);
+            seg.startTime = clamp(t, 0, maxStart);
+          } else {
+            const minEnd = Math.min(total, seg.startTime + MIN_SEG_DURATION);
+            seg.endTime = clamp(t, minEnd, total);
+          }
+          updateTrimVisuals();
+          updateTranscriptDisplay();
+          clampPlayerToRange();
+          renderHeader(); // live total-duration/edited-state feedback without rebuilding the list mid-drag
+        };
+        const onUp = () => {
+          handle.removeEventListener("pointermove", onMove);
+          handle.removeEventListener("pointerup", onUp);
+          handle.removeEventListener("pointercancel", onUp);
+          // The precomputed thumbnail is a frame from the *original* shot
+          // midpoint; once trimmed it no longer represents this segment, so
+          // clear it and let loadThumbnail's live-seek fallback recapture at
+          // the new midpoint on the next render.
+          seg.thumbnailPath = null;
+          emitChange();
+        };
+        handle.addEventListener("pointermove", onMove);
+        handle.addEventListener("pointerup", onUp);
+        handle.addEventListener("pointercancel", onUp);
+      });
+    }
+    bindTrimHandle(leftHandle, true);
+    bindTrimHandle(rightHandle, false);
+
     const moveRow = el("div", "flex flex-wrap items-center gap-2 pt-1");
+    const playBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-300 hover:bg-white/5", "▶ Play clip");
     const upBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-300 hover:bg-white/5", "↑ Move up");
     const downBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-300 hover:bg-white/5", "↓ Move down");
     const swapBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-300 hover:bg-white/5", "⇄ Swap");
     const delBtn = el("button", "rounded border border-red-500/30 px-2 py-0.5 text-[11px] text-red-300 hover:bg-red-500/10", "× Remove");
+    playBtn.addEventListener("click", () => {
+      if (videoEl) {
+        videoEl.pause();
+        playerWrap.classList.add("hidden");
+        playerWrap.innerHTML = "";
+        videoEl = null;
+        playBtn.textContent = "▶ Play clip";
+        return;
+      }
+      // Bind every listener to this specific element (`v`), not the outer
+      // mutable `videoEl` -- closing the player nulls that out, but an
+      // already-queued event on the (now detached) old element can still
+      // fire afterward, and a handler reading `videoEl` at that point would
+      // throw on a null currentTime access.
+      const v = document.createElement("video");
+      videoEl = v;
+      v.className =
+        "w-full max-w-sm rounded-lg border border-surface-border/60 bg-black aspect-video object-contain";
+      v.controls = true;
+      v.playsInline = true;
+      v.preload = "metadata";
+      setVideoMp4FromRepoPath(v, seg.sourcePath);
+      v.addEventListener("loadedmetadata", () => {
+        v.currentTime = seg.startTime;
+      });
+      v.addEventListener("play", () => {
+        if (v.currentTime < seg.startTime || v.currentTime >= seg.endTime) {
+          v.currentTime = seg.startTime;
+        }
+      });
+      v.addEventListener("timeupdate", () => {
+        if (v.currentTime >= seg.endTime) {
+          v.pause();
+          v.currentTime = seg.endTime;
+        }
+      });
+      v.addEventListener("seeking", () => {
+        if (v.currentTime < seg.startTime) v.currentTime = seg.startTime;
+        else if (v.currentTime > seg.endTime) {
+          v.currentTime = seg.endTime;
+          v.pause();
+        }
+      });
+      playerWrap.innerHTML = "";
+      playerWrap.appendChild(v);
+      playerWrap.classList.remove("hidden");
+      playBtn.textContent = "■ Stop";
+      v.play().catch(() => {
+        // Autoplay can be blocked in some browsers even on a user gesture (e.g. no
+        // audio track yet decoded); the visible controls still let them press play.
+      });
+    });
     upBtn.disabled = index === 0;
     downBtn.disabled = index === current.length - 1;
     upBtn.addEventListener("click", () => {
@@ -366,10 +685,13 @@ export function createStoryboardEditor({ container, segments, pool, onChange, on
       body.appendChild(swapPanel);
     });
 
+    moveRow.appendChild(playBtn);
     moveRow.appendChild(upBtn);
     moveRow.appendChild(downBtn);
     moveRow.appendChild(swapBtn);
     moveRow.appendChild(delBtn);
+    body.appendChild(trimWrap);
+    body.appendChild(playerWrap);
     body.appendChild(moveRow);
 
     card.appendChild(thumbBox);
