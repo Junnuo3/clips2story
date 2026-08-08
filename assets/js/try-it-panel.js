@@ -67,14 +67,33 @@ export function mountTryItPanel(container, liveDemo) {
 
   // Shows the actual selected source video -- reviewers pick a keyword blind
   // to what footage they're drawing from otherwise. preload="metadata" only
-  // (not the full file) until they actually press play.
+  // (not the full file) until they actually press play. This preview is
+  // display-only: storyboard generation/rendering always reads video.sourceVideo
+  // (the local file), never this element, since ffmpeg.wasm needs real bytes.
+  const previewWrap = el(
+    "div",
+    "w-full max-w-xl overflow-hidden rounded-lg border border-surface-border/80 bg-black shadow-inner"
+  );
   const previewVideo = document.createElement("video");
-  previewVideo.className =
-    "w-full max-w-xl overflow-hidden rounded-lg border border-surface-border/80 bg-black aspect-video object-contain shadow-inner";
+  previewVideo.className = "aspect-video w-full object-contain";
   previewVideo.controls = true;
   previewVideo.muted = true;
   previewVideo.playsInline = true;
   previewVideo.preload = "metadata";
+
+  // A handful of source videos still have a working YouTube embed (checked
+  // against the oembed endpoint -- see LIVE_DEMO_YOUTUBE_PREVIEW_IDS in
+  // scripts/generate-data.mjs); for those, prefer the YouTube player over the
+  // local file for this preview so reviewers see it exactly as it's credited.
+  const previewFrame = document.createElement("iframe");
+  previewFrame.className = "hidden aspect-video w-full";
+  previewFrame.title = "Source video preview";
+  previewFrame.allow =
+    "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+  previewFrame.referrerPolicy = "strict-origin-when-cross-origin";
+  previewFrame.allowFullscreen = true;
+  previewWrap.appendChild(previewVideo);
+  previewWrap.appendChild(previewFrame);
 
   // --- keyword input + example chips ---
   const inputRow = el("div", "flex flex-wrap gap-2");
@@ -97,7 +116,18 @@ export function mountTryItPanel(container, liveDemo) {
   // picker selection changes instead of showing one fixed global example.
   const chipsRow = el("div", "flex flex-wrap gap-2");
   function onVideoSelected(video) {
-    setVideoMp4FromRepoPath(previewVideo, video.sourceVideo);
+    if (video.youtubeId) {
+      previewVideo.classList.add("hidden");
+      previewVideo.removeAttribute("src");
+      previewVideo.load();
+      previewFrame.classList.remove("hidden");
+      previewFrame.src = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
+    } else {
+      previewFrame.classList.add("hidden");
+      previewFrame.src = "";
+      previewVideo.classList.remove("hidden");
+      setVideoMp4FromRepoPath(previewVideo, video.sourceVideo);
+    }
 
     const keywords = (video.exampleKeywords && video.exampleKeywords.length
       ? video.exampleKeywords
@@ -130,7 +160,7 @@ export function mountTryItPanel(container, liveDemo) {
 
   root.appendChild(videoLabel);
   root.appendChild(videoRow);
-  root.appendChild(previewVideo);
+  root.appendChild(previewWrap);
   root.appendChild(inputRow);
   root.appendChild(chipsRow);
   root.appendChild(statusEl);

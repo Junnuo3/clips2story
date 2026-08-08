@@ -20,3 +20,11 @@ worker/node_modules/
 **/.dev.vars
 
 credentials.txt
+
+# Local recording demo (instruction.md) -- private source footage + its
+# precomputed bundles/embeddings, and the page itself. Never part of the
+# public deployment: GitHub Pages serves whatever's pushed to the deployed
+# branch as static files, so "not deployed" here means "never committed."
+/demo/
+/local-demo/
+/local-demo.html

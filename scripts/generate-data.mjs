@@ -29,6 +29,26 @@ const LIVE_DEMO_FALLBACK_KEYWORDS = ["central conflict", "key relationships", "t
 // candidate footage, not the paper's full 15-minute budget.
 const LIVE_DEMO_POOL_DURATION_BUDGET_SEC = 150;
 
+// YouTube ID for each source video's preview player -- checked individually
+// against YouTube's oembed endpoint, but oembed returning 200 isn't a
+// guarantee the actual embedded player works (documentary-2 passes oembed
+// yet shows "Video unavailable" in the embed itself -- confirmed by hand).
+// documentary-1, film-2, and vlog-1 fail oembed outright (403/401, embedding
+// disabled or taken down). All four are deliberately omitted here and fall
+// back to the local <video>/download link wherever this is used (the live
+// demo's try-it-panel.js picker, and each genre page's "Original source"
+// section). Preview-only in both places -- storyboard generation/rendering
+// always reads the local sourceVideo/sourceLocal file (ffmpeg.wasm needs
+// real bytes, not a YouTube page) -- see assets/js/render-ffmpeg.js.
+const YOUTUBE_PREVIEW_IDS = {
+  "film-1": "kmYcT5gT6a4",
+  "lecture-1": "wvXDB9dMdEo",
+  "lecture-2": "0sKPkJME2Jw",
+  "news-1": "tX80LkEqytg",
+  "news-2": "fbgQG61Irvs",
+  "vlog-2": "Tn7CL9rL27I",
+};
+
 /** "04_extinction" -> "extinction", "05_human_dog_interaction" -> "human dog interaction". */
 function toKeywordChip(rawKeyword) {
   return rawKeyword.replace(/^\d+_/, "").replace(/_/g, " ").trim().toLowerCase();
@@ -148,6 +168,7 @@ function discoverLiveDemoVideos(galleryKeywordsById, keywordsFileById) {
       genre: payload.id.replace(/-\d+$/, ""),
       label: payload.label || payload.id,
       sourceVideo: payload.sourceVideo,
+      youtubeId: YOUTUBE_PREVIEW_IDS[payload.id] || null,
       embeddings: `embeddings/${file}`,
       poolDurationBudgetSec: LIVE_DEMO_POOL_DURATION_BUDGET_SEC,
       exampleKeywords: buildVideoExampleKeywords(payload.id, galleryKeywordsById, keywordsFileById),
@@ -207,20 +228,6 @@ function parseCsv(text) {
   return rows;
 }
 
-function youtubeWatchToEmbed(watchUrl) {
-  try {
-    const u = new URL(watchUrl);
-    let videoId = u.searchParams.get("v");
-    if (!videoId && (u.hostname === "youtu.be" || u.hostname === "www.youtu.be")) {
-      videoId = u.pathname.replace(/^\//, "").split("/")[0];
-    }
-    if (!videoId) return null;
-    return `https://www.youtube.com/embed/${videoId}`;
-  } catch {
-    return null;
-  }
-}
-
 function listMp4(dir) {
   if (!fs.existsSync(dir)) return [];
   return fs.readdirSync(dir).filter((f) => f.endsWith(".mp4"));
@@ -234,7 +241,7 @@ function pickSingle(files, suffix) {
   return hits[0];
 }
 
-function buildExampleForDir(genre, idStr, youtubeEmbed) {
+function buildExampleForDir(genre, idStr) {
   const dir = path.join(ROOT, genre, idStr);
   const files = listMp4(dir);
   const nfFiles = files.filter((f) => f.endsWith("_no_narration.mp4"));
@@ -283,7 +290,7 @@ function buildExampleForDir(genre, idStr, youtubeEmbed) {
 
   return {
     id: idStr,
-    youtubeEmbed,
+    youtubeId: YOUTUBE_PREVIEW_IDS[`${genre}-${idStr}`] || null,
     sourceLocal,
     keywords: selected.map((s) => ({
       keyword: s.keyword,
@@ -307,6 +314,11 @@ function main() {
   const byGenre = {};
   for (const g of GENRES) byGenre[g] = [];
 
+  // All source videos are shown from the local upload (SOURCE_LOCAL_OVERRIDES)
+  // rather than embedded from YouTube -- some of demo_video_links.csv's links
+  // have since gone private/been taken down/had embedding disabled by the
+  // owner, and YouTube embeds are slow to load regardless. The CSV URL is
+  // kept only as a record of where each video originally came from.
   for (const row of rows) {
     const { genre, id, youtube_link } = row;
     if (!GENRES.includes(genre)) {
@@ -314,17 +326,12 @@ function main() {
       continue;
     }
     const idStr = String(id);
-    let embed = youtubeWatchToEmbed(youtube_link);
-    if (!embed) {
-      const key = `${genre}/${idStr}`;
-      if (SOURCE_LOCAL_OVERRIDES[key] || isLocalSourcePath(youtube_link)) {
-        embed = null;
-      } else {
-        console.warn(`Could not parse YouTube URL for ${genre}/${id}`);
-        continue;
-      }
+    const key = `${genre}/${idStr}`;
+    if (!SOURCE_LOCAL_OVERRIDES[key] && !isLocalSourcePath(youtube_link)) {
+      console.warn(`No local source configured for ${genre}/${id} (see SOURCE_LOCAL_OVERRIDES)`);
+      continue;
     }
-    const ex = buildExampleForDir(genre, idStr, embed);
+    const ex = buildExampleForDir(genre, idStr);
     if (ex) byGenre[genre].push(ex);
   }
 

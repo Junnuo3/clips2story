@@ -4,6 +4,13 @@
 import { el, createDetails, resolveMediaPath, setVideoMp4FromRepoPath } from "./assets/js/dom-helpers.js";
 import { mountTryItPanel } from "./assets/js/try-it-panel.js";
 
+// genreId -> one-shot builder for that panel's "Original source" content,
+// populated by renderGenreSections and consumed by setActiveGenre. Building
+// is deferred until a genre tab is actually opened, rather than eagerly
+// creating every genre's video elements (each with its own preload="metadata"
+// fetch) at load time, since only one panel is ever visible at once.
+const genrePanelBuilders = new Map();
+
 /** Strip numeric prefix, underscores → spaces, title case (e.g. 05_human_dog → Human Dog). */
 function formatKeywordForDisplay(keyword) {
   const raw = keyword.replace(/^\d+_/, "").replace(/_/g, " ").trim();
@@ -17,6 +24,37 @@ function codeInline(text) {
   const c = el("code", "rounded bg-surface-raised px-1 py-0.5 text-slate-200");
   c.textContent = text;
   return c;
+}
+
+/**
+ * A source video's "Original source" preview: the real YouTube embed when
+ * one still works (set.youtubeId, from scripts/generate-data.mjs -- most
+ * source videos' original links are dead/private/embedding-disabled, so this
+ * is null for those), otherwise the local file. Display-only either way:
+ * nothing downstream reads this element, so it has no effect on rendering.
+ */
+function buildSourcePreviewEl(set, { className, title } = {}) {
+  if (set?.youtubeId) {
+    const iframe = document.createElement("iframe");
+    iframe.className = className;
+    iframe.src = `https://www.youtube-nocookie.com/embed/${set.youtubeId}`;
+    iframe.title = title || "Source video";
+    iframe.allow =
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    iframe.referrerPolicy = "strict-origin-when-cross-origin";
+    iframe.allowFullscreen = true;
+    return iframe;
+  }
+  if (!set?.sourceLocal) return null;
+  const vid = document.createElement("video");
+  vid.className = className;
+  vid.controls = true;
+  vid.muted = true;
+  vid.playsInline = true;
+  vid.preload = "metadata";
+  setVideoMp4FromRepoPath(vid, set.sourceLocal);
+  if (title) vid.title = title;
+  return vid;
 }
 
 /** Visible workflow section (not collapsible); use for main steps 1–7 on the home panel. */
@@ -342,123 +380,101 @@ function renderGenreSections(genres, liveDemo) {
     wrap.id = `genre-panel-${g.id}`;
     wrap.dataset.genrePanel = g.id;
     wrap.className = "genre-panel hidden space-y-16 pb-16";
+    container.appendChild(wrap);
 
-    if (g.sets.length === 0) {
-      const empty = document.createElement("p");
-      empty.className = "text-slate-500";
-      empty.textContent = "No examples in this category.";
-      wrap.appendChild(empty);
-      container.appendChild(wrap);
-      continue;
-    }
-
-    for (const set of g.sets) {
-      const block = document.createElement("article");
-      block.className =
-        "rounded-2xl border border-surface-border bg-surface-raised/30 p-4 shadow-xl shadow-black/20 sm:p-6";
-
-      const heading = document.createElement("h2");
-      heading.className = "text-lg font-semibold text-white sm:text-xl";
-      heading.textContent = `Source video`;
-
-      const originalSection = document.createElement("div");
-      originalSection.className = "mt-4 max-w-xs sm:max-w-sm";
-
-      const originalLabel = document.createElement("p");
-      originalLabel.className =
-        "mb-2 text-xs font-medium uppercase tracking-wide text-slate-500";
-      originalLabel.textContent = "Original source";
-
-      originalSection.appendChild(originalLabel);
-      if (set.sourceLocal) {
-        const vid = document.createElement("video");
-        vid.className =
-          "w-full overflow-hidden rounded-lg border border-surface-border/80 bg-black aspect-video object-contain shadow-inner";
-        vid.controls = true;
-        vid.muted = true;
-        vid.playsInline = true;
-        vid.preload = "metadata";
-        setVideoMp4FromRepoPath(vid, set.sourceLocal);
-        originalSection.appendChild(vid);
-      } else if (set.youtubeEmbed) {
-        const iframeWrap = document.createElement("div");
-        iframeWrap.className =
-          "overflow-hidden rounded-lg border border-surface-border/80 bg-black aspect-video w-full shadow-inner";
-        const iframe = document.createElement("iframe");
-        iframe.className = "h-full w-full";
-        iframe.src = set.youtubeEmbed;
-        iframe.title = "Original source video";
-        iframe.setAttribute("allowfullscreen", "");
-        iframe.setAttribute(
-          "allow",
-          "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        );
-        iframe.loading = "lazy";
-        iframeWrap.appendChild(iframe);
-        originalSection.appendChild(iframeWrap);
+    genrePanelBuilders.set(g.id, () => {
+      if (g.sets.length === 0) {
+        const empty = document.createElement("p");
+        empty.className = "text-slate-500";
+        empty.textContent = "No examples in this category.";
+        wrap.appendChild(empty);
+        return;
       }
 
-      const mkVideoCell = (label, src) => {
-        const cell = document.createElement("div");
-        cell.className = "flex flex-col gap-2";
-        const lab = document.createElement("p");
-        lab.className =
-          "text-center text-xs font-semibold uppercase tracking-wide text-slate-400";
-        lab.textContent = label;
-        const vid = document.createElement("video");
-        vid.className =
-          "w-full rounded-lg border border-surface-border bg-black aspect-video object-contain";
-        vid.controls = true;
-        vid.muted = true;
-        vid.playsInline = true;
-        vid.preload = "metadata";
-        setVideoMp4FromRepoPath(vid, src);
-        cell.appendChild(lab);
-        cell.appendChild(vid);
-        const strip = buildFramesStrip(src);
-        if (strip) cell.appendChild(strip);
-        return cell;
-      };
+      for (const set of g.sets) {
+        const block = document.createElement("article");
+        block.className =
+          "rounded-2xl border border-surface-border bg-surface-raised/30 p-4 shadow-xl shadow-black/20 sm:p-6";
 
-      const mkKeywordBlock = (kw) => {
-        const wrap = document.createElement("section");
-        wrap.className = "mt-10 space-y-3";
-        const h = document.createElement("p");
-        h.className = "text-sm font-semibold text-slate-200";
-        h.textContent = `Target Keyword: ${formatKeywordForDisplay(kw.keyword)}`;
-        const grid = document.createElement("div");
-        grid.className = "grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-4";
-        grid.appendChild(mkVideoCell("Clips2Story-NF", kw.local?.nf));
-        grid.appendChild(mkVideoCell("Clips2Story-ND", kw.local?.ours));
-        wrap.appendChild(h);
-        wrap.appendChild(grid);
-        return wrap;
-      };
+        const heading = document.createElement("h2");
+        heading.className = "text-lg font-semibold text-white sm:text-xl";
+        heading.textContent = `Source video`;
 
-      const mkFixedBlock = (fixed) => {
-        const wrap = document.createElement("section");
-        wrap.className = "mt-10 space-y-3";
-        const h = document.createElement("p");
-        h.className = "text-sm font-semibold text-slate-200";
-        h.textContent = "Baselines";
-        const grid = document.createElement("div");
-        grid.className = "grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-4";
-        grid.appendChild(mkVideoCell("A2Summ", fixed?.a2summ));
-        grid.appendChild(mkVideoCell("TeaserGen", fixed?.teasergen));
-        grid.appendChild(mkVideoCell("REGen", fixed?.regen));
-        wrap.appendChild(h);
-        wrap.appendChild(grid);
-        return wrap;
-      };
+        const originalSection = document.createElement("div");
+        originalSection.className = "mt-4 max-w-xs sm:max-w-sm";
 
-      block.appendChild(heading);
-      block.appendChild(originalSection);
-      for (const kw of set.keywords || []) block.appendChild(mkKeywordBlock(kw));
-      block.appendChild(mkFixedBlock(set.fixed));
-      wrap.appendChild(block);
-    }
+        const originalLabel = document.createElement("p");
+        originalLabel.className =
+          "mb-2 text-xs font-medium uppercase tracking-wide text-slate-500";
+        originalLabel.textContent = "Original source";
 
-    container.appendChild(wrap);
+        originalSection.appendChild(originalLabel);
+        const originalPreview = buildSourcePreviewEl(set, {
+          className:
+            "aspect-video w-full overflow-hidden rounded-lg border border-surface-border/80 bg-black object-contain shadow-inner",
+        });
+        if (originalPreview) originalSection.appendChild(originalPreview);
+
+        const mkVideoCell = (label, src) => {
+          const cell = document.createElement("div");
+          cell.className = "flex flex-col gap-2";
+          const lab = document.createElement("p");
+          lab.className =
+            "text-center text-xs font-semibold uppercase tracking-wide text-slate-400";
+          lab.textContent = label;
+          const vid = document.createElement("video");
+          vid.className =
+            "w-full rounded-lg border border-surface-border bg-black aspect-video object-contain";
+          vid.controls = true;
+          vid.muted = true;
+          vid.playsInline = true;
+          vid.preload = "metadata";
+          setVideoMp4FromRepoPath(vid, src);
+          cell.appendChild(lab);
+          cell.appendChild(vid);
+          const strip = buildFramesStrip(src);
+          if (strip) cell.appendChild(strip);
+          return cell;
+        };
+
+        const mkKeywordBlock = (kw) => {
+          const wrap = document.createElement("section");
+          wrap.className = "mt-10 space-y-3";
+          const h = document.createElement("p");
+          h.className = "text-sm font-semibold text-slate-200";
+          h.textContent = `Target Keyword: ${formatKeywordForDisplay(kw.keyword)}`;
+          const grid = document.createElement("div");
+          grid.className = "grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-4";
+          grid.appendChild(mkVideoCell("Clips2Story-NF", kw.local?.nf));
+          grid.appendChild(mkVideoCell("Clips2Story-ND", kw.local?.ours));
+          wrap.appendChild(h);
+          wrap.appendChild(grid);
+          return wrap;
+        };
+
+        const mkFixedBlock = (fixed) => {
+          const wrap = document.createElement("section");
+          wrap.className = "mt-10 space-y-3";
+          const h = document.createElement("p");
+          h.className = "text-sm font-semibold text-slate-200";
+          h.textContent = "Baselines";
+          const grid = document.createElement("div");
+          grid.className = "grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-4";
+          grid.appendChild(mkVideoCell("A2Summ", fixed?.a2summ));
+          grid.appendChild(mkVideoCell("TeaserGen", fixed?.teasergen));
+          grid.appendChild(mkVideoCell("REGen", fixed?.regen));
+          wrap.appendChild(h);
+          wrap.appendChild(grid);
+          return wrap;
+        };
+
+        block.appendChild(heading);
+        block.appendChild(originalSection);
+        for (const kw of set.keywords || []) block.appendChild(mkKeywordBlock(kw));
+        block.appendChild(mkFixedBlock(set.fixed));
+        wrap.appendChild(block);
+      }
+    });
   }
 }
 
@@ -502,6 +518,12 @@ function syncUrlToPage(pageId, { replace = false } = {}) {
 }
 
 function setActiveGenre(genreId) {
+  const builder = genrePanelBuilders.get(genreId);
+  if (builder) {
+    genrePanelBuilders.delete(genreId);
+    builder();
+  }
+
   document.querySelectorAll("[data-genre-panel]").forEach((el) => {
     el.classList.toggle("hidden", el.dataset.genrePanel !== genreId);
   });
@@ -651,8 +673,33 @@ function renderWorkflowTeaser() {
   return box;
 }
 
+function renderDemoVideoSection() {
+  const box = el(
+    "div",
+    "space-y-3 rounded-2xl border border-surface-border bg-surface-raised/30 p-5 shadow-xl shadow-black/20"
+  );
+  box.appendChild(el("h2", "text-lg font-semibold text-white sm:text-xl", "Watch the demo"));
+  box.appendChild(
+    el("p", "text-sm text-slate-300", "See Clips2Story turn multiple real-world source videos into an editable story.")
+  );
+  const frameWrap = el("div", "relative aspect-video w-full overflow-hidden rounded-xl border border-surface-border");
+  const iframe = document.createElement("iframe");
+  iframe.className = "absolute inset-0 h-full w-full";
+  iframe.src = "https://www.youtube-nocookie.com/embed/Jb37RaQjmHw";
+  iframe.title = "Clips2Story demo video";
+  iframe.loading = "lazy";
+  iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+  iframe.referrerPolicy = "strict-origin-when-cross-origin";
+  iframe.allowFullscreen = true;
+  frameWrap.appendChild(iframe);
+  box.appendChild(frameWrap);
+  return box;
+}
+
 function renderHomePanel(liveDemo) {
   const wrap = el("div", "space-y-6");
+
+  wrap.appendChild(renderDemoVideoSection());
 
   const tryItContainer = el("div");
   wrap.appendChild(tryItContainer);
@@ -844,29 +891,11 @@ function renderWorkflowPanel() {
         "div",
         "overflow-hidden rounded-xl border border-surface-border bg-black aspect-video w-full shadow-inner"
       );
-      if (doc2Set?.sourceLocal) {
-        const vid = document.createElement("video");
-        vid.className = "h-full w-full object-contain bg-black";
-        vid.controls = true;
-        vid.muted = true;
-        vid.playsInline = true;
-        vid.preload = "metadata";
-        setVideoMp4FromRepoPath(vid, doc2Set.sourceLocal);
-        vid.title = "Input video (documentary, 2)";
-        vWrap.appendChild(vid);
-      } else if (doc2Set?.youtubeEmbed) {
-        const iframe = document.createElement("iframe");
-        iframe.className = "h-full w-full";
-        iframe.src = doc2Set.youtubeEmbed;
-        iframe.title = "Input video (documentary, 2)";
-        iframe.setAttribute("allowfullscreen", "");
-        iframe.setAttribute(
-          "allow",
-          "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        );
-        iframe.loading = "lazy";
-        vWrap.appendChild(iframe);
-      }
+      const step1Preview = buildSourcePreviewEl(doc2Set, {
+        className: "h-full w-full object-contain bg-black",
+        title: "Input video (documentary, 2)",
+      });
+      if (step1Preview) vWrap.appendChild(step1Preview);
       step1.appendChild(vWrap);
       steps.appendChild(
         createWorkflowStep({

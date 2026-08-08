@@ -224,6 +224,35 @@ function parseTranscriptEntries(transcript) {
     .filter(Boolean);
 }
 
+/** Strips the "[Xs-Ys] [SPEAKER_n] " prefix off one transcript piece, leaving just the spoken words. */
+function bareTranscriptText(piece) {
+  return piece
+    .replace(/^\[\d+(?:\.\d+)?s-\d+(?:\.\d+)?s\]\s*/, "")
+    .replace(/^\[SPEAKER_[^\]]*\]\s*/, "")
+    .trim()
+    .toLowerCase();
+}
+
+/**
+ * Drops repeated sentences from a " | "-joined list of transcript pieces,
+ * keeping the first occurrence. Needed because ASR bundles for this genre
+ * (see DEMO_HPC_PREPROCESSING.md) commonly attribute one continuous spoken
+ * sentence to *every* shot it overlaps in full, rather than splitting it --
+ * so a segment spanning several such shots would otherwise show the exact
+ * same sentence two or three times in a row.
+ */
+function dedupeTranscriptPieces(pieces) {
+  const seen = new Set();
+  const kept = [];
+  for (const piece of pieces) {
+    const key = bareTranscriptText(piece);
+    if (key && seen.has(key)) continue;
+    if (key) seen.add(key);
+    kept.push(piece);
+  }
+  return kept;
+}
+
 /**
  * Re-slice a shot's full transcript down to whatever sentences overlap
  * [relStart, relEnd] (both relative to the shot's own start, matching the
@@ -239,10 +268,8 @@ function parseTranscriptEntries(transcript) {
 function resliceTranscript(fullShotTranscript, relStart, relEnd) {
   const entries = parseTranscriptEntries(fullShotTranscript);
   if (entries.length === 0) return null;
-  return entries
-    .filter((e) => e.start < relEnd && e.end > relStart)
-    .map((e) => e.text)
-    .join(" | ");
+  const pieces = entries.filter((e) => e.start < relEnd && e.end > relStart).map((e) => e.text);
+  return dedupeTranscriptPieces(pieces).join(" | ");
 }
 
 /**
@@ -263,14 +290,31 @@ function resliceTranscript(fullShotTranscript, relStart, relEnd) {
  */
 function fullRangeTranscript(seg, { shots, poolByClipId }) {
   if (shots && shots.length) {
+    // Per-video shot lists restart their own clock at 0 (each bundle's
+    // shot_ids are only unique within that one video -- see
+    // DEMO_HPC_PREPROCESSING.md), so absolute start/end time alone isn't
+    // enough to tell shots from two different source videos apart once
+    // there's more than one in play. Scope the match to the segment's own
+    // source when a shot entry carries sourcePath (local-demo's multi-video
+    // path -- see local-demo/retrieval.js); shots without it (the public
+    // single-video panel's index.shots) keep the old time-only behavior.
     const overlapping = shots
-      .filter((s) => s.start_time < seg.endTime && s.end_time > seg.startTime)
+      .filter(
+        (s) =>
+          s.start_time < seg.endTime &&
+          s.end_time > seg.startTime &&
+          (!s.sourcePath || s.sourcePath === seg.sourcePath)
+      )
       .sort((a, b) => a.start_time - b.start_time);
     if (overlapping.length > 0) {
-      return overlapping
+      const perShotPieces = overlapping
         .map((s) => resliceTranscript(s.transcript, seg.startTime - s.start_time, seg.endTime - s.start_time))
-        .filter(Boolean)
-        .join(" | "); // may end up "" if none of the overlapping shots have speech in range
+        .filter(Boolean);
+      // dedupeTranscriptPieces above only catches repeats *within* one
+      // shot's own entries; the same duplicated-sentence-across-shots bug
+      // just as commonly straddles the boundary between two different
+      // shots' resliced output, so dedupe again across the joined set.
+      return dedupeTranscriptPieces(perShotPieces).join(" | "); // may end up "" if none of the overlapping shots have speech in range
     }
   }
   const origin = poolByClipId.get(seg.clipId);
@@ -408,7 +452,13 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
         "button",
         "block w-full rounded-lg border border-surface-border/70 bg-black/20 px-3 py-2 text-left text-xs hover:bg-white/5"
       );
-      row.appendChild(el("p", "font-medium text-slate-200", alt.caption || "(no caption)"));
+      // Same fallback as makeCard's own transcript display (transcript when
+      // this clip actually has speech, caption otherwise) -- previously this
+      // showed only the caption, so a clip with real dialogue looked
+      // identical here to one that's silent, with no way to tell which
+      // alternate to pick without swapping it in first.
+      const altText = alt.transcript?.trim() ? alt.transcript : alt.caption || "(no transcript or caption)";
+      row.appendChild(el("p", "line-clamp-2 font-medium text-slate-200", altText));
       row.appendChild(
         el(
           "p",
@@ -680,9 +730,43 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
       v.playsInline = true;
       v.preload = "metadata";
       setVideoMp4FromRepoPath(v, seg.sourcePath);
-      v.addEventListener("loadedmetadata", () => {
-        v.currentTime = seg.startTime;
-      });
+      // Seek to the segment's start and wait for that seek to actually land
+      // before calling play() -- calling play() first and seeking out from
+      // under it races the browser's own playback start against our seek,
+      // which commonly aborts the pending play() (silently, via the catch
+      // below) and leaves the element paused or stuck mid-seek with no
+      // frame ever rendered, especially for a large local source file where
+      // the seek needs a real byte-range fetch.
+      v.addEventListener(
+        "loadedmetadata",
+        () => {
+          const startPlayback = () => {
+            v.removeEventListener("seeked", startPlayback);
+            v.play().catch(() => {
+              // Autoplay can still be blocked in some browsers even on a user
+              // gesture; the visible controls still let them press play.
+            });
+          };
+          if (Math.abs(v.currentTime - seg.startTime) < 0.05) {
+            // Already at (or within a frame of) the target -- setting
+            // currentTime to the same value it already has won't fire
+            // 'seeked', so there's nothing to wait for.
+            startPlayback();
+          } else {
+            v.addEventListener("seeked", startPlayback);
+            // Backstop: a byte-range seek into a large local source file
+            // that stalls (network hiccup, an over-loaded dev server) would
+            // otherwise leave the player waiting forever with no visible
+            // feedback -- start playback anyway after a few seconds rather
+            // than staying stuck. startPlayback() itself is idempotent to
+            // call twice (removeEventListener first) in case 'seeked' still
+            // lands right after this fires.
+            setTimeout(startPlayback, 4000);
+            v.currentTime = seg.startTime;
+          }
+        },
+        { once: true }
+      );
       v.addEventListener("play", () => {
         if (v.currentTime < seg.startTime || v.currentTime >= seg.endTime) {
           v.currentTime = seg.startTime;
@@ -705,10 +789,8 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
       playerWrap.appendChild(v);
       playerWrap.classList.remove("hidden");
       playBtn.textContent = "■ Stop";
-      v.play().catch(() => {
-        // Autoplay can be blocked in some browsers even on a user gesture (e.g. no
-        // audio track yet decoded); the visible controls still let them press play.
-      });
+      // play() itself happens once the loadedmetadata->seeked chain above
+      // confirms we're actually positioned at seg.startTime -- not here.
     });
     upBtn.disabled = index === 0;
     downBtn.disabled = index === current.length - 1;
