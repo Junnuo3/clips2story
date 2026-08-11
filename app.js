@@ -933,7 +933,7 @@ function renderWorkflowPanel() {
       }
       steps.appendChild(
         createWorkflowStep({
-          title: "2) Shot Detection  — ~1 min",
+          title: "2) Shot Detection",
           content: step2,
         })
       );
@@ -967,7 +967,7 @@ function renderWorkflowPanel() {
       }
       steps.appendChild(
         createWorkflowStep({
-          title: "3) Metadata Collection — ~15 min",
+          title: "3) Metadata Collection",
           content: step3,
         })
       );
@@ -995,7 +995,7 @@ function renderWorkflowPanel() {
       );
       steps.appendChild(
         createWorkflowStep({
-          title: "4) Keyword-Based Clip Retrieval — ~1 min",
+          title: "4) Keyword-Based Clip Retrieval",
           content: step4,
         })
       );
@@ -1037,7 +1037,7 @@ function renderWorkflowPanel() {
       step6.appendChild(renderFoldedCodeBlock(jsonToLines(stage1), { previewLines: 90 }));
       steps.appendChild(
         createWorkflowStep({
-          title: "6) LLM Timeline Output — ~1 min",
+          title: "6) LLM Timeline Output",
           content: step6,
         })
       );
@@ -1056,7 +1056,7 @@ function renderWorkflowPanel() {
       );
       steps.appendChild(
         createWorkflowStep({
-          title: "7) Narration–Visual Matching (Clips2Story-ND Only) — ~20 min",
+          title: "7) Narration–Visual Matching (Clips2Story-ND Only)",
           content: step7,
         })
       );
