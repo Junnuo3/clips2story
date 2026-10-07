@@ -685,7 +685,7 @@ function renderDemoVideoSection() {
   const frameWrap = el("div", "relative aspect-video w-full overflow-hidden rounded-xl border border-surface-border");
   const iframe = document.createElement("iframe");
   iframe.className = "absolute inset-0 h-full w-full";
-  iframe.src = "https://www.youtube-nocookie.com/embed/Jb37RaQjmHw";
+  iframe.src = "https://www.youtube-nocookie.com/embed/1quhKiZHgyM";
   iframe.title = "Clips2Story demo video";
   iframe.loading = "lazy";
   iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
