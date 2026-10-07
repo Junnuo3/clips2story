@@ -33,7 +33,7 @@ export function mountTryItPanel(container, liveDemo) {
     el(
       "p",
       "max-w-4xl text-sm leading-relaxed text-slate-300",
-      "Pick a video, type a theme, and Clips2Story-NF drafts a real storyboard from matching footage. " +
+      "Pick a video and a theme keyword, and Clips2Story-NF drafts a real storyboard from matching footage. " +
         "Reorder, remove, or swap clips, then render a downloadable video."
     )
   );
@@ -95,26 +95,23 @@ export function mountTryItPanel(container, liveDemo) {
   previewWrap.appendChild(previewVideo);
   previewWrap.appendChild(previewFrame);
 
-  // --- keyword input + example chips ---
-  const inputRow = el("div", "flex flex-wrap gap-2");
-  const input = document.createElement("input");
-  input.type = "text";
-  input.className =
-    "min-w-[240px] flex-1 rounded-lg border border-surface-border bg-black/30 px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500";
-  input.addEventListener("focus", () => preloadEmbeddingModel(), { once: true });
+  // --- keyword picker ---
+  // Keywords are pick-only (no free text): visitors choose one of the
+  // selected video's curated keywords (keywords.txt, via
+  // scripts/generate-data.mjs). The chips re-render every time the video
+  // picker selection changes, and switching videos clears the choice.
+  const keywordLabel = el("p", "text-xs font-medium uppercase tracking-wide text-slate-500", "Theme keyword");
+  const chipsRow = el("div", "flex flex-wrap gap-2");
+  let selectedKeyword = null;
   const submitBtn = el(
     "button",
     "rounded-lg bg-cyan-500 px-4 py-2 text-sm font-semibold text-black hover:bg-cyan-400 disabled:opacity-50",
     "Generate storyboard"
   );
-  inputRow.appendChild(input);
-  inputRow.appendChild(submitBtn);
+  submitBtn.disabled = true;
+  const submitRow = el("div", "flex flex-wrap gap-2");
+  submitRow.appendChild(submitBtn);
 
-  // Suggested keywords (and the input placeholder example) are per-video
-  // (each source video has its own real extracted/gallery keywords -- see
-  // scripts/generate-data.mjs), so both re-render every time the video
-  // picker selection changes instead of showing one fixed global example.
-  const chipsRow = el("div", "flex flex-wrap gap-2");
   function onVideoSelected(video) {
     if (video.youtubeId) {
       previewVideo.classList.add("hidden");
@@ -133,21 +130,24 @@ export function mountTryItPanel(container, liveDemo) {
       ? video.exampleKeywords
       : liveDemo.exampleKeywords) || [];
 
-    input.placeholder = keywords.length
-      ? `Type a theme, e.g. "${keywords[0]}"`
-      : "Type a theme, e.g. a topic or keyword";
-
+    selectedKeyword = null;
+    submitBtn.disabled = true;
     chipsRow.innerHTML = "";
+    const chips = [];
     for (const kw of keywords) {
       const chip = el(
         "button",
-        "rounded-full border border-surface-border/70 px-3 py-1 text-xs text-slate-400 hover:bg-white/5",
+        "rounded-full border border-surface-border/70 px-3 py-1 text-xs text-slate-300 hover:bg-white/5",
         kw
       );
       chip.addEventListener("click", () => {
-        input.value = kw;
-        input.focus();
+        preloadEmbeddingModel();
+        selectedKeyword = kw;
+        for (const c of chips) c.classList.remove(...activeCls);
+        chip.classList.add(...activeCls);
+        submitBtn.disabled = false;
       });
+      chips.push(chip);
       chipsRow.appendChild(chip);
     }
   }
@@ -161,8 +161,9 @@ export function mountTryItPanel(container, liveDemo) {
   root.appendChild(videoLabel);
   root.appendChild(videoRow);
   root.appendChild(previewWrap);
-  root.appendChild(inputRow);
+  root.appendChild(keywordLabel);
   root.appendChild(chipsRow);
+  root.appendChild(submitRow);
   root.appendChild(statusEl);
   root.appendChild(genProgress.el);
   root.appendChild(resultWrap);
@@ -199,9 +200,9 @@ export function mountTryItPanel(container, liveDemo) {
   }
 
   async function handleSubmit() {
-    const keyword = input.value.trim();
+    const keyword = selectedKeyword;
     if (!keyword) {
-      setStatus("Type a keyword first.", "error");
+      setStatus("Pick a keyword first.", "error");
       return;
     }
     const video = selectedVideo;
@@ -269,9 +270,6 @@ export function mountTryItPanel(container, liveDemo) {
   }
 
   submitBtn.addEventListener("click", handleSubmit);
-  input.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") handleSubmit();
-  });
 
   function renderResult(video, keyword, data, pool, shots) {
     resultWrap.innerHTML = "";
