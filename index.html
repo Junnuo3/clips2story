@@ -18,9 +18,9 @@
             },
             colors: {
               surface: {
-                DEFAULT: "#0f1419",
-                raised: "#161d27",
-                border: "#243040",
+                DEFAULT: "#f4f6fa",
+                raised: "#ffffff",
+                border: "#d6dde7",
               },
             },
           },
@@ -34,12 +34,12 @@
       rel="stylesheet"
     />
   </head>
-  <body class="min-h-screen bg-surface text-slate-100 antialiased">
-    <div id="load-error" class="hidden max-w-lg mx-auto mt-20 px-4 text-center text-amber-200/90">
+  <body class="min-h-screen bg-surface text-slate-800 antialiased">
+    <div id="load-error" class="hidden max-w-lg mx-auto mt-20 px-4 text-center text-amber-700">
       <p class="text-lg font-medium">Could not load demo data.</p>
-      <p class="mt-2 text-sm text-slate-400">
+      <p class="mt-2 text-sm text-slate-600">
         Serve this folder over HTTP (for example
-        <code class="rounded bg-surface-raised px-1 py-0.5 text-slate-300"
+        <code class="rounded bg-surface-raised px-1 py-0.5 text-slate-700"
           >python3 -m http.server 8080</code
         >) so <code class="rounded bg-surface-raised px-1">data.json</code> and video files load
         correctly.
@@ -57,7 +57,7 @@
 
         <!-- Sidebar (desktop) -->
         <aside
-          class="hidden w-56 shrink-0 border-r border-surface-border bg-surface-raised/50 lg:block"
+          class="hidden w-56 shrink-0 border-r border-surface-border bg-surface-raised lg:block"
         >
           <div class="sticky top-0 flex flex-col gap-1 p-4 pt-8" id="genre-tabs-desktop"></div>
         </aside>
@@ -66,7 +66,7 @@
           <header class="border-b border-surface-border px-4 py-10 sm:px-8 lg:px-12">
             <h1
               id="project-title"
-              class="mt-3 max-w-4xl text-2xl font-semibold leading-tight tracking-tight text-white sm:text-3xl"
+              class="mt-3 max-w-4xl text-2xl font-semibold leading-tight tracking-tight text-slate-900 sm:text-3xl"
             ></h1>
           </header>
 

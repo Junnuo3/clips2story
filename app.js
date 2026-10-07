@@ -21,7 +21,7 @@ function formatKeywordForDisplay(keyword) {
 }
 
 function codeInline(text) {
-  const c = el("code", "rounded bg-surface-raised px-1 py-0.5 text-slate-200");
+  const c = el("code", "rounded bg-surface-raised px-1 py-0.5 text-slate-800");
   c.textContent = text;
   return c;
 }
@@ -61,11 +61,11 @@ function buildSourcePreviewEl(set, { className, title } = {}) {
 function createWorkflowStep({ title, subtitle, content }) {
   const wrap = el(
     "div",
-    "rounded-xl border border-surface-border bg-surface-raised/25 p-4 space-y-3"
+    "rounded-xl border border-surface-border bg-surface-raised p-4 space-y-3"
   );
-  wrap.appendChild(el("p", "text-sm font-semibold text-white", title));
+  wrap.appendChild(el("p", "text-sm font-semibold text-slate-900", title));
   if (subtitle) {
-    wrap.appendChild(el("p", "text-sm text-slate-400", subtitle));
+    wrap.appendChild(el("p", "text-sm text-slate-600", subtitle));
   }
   wrap.appendChild(content);
   return wrap;
@@ -84,7 +84,7 @@ function renderFoldedCodeBlock(lines, { previewLines = 40 } = {}) {
   const mkPre = (subset) => {
     const pre = el(
       "pre",
-      "whitespace-pre-wrap break-words rounded-lg border border-surface-border/70 bg-black/30 p-3 text-xs leading-relaxed text-slate-200"
+      "whitespace-pre-wrap break-words rounded-lg border border-surface-border/70 bg-slate-50 p-3 text-xs leading-relaxed text-slate-800"
     );
     pre.textContent = subset.join("\n");
     return pre;
@@ -111,7 +111,7 @@ function renderFoldedCodeBlock(lines, { previewLines = 40 } = {}) {
 function renderCodeBlock(lines) {
   const pre = el(
     "pre",
-    "whitespace-pre-wrap break-words rounded-lg border border-surface-border/70 bg-black/30 p-3 text-xs leading-relaxed text-slate-200"
+    "whitespace-pre-wrap break-words rounded-lg border border-surface-border/70 bg-slate-50 p-3 text-xs leading-relaxed text-slate-800"
   );
   pre.textContent = lines.join("\n");
   return pre;
@@ -142,7 +142,7 @@ function buildFramesStrip(videoPath, { startIndex = 1, maxFrames = 30 } = {}) {
 
   const strip = document.createElement("div");
   strip.className =
-    "mt-2 flex gap-2 overflow-x-auto rounded-lg border border-surface-border/60 bg-black/20 p-2";
+    "mt-2 flex gap-2 overflow-x-auto rounded-lg border border-surface-border/60 bg-slate-50 p-2";
   strip.setAttribute("aria-label", "Thumbnail frames");
 
   for (let i = startIndex; i < startIndex + maxFrames; i++) {
@@ -236,8 +236,8 @@ function buildGenreButtons(genres, activeId, onSelect) {
     const base =
       "block whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium transition-colors no-underline ";
     const active =
-      "bg-cyan-500/20 text-cyan-200 ring-1 ring-cyan-500/40";
-    const inactive = "text-slate-400 hover:bg-white/5 hover:text-slate-200";
+      "bg-blue-100 text-blue-700 ring-1 ring-blue-300";
+    const inactive = "text-slate-600 hover:bg-slate-50 hover:text-slate-900";
     btn.className = base + (g.id === activeId ? active : inactive);
     if (isMobile) btn.classList.add("shrink-0");
     else btn.classList.add("w-full", "text-left");
@@ -301,12 +301,12 @@ function createFigureImage(src, alt) {
 function createFigureCard({ images, alt }) {
   const card = el(
     "figure",
-    "rounded-2xl border border-surface-border bg-surface-raised/30 p-4 shadow-xl shadow-black/20 sm:p-6"
+    "rounded-2xl border border-surface-border bg-surface-raised p-4 shadow-xl shadow-slate-900/5 sm:p-6"
   );
   const stack = el("div", "space-y-4");
   for (const { src, maxWidthClass = "max-w-full" } of normalizeFigureImages(images)) {
     const img = createFigureImage(src, alt);
-    img.className = `mx-auto block h-auto w-full ${maxWidthClass} rounded-lg border border-surface-border/60 bg-black/20`;
+    img.className = `mx-auto block h-auto w-full ${maxWidthClass} rounded-lg border border-surface-border/60 bg-slate-50`;
     stack.appendChild(img);
   }
   card.appendChild(stack);
@@ -394,10 +394,10 @@ function renderGenreSections(genres, liveDemo) {
       for (const set of g.sets) {
         const block = document.createElement("article");
         block.className =
-          "rounded-2xl border border-surface-border bg-surface-raised/30 p-4 shadow-xl shadow-black/20 sm:p-6";
+          "rounded-2xl border border-surface-border bg-surface-raised p-4 shadow-xl shadow-slate-900/5 sm:p-6";
 
         const heading = document.createElement("h2");
-        heading.className = "text-lg font-semibold text-white sm:text-xl";
+        heading.className = "text-lg font-semibold text-slate-900 sm:text-xl";
         heading.textContent = `Source video`;
 
         const originalSection = document.createElement("div");
@@ -420,7 +420,7 @@ function renderGenreSections(genres, liveDemo) {
           cell.className = "flex flex-col gap-2";
           const lab = document.createElement("p");
           lab.className =
-            "text-center text-xs font-semibold uppercase tracking-wide text-slate-400";
+            "text-center text-xs font-semibold uppercase tracking-wide text-slate-600";
           lab.textContent = label;
           const vid = document.createElement("video");
           vid.className =
@@ -441,7 +441,7 @@ function renderGenreSections(genres, liveDemo) {
           const wrap = document.createElement("section");
           wrap.className = "mt-10 space-y-3";
           const h = document.createElement("p");
-          h.className = "text-sm font-semibold text-slate-200";
+          h.className = "text-sm font-semibold text-slate-800";
           h.textContent = `Target Keyword: ${formatKeywordForDisplay(kw.keyword)}`;
           const grid = document.createElement("div");
           grid.className = "grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-4";
@@ -456,7 +456,7 @@ function renderGenreSections(genres, liveDemo) {
           const wrap = document.createElement("section");
           wrap.className = "mt-10 space-y-3";
           const h = document.createElement("p");
-          h.className = "text-sm font-semibold text-slate-200";
+          h.className = "text-sm font-semibold text-slate-800";
           h.textContent = "Baselines";
           const grid = document.createElement("div");
           grid.className = "grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-4";
@@ -528,8 +528,8 @@ function setActiveGenre(genreId) {
     el.classList.toggle("hidden", el.dataset.genrePanel !== genreId);
   });
   const active =
-    "bg-cyan-500/20 text-cyan-200 ring-1 ring-cyan-500/40";
-  const inactive = "text-slate-400 hover:bg-white/5 hover:text-slate-200";
+    "bg-blue-100 text-blue-700 ring-1 ring-blue-300";
+  const inactive = "text-slate-600 hover:bg-slate-50 hover:text-slate-900";
   const navClass = (on, isMobile) =>
     "block whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium transition-colors no-underline " +
     (isMobile ? "shrink-0 " : "w-full text-left ") +
@@ -580,7 +580,7 @@ function initPageRouting(genres, { initialHash = location.hash } = {}) {
 
 function renderKeyframeGrid({ title, shotIds, size = "sm" }) {
   const card = el("div", "space-y-3");
-  card.appendChild(el("p", "text-sm font-semibold text-slate-200", title));
+  card.appendChild(el("p", "text-sm font-semibold text-slate-800", title));
   const grid = el(
     "div",
     "grid gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6"
@@ -602,7 +602,7 @@ function renderKeyframeGrid({ title, shotIds, size = "sm" }) {
     cell.appendChild(img);
     const cap = el(
       "p",
-      "truncate text-[11px] font-medium text-slate-400",
+      "truncate text-[11px] font-medium text-slate-600",
       shotId
     );
     cell.appendChild(cap);
@@ -621,7 +621,7 @@ function renderKeyframeGridWithRemainder({
 }) {
   const wrap = el("div", "space-y-3");
   const head = el("div", "flex flex-wrap items-baseline justify-between gap-2");
-  head.appendChild(el("p", "text-sm font-semibold text-slate-200", title));
+  head.appendChild(el("p", "text-sm font-semibold text-slate-800", title));
   head.appendChild(el("p", "text-xs text-slate-500", `${shotIds.length} shots`));
   wrap.appendChild(head);
 
@@ -654,21 +654,21 @@ function renderKeyframeGridWithRemainder({
 function renderWorkflowTeaser() {
   const box = el(
     "a",
-    "block rounded-2xl border border-surface-border bg-surface-raised/30 p-5 shadow-xl shadow-black/20 no-underline hover:bg-white/5"
+    "block rounded-2xl border border-surface-border bg-surface-raised p-5 shadow-xl shadow-slate-900/5 no-underline hover:bg-slate-50"
   );
   box.href = hrefForPage("workflow");
   const row = el("div", "flex flex-wrap items-center justify-between gap-3");
   const left = el("div");
-  left.appendChild(el("h2", "text-lg font-semibold text-white sm:text-xl", "See how it works"));
+  left.appendChild(el("h2", "text-lg font-semibold text-slate-900 sm:text-xl", "See how it works"));
   left.appendChild(
     el(
       "p",
-      "mt-1 max-w-2xl text-sm text-slate-300",
+      "mt-1 max-w-2xl text-sm text-slate-700",
       "A full walkthrough of one example, from input video through shots, metadata, retrieval, and the final render."
     )
   );
   row.appendChild(left);
-  row.appendChild(el("span", "shrink-0 rounded-lg bg-white/10 px-4 py-2 text-sm font-semibold text-white", "Open Workflow Demo →"));
+  row.appendChild(el("span", "shrink-0 rounded-lg bg-slate-100 px-4 py-2 text-sm font-semibold text-slate-900", "Open Workflow Demo →"));
   box.appendChild(row);
   return box;
 }
@@ -676,11 +676,11 @@ function renderWorkflowTeaser() {
 function renderDemoVideoSection() {
   const box = el(
     "div",
-    "space-y-3 rounded-2xl border border-surface-border bg-surface-raised/30 p-5 shadow-xl shadow-black/20"
+    "space-y-3 rounded-2xl border border-surface-border bg-surface-raised p-5 shadow-xl shadow-slate-900/5"
   );
-  box.appendChild(el("h2", "text-lg font-semibold text-white sm:text-xl", "Watch the demo"));
+  box.appendChild(el("h2", "text-lg font-semibold text-slate-900 sm:text-xl", "Watch the demo"));
   box.appendChild(
-    el("p", "text-sm text-slate-300", "See Clips2Story turn multiple real-world source videos into an editable story.")
+    el("p", "text-sm text-slate-700", "See Clips2Story turn multiple real-world source videos into an editable story.")
   );
   const frameWrap = el("div", "relative aspect-video w-full overflow-hidden rounded-xl border border-surface-border");
   const iframe = document.createElement("iframe");
@@ -709,7 +709,7 @@ function renderHomePanel(liveDemo) {
     wrap.appendChild(
       el(
         "div",
-        "rounded-2xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm text-amber-200",
+        "rounded-2xl border border-amber-300 bg-amber-50 p-5 text-sm text-amber-800",
         "The live demo is not configured on this deployment. Browse the genre pages in the sidebar for the precomputed Clips2Story-NF/-ND examples instead."
       )
     );
@@ -725,18 +725,18 @@ function renderWorkflowPanel() {
 
   const intro = el(
     "div",
-    "rounded-2xl border border-surface-border bg-surface-raised/30 p-5 shadow-xl shadow-black/20"
+    "rounded-2xl border border-surface-border bg-surface-raised p-5 shadow-xl shadow-slate-900/5"
   );
   intro.appendChild(
     el(
       "h2",
-      "text-lg font-semibold text-white sm:text-xl",
+      "text-lg font-semibold text-slate-900 sm:text-xl",
       "End-to-end workflow demo"
     )
   );
   const p = el(
     "p",
-    "mt-2 max-w-4xl text-sm leading-relaxed text-slate-300"
+    "mt-2 max-w-4xl text-sm leading-relaxed text-slate-700"
   );
   p.append(
     "This page walks through a single example from input video → shots → metadata → retrieval pool → prompt → LLM timeline → narration–visual matching."
@@ -747,7 +747,7 @@ function renderWorkflowPanel() {
   const steps = el("div", "space-y-4");
   const loading = el(
     "p",
-    "text-sm text-slate-400",
+    "text-sm text-slate-600",
     "Loading workflow data…"
   );
   steps.appendChild(loading);
@@ -804,11 +804,11 @@ function renderWorkflowPanel() {
         for (const id of ids) {
           const card = el(
             "div",
-            "rounded-xl border border-surface-border/70 bg-black/20 p-4"
+            "rounded-xl border border-surface-border/70 bg-slate-50 p-4"
           );
           const h = el("div", "flex flex-wrap items-center gap-2");
           h.appendChild(
-            el("p", "text-sm font-semibold text-white", id)
+            el("p", "text-sm font-semibold text-slate-900", id)
           );
           h.appendChild(
             el(
@@ -832,7 +832,7 @@ function renderWorkflowPanel() {
             b.appendChild(
               el(
                 "p",
-                "mt-1 text-sm leading-relaxed text-slate-200",
+                "mt-1 text-sm leading-relaxed text-slate-800",
                 value || "—"
               )
             );
@@ -910,7 +910,7 @@ function renderWorkflowPanel() {
       step2.appendChild(
         el(
           "p",
-          "text-sm text-slate-300",
+          "text-sm text-slate-700",
           "Shot detection produces a list of temporal segments."
         )
       );
@@ -943,14 +943,14 @@ function renderWorkflowPanel() {
       step3.appendChild(
         el(
           "p",
-          "text-sm text-slate-300",
+          "text-sm text-slate-700",
           "For each shot, we collect multimodal metadata (entities, background, captions, and ASR segments)."
         )
       );
       step3.appendChild(
         el(
           "p",
-          "text-sm font-semibold text-slate-200",
+          "text-sm font-semibold text-slate-800",
           `Top ${topShotIds.length} shots`
         )
       );
@@ -974,7 +974,7 @@ function renderWorkflowPanel() {
 
       // Step 4
       const step4 = el("div", "space-y-4");
-      const expl = el("p", "text-sm text-slate-300");
+      const expl = el("p", "text-sm text-slate-700");
       expl.textContent =
         "We start with all shots, then filter to the subset selected for the retrieval pool.";
       step4.appendChild(expl);
@@ -1030,7 +1030,7 @@ function renderWorkflowPanel() {
       step6.appendChild(
         el(
           "p",
-          "text-sm text-slate-300",
+          "text-sm text-slate-700",
           "The initial narration + clip timeline JSON."
         )
       );
@@ -1047,7 +1047,7 @@ function renderWorkflowPanel() {
       step7.appendChild(
         el(
           "p",
-          "text-sm text-slate-300",
+          "text-sm text-slate-700",
           "Narration to visual matching and outputs a final timeline."
         )
       );
@@ -1064,19 +1064,19 @@ function renderWorkflowPanel() {
       // Step 8 — all ND frames for Documentary 2 / Human–Dog Interaction (no fold)
       const step8 = el(
         "div",
-        "rounded-xl border border-surface-border bg-surface-raised/25 p-4 space-y-3"
+        "rounded-xl border border-surface-border bg-surface-raised p-4 space-y-3"
       );
       step8.appendChild(
         el(
           "p",
-          "text-sm font-semibold text-white",
+          "text-sm font-semibold text-slate-900",
           "8) Generated Video and Frames"
         )
       );
       step8.appendChild(
         el(
           "p",
-          "text-sm text-slate-300"
+          "text-sm text-slate-700"
         )
       );
       const ndHumanDogVideo = "documentary/2/05_human_dog_interaction_ours.mp4";
@@ -1102,20 +1102,20 @@ function renderWorkflowPanel() {
       steps.innerHTML = "";
       const err = el(
         "div",
-        "rounded-2xl border border-amber-500/30 bg-amber-500/10 p-5"
+        "rounded-2xl border border-amber-300 bg-amber-50 p-5"
       );
       err.appendChild(
-        el("p", "text-sm font-semibold text-amber-200", "Failed to load workflow demo data.")
+        el("p", "text-sm font-semibold text-amber-800", "Failed to load workflow demo data.")
       );
       err.appendChild(
         el(
           "p",
-          "mt-2 text-sm text-slate-300",
+          "mt-2 text-sm text-slate-700",
           "Make sure you are serving the folder over HTTP (not opening index.html directly)."
         )
       );
       err.appendChild(
-        el("p", "mt-2 text-xs text-slate-400", String(e?.message || e))
+        el("p", "mt-2 text-xs text-slate-600", String(e?.message || e))
       );
       steps.appendChild(err);
     }
@@ -1127,15 +1127,15 @@ function renderWorkflowPanel() {
 function renderFinalFramesComparisonSection(siteData) {
   const outer = el(
     "div",
-    "mt-8 rounded-2xl border border-surface-border bg-surface-raised/20 p-5 shadow-xl shadow-black/10"
+    "mt-8 rounded-2xl border border-surface-border bg-surface-raised p-5 shadow-xl shadow-slate-900/5"
   );
   outer.appendChild(
-    el("h3", "text-base font-semibold text-white", "Final generated frames comparison")
+    el("h3", "text-base font-semibold text-slate-900", "Final generated frames comparison")
   );
   outer.appendChild(
     el(
       "p",
-      "mt-2 max-w-4xl text-sm leading-relaxed text-slate-300",
+      "mt-2 max-w-4xl text-sm leading-relaxed text-slate-700",
       "Compare the final output frames across models and keywords for each source video."
     )
   );
@@ -1154,7 +1154,7 @@ function renderFinalFramesComparisonSection(siteData) {
         block.appendChild(
           el(
             "p",
-            "text-sm font-semibold text-slate-200",
+            "text-sm font-semibold text-slate-800",
             `Model: ${modelName}`
           )
         );

@@ -361,12 +361,12 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
   const headerRight = el("div", "flex flex-wrap items-center gap-2");
   const resetBtn = el(
     "button",
-    "rounded-lg border border-surface-border px-3 py-1.5 text-xs font-medium text-slate-300 hover:bg-white/5",
+    "rounded-lg border border-surface-border px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-50",
     "↩ Reset to AI proposal"
   );
   const renderBtn = el(
     "button",
-    "rounded-lg bg-white/10 px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/20",
+    "rounded-lg bg-slate-100 px-3 py-1.5 text-xs font-semibold text-slate-900 hover:bg-slate-200",
     "🎬 Render final video"
   );
   headerRight.appendChild(resetBtn);
@@ -375,9 +375,9 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
   header.appendChild(headerLeft);
   header.appendChild(headerRight);
 
-  const undoBar = el("div", "hidden items-center gap-3 rounded-lg border border-amber-500/30 bg-amber-500/10 px-3 py-2 text-xs text-amber-200");
+  const undoBar = el("div", "hidden items-center gap-3 rounded-lg border border-amber-300 bg-amber-50 px-3 py-2 text-xs text-amber-800");
   const undoText = el("span", "", "");
-  const undoBtn = el("button", "font-semibold underline underline-offset-2 hover:text-amber-100", "Undo");
+  const undoBtn = el("button", "font-semibold underline underline-offset-2 hover:text-amber-900", "Undo");
   undoBar.appendChild(undoText);
   undoBar.appendChild(undoBtn);
 
@@ -395,7 +395,7 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
   // backlog of already-queued dragover events still applying stale moves
   // for a moment *after* the mouse button is released. Only touch the DOM
   // when the target gap actually changes.
-  const dropIndicator = el("div", "h-0.5 rounded-full bg-cyan-400");
+  const dropIndicator = el("div", "h-0.5 rounded-full bg-blue-500");
   let shownInsertIndex = null;
   function showDropIndicator(insertIndex) {
     if (insertIndex === shownInsertIndex) return;
@@ -420,8 +420,8 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
     durationBadge.className =
       "rounded-full px-2.5 py-1 text-xs font-semibold " +
       (inRange
-        ? "bg-emerald-500/15 text-emerald-300 ring-1 ring-emerald-500/30"
-        : "bg-amber-500/15 text-amber-300 ring-1 ring-amber-500/30");
+        ? "bg-teal-50 text-teal-700 ring-1 ring-teal-300"
+        : "bg-amber-100 text-amber-700 ring-1 ring-amber-300");
 
     const edited = JSON.stringify(current.map((s) => s.clipId + s.startTime + s.endTime)) !==
       JSON.stringify(original.map((s) => s.clipId + s.startTime + s.endTime));
@@ -429,8 +429,8 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
     stateLabel.className =
       "rounded-full px-2.5 py-1 text-xs font-semibold " +
       (edited
-        ? "bg-cyan-500/15 text-cyan-300 ring-1 ring-cyan-500/30"
-        : "bg-white/10 text-slate-300 ring-1 ring-white/10");
+        ? "bg-blue-50 text-blue-700 ring-1 ring-blue-200"
+        : "bg-slate-100 text-slate-700 ring-1 ring-slate-200");
     resetBtn.disabled = !edited;
     resetBtn.classList.toggle("opacity-40", !edited);
     resetBtn.classList.toggle("cursor-not-allowed", !edited);
@@ -450,7 +450,7 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
     for (const alt of alternates.slice(0, 12)) {
       const row = el(
         "button",
-        "block w-full rounded-lg border border-surface-border/70 bg-black/20 px-3 py-2 text-left text-xs hover:bg-white/5"
+        "block w-full rounded-lg border border-surface-border/70 bg-slate-50 px-3 py-2 text-left text-xs hover:bg-slate-50"
       );
       // Same fallback as makeCard's own transcript display (transcript when
       // this clip actually has speech, caption otherwise) -- previously this
@@ -458,7 +458,7 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
       // identical here to one that's silent, with no way to tell which
       // alternate to pick without swapping it in first.
       const altText = alt.transcript?.trim() ? alt.transcript : alt.caption || "(no transcript or caption)";
-      row.appendChild(el("p", "line-clamp-2 font-medium text-slate-200", altText));
+      row.appendChild(el("p", "line-clamp-2 font-medium text-slate-800", altText));
       row.appendChild(
         el(
           "p",
@@ -478,7 +478,7 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
   function makeCard(seg, index) {
     const card = el(
       "div",
-      "flex gap-3 rounded-xl border border-surface-border bg-surface-raised/25 p-3"
+      "flex gap-3 rounded-xl border border-surface-border bg-surface-raised p-3"
     );
     card.draggable = true;
     card.dataset.index = String(index);
@@ -525,7 +525,7 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
 
     const thumbBox = el(
       "div",
-      "flex h-[72px] w-[128px] shrink-0 items-center justify-center overflow-hidden rounded-lg border border-surface-border/60 bg-black/40 animate-pulse"
+      "flex h-[72px] w-[128px] shrink-0 items-center justify-center overflow-hidden rounded-lg border border-surface-border/60 bg-slate-200 animate-pulse"
     );
     const thumbImg = document.createElement("img");
     thumbImg.className = "h-full w-full object-cover";
@@ -542,7 +542,7 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
     });
 
     const body = el("div", "min-w-0 flex-1 space-y-1");
-    const topRow = el("div", "flex items-center gap-2 text-xs text-slate-400");
+    const topRow = el("div", "flex items-center gap-2 text-xs text-slate-600");
     topRow.appendChild(el("span", "cursor-grab select-none text-slate-500", "☰"));
     const durationLabel = el("span", "", fmtDuration(seg.endTime - seg.startTime));
     topRow.appendChild(durationLabel);
@@ -550,7 +550,7 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
 
     const text = seg.transcript?.trim() ? seg.transcript : seg.caption || "(no transcript or caption)";
     let expanded = expandedClipIds.has(seg.clipId);
-    const textEl = el("p", "text-sm text-slate-200", text);
+    const textEl = el("p", "text-sm text-slate-800", text);
     textEl.classList.toggle("line-clamp-2", !expanded);
     body.appendChild(textEl);
     // Long ASR transcripts get clamped to 2 lines by default -- only show a
@@ -560,7 +560,7 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
     if (text.length > LONG_TEXT_CHARS) {
       const toggleBtn = el(
         "button",
-        "text-[11px] font-medium text-cyan-400 hover:text-cyan-300",
+        "text-[11px] font-medium text-blue-600 hover:text-blue-800",
         expanded ? "Show less" : "Show more"
       );
       toggleBtn.addEventListener("click", () => {
@@ -608,15 +608,15 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
     trimLabelRow.appendChild(el("span", "", "drag edges to trim / extend"));
     trimLabelRow.appendChild(trimLabelRight);
 
-    const track = el("div", "relative h-6 w-full rounded-md bg-white/5");
-    const rangeEl = el("div", "absolute inset-y-0 rounded-md bg-cyan-500/25 ring-1 ring-inset ring-cyan-400/50");
+    const track = el("div", "relative h-6 w-full rounded-md bg-slate-50");
+    const rangeEl = el("div", "absolute inset-y-0 rounded-md bg-amber-100 ring-1 ring-inset ring-amber-400");
     const leftHandle = el(
       "div",
-      "absolute inset-y-0 -ml-1.5 w-3 cursor-ew-resize rounded bg-cyan-300 hover:bg-cyan-200"
+      "absolute inset-y-0 -ml-1.5 w-3 cursor-ew-resize rounded bg-amber-400 hover:bg-amber-300"
     );
     const rightHandle = el(
       "div",
-      "absolute inset-y-0 -ml-1.5 w-3 cursor-ew-resize rounded bg-cyan-300 hover:bg-cyan-200"
+      "absolute inset-y-0 -ml-1.5 w-3 cursor-ew-resize rounded bg-amber-400 hover:bg-amber-300"
     );
     track.appendChild(rangeEl);
     track.appendChild(leftHandle);
@@ -703,11 +703,11 @@ export function createStoryboardEditor({ container, segments, pool, shots, onCha
     bindTrimHandle(rightHandle, false);
 
     const moveRow = el("div", "flex flex-wrap items-center gap-2 pt-1");
-    const playBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-300 hover:bg-white/5", "▶ Play clip");
-    const upBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-300 hover:bg-white/5", "↑ Move up");
-    const downBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-300 hover:bg-white/5", "↓ Move down");
-    const swapBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-300 hover:bg-white/5", "⇄ Swap");
-    const delBtn = el("button", "rounded border border-red-500/30 px-2 py-0.5 text-[11px] text-red-300 hover:bg-red-500/10", "× Remove");
+    const playBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-700 hover:bg-slate-50", "▶ Play clip");
+    const upBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-700 hover:bg-slate-50", "↑ Move up");
+    const downBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-700 hover:bg-slate-50", "↓ Move down");
+    const swapBtn = el("button", "rounded border border-surface-border/70 px-2 py-0.5 text-[11px] text-slate-700 hover:bg-slate-50", "⇄ Swap");
+    const delBtn = el("button", "rounded border border-red-300 px-2 py-0.5 text-[11px] text-red-600 hover:bg-red-50", "× Remove");
     playBtn.addEventListener("click", () => {
       if (videoEl) {
         videoEl.pause();

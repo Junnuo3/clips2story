@@ -24,15 +24,15 @@ export function mountTryItPanel(container, liveDemo) {
 
   const root = el(
     "div",
-    "space-y-4 rounded-2xl border border-cyan-500/20 bg-cyan-500/5 p-5 shadow-xl shadow-black/20"
+    "space-y-4 rounded-2xl border border-blue-200 bg-blue-50/60 p-5 shadow-xl shadow-slate-900/5"
   );
   root.appendChild(
-    el("h2", "text-lg font-semibold text-white sm:text-xl", "Try it yourself — live storyboard planner")
+    el("h2", "text-lg font-semibold text-slate-900 sm:text-xl", "Try it yourself — live storyboard planner")
   );
   root.appendChild(
     el(
       "p",
-      "max-w-4xl text-sm leading-relaxed text-slate-300",
+      "max-w-4xl text-sm leading-relaxed text-slate-700",
       "Pick a video and a theme keyword, and Clips2Story-NF drafts a real storyboard from matching footage. " +
         "Reorder, remove, or swap clips, then render a downloadable video."
     )
@@ -47,11 +47,11 @@ export function mountTryItPanel(container, liveDemo) {
   const videoRow = el("div", "flex flex-wrap gap-2");
   let selectedVideo = liveDemo.videos[0];
   const videoButtons = [];
-  const activeCls = ["border-cyan-500/60", "bg-cyan-500/10", "text-cyan-200"];
+  const activeCls = ["border-blue-500", "bg-blue-50", "text-blue-700"];
   for (const v of liveDemo.videos) {
     const btn = el(
       "button",
-      "rounded-lg border border-surface-border px-3 py-1.5 text-xs font-medium text-slate-300 hover:bg-white/5",
+      "rounded-lg border border-surface-border px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-50",
       v.label
     );
     btn.addEventListener("click", () => {
@@ -72,7 +72,7 @@ export function mountTryItPanel(container, liveDemo) {
   // (the local file), never this element, since ffmpeg.wasm needs real bytes.
   const previewWrap = el(
     "div",
-    "w-full max-w-xl overflow-hidden rounded-lg border border-surface-border/80 bg-black shadow-inner"
+    "mx-auto w-full max-w-xl overflow-hidden rounded-lg border border-surface-border/80 bg-black shadow-inner"
   );
   const previewVideo = document.createElement("video");
   previewVideo.className = "aspect-video w-full object-contain";
@@ -100,16 +100,16 @@ export function mountTryItPanel(container, liveDemo) {
   // selected video's curated keywords (keywords.txt, via
   // scripts/generate-data.mjs). The chips re-render every time the video
   // picker selection changes, and switching videos clears the choice.
-  const keywordLabel = el("p", "text-xs font-medium uppercase tracking-wide text-slate-500", "Theme keyword");
-  const chipsRow = el("div", "flex flex-wrap gap-2");
+  const keywordLabel = el("p", "text-center text-sm font-medium uppercase tracking-wide text-slate-900", "Theme keyword");
+  const chipsRow = el("div", "flex flex-wrap justify-center gap-2");
   let selectedKeyword = null;
   const submitBtn = el(
     "button",
-    "rounded-lg bg-cyan-500 px-4 py-2 text-sm font-semibold text-black hover:bg-cyan-400 disabled:opacity-50",
+    "rounded-lg bg-blue-600 px-5 py-2.5 text-base font-semibold text-white hover:bg-blue-700 disabled:opacity-50",
     "Generate storyboard"
   );
   submitBtn.disabled = true;
-  const submitRow = el("div", "flex flex-wrap gap-2");
+  const submitRow = el("div", "flex flex-wrap justify-center gap-2");
   submitRow.appendChild(submitBtn);
 
   function onVideoSelected(video) {
@@ -137,8 +137,8 @@ export function mountTryItPanel(container, liveDemo) {
     for (const kw of keywords) {
       const chip = el(
         "button",
-        "rounded-full border border-surface-border/70 px-3 py-1 text-xs text-slate-300 hover:bg-white/5",
-        kw
+        "rounded-full border border-surface-border/70 px-4 py-1.5 text-sm text-slate-700 hover:bg-slate-50",
+        kw.charAt(0).toUpperCase() + kw.slice(1)
       );
       chip.addEventListener("click", () => {
         preloadEmbeddingModel();
@@ -153,7 +153,7 @@ export function mountTryItPanel(container, liveDemo) {
   }
   onVideoSelected(selectedVideo);
 
-  const statusEl = el("p", "text-sm text-slate-400", "");
+  const statusEl = el("p", "text-sm text-slate-600", "");
   const genProgress = createProgressBar();
   genProgress.el.classList.add("hidden");
   const resultWrap = el("div", "hidden space-y-4");
@@ -171,7 +171,7 @@ export function mountTryItPanel(container, liveDemo) {
 
   function setStatus(msg, tone = "info") {
     statusEl.textContent = msg;
-    statusEl.className = "text-sm " + (tone === "error" ? "text-amber-300" : "text-slate-400");
+    statusEl.className = "text-sm " + (tone === "error" ? "text-amber-700" : "text-slate-600");
   }
 
   const GEN_STEPS = { embed: 15, retrieve: 40, plan: 90, ready: 100 };
@@ -192,7 +192,7 @@ export function mountTryItPanel(container, liveDemo) {
     resultWrap.appendChild(
       el(
         "div",
-        "rounded-lg border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-200",
+        "rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-800",
         `Live planning is temporarily unavailable. Browse the "${video.genre}" page in the sidebar for ` +
           "precomputed Clips2Story-NF/-ND examples on this and other source videos, or try again in a moment."
       )
@@ -277,12 +277,12 @@ export function mountTryItPanel(container, liveDemo) {
     resultWrap.appendChild(
       el(
         "p",
-        "text-sm font-semibold text-cyan-200",
+        "text-sm font-semibold text-blue-700",
         `Clips2Story-NF storyboard — generated live for "${keyword}" just now`
       )
     );
 
-    const renderStatus = el("p", "hidden text-xs text-slate-400");
+    const renderStatus = el("p", "hidden text-xs text-slate-600");
     const renderProgress = createProgressBar();
     renderProgress.el.classList.add("hidden");
     const renderOutputBox = el("div", "hidden space-y-2");
@@ -329,7 +329,7 @@ export function mountTryItPanel(container, liveDemo) {
           outVideo.src = url;
           const link = el(
             "a",
-            "inline-block rounded-lg bg-white/10 px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/20",
+            "inline-block rounded-lg bg-slate-100 px-3 py-1.5 text-xs font-semibold text-slate-900 hover:bg-slate-200",
             "⬇ Download MP4"
           );
           link.href = url;
@@ -351,7 +351,7 @@ export function mountTryItPanel(container, liveDemo) {
       title: "Retrieved clip pool",
       subtitle: `${pool.length} candidate clips retrieved for this keyword`,
       content: (() => {
-        const box = el("div", "max-h-72 space-y-1 overflow-y-auto text-xs text-slate-300");
+        const box = el("div", "max-h-72 space-y-1 overflow-y-auto text-xs text-slate-700");
         for (const c of pool) {
           box.appendChild(
             el(
@@ -370,7 +370,7 @@ export function mountTryItPanel(container, liveDemo) {
       content: (() => {
         const pre = document.createElement("pre");
         pre.className =
-          "whitespace-pre-wrap break-words rounded-lg border border-surface-border/70 bg-black/30 p-3 text-xs leading-relaxed text-slate-200";
+          "whitespace-pre-wrap break-words rounded-lg border border-surface-border/70 bg-slate-50 p-3 text-xs leading-relaxed text-slate-800";
         pre.textContent = data.prompt;
         return pre;
       })(),
@@ -381,7 +381,7 @@ export function mountTryItPanel(container, liveDemo) {
       content: (() => {
         const pre = document.createElement("pre");
         pre.className =
-          "whitespace-pre-wrap break-words rounded-lg border border-surface-border/70 bg-black/30 p-3 text-xs leading-relaxed text-slate-200";
+          "whitespace-pre-wrap break-words rounded-lg border border-surface-border/70 bg-slate-50 p-3 text-xs leading-relaxed text-slate-800";
         pre.textContent = JSON.stringify(data.rawLlmOutput, null, 2);
         return pre;
       })(),
@@ -398,7 +398,7 @@ export function mountTryItPanel(container, liveDemo) {
           title: `Segments skipped by validation (${data.dropped.length})`,
           subtitle: "Proposed by the model but rejected -- unknown clip_id or an out-of-bounds trim -- and left out rather than failing the whole plan.",
           content: (() => {
-            const box = el("div", "space-y-1 text-xs text-slate-300");
+            const box = el("div", "space-y-1 text-xs text-slate-700");
             for (const d of data.dropped) {
               box.appendChild(el("p", "border-b border-surface-border/40 py-1", `${d.clipId} · ${d.reason}`));
             }

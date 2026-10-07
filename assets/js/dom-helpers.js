@@ -19,8 +19,8 @@ export function el(tag, className, text) {
  * "still working" rather than "stuck" while the real duration is unknown.
  */
 export function createProgressBar() {
-  const track = el("div", "h-1.5 w-full overflow-hidden rounded-full bg-white/10");
-  const fill = el("div", "h-full rounded-full bg-cyan-500 transition-all duration-500 ease-out");
+  const track = el("div", "h-1.5 w-full overflow-hidden rounded-full bg-slate-100");
+  const fill = el("div", "h-full rounded-full bg-blue-600 transition-all duration-500 ease-out");
   fill.style.width = "0%";
   track.appendChild(fill);
   return {
@@ -39,20 +39,20 @@ export function createProgressBar() {
 export function createDetails({ title, subtitle, open = false, content }) {
   const d = document.createElement("details");
   d.open = open;
-  d.className = "group rounded-xl border border-surface-border bg-surface-raised/25";
+  d.className = "group rounded-xl border border-surface-border bg-surface-raised";
 
   const s = document.createElement("summary");
-  s.className = "cursor-pointer list-none select-none px-4 py-3 hover:bg-white/5";
+  s.className = "cursor-pointer list-none select-none px-4 py-3 hover:bg-slate-50";
 
   const row = el("div", "flex items-start justify-between gap-4");
   const left = el("div", "min-w-0");
-  left.appendChild(el("p", "text-sm font-semibold text-white", title));
+  left.appendChild(el("p", "text-sm font-semibold text-slate-900", title));
   if (subtitle) {
-    left.appendChild(el("p", "mt-1 text-xs text-slate-400", subtitle));
+    left.appendChild(el("p", "mt-1 text-xs text-slate-600", subtitle));
   }
   const chevron = el(
     "span",
-    "mt-0.5 shrink-0 text-slate-400 transition-transform group-open:rotate-90",
+    "mt-0.5 shrink-0 text-slate-600 transition-transform group-open:rotate-90",
     "›"
   );
   row.appendChild(left);
