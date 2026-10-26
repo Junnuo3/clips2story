@@ -65,18 +65,18 @@ export function mountTryItPanel(container, liveDemo) {
   }
   if (videoButtons[0]) videoButtons[0].el.classList.add(...activeCls);
 
-  // Shows the actual selected source video -- reviewers pick a keyword blind
-  // to what footage they're drawing from otherwise. preload="metadata" only
-  // (not the full file) until they actually press play. This preview is
-  // display-only: storyboard generation/rendering always reads video.sourceVideo
-  // (the local file), never this element, since ffmpeg.wasm needs real bytes.
+  // Plays the clip selected in the grid below -- just that clip's range of
+  // the source, with clip-scoped controls (native controls would expose the
+  // whole hour-long timeline). preload="metadata" only (not the full file).
+  // This preview is display-only: storyboard generation/rendering always
+  // reads video.sourceVideo (the local file), never this element, since
+  // ffmpeg.wasm needs real bytes.
   const previewWrap = el(
     "div",
     "order-1 w-full self-start overflow-hidden rounded-xl border border-surface-border/80 bg-black shadow-inner lg:order-2"
   );
   const previewVideo = document.createElement("video");
-  previewVideo.className = "aspect-video w-full object-contain";
-  previewVideo.controls = true;
+  previewVideo.className = "aspect-video w-full cursor-pointer object-contain";
   previewVideo.muted = true;
   previewVideo.playsInline = true;
   previewVideo.preload = "metadata";
@@ -92,17 +92,39 @@ export function mountTryItPanel(container, liveDemo) {
     "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
   previewFrame.referrerPolicy = "strict-origin-when-cross-origin";
   previewFrame.allowFullscreen = true;
+  // Clip-scoped controls for the local <video> (the YouTube player keeps
+  // its own, limited to the clip via start/end embed params).
+  const clipBar = el("div", "flex items-center gap-3 bg-slate-900 px-3 py-2 text-xs text-slate-200");
+  const clipPlayBtn = el("button", "w-6 shrink-0 text-sm text-white hover:text-amber-300", "▶");
+  clipPlayBtn.type = "button";
+  clipPlayBtn.setAttribute("aria-label", "Play clip");
+  const clipTrack = el("div", "relative h-1.5 flex-1 cursor-pointer rounded-full bg-white/20");
+  const clipFill = el("div", "absolute inset-y-0 left-0 rounded-full bg-amber-400");
+  clipFill.style.width = "0%";
+  clipTrack.appendChild(clipFill);
+  const clipTime = el("span", "shrink-0 tabular-nums", "");
+  const clipSource = el("span", "hidden shrink-0 text-slate-400 sm:inline", "");
+  const clipMuteBtn = el("button", "shrink-0 text-sm hover:text-amber-300", "🔇");
+  clipMuteBtn.type = "button";
+  clipMuteBtn.setAttribute("aria-label", "Unmute");
+  clipBar.appendChild(clipPlayBtn);
+  clipBar.appendChild(clipTrack);
+  clipBar.appendChild(clipTime);
+  clipBar.appendChild(clipSource);
+  clipBar.appendChild(clipMuteBtn);
+
   previewWrap.appendChild(previewVideo);
   previewWrap.appendChild(previewFrame);
+  previewWrap.appendChild(clipBar);
 
   // --- clip grid ---
   // The source video's shots, as the precomputed per-shot thumbnails from
   // scripts/extract-thumbnails.mjs -- these clips (not the long video) are
   // what retrieval and the planner actually work with. The shot list comes
   // from the same embedding index retrieval uses, so loading it here also
-  // warms that cache for "Generate storyboard". Clicking a clip seeks the
-  // preview to it; while the local preview plays, the current clip is
-  // outlined; after retrieval, the retrieved pool is checked.
+  // warms that cache for "Generate storyboard". Clicking a clip plays just
+  // that clip in the preview (outlined in the grid); after retrieval, the
+  // retrieved pool is checked.
   const clipsPanel = el(
     "div",
     "order-2 rounded-xl border border-surface-border bg-surface-raised lg:order-1 lg:relative"
@@ -149,38 +171,95 @@ export function mountTryItPanel(container, liveDemo) {
     if (gridTiles[i]) gridTiles[i].tile.classList.add("outline", "outline-amber-400");
   }
 
-  /** Index of the shot containing time `t` (binary search over gridShots), or -1. */
-  function shotIndexAt(t) {
-    let lo = 0;
-    let hi = gridShots.length - 1;
-    while (lo <= hi) {
-      const mid = (lo + hi) >> 1;
-      const s = gridShots[mid];
-      if (t < s.start_time) hi = mid - 1;
-      else if (t >= s.end_time) lo = mid + 1;
-      else return mid;
+  // --- clip-only playback ---
+  // Stop this close to the clip's end so the next shot never flashes in
+  // (timeupdate is too coarse, hence the rAF loop while playing).
+  const CLIP_END_EPS = 0.05;
+  let clipRange = null; // { start, end } in source seconds
+  let clipRaf = null;
+
+  function clipDuration() {
+    return clipRange ? clipRange.end - clipRange.start : 0;
+  }
+  function clipOffset() {
+    if (!clipRange) return 0;
+    const offset = Math.max(0, previewVideo.currentTime - clipRange.start);
+    // Parked CLIP_END_EPS short of the end once finished -- report it as done.
+    return offset >= clipDuration() - 2 * CLIP_END_EPS ? clipDuration() : offset;
+  }
+  function updateClipBar() {
+    const d = clipDuration();
+    clipFill.style.width = `${d ? (clipOffset() / d) * 100 : 0}%`;
+    clipTime.textContent = clipRange ? `${clipOffset().toFixed(1)} / ${d.toFixed(1)}s` : "";
+    clipPlayBtn.textContent = previewVideo.paused ? "▶" : "❚❚";
+    clipPlayBtn.setAttribute("aria-label", previewVideo.paused ? "Play clip" : "Pause clip");
+  }
+  function clipTick() {
+    if (clipRange && previewVideo.currentTime >= clipRange.end - CLIP_END_EPS) {
+      previewVideo.pause();
+      previewVideo.currentTime = clipRange.end - CLIP_END_EPS;
     }
-    return -1;
+    updateClipBar();
+    if (!previewVideo.paused) clipRaf = requestAnimationFrame(clipTick);
+  }
+  function toggleClipPlayback() {
+    if (!clipRange) return;
+    if (previewVideo.paused) previewVideo.play().catch(() => {});
+    else previewVideo.pause();
   }
 
-  function seekPreviewTo(video, startSec) {
+  previewVideo.addEventListener("play", () => {
+    // Replay from the top once the clip has finished.
+    if (clipRange && previewVideo.currentTime >= clipRange.end - 2 * CLIP_END_EPS) {
+      previewVideo.currentTime = clipRange.start;
+    }
+    cancelAnimationFrame(clipRaf);
+    clipRaf = requestAnimationFrame(clipTick);
+  });
+  previewVideo.addEventListener("pause", updateClipBar);
+  previewVideo.addEventListener("seeked", updateClipBar);
+  previewVideo.addEventListener("click", toggleClipPlayback);
+  clipPlayBtn.addEventListener("click", toggleClipPlayback);
+  clipMuteBtn.addEventListener("click", () => {
+    previewVideo.muted = !previewVideo.muted;
+    clipMuteBtn.textContent = previewVideo.muted ? "🔇" : "🔊";
+    clipMuteBtn.setAttribute("aria-label", previewVideo.muted ? "Unmute" : "Mute");
+  });
+  clipTrack.addEventListener("click", (e) => {
+    if (!clipRange) return;
+    const rect = clipTrack.getBoundingClientRect();
+    const ratio = Math.min(1, Math.max(0, (e.clientX - rect.left) / rect.width));
+    previewVideo.currentTime = clipRange.start + ratio * (clipDuration() - CLIP_END_EPS);
+  });
+
+  /** Load shot `i` into the preview: just its range of the source. */
+  function selectClip(video, i, { autoplay = true } = {}) {
+    const shot = gridShots[i];
+    if (!shot) return;
+    setActiveTile(i);
     if (video.youtubeId) {
+      // YouTube's embed only takes whole seconds; keep at least one.
+      const start = Math.floor(shot.start_time);
+      const end = Math.max(start + 1, Math.ceil(shot.end_time));
       previewFrame.src =
-        `https://www.youtube-nocookie.com/embed/${video.youtubeId}` +
-        `?start=${Math.floor(startSec)}&autoplay=1&mute=1`;
+        `https://www.youtube-nocookie.com/embed/${video.youtubeId}?start=${start}&end=${end}&rel=0` +
+        (autoplay ? "&autoplay=1&mute=1" : "");
       return;
     }
-    const seek = () => {
-      previewVideo.currentTime = startSec;
-      previewVideo.play().catch(() => {});
+    const range = { start: shot.start_time, end: shot.end_time };
+    clipRange = range;
+    clipSource.textContent = `at ${formatTimestamp(range.start)}`;
+    const go = () => {
+      if (clipRange !== range) return; // another clip was picked while metadata loaded
+      previewVideo.currentTime = range.start;
+      if (autoplay) previewVideo.play().catch(() => {});
+      updateClipBar();
     };
-    if (previewVideo.readyState >= 1) seek();
-    else previewVideo.addEventListener("loadedmetadata", seek, { once: true });
+    previewVideo.pause();
+    if (previewVideo.readyState >= 1) go();
+    else previewVideo.addEventListener("loadedmetadata", go, { once: true });
+    updateClipBar();
   }
-
-  previewVideo.addEventListener("timeupdate", () => {
-    if (gridShots.length) setActiveTile(shotIndexAt(previewVideo.currentTime));
-  });
 
   async function loadClipGrid(video) {
     const token = ++gridLoadToken;
@@ -240,14 +319,12 @@ export function mountTryItPanel(container, liveDemo) {
       );
       tile.appendChild(check);
 
-      tile.addEventListener("click", () => {
-        setActiveTile(i);
-        seekPreviewTo(video, shot.start_time);
-      });
+      tile.addEventListener("click", () => selectClip(video, i));
       gridTiles.push({ tile, check, shotId: shot.shot_id });
       frag.appendChild(tile);
     });
     clipsGrid.appendChild(frag);
+    selectClip(video, 0, { autoplay: false });
   }
 
   /** Check the retrieved pool's clips (and dim the rest), or clear with pool = null. */
@@ -317,16 +394,23 @@ export function mountTryItPanel(container, liveDemo) {
   keywordInput.addEventListener("focus", () => preloadEmbeddingModel(), { once: true });
 
   function onVideoSelected(video) {
+    // Nothing plays until the clip grid loads and selects its first clip.
+    clipRange = null;
+    clipSource.textContent = "";
+    previewVideo.pause();
+    updateClipBar();
     if (video.youtubeId) {
       previewVideo.classList.add("hidden");
-      previewVideo.removeAttribute("src");
+      clipBar.classList.add("hidden");
+      previewVideo.replaceChildren();
       previewVideo.load();
       previewFrame.classList.remove("hidden");
-      previewFrame.src = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
+      previewFrame.src = "";
     } else {
       previewFrame.classList.add("hidden");
       previewFrame.src = "";
       previewVideo.classList.remove("hidden");
+      clipBar.classList.remove("hidden");
       setVideoMp4FromRepoPath(previewVideo, video.sourceVideo);
     }
     loadClipGrid(video);
