@@ -10,7 +10,7 @@
  *
  * See docs/design-plan.md for the full design rationale.
  */
-import { el, createDetails, createProgressBar, setVideoMp4FromRepoPath } from "./dom-helpers.js";
+import { el, createDetails, createProgressBar, resolveMediaPath, setVideoMp4FromRepoPath } from "./dom-helpers.js";
 import { embedQuery, loadEmbeddingIndex, retrievePool, preloadEmbeddingModel } from "./semantic-search.js";
 import { createStoryboardEditor } from "./storyboard-editor.js";
 import { renderStoryboard } from "./render-ffmpeg.js";
@@ -33,7 +33,7 @@ export function mountTryItPanel(container, liveDemo) {
     el(
       "p",
       "max-w-4xl text-sm leading-relaxed text-slate-700",
-      "Pick a video and a theme keyword, and Clips2Story-NF drafts a real storyboard from matching footage. " +
+      "Pick a video, then choose or type a theme keyword, and Clips2Story-NF drafts a real storyboard from its matching clips. " +
         "Reorder, remove, or swap clips, then render a downloadable video."
     )
   );
@@ -72,7 +72,7 @@ export function mountTryItPanel(container, liveDemo) {
   // (the local file), never this element, since ffmpeg.wasm needs real bytes.
   const previewWrap = el(
     "div",
-    "mx-auto w-full max-w-xl overflow-hidden rounded-lg border border-surface-border/80 bg-black shadow-inner"
+    "order-1 w-full self-start overflow-hidden rounded-xl border border-surface-border/80 bg-black shadow-inner lg:order-2"
   );
   const previewVideo = document.createElement("video");
   previewVideo.className = "aspect-video w-full object-contain";
@@ -95,22 +95,226 @@ export function mountTryItPanel(container, liveDemo) {
   previewWrap.appendChild(previewVideo);
   previewWrap.appendChild(previewFrame);
 
+  // --- clip grid ---
+  // The source video's shots, as the precomputed per-shot thumbnails from
+  // scripts/extract-thumbnails.mjs -- these clips (not the long video) are
+  // what retrieval and the planner actually work with. The shot list comes
+  // from the same embedding index retrieval uses, so loading it here also
+  // warms that cache for "Generate storyboard". Clicking a clip seeks the
+  // preview to it; while the local preview plays, the current clip is
+  // outlined; after retrieval, the retrieved pool is checked.
+  const clipsPanel = el(
+    "div",
+    "order-2 rounded-xl border border-surface-border bg-surface-raised lg:order-1 lg:relative"
+  );
+  const clipsInner = el("div", "flex flex-col lg:absolute lg:inset-0");
+  const clipsHeader = el(
+    "div",
+    "flex items-baseline justify-between gap-3 border-b border-surface-border/70 px-4 py-2.5"
+  );
+  clipsHeader.appendChild(
+    el("p", "text-xs font-medium uppercase tracking-wide text-slate-500", "Clips from this video")
+  );
+  const clipsCount = el("p", "truncate text-xs text-slate-500", "");
+  clipsHeader.appendChild(clipsCount);
+  const clipsScroll = el(
+    "div",
+    "relative max-h-80 overflow-y-auto p-3 scrollbar-thin lg:max-h-none lg:min-h-0 lg:flex-1"
+  );
+  const clipsGrid = el("div", "grid grid-cols-3 gap-2 sm:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4");
+  clipsScroll.appendChild(clipsGrid);
+  clipsInner.appendChild(clipsHeader);
+  clipsInner.appendChild(clipsScroll);
+  clipsPanel.appendChild(clipsInner);
+
+  // Per-video grid state; rebuilt from scratch on every video switch.
+  let gridVideoId = null;
+  let gridShots = []; // sorted by start_time
+  let gridTiles = []; // parallel to gridShots
+  let gridLoadToken = 0;
+  let activeTileIdx = -1;
+
+  function formatTimestamp(sec) {
+    const s = Math.floor(sec);
+    const h = Math.floor(s / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    const ss = String(s % 60).padStart(2, "0");
+    return h ? `${h}:${String(m).padStart(2, "0")}:${ss}` : `${m}:${ss}`;
+  }
+
+  function setActiveTile(i) {
+    if (i === activeTileIdx) return;
+    if (gridTiles[activeTileIdx]) gridTiles[activeTileIdx].tile.classList.remove("outline", "outline-amber-400");
+    activeTileIdx = i;
+    if (gridTiles[i]) gridTiles[i].tile.classList.add("outline", "outline-amber-400");
+  }
+
+  /** Index of the shot containing time `t` (binary search over gridShots), or -1. */
+  function shotIndexAt(t) {
+    let lo = 0;
+    let hi = gridShots.length - 1;
+    while (lo <= hi) {
+      const mid = (lo + hi) >> 1;
+      const s = gridShots[mid];
+      if (t < s.start_time) hi = mid - 1;
+      else if (t >= s.end_time) lo = mid + 1;
+      else return mid;
+    }
+    return -1;
+  }
+
+  function seekPreviewTo(video, startSec) {
+    if (video.youtubeId) {
+      previewFrame.src =
+        `https://www.youtube-nocookie.com/embed/${video.youtubeId}` +
+        `?start=${Math.floor(startSec)}&autoplay=1&mute=1`;
+      return;
+    }
+    const seek = () => {
+      previewVideo.currentTime = startSec;
+      previewVideo.play().catch(() => {});
+    };
+    if (previewVideo.readyState >= 1) seek();
+    else previewVideo.addEventListener("loadedmetadata", seek, { once: true });
+  }
+
+  previewVideo.addEventListener("timeupdate", () => {
+    if (gridShots.length) setActiveTile(shotIndexAt(previewVideo.currentTime));
+  });
+
+  async function loadClipGrid(video) {
+    const token = ++gridLoadToken;
+    gridVideoId = null;
+    gridShots = [];
+    gridTiles = [];
+    activeTileIdx = -1;
+    clipsGrid.innerHTML = "";
+    clipsScroll.scrollTop = 0;
+    clipsCount.textContent = "Loading…";
+
+    let index;
+    try {
+      index = await loadEmbeddingIndex(video.embeddings);
+    } catch {
+      if (token !== gridLoadToken) return;
+      clipsCount.textContent = "Couldn't load clips";
+      return;
+    }
+    if (token !== gridLoadToken) return; // switched videos while loading
+
+    gridVideoId = video.id;
+    gridShots = [...index.shots].sort((a, b) => a.start_time - b.start_time);
+    clipsCount.textContent = `${gridShots.length} clips`;
+
+    const frag = document.createDocumentFragment();
+    gridShots.forEach((shot, i) => {
+      const tile = el(
+        "button",
+        "group relative block aspect-video overflow-hidden rounded-md bg-slate-200 outline-2 outline-offset-2 transition-opacity hover:opacity-100 focus-visible:ring-2 focus-visible:ring-blue-500"
+      );
+      tile.type = "button";
+      tile.title =
+        `${formatTimestamp(shot.start_time)}–${formatTimestamp(shot.end_time)}` +
+        (shot.caption ? ` · ${shot.caption}` : "");
+
+      const img = document.createElement("img");
+      img.className = "h-full w-full object-cover transition-transform duration-200 group-hover:scale-105";
+      img.alt = "";
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.onerror = () => img.remove(); // no precomputed thumbnail for this shot -- leave the grey box
+      img.src = resolveMediaPath(`example/${video.id}/thumbs/${shot.shot_id}.jpg`);
+      tile.appendChild(img);
+
+      tile.appendChild(
+        el(
+          "span",
+          "absolute bottom-1 left-1 rounded bg-black/60 px-1 text-[10px] font-medium tabular-nums text-white",
+          formatTimestamp(shot.start_time)
+        )
+      );
+      const check = el(
+        "span",
+        "absolute right-1 top-1 hidden h-4 w-4 items-center justify-center rounded bg-blue-600 text-[10px] font-bold text-white shadow",
+        "✓"
+      );
+      tile.appendChild(check);
+
+      tile.addEventListener("click", () => {
+        setActiveTile(i);
+        seekPreviewTo(video, shot.start_time);
+      });
+      gridTiles.push({ tile, check, shotId: shot.shot_id });
+      frag.appendChild(tile);
+    });
+    clipsGrid.appendChild(frag);
+  }
+
+  /** Check the retrieved pool's clips (and dim the rest), or clear with pool = null. */
+  function markRetrieved(video, pool, keyword) {
+    if (gridVideoId !== video.id) return;
+    const ids = pool ? new Set(pool.map((c) => c.shotId)) : null;
+    let first = null;
+    for (const { tile, check, shotId } of gridTiles) {
+      const hit = ids ? ids.has(shotId) : false;
+      check.classList.toggle("hidden", !hit);
+      check.classList.toggle("flex", hit);
+      tile.classList.toggle("ring-2", hit);
+      tile.classList.toggle("ring-blue-500", hit);
+      tile.classList.toggle("opacity-40", !!ids && !hit);
+      if (hit && !first) first = tile;
+    }
+    clipsCount.textContent = ids
+      ? `${ids.size} of ${gridShots.length} retrieved for “${keyword}”`
+      : `${gridShots.length} clips`;
+    if (first) clipsScroll.scrollTo({ top: Math.max(0, first.offsetTop - 12), behavior: "smooth" });
+  }
+
   // --- keyword picker ---
-  // Keywords are pick-only (no free text): visitors choose one of the
-  // selected video's curated keywords (keywords.txt, via
-  // scripts/generate-data.mjs). The chips re-render every time the video
-  // picker selection changes, and switching videos clears the choice.
+  // Visitors either pick one of the selected video's curated keywords
+  // (keywords.txt, via scripts/generate-data.mjs) or type their own -- the
+  // chips just fill the text input, which is the single source of truth.
+  // The chips re-render every time the video picker selection changes, and
+  // switching videos clears the input.
+  const keywordCard = el("div", "space-y-3 rounded-xl border border-surface-border bg-surface-raised p-4");
   const keywordLabel = el("p", "text-center text-sm font-medium uppercase tracking-wide text-slate-900", "Theme keyword");
+  const keywordHint = el("p", "text-center text-xs text-slate-500", "Pick a suggestion or type your own");
   const chipsRow = el("div", "flex flex-wrap justify-center gap-2");
-  let selectedKeyword = null;
+  const keywordForm = el("form", "mx-auto flex w-full max-w-2xl flex-col gap-2 sm:flex-row");
+  const keywordInput = document.createElement("input");
+  keywordInput.type = "text";
+  keywordInput.maxLength = 200; // matches the worker's keyword length limit
+  keywordInput.placeholder = "Type your own keyword…";
+  keywordInput.setAttribute("aria-label", "Theme keyword");
+  keywordInput.className =
+    "min-w-0 flex-1 rounded-lg border border-surface-border bg-white px-3 py-2.5 text-base text-slate-800 placeholder:text-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/30";
   const submitBtn = el(
     "button",
-    "rounded-lg bg-blue-600 px-5 py-2.5 text-base font-semibold text-white hover:bg-blue-700 disabled:opacity-50",
+    "shrink-0 rounded-lg bg-blue-600 px-5 py-2.5 text-base font-semibold text-white hover:bg-blue-700 disabled:opacity-50",
     "Generate storyboard"
   );
+  submitBtn.type = "submit";
   submitBtn.disabled = true;
-  const submitRow = el("div", "flex flex-wrap justify-center gap-2");
-  submitRow.appendChild(submitBtn);
+  keywordForm.appendChild(keywordInput);
+  keywordForm.appendChild(submitBtn);
+  keywordCard.appendChild(keywordLabel);
+  keywordCard.appendChild(keywordHint);
+  keywordCard.appendChild(chipsRow);
+  keywordCard.appendChild(keywordForm);
+
+  let generating = false;
+  let chips = [];
+  function syncKeywordUI() {
+    const kw = keywordInput.value.trim().toLowerCase();
+    submitBtn.disabled = generating || !kw;
+    for (const { chip, kw: chipKw } of chips) {
+      chip.classList.toggle("border-blue-500", chipKw.toLowerCase() === kw);
+      chip.classList.toggle("bg-blue-50", chipKw.toLowerCase() === kw);
+      chip.classList.toggle("text-blue-700", chipKw.toLowerCase() === kw);
+    }
+  }
+  keywordInput.addEventListener("input", syncKeywordUI);
+  keywordInput.addEventListener("focus", () => preloadEmbeddingModel(), { once: true });
 
   function onVideoSelected(video) {
     if (video.youtubeId) {
@@ -125,33 +329,37 @@ export function mountTryItPanel(container, liveDemo) {
       previewVideo.classList.remove("hidden");
       setVideoMp4FromRepoPath(previewVideo, video.sourceVideo);
     }
+    loadClipGrid(video);
 
     const keywords = (video.exampleKeywords && video.exampleKeywords.length
       ? video.exampleKeywords
       : liveDemo.exampleKeywords) || [];
 
-    selectedKeyword = null;
-    submitBtn.disabled = true;
+    keywordInput.value = "";
     chipsRow.innerHTML = "";
-    const chips = [];
+    chips = [];
     for (const kw of keywords) {
       const chip = el(
         "button",
         "rounded-full border border-surface-border/70 px-4 py-1.5 text-sm text-slate-700 hover:bg-slate-50",
         kw.charAt(0).toUpperCase() + kw.slice(1)
       );
+      chip.type = "button";
       chip.addEventListener("click", () => {
         preloadEmbeddingModel();
-        selectedKeyword = kw;
-        for (const c of chips) c.classList.remove(...activeCls);
-        chip.classList.add(...activeCls);
-        submitBtn.disabled = false;
+        keywordInput.value = kw;
+        syncKeywordUI();
       });
-      chips.push(chip);
+      chips.push({ chip, kw });
       chipsRow.appendChild(chip);
     }
+    syncKeywordUI();
   }
   onVideoSelected(selectedVideo);
+
+  const workspace = el("div", "grid gap-4 lg:grid-cols-2");
+  workspace.appendChild(clipsPanel);
+  workspace.appendChild(previewWrap);
 
   const statusEl = el("p", "text-sm text-slate-600", "");
   const genProgress = createProgressBar();
@@ -160,10 +368,8 @@ export function mountTryItPanel(container, liveDemo) {
 
   root.appendChild(videoLabel);
   root.appendChild(videoRow);
-  root.appendChild(previewWrap);
-  root.appendChild(keywordLabel);
-  root.appendChild(chipsRow);
-  root.appendChild(submitRow);
+  root.appendChild(workspace);
+  root.appendChild(keywordCard);
   root.appendChild(statusEl);
   root.appendChild(genProgress.el);
   root.appendChild(resultWrap);
@@ -200,13 +406,15 @@ export function mountTryItPanel(container, liveDemo) {
   }
 
   async function handleSubmit() {
-    const keyword = selectedKeyword;
+    const keyword = keywordInput.value.trim();
     if (!keyword) {
-      setStatus("Pick a keyword first.", "error");
+      setStatus("Pick or type a keyword first.", "error");
       return;
     }
     const video = selectedVideo;
-    submitBtn.disabled = true;
+    generating = true;
+    syncKeywordUI();
+    markRetrieved(video, null);
     resultWrap.classList.add("hidden");
     resultWrap.innerHTML = "";
 
@@ -224,6 +432,7 @@ export function mountTryItPanel(container, liveDemo) {
         maxDurationSec: video.poolDurationBudgetSec || 480,
       });
       if (pool.length === 0) throw new Error("no candidate clips retrieved");
+      markRetrieved(video, pool, keyword);
 
       setStatus("Planning storyboard with the LLM…");
       setGenStep("plan", { pulse: true });
@@ -260,18 +469,22 @@ export function mountTryItPanel(container, liveDemo) {
           : "Ready.") + droppedNote
       );
       hideGenProgress();
-      renderResult(video, keyword, data, pool, index.shots);
+      renderResult(video, keyword, data, pool);
     } catch (err) {
       const reason = err.name === "AbortError" ? "the request timed out" : err.message;
       showFallback(video, `Live planning is temporarily unavailable (${reason}).`);
     } finally {
-      submitBtn.disabled = false;
+      generating = false;
+      syncKeywordUI();
     }
   }
 
-  submitBtn.addEventListener("click", handleSubmit);
+  keywordForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (!submitBtn.disabled) handleSubmit();
+  });
 
-  function renderResult(video, keyword, data, pool, shots) {
+  function renderResult(video, keyword, data, pool) {
     resultWrap.innerHTML = "";
     resultWrap.classList.remove("hidden");
     resultWrap.appendChild(
@@ -308,7 +521,7 @@ export function mountTryItPanel(container, liveDemo) {
       container: editorBox,
       segments: data.segments,
       pool,
-      shots,
+      waveformPath: `example/${video.id}/waveform.json`,
       onRender: async (segments) => {
         renderStatus.classList.remove("hidden");
         renderProgress.el.classList.remove("hidden");
@@ -333,7 +546,7 @@ export function mountTryItPanel(container, liveDemo) {
             "⬇ Download MP4"
           );
           link.href = url;
-          link.download = `clips2story-nf-${keyword.replace(/\s+/g, "-").toLowerCase()}.mp4`;
+          link.download = `clips2story-nf-${keyword.replace(/[^a-z0-9]+/gi, "-").toLowerCase()}.mp4`;
           renderOutputBox.classList.remove("hidden");
           renderOutputBox.appendChild(outVideo);
           renderOutputBox.appendChild(link);
